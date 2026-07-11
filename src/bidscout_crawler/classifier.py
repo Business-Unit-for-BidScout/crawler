@@ -2,6 +2,7 @@ import json
 import os
 import re
 import urllib.request
+import urllib.error
 from dataclasses import asdict, dataclass
 
 CLASSES = {"procurement_notice", "award_or_result_notice", "procurement_change_notice", "contract_notice", "other_procurement_related", "not_procurement", "uncertain"}
@@ -63,5 +64,8 @@ def classify(title, text, source_name):
         return classify_ai(title, text, source_name) or classify_rules(title, text)
     except Exception as exc:
         result = classify_rules(title, text)
-        result.reason += f"；AI失败后规则回退：{type(exc).__name__}"
+        detail = type(exc).__name__
+        if isinstance(exc, urllib.error.HTTPError):
+            detail += f"({exc.code})"
+        result.reason += f"；AI失败后规则回退：{detail}"
         return result
