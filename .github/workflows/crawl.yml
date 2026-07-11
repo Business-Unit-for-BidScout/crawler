@@ -1,0 +1,119 @@
+name: Crawl and classify notices
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_id:
+        description: Optional exact source ID for a small manual run
+        required: false
+        type: string
+      allow_candidates:
+        description: Allow a candidate source for this manual test only
+        required: true
+        default: false
+        type: boolean
+      max_sources:
+        description: Maximum number of sources
+        required: true
+        default: "1"
+        type: string
+      max_items:
+        description: Maximum detail pages per source
+        required: true
+        default: "5"
+        type: string
+  schedule:
+    - cron: "23 18 * * *"
+
+permissions:
+  contents: write
+  models: read
+
+env:
+  PYTHONUNBUFFERED: "1"
+  CRAWL_DELAY_MIN_SECONDS: "4"
+  CRAWL_DELAY_MAX_SECONDS: "9"
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || github.token }}
+  OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL || 'https://models.github.ai/inference' }}
+  OPENAI_MODEL: ${{ secrets.OPENAI_MODEL || 'openai/gpt-4o-mini' }}
+  CRAWLER_USER_AGENT: ${{ secrets.CRAWLER_USER_AGENT }}
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out crawler
+        uses: actions/checkout@v4
+
+      - name: Check out requirements source registry
+        uses: actions/checkout@v4
+        with:
+          repository: Business-Unit-for-BidScout/requirements
+          path: requirements
+          token: ${{ secrets.REQUIREMENTS_TOKEN || github.token }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: python -m pip install -e '.[test]'
+
+      - name: Test
+        run: pytest -q
+
+      - name: Restore previous data branch
+        shell: bash
+        run: |
+          git fetch origin data:data || true
+          if git show-ref --verify --quiet refs/heads/data; then
+            git archive data data 2>/dev/null | tar -x || true
+          fi
+
+      - name: Crawl and classify
+        shell: bash
+        env:
+          INPUT_SOURCE_ID: ${{ inputs.source_id }}
+          INPUT_ALLOW_CANDIDATES: ${{ inputs.allow_candidates }}
+          INPUT_MAX_SOURCES: ${{ inputs.max_sources }}
+          INPUT_MAX_ITEMS: ${{ inputs.max_items }}
+        run: |
+          args=(
+            --sources requirements/knowledge/index/sources.yaml
+            --data-dir data
+            --max-sources "${INPUT_MAX_SOURCES:-3}"
+            --max-items "${INPUT_MAX_ITEMS:-10}"
+          )
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" && "$INPUT_ALLOW_CANDIDATES" == "true" ]]; then
+            args+=(--allow-candidates)
+          fi
+          if [[ -n "$INPUT_SOURCE_ID" ]]; then
+            args+=(--source-id "$INPUT_SOURCE_ID")
+          fi
+          python -m bidscout_crawler.cli "${args[@]}"
+
+      - name: Upload crawl data
+        uses: actions/upload-artifact@v4
+        with:
+          name: bidscout-crawl-${{ github.run_id }}
+          path: data/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Publish data branch
+        shell: bash
+        run: |
+          rm -rf /tmp/bidscout-data
+          mkdir -p /tmp/bidscout-data
+          cp -a data /tmp/bidscout-data/data
+          cd /tmp/bidscout-data
+          git init
+          git checkout -b data
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          git add data
+          git commit -m "data: crawl run ${{ github.run_id }}"
+          git push --force origin data
