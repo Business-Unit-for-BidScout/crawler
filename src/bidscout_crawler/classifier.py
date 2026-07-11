@@ -45,7 +45,7 @@ def classify_ai(title, text, source_name):
     base = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1").rstrip("/")
     model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
     prompt = "你是公告分类器，不筛选商业价值。只能选择：" + ",".join(sorted(CLASSES)) + "。输出JSON：primary_class, confidence, reason, supporting_quotes, needs_human_review。证据不足选uncertain。\n" + f"来源：{source_name}\n标题：{title}\n正文：{text[:30000]}"
-    payload = json.dumps({"model": model, "temperature": 0, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt}]}).encode()
+    payload = json.dumps({"model": model, "temperature": 0, "messages": [{"role": "user", "content": prompt}]}).encode()
     req = urllib.request.Request(base + "/chat/completions", data=payload, headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json", "User-Agent": "BidScout-Crawler/0.1"})
     with urllib.request.urlopen(req, timeout=90) as r: d = json.load(r)
     raw = d["choices"][0]["message"]["content"].strip()

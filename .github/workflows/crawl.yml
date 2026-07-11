@@ -27,13 +27,12 @@ on:
 
 permissions:
   contents: write
-  models: read
 
 env:
   PYTHONUNBUFFERED: "1"
   CRAWL_DELAY_MIN_SECONDS: "4"
   CRAWL_DELAY_MAX_SECONDS: "9"
-  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || github.token }}
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || secrets.REQUIREMENTS_TOKEN }}
   OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL || 'https://models.github.ai/inference' }}
   OPENAI_MODEL: ${{ secrets.OPENAI_MODEL || 'openai/gpt-4o-mini' }}
   CRAWLER_USER_AGENT: ${{ secrets.CRAWLER_USER_AGENT }}

@@ -31,12 +31,12 @@ BidScout 第一阶段爬虫项目。目标来源由 `Business-Unit-for-BidScout/
 仓库需要配置：
 
 - `REQUIREMENTS_TOKEN`：只读访问私有 requirements 仓库；
-- `OPENAI_API_KEY`（可选，不配置时使用 GitHub Models 和当前 workflow token）；
+- `OPENAI_API_KEY`（可选，不配置时使用 `REQUIREMENTS_TOKEN` 调用 GitHub Models）；
 - `OPENAI_BASE_URL`（可选）
 - `OPENAI_MODEL`（可选）
 - `CRAWLER_USER_AGENT`（建议包含联系邮箱）
 
-未配置独立 AI Secret 时，workflow 默认通过 GitHub Models 的 `openai/gpt-4o-mini` 完成 AI 分类；如果模型调用失败，才使用规则分类并在结果中记录回退原因。
+未配置独立 AI Secret 时，workflow 默认通过 GitHub Models 的 `openai/gpt-4o-mini` 完成 AI 分类；`REQUIREMENTS_TOKEN` 因而还需要具有 GitHub Models 读取权限。如果模型调用失败，才使用规则分类并在结果中记录回退原因。
 
 ## 本地验证
 
