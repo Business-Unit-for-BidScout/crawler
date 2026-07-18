@@ -118,6 +118,9 @@ jobs:
           --output site
           --run-id "${{ steps.resolve.outputs.run_id }}"
 
+      - name: Set custom domain
+        run: cp CNAME site/CNAME
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 

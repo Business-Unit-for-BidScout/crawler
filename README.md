@@ -2,6 +2,8 @@
 
 BidScout 第一阶段爬虫项目。目标来源由 `Business-Unit-for-BidScout/requirements` 的 `knowledge/index/sources.yaml` 统一管理。
 
+公开报告：<https://bidscout.futurescience.technology/>
+
 ## 当前能力
 
 - 从来源注册表读取地址；
