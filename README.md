@@ -28,6 +28,23 @@ BidScout 第一阶段爬虫项目。目标来源由 `Business-Unit-for-BidScout/
 - 手动运行可显式允许少量候选来源测试；
 - 数据保存为 Actions artifact，同时将 `data/` 提交到 `data` 分支，避免污染 `main`。
 
+## GitHub Pages 报告
+
+`pages.yml` 将成功爬取产生的 Artifact 转换为公开的只读静态报告：
+
+- 显示采集摘要、分类数量、来源运行状态；
+- 支持按分类、来源、复核状态筛选及全文搜索；
+- 展示 AI 判断理由、支持引文、正文摘录和原始公告链接；
+- 不发布 SQLite、原始二进制响应、Cookie、Secret 或请求头；
+- 可手动输入历史 crawl run ID 重新发布，默认使用最新成功的手动爬取结果；
+- 后续每次成功爬取都会自动刷新 Pages；若某次没有可展示文档，发布流程会保留当前有效页面，避免被空报告覆盖。
+
+本地生成：
+
+```bash
+python -m bidscout_crawler.report --input /path/to/crawl-data --output site --run-id 29156878256
+```
+
 仓库需要配置：
 
 - `REQUIREMENTS_TOKEN`：只读访问私有 requirements 仓库；
