@@ -91,10 +91,11 @@ jobs:
       - name: Download crawl artifact
         uses: actions/download-artifact@v4
         with:
-          artifact-ids: ${{ steps.resolve.outputs.artifact_id }}
+          name: bidscout-crawl-${{ steps.resolve.outputs.run_id }}
           path: crawl-data
           github-token: ${{ github.token }}
           repository: ${{ github.repository }}
+          run-id: ${{ steps.resolve.outputs.run_id }}
 
       - name: Validate report data
         run: |
