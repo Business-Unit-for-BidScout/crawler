@@ -23,7 +23,10 @@ on:
         default: "5"
         type: string
   schedule:
-    - cron: "23 18 * * *"
+    # GitHub Actions cron is UTC. Crawl before each digest so the notification
+    # reads a completed data snapshot: 11:30 and 18:15 Beijing time.
+    - cron: "30 3 * * *"
+    - cron: "15 10 * * *"
 
 permissions:
   contents: write

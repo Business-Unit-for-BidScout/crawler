@@ -1,0 +1,31 @@
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+from bidscout_crawler.notify import render_message, window_bounds
+
+
+def test_noon_window_is_previous_evening_to_noon():
+    now = datetime(2026, 7, 20, 14, 0, tzinfo=ZoneInfo("Asia/Shanghai"))
+    start, end = window_bounds("noon", now)
+    assert start.isoformat() == "2026-07-19T19:00:00+08:00"
+    assert end.isoformat() == "2026-07-20T12:00:00+08:00"
+
+
+def test_evening_window_is_noon_to_evening():
+    now = datetime(2026, 7, 20, 20, 0, tzinfo=ZoneInfo("Asia/Shanghai"))
+    start, end = window_bounds("evening", now)
+    assert start.isoformat() == "2026-07-20T12:00:00+08:00"
+    assert end.isoformat() == "2026-07-20T19:00:00+08:00"
+
+
+def test_message_includes_time_source_and_original_url():
+    start = datetime(2026, 7, 19, 19, tzinfo=ZoneInfo("Asia/Shanghai"))
+    end = datetime(2026, 7, 20, 12, tzinfo=ZoneInfo("Asia/Shanghai"))
+    message = render_message("noon", start, end, [{
+        "title": "某采购公告", "source_id": "source-a",
+        "final_url": "https://example.com/notice/1",
+        "classification": "procurement_notice",
+    }], "https://bidscout.futurescience.technology/")
+    assert "数据窗口" in message
+    assert "source-a" in message
+    assert "https://example.com/notice/1" in message

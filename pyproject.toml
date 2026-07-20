@@ -15,6 +15,7 @@ test = ["pytest>=8,<9"]
 
 [project.scripts]
 bidscout-crawler = "bidscout_crawler.cli:main"
+bidscout-notify = "bidscout_crawler.notify:main"
 
 [build-system]
 requires = ["setuptools>=69"]

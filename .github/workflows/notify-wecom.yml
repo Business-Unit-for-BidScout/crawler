@@ -1,0 +1,64 @@
+name: Send WeCom procurement digests
+
+on:
+  workflow_dispatch:
+    inputs:
+      period:
+        description: Digest window to send
+        required: true
+        type: choice
+        options:
+          - noon
+          - evening
+  schedule:
+    # GitHub Actions cron is UTC: 06:00 = 14:00 Beijing; 11:00 = 19:00 Beijing.
+    - cron: "0 6 * * *"
+    - cron: "0 11 * * *"
+
+permissions:
+  contents: read
+
+env:
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out crawler code
+        uses: actions/checkout@v4
+
+      - name: Restore latest crawl data
+        shell: bash
+        run: |
+          git fetch origin data:data
+          git archive data data | tar -x
+          test -f data/bidscout.sqlite3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: python -m pip install -e .
+
+      - name: Send digest
+        env:
+          WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
+          INPUT_PERIOD: ${{ inputs.period }}
+          REPORT_URL: https://bidscout.futurescience.technology/
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            period="$INPUT_PERIOD"
+          elif [[ "${{ github.event.schedule }}" == "0 6 * * *" ]]; then
+            period=noon
+          elif [[ "${{ github.event.schedule }}" == "0 11 * * *" ]]; then
+            period=evening
+          else
+            echo "Unexpected event/schedule" >&2
+            exit 1
+          fi
+          python -m bidscout_crawler.notify --period "$period" --data-dir data --report-url "$REPORT_URL"

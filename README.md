@@ -25,7 +25,10 @@ BidScout 第一阶段爬虫项目。目标来源由 `Business-Unit-for-BidScout/
 `crawl.yml` 支持：
 
 - `workflow_dispatch` 手动运行；
-- 每日分散时间运行；
+- 每天北京时间 `11:30` 和 `18:15` 先完成采集并更新 `data` 分支；
+- 每天北京时间 `14:00` 发送“前一晚 `19:00` 至当天 `12:00`”新增信息；
+- 每天北京时间 `19:00` 发送“当天 `12:00` 至 `19:00`”新增信息；
+- 推送内容包含数据窗口、来源和公告原文链接；Webhook 仅通过仓库 Secret `WECOM_WEBHOOK_URL` 注入；
 - 只对 `verified + monitoring.active=true` 来源定时采集；
 - 手动运行可显式允许少量候选来源测试；
 - 数据保存为 Actions artifact，同时将 `data/` 提交到 `data` 分支，避免污染 `main`。
@@ -54,6 +57,7 @@ python -m bidscout_crawler.report --input /path/to/crawl-data --output site --ru
 - `OPENAI_BASE_URL`（可选）
 - `OPENAI_MODEL`（可选）
 - `CRAWLER_USER_AGENT`（建议包含联系邮箱）
+- `WECOM_WEBHOOK_URL`：企业微信群机器人 Webhook，只存于 GitHub Actions Secret，不写入代码或日志
 
 未配置独立 AI Secret 时，workflow 默认通过 GitHub Models 的 `openai/gpt-4o-mini` 完成 AI 分类；`REQUIREMENTS_TOKEN` 因而还需要具有 GitHub Models 读取权限。如果模型调用失败，才使用规则分类并在结果中记录回退原因。
 
