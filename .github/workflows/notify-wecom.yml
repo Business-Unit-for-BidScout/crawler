@@ -10,6 +10,11 @@ on:
         options:
           - noon
           - evening
+      latest_test:
+        description: Send the latest real records as a display test
+        required: true
+        default: false
+        type: boolean
   schedule:
     # GitHub Actions cron is UTC: 06:00 = 14:00 Beijing; 11:00 = 19:00 Beijing.
     - cron: "0 6 * * *"
@@ -48,11 +53,16 @@ jobs:
         env:
           WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
           INPUT_PERIOD: ${{ inputs.period }}
+          INPUT_LATEST_TEST: ${{ inputs.latest_test }}
           REPORT_URL: https://bidscout.futurescience.technology/
         shell: bash
         run: |
+          test_args=()
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             period="$INPUT_PERIOD"
+            if [[ "$INPUT_LATEST_TEST" == "true" ]]; then
+              test_args+=(--latest-test)
+            fi
           elif [[ "${{ github.event.schedule }}" == "0 6 * * *" ]]; then
             period=noon
           elif [[ "${{ github.event.schedule }}" == "0 11 * * *" ]]; then
@@ -61,4 +71,4 @@ jobs:
             echo "Unexpected event/schedule" >&2
             exit 1
           fi
-          python -m bidscout_crawler.notify --period "$period" --data-dir data --report-url "$REPORT_URL"
+          python -m bidscout_crawler.notify --period "$period" --data-dir data --report-url "$REPORT_URL" "${test_args[@]}"

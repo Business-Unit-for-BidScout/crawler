@@ -29,3 +29,9 @@ def test_message_includes_time_source_and_original_url():
     assert "数据窗口" in message
     assert "source-a" in message
     assert "https://example.com/notice/1" in message
+
+
+def test_display_test_is_clearly_labelled():
+    start = datetime(2026, 7, 11, 12, tzinfo=ZoneInfo("Asia/Shanghai"))
+    message = render_message("noon", start, start, [], "https://example.com", "｜显示测试")
+    assert "显示测试" in message.splitlines()[0]

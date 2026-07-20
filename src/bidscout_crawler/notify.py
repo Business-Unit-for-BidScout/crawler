@@ -65,8 +65,27 @@ def load_notices(db_path: Path, start: datetime, end: datetime) -> list[dict]:
     return [dict(row) for row in rows if start <= parse_timestamp(row["first_seen_at"]) < end]
 
 
-def render_message(period: str, start: datetime, end: datetime, notices: list[dict], report_url: str) -> str:
-    title = f"【BidScout {WINDOW_LABELS[period]}招采摘要】"
+def load_latest_notices(db_path: Path, limit: int = 15) -> list[dict]:
+    if not db_path.exists():
+        return []
+    connection = sqlite3.connect(db_path)
+    connection.row_factory = sqlite3.Row
+    try:
+        rows = connection.execute(
+            """SELECT title, final_url, url, source_id, first_seen_at, classification,
+                      confidence, needs_human_review
+               FROM documents
+               ORDER BY first_seen_at DESC
+               LIMIT ?""",
+            (limit,),
+        ).fetchall()
+    finally:
+        connection.close()
+    return [dict(row) for row in rows]
+
+
+def render_message(period: str, start: datetime, end: datetime, notices: list[dict], report_url: str, test_label: str = "") -> str:
+    title = f"【BidScout {WINDOW_LABELS[period]}招采摘要{test_label}】"
     lines = [
         title,
         f"> 数据窗口：{start:%Y-%m-%d %H:%M} 至 {end:%Y-%m-%d %H:%M}（北京时间）",
@@ -107,12 +126,21 @@ def main() -> None:
     parser.add_argument("--period", choices=sorted(WINDOW_LABELS), required=True)
     parser.add_argument("--data-dir", default="data")
     parser.add_argument("--report-url", default="https://bidscout.futurescience.technology/")
+    parser.add_argument("--latest-test", action="store_true", help="Send the latest real records as a display test")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
     start, end = window_bounds(args.period)
-    notices = load_notices(Path(args.data_dir) / "bidscout.sqlite3", start, end)
-    message = render_message(args.period, start, end, notices, args.report_url)
+    db_path = Path(args.data_dir) / "bidscout.sqlite3"
+    if args.latest_test:
+        notices = load_latest_notices(db_path)
+        if notices:
+            seen = [parse_timestamp(str(item["first_seen_at"])) for item in notices]
+            start, end = min(seen), max(seen) + timedelta(microseconds=1)
+        message = render_message(args.period, start, end, notices, args.report_url, "｜显示测试")
+    else:
+        notices = load_notices(db_path, start, end)
+        message = render_message(args.period, start, end, notices, args.report_url)
     if args.dry_run:
         print(message)
         return
