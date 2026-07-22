@@ -71,4 +71,4 @@ jobs:
             echo "Unexpected event/schedule" >&2
             exit 1
           fi
-          python -m bidscout_crawler.notify --period "$period" --data-dir data --report-url "$REPORT_URL" "${test_args[@]}"
+          python -m bidscout_crawler.notify --period "$period" --data-dir data --report-url "$REPORT_URL" --skip-empty "${test_args[@]}"

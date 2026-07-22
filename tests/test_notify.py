@@ -1,7 +1,9 @@
+import json
+import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-from bidscout_crawler.notify import render_message, window_bounds
+from bidscout_crawler.notify import main, render_message, window_bounds
 
 
 def test_noon_window_is_previous_evening_to_noon():
@@ -29,6 +31,26 @@ def test_message_includes_time_source_and_original_url():
     assert "数据窗口" in message
     assert "source-a" in message
     assert "https://example.com/notice/1" in message
+
+
+def test_skip_empty_does_not_send_or_require_webhook(monkeypatch, capsys, tmp_path):
+    monkeypatch.setattr(sys, "argv", [
+        "bidscout-notify",
+        "--period", "noon",
+        "--data-dir", str(tmp_path),
+        "--skip-empty",
+    ])
+    monkeypatch.delenv("WECOM_WEBHOOK_URL", raising=False)
+
+    main()
+
+    result = json.loads(capsys.readouterr().out)
+    assert result == {
+        "period": "noon",
+        "notices": 0,
+        "status": "skipped",
+        "reason": "no_new_notices",
+    }
 
 
 def test_display_test_is_clearly_labelled():

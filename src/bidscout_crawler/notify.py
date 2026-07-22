@@ -127,6 +127,7 @@ def main() -> None:
     parser.add_argument("--data-dir", default="data")
     parser.add_argument("--report-url", default="https://bidscout.futurescience.technology/")
     parser.add_argument("--latest-test", action="store_true", help="Send the latest real records as a display test")
+    parser.add_argument("--skip-empty", action="store_true", help="Do not send a notification when no new notices exist")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
@@ -141,6 +142,14 @@ def main() -> None:
     else:
         notices = load_notices(db_path, start, end)
         message = render_message(args.period, start, end, notices, args.report_url)
+    if args.skip_empty and not notices:
+        print(json.dumps({
+            "period": args.period,
+            "notices": 0,
+            "status": "skipped",
+            "reason": "no_new_notices",
+        }, ensure_ascii=False))
+        return
     if args.dry_run:
         print(message)
         return
