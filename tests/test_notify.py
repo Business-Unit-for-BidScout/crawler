@@ -53,6 +53,20 @@ def test_skip_empty_does_not_send_or_require_webhook(monkeypatch, capsys, tmp_pa
     }
 
 
+def test_count_only_outputs_numeric_zero(monkeypatch, capsys, tmp_path):
+    monkeypatch.setattr(sys, "argv", [
+        "bidscout-notify",
+        "--period", "evening",
+        "--data-dir", str(tmp_path),
+        "--count-only",
+    ])
+    monkeypatch.delenv("WECOM_WEBHOOK_URL", raising=False)
+
+    main()
+
+    assert capsys.readouterr().out.strip() == "0"
+
+
 def test_display_test_is_clearly_labelled():
     start = datetime(2026, 7, 11, 12, tzinfo=ZoneInfo("Asia/Shanghai"))
     message = render_message("noon", start, start, [], "https://example.com", "｜显示测试")

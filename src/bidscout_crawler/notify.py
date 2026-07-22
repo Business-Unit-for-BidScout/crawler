@@ -127,6 +127,7 @@ def main() -> None:
     parser.add_argument("--data-dir", default="data")
     parser.add_argument("--report-url", default="https://bidscout.futurescience.technology/")
     parser.add_argument("--latest-test", action="store_true", help="Send the latest real records as a display test")
+    parser.add_argument("--count-only", action="store_true", help="Print the notice count without sending")
     parser.add_argument("--skip-empty", action="store_true", help="Do not send a notification when no new notices exist")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
@@ -138,10 +139,14 @@ def main() -> None:
         if notices:
             seen = [parse_timestamp(str(item["first_seen_at"])) for item in notices]
             start, end = min(seen), max(seen) + timedelta(microseconds=1)
-        message = render_message(args.period, start, end, notices, args.report_url, "｜显示测试")
+        test_label = "｜显示测试"
     else:
         notices = load_notices(db_path, start, end)
-        message = render_message(args.period, start, end, notices, args.report_url)
+        test_label = ""
+    if args.count_only:
+        print(len(notices))
+        return
+    message = render_message(args.period, start, end, notices, args.report_url, test_label)
     if args.skip_empty and not notices:
         print(json.dumps({
             "period": args.period,

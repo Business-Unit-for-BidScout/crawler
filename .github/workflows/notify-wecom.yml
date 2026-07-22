@@ -15,11 +15,6 @@ on:
         required: true
         default: false
         type: boolean
-  schedule:
-    # GitHub Actions cron is UTC: 06:00 = 14:00 Beijing; 11:00 = 19:00 Beijing.
-    - cron: "0 6 * * *"
-    - cron: "0 11 * * *"
-
 permissions:
   contents: read
 
@@ -58,17 +53,8 @@ jobs:
         shell: bash
         run: |
           test_args=()
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            period="$INPUT_PERIOD"
-            if [[ "$INPUT_LATEST_TEST" == "true" ]]; then
-              test_args+=(--latest-test)
-            fi
-          elif [[ "${{ github.event.schedule }}" == "0 6 * * *" ]]; then
-            period=noon
-          elif [[ "${{ github.event.schedule }}" == "0 11 * * *" ]]; then
-            period=evening
-          else
-            echo "Unexpected event/schedule" >&2
-            exit 1
+          period="$INPUT_PERIOD"
+          if [[ "$INPUT_LATEST_TEST" == "true" ]]; then
+            test_args+=(--latest-test)
           fi
           python -m bidscout_crawler.notify --period "$period" --data-dir data --report-url "$REPORT_URL" --skip-empty "${test_args[@]}"

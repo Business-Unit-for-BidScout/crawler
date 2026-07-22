@@ -23,12 +23,12 @@ on:
         default: "5"
         type: string
   schedule:
-    # GitHub Actions cron is UTC. Crawl before each digest so the notification
-    # reads a completed data snapshot: 11:30 and 18:15 Beijing time.
-    - cron: "30 3 * * *"
-    - cron: "15 10 * * *"
+    # GitHub Actions cron is UTC: 06:00 = 14:00 Beijing; 11:00 = 19:00 Beijing.
+    - cron: "0 6 * * *"
+    - cron: "0 11 * * *"
 
 permissions:
+  actions: write
   contents: write
 
 env:
@@ -135,3 +135,46 @@ jobs:
           git add data
           git commit -m "data: crawl run ${{ github.run_id }}"
           git push --force origin data
+
+      - name: Count new notices for digest
+        id: digest
+        if: github.event_name == 'schedule'
+        shell: bash
+        env:
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          if [[ "$EVENT_SCHEDULE" == "0 6 * * *" ]]; then
+            period=noon
+          elif [[ "$EVENT_SCHEDULE" == "0 11 * * *" ]]; then
+            period=evening
+          else
+            echo "Unexpected schedule: $EVENT_SCHEDULE" >&2
+            exit 1
+          fi
+          test -f data/bidscout.sqlite3
+          count="$(python -m bidscout_crawler.notify --period "$period" --data-dir data --count-only)"
+          if [[ ! "$count" =~ ^[0-9]+$ ]]; then
+            echo "Invalid new notice count: $count" >&2
+            exit 1
+          fi
+          echo "period=$period" >> "$GITHUB_OUTPUT"
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          echo "Digest gate: period=$period new_notice_count=$count"
+
+      - name: Dispatch non-empty digest
+        if: github.event_name == 'schedule' && steps.digest.outputs.count != '0'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DIGEST_PERIOD: ${{ steps.digest.outputs.period }}
+        run: |
+          gh workflow run notify-wecom.yml \
+            --repo "$GITHUB_REPOSITORY" \
+            --ref "$GITHUB_REF_NAME" \
+            -f period="$DIGEST_PERIOD" \
+            -f latest_test=false
+          echo "Digest dispatched: period=$DIGEST_PERIOD new_notice_count=${{ steps.digest.outputs.count }}"
+
+      - name: Skip empty digest
+        if: github.event_name == 'schedule' && steps.digest.outputs.count == '0'
+        run: echo "Digest skipped because new_notice_count=0; no notification workflow was created."
