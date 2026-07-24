@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.01">
+<meta name="renderer" content="webkit">
+<title>西藏民族大学附属医院</title>
+<link rel="stylesheet" type="text/css" href="/css/swiper.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/layout.css" />
+<script src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/base.js"></script>
+<script type="text/javascript" src="/js/respond.min.js"></script>
+<script type="text/javascript" src="/js/swiper.min.js"></script>
+
+</head>
+
+<body>
+
+	<!--header-->
+<!--header-->
+    <div class="header container flex flex-pack-justify">
+						<a href="/" class="logo flex flex-align-center">
+					<img src="/MediaStore/site/xzmy/image/2023/11/20/05ef5bd9-4b5f-4d20-9cba-60a236390b7e.png" class="logo1" />
+				</a>
+        <div class="flex flex-align-center">
+            <div class="tel">
+				    <span class="Barlow-BoldItalic di_bl">029—33755456</span> 救护车24小时免费接市内住院病人
+            </div>
+            <div class="search-con flex">
+                	<input id="input_230004065681542" type="text" class="flex-1" placeholder="输入您想搜索的内容" maxlength="25">
+                	<input type="submit" onclick="search_230004065681542()"  style="text-indent: 999rem;"/>
+                	<script type="text/javascript" >function search_230004065681542(){var keyword = $.trim($("#input_230004065681542").val());if(keyword == ""){alert("请输入关键字！");return false;}window.location.href = "/Server/Preview/Search/List?siteCode=xzmy&searchCode=qwjs&keyword=" + keyword;}</script>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+		    <ul class="flex flex-pack-justify container">
+		            <li class="p_r">
+		                <a href="/" class=" di_bl">
+		                    医院首页
+		                </a>
+		                    <div class="submenu te_c">
+									<a href="/yydt/list/page.html" class="di_bl">
+										医院动态
+									</a>
+									<a href="/tzgg/list/page.html" class="di_bl">
+										通知公告
+									</a>
+		                    </div>
+		            </li>
+		            <li class="p_r">
+		                <a href="/yyjj/content/231221307321176605.html" class=" di_bl">
+		                    医院概况
+		                </a>
+		                    <div class="submenu te_c">
+									<a href="/yyjj/content/231221307321176605.html" class="di_bl">
+										医院简介
+									</a>
+									<a href="/xrld/content/231220826254747646.html" class="di_bl">
+										现任领导
+									</a>
+									<a href="/yyry/list/page.html" class="di_bl">
+										医院荣誉
+									</a>
+									<a href="/gxsb/list/page.html" class="di_bl">
+										高新设备
+									</a>
+									<a href="/yyhj/list/page.html" class="di_bl">
+										医院环境
+									</a>
+		                    </div>
+		            </li>
+		            <li class="p_r">
+		                <a href="/djzt/list/page.html" class=" di_bl">
+		                    党建专题
+		                </a>
+		            </li>
+		            <li class="p_r">
+		                <a href="/ybzc/list/page.html" class=" di_bl">
+		                    医保政策
+		                </a>
+		            </li>
+		            <li class="p_r">
+		                <a href="/yygh/content/240739044356578236.html" class=" di_bl">
+		                    就医指南
+		                </a>
+		                    <div class="submenu te_c">
+									<a href="/yygh/content/240739044356578236.html" class="di_bl">
+										预约挂号
+									</a>
+									<a href="/hzfw/content/240724613301375684.html" class="di_bl">
+										患者服务
+									</a>
+									<a href="/jrwm/content/250735199316374023.html" class="di_bl">
+										加入我们
+									</a>
+									<a href="/ycxx/content/single.html" class="di_bl">
+										院长信箱
+									</a>
+		                    </div>
+		            </li>
+		            <li class="p_r">
+		                <a href="/mzsj/content/240435199365135770.html" class=" di_bl">
+		                    科室与专家
+		                </a>
+		                    <div class="submenu te_c">
+									<a href="/mzsj/content/240435199365135770.html" class="di_bl">
+										门诊时间
+									</a>
+									<a href="/zjjs/list/page.html" class="di_bl">
+										专家介绍
+									</a>
+									<a href="/ksjs/list/page.html" class="di_bl">
+										科室介绍
+									</a>
+									<a href="/ksdt/list/page.html" class="di_bl">
+										科室动态
+									</a>
+		                    </div>
+		            </li>
+		            <li class="p_r">
+		                <a href="/hltd/list/page.html" class=" di_bl">
+		                    医疗工作
+		                </a>
+		                    <div class="submenu te_c">
+									<a href="/hltd/list/page.html" class="di_bl">
+										护理天地
+									</a>
+									<a href="/fwgz/list/page.html" class="di_bl">
+										服务工作
+									</a>
+		                    </div>
+		            </li>
+		            <li class="p_r">
+		                <a href="/kydt/list/page.html" class=" di_bl">
+		                    教学科研
+		                </a>
+		                    <div class="submenu te_c">
+									<a href="/kydt/list/page.html" class="di_bl">
+										科研动态
+									</a>
+									<a href="/jxtd/list/page.html" class="di_bl">
+										教学团队
+									</a>
+									<a href="/kycg/list/page.html" class="di_bl">
+										科研成果
+									</a>
+		                    </div>
+		            </li>
+		            <li class="p_r">
+		                <a href="https://www.xzmu.edu.cn/" class=" di_bl">
+		                    学校首页
+		                </a>
+		            </li>
+		    </ul>
+    </div>
+    <!--header end-->	<!--header end-->
+ <!-- 当前位置和列表页导航 -->
+
+  		<div class="pub-banner" style="background-image: url(/MediaStore/site/xzmy/image/2023/11/20/4a131790-6e8f-4abc-8290-747f05fc6e43.jpg)">
+ <div class="container flex flex-column">
+ 			<div class="title p_r">医院首页 </div>
+ 	<div class="crumbs">
+ 					<a href="/" class="home">
+ 				医院首页
+ 				</a>
+ 					>
+ 							<a href="/tzgg/list/page.html">
+ 				通知公告
+ 				</a>
+ 	</div>
+ </div>
+ </div>
+ <div class="subnav">
+ 	<div class="container flex flex-align-center">
+ 					<a href="/yydt/list/page.html" >
+ 						医院动态
+ 					</a>
+ 					<a href="/tzgg/list/page.html" class="on" >
+ 						通知公告
+ 					</a>
+ 	</div>
+ </div>	<div class="pub-bg">
+		<div class="container news-details">
+					<h1 class=" te_c">西藏民族大学附属医院视频监控系统二级等保测评服务竞争性谈判公告</h1>
+					<div class="info te_c">
+						<span>发布时间：2026-06-15</span>
+						<span>浏览次数：<pageview id="fd89cd29-e2e9-4060-9562-c77b18ace4ba" >0</pageview><script type="text/javascript">$(function(){$.ajax({url: "/Server/Preview/callBack/News/PageView",type: "POST",data: {newsId:"fd89cd29-e2e9-4060-9562-c77b18ace4ba"},success: function(result) {if (result.success){$("#fd89cd29-e2e9-4060-9562-c77b18ace4ba").text(result.data.pageView);}}});});</script></span>
+					</div>
+					<div class="line p_r"></div>
+					<div class="body">
+						<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;"><span style="font-family: 仿宋_GB2312;">根据工作需要，我院需对</span><span style="font-family: 仿宋_GB2312;">“视频监控系统二级等保测评服务”进行采购，该项目将以竞争性谈判的方式进行，欢迎符合资质条件的供应商前来响应及报价。</span></span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 黑体; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">一、项目概况</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">1.项目</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">名称</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">：西藏民族大学附属医院视频监控系统二级等保测评服务采购项目</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">2.服务内容：视频监控系统二级等保测评服务</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">3.服务期限：一年（自合同签订之日起）</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">4.项目预算：40000元</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">5.</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;"><span style="font-family: 仿宋_GB2312;">成交数量：开标时不少于</span><span style="font-family: 仿宋_GB2312;">3家单位方可开标</span></span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">，</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;"><span style="font-family: 仿宋_GB2312;">确定</span><span style="font-family: 仿宋_GB2312;">1家</span></span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">。</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 黑体; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">二、报名需提供以下资质或证明</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">1.参加采购活动前三年内，在经营活动中没有重大违法记录；</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">2.单位负责人为同一人或者存在控股、管理关系的不同单位，不得参加同一项目采购；</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; text-align: justify; text-justify: inter-ideograph; line-height: 28.0000pt; mso-line-height-rule: exactly;" align="justify"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">3.投标人不得为“中国执行信息公开网（zxgk.court.gov.cn）”被列入失信被执行人名单；“信用中国（ww.creditchina.gov.cn）”重大税收违法失信主体名单（以截图打印并加盖单位鲜章为准）；</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">4.提供中国合格评定国家认可委员会检验机构认可证书CNAS以及检验监测机构资质认定证书CMA证书；</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">5.项目投入高级测评师不得少于2人，中级测评师不得少于4人，初级测评师不得少于3人；</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">6.应提供至少一年的信息安全应急处理保障服务；</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">7.本次采购不接受联合体投标。</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 黑体; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">三、报名时间</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">202</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">6</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">年</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">6</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">月</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">15</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;"><span style="font-family: 仿宋_GB2312;">日起至</span><span style="font-family: 仿宋_GB2312;">202</span></span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">6</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">年</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">6</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">月</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">18</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;"><span style="font-family: 仿宋_GB2312;">日（节假日和非工作时间除外），上午</span><span style="font-family: 仿宋_GB2312;">9:00-11:30；14:30-17:00。</span></span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 黑体; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">四、报名地点</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">网上报名邮箱号：</span><a href="mailto:1300465956@qq.com"><u><span class="15" style="font-family: 仿宋_GB2312; color: #0563c1; font-size: 16pt;">1300465956@qq.com</span></u></a></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 黑体; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">五、开标时间及地点</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;"><span style="font-family: 仿宋_GB2312;">开标时间：</span><span style="font-family: 仿宋_GB2312;">202</span></span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">6</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">年</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">6</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">月</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">25</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">日</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">9</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">:30（迟到10分钟后被视为自动弃权）</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;"><span style="font-family: 仿宋_GB2312;">开标地点：西藏民族大学附属医院住院部</span><span style="font-family: 仿宋_GB2312;">17楼2号会议室（17-012）</span></span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 黑体; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;"><span style="font-family: 黑体;">六、报名费用：无</span> &nbsp;</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">&nbsp;&nbsp;</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 黑体; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">七、报名咨询电话：</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">029</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">-</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">33755242（网络信息中心）</span></p> 
+<p class="MsoNormal" style="margin-bottom: 0.0000pt; text-indent: 32.0000pt; mso-char-indent-count: 2.0000; line-height: 28.0000pt; mso-line-height-rule: exactly;"><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">029-33755283（</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">采购中心</span><span style="mso-spacerun: 'yes'; font-family: 仿宋_GB2312; mso-hansi-font-family: 等线; mso-bidi-font-family: 'Times New Roman'; font-size: 16.0000pt; mso-font-kerning: 1.0000pt;">）</span></p>
+					</div>
+					<div class="line p_r"></div>
+					<div class="next">
+							<a href="/tzgg/content/260435199306541200.html" class=" di_bl">上一篇：西藏民族大学附属医院2026年硕士研究生招生考试调剂复试安排</a>
+							<a href="/tzgg/content/260620851209566382.html" class=" di_bl">下一篇：关于视频监控系统二级等保测评服务竞争性谈判项目采购结果公示</a>
+						
+						<!-- 
+							<a href="/tzgg/content/260620851209566382.html" class=" di_bl">上一篇：关于视频监控系统二级等保测评服务竞争性谈判项目采购结果公示</a>
+							<a href="/tzgg/content/260435199306541200.html" class=" di_bl">下一篇：西藏民族大学附属医院2026年硕士研究生招生考试调剂复试安排</a>
+						 -->
+					</div>
+		</div>
+
+	</div>
+
+	<!--footer-->
+<!--footer-->
+<div class="link">
+	<div class="container flex flex-warp">
+		友情连接：
+						<a href="http://wjw.xianyang.gov.cn/">
+					咸阳卫生信息网
+				</a>
+					<span>|</span>
+				<a href="https://www.who.int/zh">
+					世界卫生组织
+				</a>
+	</div>
+</div>
+<div class="footer">
+	<div class="container flex flex-align-center flex-pack-justify">
+		<div class="logo">
+					<img src="/MediaStore/site/xzmy/image/2023/11/20/4d2c1bfe-4468-4205-9f19-b3781b3e86c1.png" class=" di_bl" />
+		</div>
+
+		<div class="item">
+			<!-- <h3>联系方式</h3> -->
+					<h3>联系方式</h3>
+					<p>地址：陕西省咸阳市文汇东路6号</p> 
+<p>邮编：712082</p> 
+<p>电话：029—33755452、33755453、33755456</p>
+		</div>
+		<div class="item">
+			<!-- <h3>投诉受理</h3> -->
+					<h3>投诉受理</h3>
+					<p>党建办：029-33755904</p> 
+<p>（周一至周五上午08：00-11:40，下午14:00-17:40）</p> 
+<p>总值班电话：029-33755453</p> 
+<p>（节假日、夜间请拨打此电话）</p>
+		</div>
+		<div class="item">
+			<img src="/images/img.png" alt="">
+		</div>
+	</div>
+	<div class="copyright te_c">
+				版权所有@2010-2024：西藏民族大学附属医院
+	</div>
+</div>
+<!--footer end-->	<!--footer end-->
+
+
+
+
+	<!--本页面用的js文件位置 -->
+
+
+	<!--本页面用的js文件位置 end-->
+
+
+</body>
+
+</html>

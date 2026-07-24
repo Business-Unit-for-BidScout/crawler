@@ -1,0 +1,3657 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html style="overflow-x:auto;overflow-y:auto;">
+<head>
+    <title>乙方宝招标官网_全国中标信息-中标信息公告</title>
+	
+<link rel="shortcut icon" href="/static/images/favicon.ico">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta name="author" content="http://yfb_site.com/"/>
+<meta name="renderer" content="webkit"><meta http-equiv="X-UA-Compatible" content="IE=8,IE=9,IE=10" />
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-store">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.4, maximum-scale=2.0, user-scalable=yes">
+
+
+<script src="/static/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+<link href="/static/bootstrap/2.3.1/css_cerulean/bootstrap.min.css" type="text/css" rel="stylesheet" />
+<script src="/static/bootstrap/2.3.1/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/static/jquery-validation/1.11.0/jquery.validate.min.js" type="text/javascript"></script>
+<script src="/static/jquery-jbox/2.3/jquery.jBox-2.3.min.js" type="text/javascript"></script>
+<script src="/static/My97DatePicker/WdatePicker.js" type="text/javascript"></script>
+<script src="/static/common/mustache.min.js" type="text/javascript"></script>
+<link href="/static/common/yfb_site.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript">var ctx = '', ctxStatic='/static';</script>
+
+<link href="/static/common/css/web_common.css?v=1.0.5" type="text/css" rel="stylesheet"/>
+<script src="/static/common/js/web_common.js?v=1.0.5" type="text/javascript"></script>
+<script src="/static/common/js/dataCenterArea.js?v=1.0.5" type="text/javascript"></script>
+<script src="/static/common/js/behavior_tracking.js?v=1.0.5" type="text/javascript"></script>
+<script src="/static/common/js/link_interceptor.js?v=1.0.5" type="text/javascript"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+<script src="/static/common/js/jquery.qrcode.min.js" type="text/javascript"></script>
+
+	<script>var appid = 'wx5a0133da61fe22dd';</script>
+	
+	<script src="/static/common/js/index/default.js?v=1.0.5" type="text/javascript"></script>
+	
+    <!-- <title title="中标信息-乙方宝招标网">中标信息-乙方宝招标网</title> -->
+    
+    <meta name="decorator" content="default"/>
+    <meta name="description" content="【全国中标信息-乙方宝官网】中国招投标及采购信息发布平台提供全国各行业招标公告、招标预告、招标变更、拟建项目、中标结果等招投标信息，及各地政府采购网采购信息。"/>
+    <meta name="keywords" content="乙方宝招标官网,全国中标信息,中标信息公告"/>
+    <meta name="applicable-device" content="pc">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.yfbzb.com/search/winBidSearch?defaultSearch=true"/>
+    
+    <script>
+        var keyword = '';
+        var provinceId='';
+        var cityId='';
+        var loginStatus='';
+        var linkDetailUrlType = '/winbid/detail/';
+        var winBidType='';
+    </script>
+    
+    <script src="/static/common/js/list/zhaobiaoList.js?9152" type="text/javascript"></script>
+    <style>
+        
+        .wrapper-search-bottom{
+            width:100%;
+            box-shadow:0px 3px 6px 0px rgba(0, 0, 0, 0.05);
+        }
+        .wrapper-search-top,.content-block-L-bottom,.no-result-wrapper{
+            background: #ffffff url("/static/images/yfb/list-bg.png") no-repeat center bottom;
+        }
+        .has-selected-item img{
+            width:10px !important;
+            height:10px !important;
+        }
+        input[type="checkbox"] {
+            display: none;
+        }
+    </style>
+
+
+	<script>
+		window.onload = function(){
+			if (getParams('source') == 'pc'){
+				$('.phone-number-login-wrapper').show()
+				$('.qrCodeWrapperServer01').hide()
+			}
+		}
+
+		/**
+		 * @description 获取url参数
+		 *  参数名，不传则返回所有参数的对象
+		 */
+		function getParams(name) {
+			var search = window.location.search.substring(1)
+			if (!search) {
+				search = window.location.hash.split('?')[1]
+			}
+			if (search) {
+				var obj = JSON.parse('{"' + decodeURIComponent(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') + '"}')
+				return name ? obj[name] : obj
+			}
+		}
+	</script>
+
+</head>
+<body>
+	
+
+
+
+
+
+
+
+
+
+
+<style>
+    /* 头部样式 - 修改为左右布局 */
+    .header {
+        color: white;
+        position: sticky;
+        background: #061022;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .header-container {
+        max-width: 1200px;
+        height: 40px;
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: space-between;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    /* 左边部分样式 */
+    .header-left {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .home-icon {
+        width: 16px;
+        height: 16px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        font-size: 16px;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+    }
+
+    .welcome-text {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .station-selector {
+        position: relative;
+        margin-left: 0;
+    }
+
+    .station-btn {
+        background: transparent;
+        border: none;
+        color: white;
+        padding: 0;
+        cursor: pointer;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        gap: 5px;
+        font-size: 12px;
+        transition: opacity 0.3s ease;
+    }
+
+    .station-btn:hover {
+        opacity: 0.8;
+    }
+
+    .dropdown-arrow {
+        font-size: 8px;
+        transition: transform 0.3s ease;
+    }
+
+    .station-selector.active .dropdown-arrow {
+        transform: rotate(180deg);
+    }
+
+    /* 地区下拉菜单样式 */
+    .area-dropdown-menu {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 100%;
+        width: 440px;
+        display: none;
+        opacity: 0;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        visibility: hidden;
+        padding-top: 10px;
+    }
+
+    .area-dropdown-panel {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        padding: 0;
+        position: relative;
+    }
+
+    .station-selector.active .area-dropdown-menu,
+    .area-dropdown-menu:hover {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .area-dropdown-panel::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -5px;
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid white;
+    }
+
+    .area-dropdown-title {
+        padding: 12px 20px;
+        font-size: 14px;
+        color: #333;
+        border-bottom: 1px solid #e8e8e8;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .area-dropdown-title img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .area-dropdown-title .current-city {
+        color: #337DFF;
+        font-weight: 500;
+    }
+
+    .area-dropdown-content {
+        padding: 10px 20px;
+        max-height: 400px;
+        overflow-y: auto;
+    }
+
+    .area-dropdown-content-item {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .area-dropdown-content-item-title {
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+        width: 70px;
+    }
+
+    .area-dropdown-content-item-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        font-size: 14px;
+        color: #666;
+        gap: 20px;
+    }
+
+    .area-dropdown-content-item-content a {
+        color: #666;
+        text-decoration: none;
+        transition: color 0.2s ease;
+    }
+
+    .area-dropdown-content-item-content a:hover {
+        color: #337DFF;
+    }
+
+    .area-dropdown-content-item-content a.active {
+        color: #337DFF;
+        font-weight: 500;
+        position: relative;
+    }
+
+    .area-dropdown-content-item-content a.active::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 100%;
+        height: 2px;
+        background: #337DFF;
+    }
+
+    /* 右边部分样式 */
+    .header-right {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .header-link {
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 500;
+        transition: background 0.3s ease;
+        position: relative;
+    }
+
+    /* 企业专区下拉菜单容器 */
+    .enterprise-dropdown {
+        position: relative;
+    }
+
+    /* 行业应用下拉菜单容器 */
+    .industry-dropdown {
+        position: relative;
+    }
+
+    /* 数据市场下拉菜单容器 */
+    .market-dropdown {
+        position: relative;
+    }
+
+    /* 下拉菜单面板 */
+    .enterprise-dropdown-menu,
+    .industry-dropdown-menu,
+    .market-dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 560px;
+        display: none;
+        z-index: 1000;
+        opacity: 0;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        visibility: hidden;
+        padding-top: 10px;
+    }
+
+    .enterprise-dropdown-menu .dropdown-panel,
+    .industry-dropdown-menu .dropdown-panel,
+    .market-dropdown-menu .dropdown-panel {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        padding: 0 16px 16px 16px;
+        position: relative;
+    }
+
+    .market-dropdown-menu {
+        width: 320px;
+    }
+
+    /* 数据市场下拉菜单宽度更小 */
+    .market-dropdown-menu .dropdown-panel {
+        width: 100%;
+    }
+
+    .area-dropdown-panel,
+    .dropdown-panel {
+        box-sizing: border-box;
+    }
+
+    /* 向上箭头 */
+    .dropdown-arrow-up {
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 6px solid white;
+        position: absolute;
+        top: -6px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .enterprise-dropdown:hover .enterprise-dropdown-menu,
+    .enterprise-dropdown-menu:hover {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .industry-dropdown:hover .industry-dropdown-menu,
+    .industry-dropdown-menu:hover {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .market-dropdown:hover .market-dropdown-menu,
+    .market-dropdown-menu:hover {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* 下拉菜单内容 - 两列布局 */
+    .dropdown-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        gap: 20px;
+    }
+    .dropdown-column {
+        -ms-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+    }
+
+    .dropdown-column-left {
+        -ms-flex: 2;
+        -webkit-flex: 2;
+        flex: 2;
+    }
+    .dropdown-column-right {
+        -ms-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+    }
+    .dropdown-section {
+        margin-top: 16px;
+    }
+    .dropdown-section-title {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        margin: 4px 0;
+        font-size: 12px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .dropdown-section-bar {
+        width: 3px;
+        height: 10px;
+        background: #337DFF;
+        margin-right: 8px;
+    }
+
+    .dropdown-section-items {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        gap: 20px;
+    }
+
+    .dropdown-section-item {
+        font-size: 10px;
+        color: #7f7f7f;
+        cursor: pointer;
+        transition: color 0.2s ease;
+    }
+    .dropdown-section-item a {
+        color: #7f7f7f;
+        text-decoration: none;
+        transition: color 0.2s ease;
+    }
+
+    .dropdown-section-item:hover {
+        color: #337DFF;
+    }
+
+    .dropdown-section-item a:hover {
+        color: #337DFF;
+    }
+    /* 推荐行业图标 */
+    .recommended-icon {
+        width: 14px;
+        height: 14px;
+        margin-right: 4px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    /* 下拉菜单项多列布局 - 左列3列 */
+    .dropdown-section-items-column {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 4px 20px;
+        width: 100%;
+    }
+
+    /* 推荐行业2列布局 */
+    .dropdown-section-items-recommended {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4px 0;
+        column-gap: 20px;
+        width: 100%;
+    }
+
+    /* 数据市场下拉菜单项水平排列 */
+    .dropdown-section-items-horizontal {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 0 20px;
+        width: 100%;
+    }
+
+    .dropdown-section-items-horizontal .dropdown-section-item {
+        padding: 4px 0;
+        white-space: nowrap;
+    }
+
+    .login-btn {
+        background: #337DFF; /* 蓝色按钮 */
+        color: white;
+        border: none;
+        width: 78px;
+        height: 28px;
+        text-align: center;
+        line-height: 28px;
+        border-radius: 8px; /* 圆角矩形 */
+        font-size: 12px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+    .login-btn:hover {
+        color: #fff;
+        background: #1e6fd9;
+    }
+</style>
+<!-- 头部 - 修改为左右布局 -->
+<header class="header">
+    <div class="header-container">
+        <!-- 左边部分 -->
+        <div class="header-left">
+            <!-- 小房子图标 -->
+            <a href="/" class="home-icon">
+                <img src="/static/images/homepage/home_icon.svg" alt="首页" style="width: 100%; height: 100%; object-fit: contain;">
+            </a>
+            <!-- 欢迎文字 -->
+            <div class="welcome-text">您好,欢迎来到乙方宝标讯</div>
+            <!-- 总站下拉 -->
+            <div class="station-selector">
+                <button class="station-btn">
+                    <span>总站</span>
+                    <span class="dropdown-arrow">▼</span>
+                </button>
+                <!-- 地区下拉菜单 -->
+                <div class="area-dropdown-menu">
+                    <div class="area-dropdown-panel">
+                        <div class="area-dropdown-title">
+                            <img src="/static/images/yfb/location.png" alt="位置"/>
+                            <span>当前地区：</span>
+                            <span class="current-city">总站</span>
+                        </div>
+                        <div class="area-dropdown-content">
+                            <div class="area-dropdown-content-item">
+                                <div class="area-dropdown-content-item-title">华东</div>
+                                <div class="area-dropdown-content-item-content">
+                                    <span data-id="24" data-pinyin="shanghai"><a href="/shanghai/" title="上海" areaId="24">上海</a></span>
+                                    <span data-id="15" data-pinyin="jiangsu"><a href="/jiangsu/" title="江苏" areaId="15">江苏</a></span>
+                                    <span data-id="30" data-pinyin="zhejiang"><a href="/zhejiang/" title="浙江" areaId="30">浙江</a></span>
+                                    <span data-id="1" data-pinyin="anhui"><a href="/anhui/" title="安徽" areaId="1">安徽</a></span>
+                                    <span data-id="3" data-pinyin="fujian"><a href="/fujian/" title="福建" areaId="3">福建</a></span>
+                                    <span data-id="16" data-pinyin="jiangxi"><a href="/jiangxi/" title="江西" areaId="16">江西</a></span>
+                                    <span data-id="21" data-pinyin="shandong"><a href="/shandong/" title="山东" areaId="21">山东</a></span>
+                                </div>
+                            </div>
+                            <div class="area-dropdown-content-item">
+                                <div class="area-dropdown-content-item-title">华北</div>
+                                <div class="area-dropdown-content-item-content">
+                                    <span data-id="2" data-pinyin="beijing"><a href="/beijing/" title="北京" areaId="2">北京</a></span>
+                                    <span data-id="9" data-pinyin="hebei"><a href="/hebei/" title="河北" areaId="9">河北</a></span>
+                                    <span data-id="26" data-pinyin="tianjin"><a href="/tianjin/" title="天津" areaId="26">天津</a></span>
+                                    <span data-id="22" data-pinyin="shanxi"><a href="/shanxi/" title="山西" areaId="22">山西</a></span>
+                                    <span data-id="18" data-pinyin="neimenggu"><a href="/neimenggu/" title="内蒙古" areaId="18">内蒙古</a></span>
+                                </div>
+                            </div>
+                            <div class="area-dropdown-content-item">    
+                                <div class="area-dropdown-content-item-title">东北</div>
+                                <div class="area-dropdown-content-item-content">
+                                    <span data-id="17" data-pinyin="liaoning"><a href="/liaoning/" title="辽宁" areaId="17">辽宁</a></span>
+                                    <span data-id="14" data-pinyin="jilin"><a href="/jilin/" title="吉林" areaId="14">吉林</a></span>
+                                    <span data-id="11" data-pinyin="heilongjiang"><a href="/heilongjiang/" title="黑龙江" areaId="11">黑龙江</a></span>
+                                </div>
+                            </div>
+                            <div class="area-dropdown-content-item">    
+                                <div class="area-dropdown-content-item-title">西北</div>
+                                <div class="area-dropdown-content-item-content">
+                                    <span data-id="23" data-pinyin="sanxi"><a href="/sanxi/" title="陕西" areaId="23">陕西</a></span>
+                                    <span data-id="4" data-pinyin="gansu"><a href="/gansu/" title="甘肃" areaId="4">甘肃</a></span>
+                                    <span data-id="20" data-pinyin="qinghai"><a href="/qinghai/" title="青海" areaId="20">青海</a></span>
+                                    <span data-id="19" data-pinyin="ningxia"><a href="/ningxia/" title="宁夏" areaId="19">宁夏</a></span>
+                                    <span data-id="28" data-pinyin="xinjiang"><a href="/xinjiang/" title="新疆" areaId="28">新疆</a></span>
+                                </div>
+                            </div>
+                            <div class="area-dropdown-content-item">    
+                                <div class="area-dropdown-content-item-title">西北</div>
+                                <div class="area-dropdown-content-item-content">
+                                    <span data-id="10" data-pinyin="henan"><a href="/henan/" title="河南" areaId="10">河南</a></span>
+                                    <span data-id="13" data-pinyin="hunan"><a href="/hunan/" title="湖南" areaId="13">湖南</a></span>
+                                    <span data-id="12" data-pinyin="hubei"><a href="/hubei/" title="湖北" areaId="12">湖北</a></span>
+                                </div>
+                            </div>
+                            <div class="area-dropdown-content-item">    
+                                <div class="area-dropdown-content-item-title">华南</div>
+                                <div class="area-dropdown-content-item-content">
+                                    <span data-id="5" data-pinyin="guangdong"><a href="/guangdong/" title="广东" areaId="5">广东</a></span>
+                                    <span data-id="8" data-pinyin="hainan"><a href="/hainan/" title="海南" areaId="8">海南</a></span>
+                                    <span data-id="6" data-pinyin="guangxi"><a href="/guangxi/" title="广西" areaId="6">广西</a></span>
+                                </div>
+                            </div>
+                            <div class="area-dropdown-content-item">
+                                <div class="area-dropdown-content-item-title">西南</div>
+                                <div class="area-dropdown-content-item-content">
+                                    <span data-id="31" data-pinyin="chongqing"><a href="/chongqing/" title="重庆" areaId="31">重庆</a></span>
+                                    <span data-id="7" data-pinyin="guizhou"><a href="/guizhou/" title="贵州" areaId="7">贵州</a></span>
+                                    <span data-id="29" data-pinyin="yunnan"><a href="/yunnan/" title="云南" areaId="29">云南</a></span>
+                                    <span data-id="25" data-pinyin="sichuan"><a href="/sichuan/" title="四川" areaId="25">四川</a></span>
+                                    <span data-id="27" data-pinyin="xizang"><a href="/xizang/" title="西藏" areaId="27">西藏</a></span>
+                                </div>
+                            </div>
+                            <div class="area-dropdown-content-item">
+                                <div class="area-dropdown-content-item-title">港澳台地区</div>
+                                <div class="area-dropdown-content-item-content">
+                                    <span data-id="3557" data-pinyin="xianggang"><a href="/xianggang/" title="香港" areaId="3557">香港</a></span>
+                                    <span data-id="3558" data-pinyin="aomen"><a href="/aomen/" title="澳门" areaId="3558">澳门</a></span>
+                                    <span data-id="3559" data-pinyin="taiwan"><a href="/taiwan/" title="台湾" areaId="3559">台湾</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 右边部分 -->
+        <div class="header-right">
+            <!-- 导航链接 -->
+            <div class="enterprise-dropdown">
+                <a href="javascript:void(0);" class="header-link">企业专区</a>
+                <!-- 下拉菜单 -->
+                <div class="enterprise-dropdown-menu">
+                    <div class="dropdown-panel">
+                        <!-- 向上箭头 -->
+                        <div class="dropdown-arrow-up"></div>
+                        <div class="dropdown-content">
+                            <!-- 左列 -->
+                            <div class="dropdown-column">
+                                <!-- 商机情报 -->
+                                <div class="dropdown-section">
+                                    <div class="dropdown-section-title">
+                                        <div class="dropdown-section-bar"></div>
+                                        <span>商机情报</span>
+                                    </div>
+                                    <ul class="dropdown-section-items">
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch">招标信息</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/winBidSearch">中标信息</a></li>
+                                        <li class="dropdown-section-item"><a href="/procurement-intention/list/page/1.html">采购意向</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/proposedProjectSearch?defaultSearch=true">拟在建项目</a></li>
+                                    </ul>
+                                </div>
+                                <!-- 商机分析 -->
+                                <div class="dropdown-section">
+                                    <div class="dropdown-section-title">
+                                        <div class="dropdown-section-bar"></div>
+                                        <span>商机分析</span>
+                                    </div>
+                                    <ul class="dropdown-section-items">
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch">招标单位</a></li>
+                                        <li class="dropdown-section-item"><a href="https://qiye.qianlima.com/new_qd_yfbsite/#/infoCenter/bidRiskAssessment">投标风险评估</a></li>
+                                        <li class="dropdown-section-item"><a href="https://qiye.qianlima.com/new_qd_yfbsite/#/infoCenter/search">投标信用报告</a></li>
+                                    </ul>
+                                </div>
+                                <!-- 商机数据库 -->
+                                <div class="dropdown-section">
+                                    <div class="dropdown-section-title">
+                                        <div class="dropdown-section-bar"></div>
+                                        <span>商机数据库</span>
+                                    </div>
+                                    <ul class="dropdown-section-items">
+                                        <li class="dropdown-section-item"><a href="https://qiye.qianlima.com/new_qd_yfbsite/#/infoCenter/search">招标数据库</a></li>
+                                        <li class="dropdown-section-item"><a href="https://qiye.qianlima.com/new_qd_yfbsite/#/infoCenter/search">项目数据库</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- 右列 -->
+                            <div class="dropdown-column">
+                                <!-- 企业监控 -->
+                                <div class="dropdown-section">
+                                    <div class="dropdown-section-title">
+                                        <div class="dropdown-section-bar"></div>
+                                        <span>企业监控</span>
+                                    </div>
+                                    <ul class="dropdown-section-items">
+                                        <li class="dropdown-section-item"><a href="https://qiye.qianlima.com/new_qd_yfbsite/#/infoCenter/enterpriseLibrary">潜在客户</a></li>
+                                        <li class="dropdown-section-item"><a href="https://qiye.qianlima.com/new_qd_yfbsite/#/infoCenter/enterpriseLibrary">合作伙伴</a></li>
+                                        <li class="dropdown-section-item"><a href="https://qiye.qianlima.com/new_qd_yfbsite/#/infoCenter/enterpriseLibrary">竞争对手</a></li>
+                                        <li class="dropdown-section-item"><a href="https://qiye.qianlima.com/new_qd_yfbsite/#/infoCenter/search">线索指派</a></li>
+                                    </ul>
+                                </div>
+                                <!-- 人脉拓展 -->
+                                <div class="dropdown-section">
+                                    <div class="dropdown-section-title">
+                                        <div class="dropdown-section-bar"></div>
+                                        <span>人脉拓展</span>
+                                    </div>
+                                    <ul class="dropdown-section-items">
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch">项目直接联系人</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch">甲方联系人触达</a></li>
+                                    </ul>
+                                </div>
+                                <!-- 供应商管理 -->
+                                <div class="dropdown-section">
+                                    <div class="dropdown-section-title">
+                                        <div class="dropdown-section-bar"></div>
+                                        <span>供应商管理</span>
+                                    </div>
+                                    <ul class="dropdown-section-items">
+                                        <li class="dropdown-section-item"><a href="/zhicai/">企业直采</a></li>
+                                        <li class="dropdown-section-item"><a href="/gongying/">供应商</a></li>
+                                        <li class="dropdown-section-item"><a href="/chanpin/">产品寻源</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 行业应用下拉菜单 -->
+            <div class="industry-dropdown">
+                <a href="javascript:void(0);" class="header-link">行业应用</a>
+                <!-- 下拉菜单 -->
+                <div class="industry-dropdown-menu">
+                    <div class="dropdown-panel">
+                        <!-- 向上箭头 -->
+                        <div class="dropdown-arrow-up"></div>
+                        <div class="dropdown-content">
+                            <!-- 左列 -->
+                            <div class="dropdown-column dropdown-column-left">
+                                <!-- 环保行业 -->
+                                <div class="dropdown-section">
+                                    <div class="dropdown-section-title">
+                                        <div class="dropdown-section-bar"></div>
+                                        <span>环保行业</span>
+                                    </div>
+                                    <ul class="dropdown-section-items dropdown-section-items-column">
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=环卫车辆">环卫车辆</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=环卫机械">环卫机械</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=环保绿化">环保绿化</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=环卫设施">环卫设施</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=垃圾填埋">垃圾填埋</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=垃圾处理">垃圾处理</a></li>
+                                    </ul>
+                                </div>
+                                <!-- 市政行业 -->
+                                <div class="dropdown-section">
+                                    <div class="dropdown-section-title">
+                                        <div class="dropdown-section-bar"></div>
+                                        <span>市政行业</span>
+                                    </div>
+                                    <ul class="dropdown-section-items dropdown-section-items-column">
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=市政工程">市政工程</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=绿化工程">绿化工程</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=环保绿化">环保绿化</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=洒水车">洒水车</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=护栏">护栏</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=园艺">园艺</a></li>
+                                    </ul>
+                                </div>
+                                <!-- 行政行业 -->
+                                <div class="dropdown-section">
+                                    <div class="dropdown-section-title">
+                                        <div class="dropdown-section-bar"></div>
+                                        <span>行政行业</span>
+                                    </div>
+                                    <ul class="dropdown-section-items dropdown-section-items-column">
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=办公电器">办公电器</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=教学设备">教学设备</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=办公文教">办公文教</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=办公耗材">办公耗材</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=投影仪">投影仪</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=笔记本">笔记本</a></li>
+                                    </ul>
+                                </div>
+                                <!-- 服务采购 -->
+                                <div class="dropdown-section">
+                                    <div class="dropdown-section-title">
+                                        <div class="dropdown-section-bar"></div>
+                                        <span>服务采购</span>
+                                    </div>
+                                    <ul class="dropdown-section-items dropdown-section-items-column">
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=印刷设备">印刷设备</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=多媒体">多媒体</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=广告牌">广告牌</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=广告">广告</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=图书">图书</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch?defaultSearch=true&keyword=出版">出版</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- 右列 -->
+                            <div class="dropdown-column dropdown-column-right">
+                                <!-- 推荐行业 -->
+                                <div class="dropdown-section">
+                                    <div class="dropdown-section-title">
+                                        <img src="/static/images/homepage/recommended_industry.svg" alt="推荐" class="recommended-icon">
+                                        <span>推荐行业</span>
+                                    </div>
+                                    <ul class="dropdown-section-items dropdown-section-items-recommended">
+                                        <li class="dropdown-section-item"><a href="/zbzt/846/">金融</a></li>
+                                        <li class="dropdown-section-item"><a href="/zbzt/836/">水保</a></li>
+                                        <li class="dropdown-section-item"><a href="/zbzt/842/">科学</a></li>
+                                        <li class="dropdown-section-item"><a href="/zbzt/831/">铁路局</a></li>
+                                        <li class="dropdown-section-item"><a href="/zbzt/844/">航天</a></li>
+                                        <li class="dropdown-section-item"><a href="/zbzt/834/">地方志</a></li>
+                                        <li class="dropdown-section-item"><a href="/zbzt/840/">中烟</a></li>
+                                        <li class="dropdown-section-item"><a href="/zbzt/828/">街道办</a></li>
+                                        <li class="dropdown-section-item"><a href="/zbzt/845/">航空</a></li>
+                                        <li class="dropdown-section-item"><a href="/zbzt/791/">农业</a></li>
+                                        <li class="dropdown-section-item"><a href="/zbzt/841/">民航</a></li>
+                                        <li class="dropdown-section-item"><a href="/zbzt/829/">财政局</a></li>
+                                        <li class="dropdown-section-item"><a href="/zbzt/843/">胶制品</a></li>
+                                        <li class="dropdown-section-item"><a href="/zbzt/835/">气象局</a></li>
+                                        <li class="dropdown-section-item"><a href="/zbzt/839/">百货</a></li>
+                                        <li class="dropdown-section-item"><a href="/zbzt/819/">审计局</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 数据市场下拉菜单 -->
+            <div class="market-dropdown">
+                <a href="javascript:void(0);" class="header-link">数据市场</a>
+                <!-- 下拉菜单 -->
+                <div class="market-dropdown-menu">
+                    <div class="dropdown-panel">
+                        <!-- 向上箭头 -->
+                        <div class="dropdown-arrow-up"></div>
+                        <div class="dropdown-content">
+                            <div class="dropdown-column">
+                                <!-- 商机线索 -->
+                                <div class="dropdown-section">
+                                    <div class="dropdown-section-title">
+                                        <div class="dropdown-section-bar"></div>
+                                        <span>商机线索</span>
+                                    </div>
+                                    <ul class="dropdown-section-items dropdown-section-items-horizontal">
+                                        <li class="dropdown-section-item"><a href="/search/invitedBidSearch">实时招标</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/winBidSearch">中标信息</a></li>
+                                        <li class="dropdown-section-item"><a href="/procurement-intention/list/page/1.html">采购意向</a></li>
+                                        <li class="dropdown-section-item"><a href="/search/proposedProjectSearch?defaultSearch=true">拟在建项目</a></li>
+                                    </ul>
+                                </div>
+                                <!-- 政策新闻 -->
+                                <div class="dropdown-section">
+                                    <div class="dropdown-section-title">
+                                        <div class="dropdown-section-bar"></div>
+                                        <span>政策新闻</span>
+                                    </div>
+                                    <ul class="dropdown-section-items dropdown-section-items-horizontal">
+                                        <li class="dropdown-section-item"><a href="/strategy-guide/list/page/29.html">政策法规</a></li>
+                                        <li class="dropdown-section-item"><a href="/strategy-guide/list/page/32.html">投标标准</a></li>
+                                    </ul>
+                                </div>
+                                <!-- 数据服务 -->
+                                <div class="dropdown-section">
+                                    <div class="dropdown-section-title">
+                                        <div class="dropdown-section-bar"></div>
+                                        <span>数据服务</span>
+                                    </div>
+                                    <ul class="dropdown-section-items dropdown-section-items-horizontal">
+                                        <li class="dropdown-section-item"><a href="https://qiye.qianlima.com/new_qd_yfbsite/#/infoCenter/search">信用报告</a></li>
+                                        <li class="dropdown-section-item"><a href="https://qiye.qianlima.com/new_qd_yfbsite/#/infoCenter/bidRiskAssessment">风险评估</a></li>
+                                        <li class="dropdown-section-item"><a href="https://qiye.qianlima.com/new_qd_yfbsite/#/infoCenter/search">数据下载</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="/aboutUs" class="header-link about-us-link">关于我们</a>
+            <!-- 登录/注册按钮 -->
+            <a class="login-btn" id="header-login-btn" href="https://qiye.qianlima.com/new_qd_yfbsite/#/infoCenter/search">登录/注册</a>
+        </div>
+    </div>
+</header>
+
+<script>
+    // 城市名称映射（URL路径 -> 城市名称）
+    var cityMap = {
+        '/shanghai/': '上海',
+        '/jiangsu/': '江苏',
+        '/zhejiang/': '浙江',
+        '/anhui/': '安徽',
+        '/fujian/': '福建',
+        '/jiangxi/': '江西',
+        '/shandong/': '山东',
+        '/beijing/': '北京',
+        '/hebei/': '河北',
+        '/tianjin/': '天津',
+        '/shanxi/': '山西',
+        '/neimenggu/': '内蒙古',
+        '/liaoning/': '辽宁',
+        '/jilin/': '吉林',
+        '/heilongjiang/': '黑龙江',
+        '/sanxi/': '陕西',
+        '/gansu/': '甘肃',
+        '/qinghai/': '青海',
+        '/ningxia/': '宁夏',
+        '/xinjiang/': '新疆',
+        '/henan/': '河南',
+        '/hunan/': '湖南',
+        '/hubei/': '湖北',
+        '/guangdong/': '广东',
+        '/hainan/': '海南',
+        '/guangxi/': '广西',
+        '/chongqing/': '重庆',
+        '/guizhou/': '贵州',
+        '/yunnan/': '云南',
+        '/sichuan/': '四川',
+        '/xizang/': '西藏',
+        '/xianggang/': '香港',
+        '/aomen/': '澳门',
+        '/taiwan/': '台湾'
+    };
+
+    // 根据当前URL设置城市显示
+    function setCurrentCity() {
+        var currentPath = window.location.pathname;
+        var currentCity = '总站';
+        var currentCityPath = '';
+        
+        // 遍历城市映射，查找匹配的路径
+        for (var path in cityMap) {
+            if (currentPath.indexOf(path) >= 0) {
+                currentCity = cityMap[path];
+                currentCityPath = path;
+                break;
+            }
+        }
+        
+        // 更新显示
+        var currentCityElements = document.querySelectorAll('.current-city');
+        var stationBtnSpans = document.querySelectorAll('.station-btn span');
+        
+        currentCityElements.forEach(function(el) {
+            el.textContent = currentCity;
+        });
+        
+        // 更新按钮中的城市名称（第一个span，排除dropdown-arrow）
+        if (stationBtnSpans.length > 0 && !stationBtnSpans[0].classList.contains('dropdown-arrow')) {
+            stationBtnSpans[0].textContent = currentCity;
+        }
+        
+        // 高亮当前城市链接
+        highlightCurrentCity(currentCityPath);
+    }
+
+    // 高亮当前城市链接
+    function highlightCurrentCity(cityPath) {
+        // 移除所有active类
+        var allLinks = document.querySelectorAll('.area-dropdown-content a');
+        allLinks.forEach(function(link) {
+            link.classList.remove('active');
+        });
+        
+        // 如果有匹配的城市路径，添加active类
+        if (cityPath) {
+            var cityLinks = document.querySelectorAll('.area-dropdown-content a');
+            cityLinks.forEach(function(link) {
+                var href = link.getAttribute('href');
+                if (href && href.indexOf(cityPath) >= 0) {
+                    link.classList.add('active');
+                }
+            });
+        }
+    }
+    
+    // 初始化地区切换功能
+    function initCitySelector() {
+        var stationSelector = document.querySelector('.station-selector');
+        var stationBtn = document.querySelector('.station-btn');
+        
+        // 点击按钮切换显示/隐藏
+        if (stationBtn) {
+            stationBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                if (stationSelector) {
+                    var isActive = stationSelector.classList.contains('active');
+                    stationSelector.classList.toggle('active');
+                    
+                    // 发送点击埋点（点击显示/隐藏时触发）
+                    if (typeof sendBehaviorLog === 'function') {
+                        sendBehaviorLog('click', {
+                            type: '5200101201',
+                            typeName: '点击-顶部导航栏地区切换'
+                        });
+                    }
+                }
+            });
+        }
+        
+        // 点击页面其他地方关闭下拉菜单
+        document.addEventListener('click', function(e) {
+            if (stationSelector && !stationSelector.contains(e.target)) {
+                stationSelector.classList.remove('active');
+            }
+        });
+        
+        // 监听城市链接点击事件
+        var cityLinks = document.querySelectorAll('.area-dropdown-content a');
+        
+        cityLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                var cityName = this.getAttribute('title') || this.textContent.trim();
+                var areaId = this.getAttribute('areaId');
+                // 发送点击埋点
+                if (typeof sendBehaviorLog === 'function') {
+                    sendBehaviorLog('click', {
+                        type: '5200101202',
+                        typeName: '点击-顶部导航栏地区切换-地区',
+                        value: {
+                            areaId: areaId
+                        }
+                    });
+                }    
+                // 更新显示
+                var currentCityElements = document.querySelectorAll('.current-city');
+                var stationBtnSpans = document.querySelectorAll('.station-btn span');
+                
+                currentCityElements.forEach(function(el) {
+                    el.textContent = cityName;
+                });
+                
+                // 更新按钮中的城市名称（第一个span，排除dropdown-arrow）
+                if (stationBtnSpans.length > 0 && !stationBtnSpans[0].classList.contains('dropdown-arrow')) {
+                    stationBtnSpans[0].textContent = cityName;
+                }
+                
+                // 更新高亮状态
+                var allLinks = document.querySelectorAll('.area-dropdown-content a');
+                allLinks.forEach(function(l) {
+                    l.classList.remove('active');
+                });
+                this.classList.add('active');
+                
+                // 关闭下拉菜单
+                if (stationSelector) {
+                    stationSelector.classList.remove('active');
+                }
+            });
+        });
+    }
+    
+    // 初始化首页图标点击埋点
+    function initHomeIconTracking() {
+        var homeIcon = document.querySelector('.home-icon');
+        if (homeIcon) {
+            homeIcon.addEventListener('click', function(e) {
+                // 发送点击埋点
+                if (typeof sendBehaviorLog === 'function') {
+                    sendBehaviorLog('click', {
+                        type: '5200101203',
+                        typeName: '点击-顶部导航栏-首页icon'
+                    });
+                }
+            });
+        }
+    }
+    
+    // 初始化企业专区类目点击埋点
+    function initEnterpriseDropdownTracking() {
+        var enterpriseLinks = document.querySelectorAll('.enterprise-dropdown-menu a');
+        enterpriseLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                var tab = this.textContent.trim();
+                // 发送点击埋点
+                if (typeof sendBehaviorLog === 'function') {
+                    sendBehaviorLog('click', {
+                        type: '5200101204',
+                        typeName: '点击-顶部导航栏-企业专区具体类目',
+                        value: {
+                            tab: tab
+                        }
+                    });
+                }
+            });
+        });
+    }
+    
+    // 初始化行业应用类目点击埋点
+    function initIndustryDropdownTracking() {
+        var industryLinks = document.querySelectorAll('.industry-dropdown-menu a');
+        industryLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                var tab = this.textContent.trim();
+                // 发送点击埋点
+                if (typeof sendBehaviorLog === 'function') {
+                    sendBehaviorLog('click', {
+                        type: '5200101205',
+                        typeName: '点击-顶部导航栏-行业应用具体类目',
+                        value: {
+                            tab: tab
+                        }
+                    });
+                }
+            });
+        });
+    }
+    
+    // 初始化数据市场类目点击埋点
+    function initMarketDropdownTracking() {
+        var marketLinks = document.querySelectorAll('.market-dropdown-menu a');
+        marketLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                var tab = this.textContent.trim();
+                // 发送点击埋点
+                if (typeof sendBehaviorLog === 'function') {
+                    sendBehaviorLog('click', {
+                        type: '5200101206',
+                        typeName: '点击-顶部导航栏-数据市场具体类目',
+                        value: {
+                            tab: tab
+                        }
+                    });
+                }
+            });
+        });
+    }
+    
+    // 初始化关于我们链接点击埋点
+    function initAboutUsTracking() {
+        var aboutUsLink = document.querySelector('.about-us-link');
+        if (aboutUsLink) {
+            aboutUsLink.addEventListener('click', function(e) {
+                // 发送点击埋点
+                if (typeof sendBehaviorLog === 'function') {
+                    sendBehaviorLog('click', {
+                        type: '5200101207',
+                        typeName: '点击-顶部导航栏-关于我们'
+                    });
+                }
+            });
+        }
+    }
+    
+    // 初始化登录/注册按钮点击埋点
+    function initLoginBtnTracking() {
+        var loginBtn = document.getElementById('header-login-btn');
+        if (loginBtn) {
+            loginBtn.addEventListener('click', function(e) {
+                // 发送点击埋点
+                if (typeof sendBehaviorLog === 'function') {
+                    sendBehaviorLog('click', {
+                        type: '5200101208',
+                        typeName: '点击-顶部导航栏-登录/注册'
+                    });
+                }
+            });
+        }
+    }
+    
+    setCurrentCity();
+    initCitySelector();
+    initHomeIconTracking();
+    initEnterpriseDropdownTracking();
+    initIndustryDropdownTracking();
+    initMarketDropdownTracking();
+    initAboutUsTracking();
+    initLoginBtnTracking();
+</script>
+
+
+	
+
+
+
+
+
+
+
+
+
+
+<!-- 侧边栏组件 -->
+<div class="fixed-sidebar">
+    <div class="sidebar-item sidebar-item-download-app" data-action="download-app" title="下载App">
+        <div class="sidebar-icon-wrapper">
+            <img src="/static/images/sidebar/download-app-gray.svg" alt="下载App" class="sidebar-icon sidebar-icon-gray">
+            <img src="/static/images/sidebar/download-app.svg" alt="下载App" class="sidebar-icon sidebar-icon-active">
+        </div>
+        <span class="sidebar-text">下载App</span>
+        <div class="qr-tooltip">
+            <div class="qr-tooltip-content">
+                <div class="qr-code-area">
+                    <img src="/static/images/homepage/app_qrcode.png" alt="下载App二维码">
+                </div>
+                <p class="qr-tip">下载乙方宝App</p>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-item sidebar-item-follow-yfb" data-action="follow-yfb" title="关注乙方宝">
+        <div class="sidebar-icon-wrapper">
+            <img src="/static/images/sidebar/follow-yfb-gray.svg" alt="关注乙方宝" class="sidebar-icon sidebar-icon-gray">
+            <img src="/static/images/sidebar/follow-yfb.svg" alt="关注乙方宝" class="sidebar-icon sidebar-icon-active">
+        </div>
+        <span class="sidebar-text">关注乙方宝</span>
+        <div class="qr-tooltip">
+            <div class="qr-tooltip-content">
+                <div class="qr-code-area">
+                    <img src="https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQFd8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRWRwQk5Fa244V1AxMDAwMDAwN1MAAgSDElxaAwQAAAAA" alt="乙方宝二维码">
+                </div>
+                <p class="qr-tip">关注乙方宝公众号</p>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-item sidebar-item-download-client" data-action="download-client" title="下载客户端">
+        <div class="sidebar-icon-wrapper">
+            <img src="/static/images/sidebar/download-client-gray.svg" alt="下载客户端" class="sidebar-icon sidebar-icon-gray">
+            <img src="/static/images/sidebar/download-client.svg" alt="下载客户端" class="sidebar-icon sidebar-icon-active">
+        </div>
+        <span class="sidebar-text">下载客户端</span>
+        <div class="download-client-tooltip">
+            <div class="download-client-tooltip-content">
+                <div class="download-client-bg">
+                    <img src="/static/images/sidebar/download-client-bg.png" alt="下载客户端">
+                </div>
+                <a href="javascript:void(0);" class="download-client-btn" target="_blank">
+                    <img src="/static/images/sidebar/download-icon.svg" alt="下载" class="download-icon">
+                    下载客户端
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-item sidebar-item-consult" data-action="enterprise-consult" title="企业咨询">
+        <div class="sidebar-icon-wrapper">
+            <img src="/static/images/sidebar/enterprise-consult-gray.svg" alt="企业咨询" class="sidebar-icon sidebar-icon-gray">
+            <img src="/static/images/sidebar/enterprise-consult.svg" alt="企业咨询" class="sidebar-icon sidebar-icon-active">
+        </div>
+        <span class="sidebar-text">企业咨询</span>
+        <div class="consult-tooltip">
+            <div class="consult-tooltip-content">
+                客服热线: <a href="tel:400-055-2000">400-055-2000</a>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-item sidebar-item-feedback" data-action="feedback" title="意见反馈">
+        <div class="sidebar-icon-wrapper">
+            <img src="/static/images/sidebar/feedback-gray.svg" alt="意见反馈" class="sidebar-icon sidebar-icon-gray">
+            <img src="/static/images/sidebar/feedback.svg" alt="意见反馈" class="sidebar-icon sidebar-icon-active">
+        </div>
+        <span class="sidebar-text">意见反馈</span>
+        <div class="feedback-tooltip" style="display: none;">
+            <div class="feedback-tooltip-content">
+                <div class="feedback-tooltip-header">
+                    <span>意见征集</span>
+                    <span class="feedback-close">×</span>
+                </div>
+                <form class="feedback-form" id="feedbackForm">
+                    <div class="feedback-form-item">
+                        <label class="feedback-label">请输入您的联系电话 <span class="required">(必填)</span></label>
+                        <input type="text" class="feedback-input" name="phone" placeholder="留下电话,我们将尽快为您解决" maxlength="11">
+                    </div>
+                    <div class="feedback-form-item">
+                        <label class="feedback-label">请选择您反馈的问题类型 <span class="required">(必填)</span></label>
+                        <div class="feedback-radio-group">
+                            <label class="feedback-radio">
+                                <input type="radio" name="problemType" value="system" checked>
+                                <span>系统问题</span>
+                            </label>
+                            <label class="feedback-radio">
+                                <input type="radio" name="problemType" value="suggestion">
+                                <span>功能建议</span>
+                            </label>
+                            <label class="feedback-radio">
+                                <input type="radio" name="problemType" value="other">
+                                <span>其他问题</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="feedback-form-item">
+                        <label class="feedback-label">请描述您遇到的问题或建议,谢谢!</label>
+                        <div class="feedback-textarea-wrapper">
+                            <textarea class="feedback-textarea" name="description" placeholder="请输入您的意见或建议..." rows="5" maxlength="500"></textarea>
+                            <span class="feedback-char-count">0/500</span>
+                        </div>
+                    </div>
+                    <div class="feedback-actions">
+                        <button type="button" class="feedback-submit">提交</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-item" data-action="back-to-top" title="回到顶部">
+        <div class="sidebar-icon-wrapper">
+            <img src="/static/images/sidebar/back-to-top-gray.svg" alt="回到顶部" class="sidebar-icon sidebar-icon-gray">
+            <img src="/static/images/sidebar/back-to-top.svg" alt="回到顶部" class="sidebar-icon sidebar-icon-active">
+        </div>
+        <span class="sidebar-text">回到顶部</span>
+    </div>
+</div>
+
+<script>
+$(document).ready(function() {
+    // 检测操作系统
+    function detectOS() {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        var platform = navigator.platform || '';
+        var os = '';
+        var architecture = '';
+        
+        // 检测操作系统
+        if (/Win64|x64|WOW64/i.test(platform) || /Win64|x64|WOW64/i.test(userAgent)) {
+            os = 'windows';
+            architecture = 'x64';
+        } else if (/Win32|Win16|WinCE/i.test(platform) || /Win32|Win16|WinCE/i.test(userAgent)) {
+            os = 'windows';
+            architecture = 'x86';
+        } else if (/Mac|Macintosh|MacIntel|MacPPC|Mac68K/i.test(platform) || /Mac|Macintosh|MacIntel|MacPPC|Mac68K/i.test(userAgent)) {
+            os = 'macos';
+        } else if (/Linux/i.test(platform) || /Linux/i.test(userAgent)) {
+            os = 'linux';
+        } else if (/Android/i.test(userAgent)) {
+            os = 'android';
+        } else if (/iPhone|iPad|iPod/i.test(userAgent)) {
+            os = 'ios';
+        }
+        
+        return { os: os, architecture: architecture };
+    }
+    
+    // 下载客户端点击事件
+    $('.download-client-btn').on('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        // 发送点击埋点
+        if (typeof sendBehaviorLog === 'function') {
+            sendBehaviorLog('click', {
+                type: '5200105201',
+                typeName: '点击-下载客户端浮窗'
+            });
+        }
+        
+        var systemInfo = detectOS();
+        var os = systemInfo.os;
+        var architecture = systemInfo.architecture;
+        
+        if (os === 'windows' && architecture === 'x64') {
+            // Windows x64 下载链接
+            window.open('https://yfb-file.oss-cn-hangzhou.aliyuncs.com/pc-desktop/win/%E4%B9%99%E6%96%B9%E5%AE%9D.exe?OSSAccessKeyId=LTAI5tDURGrQeeu1W1Wij2Ab&Expires=2042617723&Signature=MK%2B%2BKNQM1HxF6YtPs08yw8OsUYg%3D');
+        } else if (os === 'macos') {
+            // macOS 下载链接
+            window.open('https://yfb-file.oss-cn-hangzhou.aliyuncs.com/pc-desktop/mac/%E4%B9%99%E6%96%B9%E5%AE%9D.dmg?OSSAccessKeyId=LTAI5tDURGrQeeu1W1Wij2Ab&Expires=2042617689&Signature=0met%2FNLOkHF9CwwJ0dEalInhImk%3D');
+        } else {
+            // 其他操作系统，提示用户
+            alert('暂不支持您的操作系统，请访问官网下载');
+        }
+    });
+    
+    // 下载客户端浮窗曝光埋点
+    $('.sidebar-item-download-client').on('mouseenter', function() {
+        if (typeof sendBehaviorLog === 'function') {
+            sendBehaviorLog('exposure', {
+                type: '5200105303',
+                typeName: '曝光-下载客户端浮窗'
+            });
+        }
+    });
+    
+    // 企业咨询浮窗曝光埋点
+    $('.sidebar-item-consult').on('mouseenter', function() {
+        if (typeof sendBehaviorLog === 'function') {
+            sendBehaviorLog('exposure', {
+                type: '5200105304',
+                typeName: '曝光-企业咨询浮窗'
+            });
+        }
+    });
+    
+    // 下载App二维码曝光埋点
+    $('.sidebar-item-download-app').on('mouseenter', function() {
+        // 发送曝光埋点
+        if (typeof sendBehaviorLog === 'function') {
+            sendBehaviorLog('exposure', {
+                type: '5200105301',
+                typeName: '曝光-下载app二维码'
+            });
+        }
+    });
+    
+    // 关注乙方宝公众号二维码曝光埋点
+    $('.sidebar-item-follow-yfb').on('mouseenter', function() {
+        // 发送曝光埋点
+        if (typeof sendBehaviorLog === 'function') {
+            sendBehaviorLog('exposure', {
+                type: '5200105302',
+                typeName: '曝光-关注乙方宝公众号二维码'
+            });
+        }
+    });
+    
+    // 侧边栏功能点击事件
+    $('.sidebar-item').on('click', function(e) {
+        var action = $(this).data('action');
+        
+        // 企业咨询、下载客户端、下载App和关注乙方宝只显示hover提示，不显示弹窗
+        if (action === 'enterprise-consult' || action === 'download-client' || action === 'download-app' || action === 'follow-yfb') {
+            return;
+        }
+        
+        // 意见反馈点击显示/隐藏
+        if (action === 'feedback') {
+            e.stopPropagation(); // 阻止事件冒泡，避免触发document的click事件
+            var $feedbackTooltip = $('.sidebar-item-feedback .feedback-tooltip');
+            if ($feedbackTooltip.is(':visible')) {
+                $feedbackTooltip.hide();
+            } else {
+                // 发送点击埋点
+                if (typeof sendBehaviorLog === 'function') {
+                    sendBehaviorLog('click', {
+                        type: '5200105202',
+                        typeName: '点击-意见反馈'
+                    });
+                }
+                $feedbackTooltip.show();
+            }
+            return false;
+        }
+        
+        if (action === 'back-to-top') {
+            // 发送点击埋点
+            if (typeof sendBehaviorLog === 'function') {
+                sendBehaviorLog('click', {
+                    type: '5200105205',
+                    typeName: '点击-右侧回到顶部按钮'
+                });
+            }
+            
+            // 回到顶部
+            $('html, body').animate({
+                scrollTop: 0
+            }, 500);
+        } else {
+            // 显示对应的弹窗
+            $('.sidebar-popup').hide();
+            var popupClass = action + '-popup';
+            $('.' + popupClass).show();
+        }
+    });
+
+
+    // 意见反馈关闭按钮
+    $('.feedback-close').on('click', function(e) {
+        e.stopPropagation();
+        
+        // 发送点击埋点
+        if (typeof sendBehaviorLog === 'function') {
+            sendBehaviorLog('click', {
+                type: '5200105204',
+                typeName: '点击-意见反馈弹窗-关闭'
+            });
+        }
+        
+        $('.feedback-tooltip').hide();
+    });
+
+    // 意见反馈字符计数
+    $('.feedback-textarea').on('input', function() {
+        var length = $(this).val().length;
+        $('.feedback-char-count').text(length + '/500');
+    });
+
+    // 意见反馈提交
+    $('.feedback-submit').on('click', function() {
+        var phone = $('.feedback-input[name="phone"]').val().trim();
+        var problemType = $('input[name="problemType"]:checked').val();
+        var description = $('.feedback-textarea[name="description"]').val().trim();
+        
+        // 验证必填项
+        if (!phone) {
+            alert('请输入您的联系电话');
+            $('.feedback-input[name="phone"]').focus();
+            return;
+        }
+        
+        // 验证手机号格式
+        var phoneReg = /^1[3-9]\d{9}$/;
+        if (!phoneReg.test(phone)) {
+            alert('请输入正确的手机号码');
+            $('.feedback-input[name="phone"]').focus();
+            return;
+        }
+        
+        if (!problemType) {
+            alert('请选择问题类型');
+            return;
+        }
+        
+        // 映射问题类型：system -> 1, suggestion -> 2, other -> 3
+        var optionMap = {
+            'system': 1,
+            'suggestion': 2,
+            'other': 3
+        };
+        var option = optionMap[problemType];
+        
+        // 发送点击埋点
+        if (typeof sendBehaviorLog === 'function') {
+            sendBehaviorLog('click', {
+                type: '5200105203',
+                typeName: '点击-意见反馈弹窗-提交',
+                value: {
+                    phone: phone,
+                    question_type: problemType,
+                    text: description || ''
+                }
+            });
+        }
+        
+        // 提交反馈到后端
+        var $submitBtn = $(this);
+        $submitBtn.prop('disabled', true).text('提交中...');
+        
+        $.ajax({
+            url: '/solicitation',
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify({
+                phone: phone,
+                option: option,
+                content: description || ''
+            }),
+            success: function(response) {
+                if (response === 'success') {
+                    alert('感谢您的反馈！');
+                    $('#feedbackForm')[0].reset();
+                    $('.feedback-char-count').text('0/500');
+                    $('.feedback-tooltip').hide();
+                } else {
+                    alert('提交失败，请稍后重试');
+                }
+            },
+            error: function(xhr, status, error) {
+                console.error('提交反馈失败:', error);
+                alert('提交失败，请稍后重试');
+            },
+            complete: function() {
+                $submitBtn.prop('disabled', false).text('提交');
+            }
+        });
+    });
+    
+    // 点击页面其他地方关闭意见反馈
+    $(document).on('click.feedback', function(e) {
+        var $target = $(e.target);
+        // 如果点击的不是意见反馈按钮和提示框内部，则关闭
+        if (!$target.closest('.sidebar-item-feedback').length && !$target.closest('.feedback-tooltip').length) {
+            $('.feedback-tooltip').hide();
+        }
+    });
+    
+    // 阻止意见反馈框内部点击事件冒泡
+    $('.feedback-tooltip').on('click', function(e) {
+        e.stopPropagation();
+    });
+});
+</script>
+
+
+	
+    
+
+
+
+
+
+
+
+
+
+
+<style>
+    /* 搜索区域样式 */
+    .search-section {
+        position: sticky;
+        left: 0;
+        right: 0;
+        top: 40px;
+        z-index: 999;
+        background: white;
+        padding: 30px 0 20px;
+    }
+
+    .search-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* 搜索内容区域 - Logo和搜索在同一行 */
+    .search-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        gap: 40px;
+        -webkit-box-align: start;
+        -ms-flex-align: flex-start;
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+    }
+
+    /* Logo区域 */
+    .search-logo-area {
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        width: 198px;
+        height: 80px;
+        margin-right: 60px;
+    }
+
+    .logo-image {
+        height: 80px;
+        display: block;
+    }
+
+    .search-main {
+        -ms-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+    }
+
+    .search-tabs {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        gap: 0;
+    }
+
+    .search-tab {
+        font-size: 12px;
+        padding: 6px 24px;
+        color: #4C4C4C;
+        cursor: pointer;
+        background: white;
+        border: none;
+        transition: all 0.3s ease;
+        white-space: nowrap;
+    }
+    .search-tab:nth-child(1){
+       padding: 6px 24px 6px 12px;
+    }
+    .search-tab:nth-child(5){
+       padding: 6px 12px 6px 24px;
+    }
+    .search-tab:hover {
+        color: #337DFF;
+    }
+
+    .search-tab.active {
+        background: url('/static/images/homepage/search_bg_center.png') no-repeat;
+        background-size: 100% 100%;
+        color: white;
+        font-weight: 500;
+        background-position-y: 1px;
+    }
+
+    .search-tab:nth-child(1).active {
+        background: url('/static/images/homepage/search_bg_left.png') no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .search-tab:nth-child(5).active{
+        background: url('/static/images/homepage/search_bg_right.png') no-repeat;
+        background-size: 100% 100%;
+    }
+
+    /* 搜索框容器 - 覆盖全局样式 */
+    .search-section .search-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        height: 36px;
+        margin-bottom: 8px;
+        overflow: hidden;
+        border: 1px solid #337DFF;
+        border-radius: 4px;
+    }
+
+    /* 当第一个tab激活时，输入框左上角为直角 */
+    .search-section .search-box.first-tab-active {
+        border-top-left-radius: 0;
+    }
+
+    /* 搜索输入框 - 覆盖全局样式 */
+    .search-section .search-input {
+        -ms-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+        padding: 0 16px;
+        border: none;
+        border-radius: 0;
+        font-size: 14px;
+        outline: none;
+        background: white;
+        height: 36px;
+        line-height: 36px;
+        box-sizing: border-box;
+    }
+
+    /* 搜索按钮 - 覆盖全局样式 */
+    .search-section .search-button {
+        background: #337DFF;
+        color: white;
+        border: none;
+        padding: 0 32px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        white-space: nowrap;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        text-decoration: none;
+        height: 36px;
+        line-height: 36px;
+    }
+
+    .search-section .search-button:hover {
+        background: #1e6fd9;
+    }
+
+    .search-section .search-icon {
+        color: white;
+    }
+
+    .hot-search {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .hot-search-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        font-size: 14px;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .hot-search .hot-search-title{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        gap: 4px;
+        color: #191919;
+        font-weight: 500;
+    }
+
+    .hot-search .hot-search-list a {
+        color: #4C4C4C;
+        cursor: pointer;
+        transition: color 0.2s ease;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+
+    .hot-search .hot-search-list a:hover {
+        color: #337DFF;
+    }
+
+    .hot-search-icon {
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+    }
+</style>
+
+<!-- 搜索区域 -->
+<section class="search-section">
+    <div class="search-container">
+        <div class="search-content">
+            <!-- Logo区域 -->
+            <a href="/" class="search-logo-area">
+                <img src="/static/images/homepage/logo.png" alt="乙方宝，全国招投标政府采购信息平台" class="logo-image">
+            </a>
+            <!-- 搜索主区域 -->
+            <div class="search-main">
+                <!-- 搜索标签 -->
+                <div class="search-tabs">
+                    <div class="search-tab" data-keyword="招标信息" data-url="/search/invitedBidSearch?defaultSearch=true" page-name="/search/invitedBidSearch">招标信息</div>
+                    <div class="search-tab" data-keyword="中标信息" data-url="/search/winBidSearch?defaultSearch=true" page-name="/search/winBidSearch">中标信息</div>
+                    <div class="search-tab" data-keyword="采购意向" data-url="/procurement-intention/list/page/1.html" page-name="/procurement-intention/list/page/1.html">采购意向</div>
+                    <div class="search-tab" data-keyword="拟在建" data-url="/search/proposedProjectSearch?defaultSearch=true" page-name="/search/proposedProjectSearch">拟在建</div>
+                    <div class="search-tab" data-keyword="直采信息" data-url="/zhicai/" page-name="/zhicai">直采信息</div>
+                </div>
+                <!-- 搜索框 -->
+                <div class="search-box">
+                    <input type="text" class="search-input" id="globalSearchInput" placeholder="请输入您要查询的内容" autocomplete="off" maxlength="30">
+                    <a class="search-button" id="globalSearchButton" href="javascript:;"><span class="search-icon">搜索</span></a>
+                </div>
+                <!-- 热门搜索 -->
+                <div class="hot-search">
+                    <div class="hot-search-title">
+                        <img src="/static/images/homepage/hot_search.svg" alt="热门" class="hot-search-icon">
+                        热门搜索：
+                    </div>
+                    <div class="hot-search-list" id="hotKeywordsContainer">
+                        <a href="/search/invitedBidSearch?defaultSearch=true&keyword=建设工程" class="hot-keyword-link">建设工程</a>
+                        <a href="/search/invitedBidSearch?defaultSearch=true&keyword=建筑" class="hot-keyword-link">建筑</a>
+                        <a href="/search/invitedBidSearch?defaultSearch=true&keyword=房地产" class="hot-keyword-link">房地产</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    // 根据URL设置激活的标签
+    function setActiveTabByUrl() {
+        var currentUrl = window.location.pathname;
+        var tabs = document.querySelectorAll('.search-section .search-tab');
+        var hasActiveTab = false;
+        // 遍历所有标签，根据URL匹配设置active状态
+        tabs.forEach(function(tab) {
+            var pageName = tab.getAttribute('page-name');
+            var isActive = false;
+            if (pageName && currentUrl.indexOf(pageName) >= 0) {
+                isActive = true;
+            }
+            if (isActive) {
+                tab.classList.add('active');
+                hasActiveTab = true;
+            } else {
+                tab.classList.remove('active');
+            }
+        });
+        // 如果没有任何标签激活，默认激活第一个（招标信息）
+        if (!hasActiveTab && tabs.length > 0) {
+            tabs[0].classList.add('active');
+        }
+    }
+    // 更新搜索框圆角样式
+    function updateSearchBoxRadius() {
+        var searchBox = document.querySelector('.search-section .search-box');
+        var firstTab = document.querySelector('.search-section .search-tabs .search-tab:nth-child(1)');
+        if (searchBox && firstTab) {
+            if (firstTab.classList.contains('active')) {
+                searchBox.classList.add('first-tab-active');
+            } else {
+                searchBox.classList.remove('first-tab-active');
+            }
+        }
+    }
+    function initSearchTab() {
+        // 监听标签点击
+        document.querySelectorAll('.search-tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                // 获取标签文本
+                var tabText = this.textContent.trim() || '';
+                
+                // 发送点击埋点
+                if (typeof sendBehaviorLog === 'function') {
+                    sendBehaviorLog('click', {
+                        type: '5200201201',
+                        typeName: '点击-搜索框上方-信息类型切换',
+                        value: {
+                            tab: tabText
+                        }
+                    });
+                }
+                
+                // 移除所有active类
+                document.querySelectorAll('.search-tab').forEach(t => {
+                    t.classList.remove('active');
+                });
+                // 添加active类到当前标签
+                this.classList.add('active');
+                // 更新搜索框圆角样式
+                updateSearchBoxRadius();
+                const url = this.getAttribute('data-url');
+                if (url) {
+                    const basePath = '';
+                    window.location.href = basePath + url;
+                }
+            });
+        });
+    }
+    // 发送搜索按钮点击埋点
+    function sendSearchButtonTracking() {
+        var searchInput = document.getElementById('globalSearchInput');
+        
+        // 获取搜索关键词
+        var keyword = searchInput ? searchInput.value.trim() : '';
+        
+        // 获取当前激活的搜索标签（信息类型）
+        var activeTab = document.querySelector('.search-section .search-tab.active');
+        if (!activeTab) {
+            activeTab = document.querySelector('.search-section .search-tab');
+        }
+        var msgType = activeTab ? activeTab.textContent.trim() : '';
+        
+        // 获取当前城市的areaId
+        var areaId = '';
+        
+        // 方式1：从URL查询参数中获取 provinceId（优先，最直接）
+        var urlParams = new URLSearchParams(window.location.search);
+        var provinceId = urlParams.get('provinceId');
+        if (provinceId) {
+            areaId = provinceId;
+        } else {
+            // 方式2：从URL路径匹配城市链接
+            var currentPath = window.location.pathname;
+            var cityLinks = document.querySelectorAll('.area-dropdown-content a');
+            for (var i = 0; i < cityLinks.length; i++) {
+                var href = cityLinks[i].getAttribute('href');
+                if (href && currentPath.indexOf(href.replace('', '')) >= 0) {
+                    areaId = cityLinks[i].getAttribute('areaId') || '';
+                    break;
+                }
+            }
+        }
+        
+        // 发送点击埋点
+        if (typeof sendBehaviorLog === 'function') {
+            sendBehaviorLog('click', {
+                type: '5200201203',
+                typeName: '点击-搜索框-搜索按钮',
+                value: {
+                    keyword: keyword,
+                    msgType: msgType,
+                    areaId: areaId
+                }
+            });
+        }
+    }
+    
+    // 初始化搜索功能
+    function initSearchFunction() {
+        var searchButton = document.getElementById('globalSearchButton');
+        var searchInput = document.getElementById('globalSearchInput');
+        
+        if (!searchButton || !searchInput) {
+            return;
+        }
+        
+        // 搜索框获取焦点埋点
+        searchInput.addEventListener('focus', function() {
+            // 发送点击埋点
+            if (typeof sendBehaviorLog === 'function') {
+                sendBehaviorLog('click', {
+                    type: '5200201202',
+                    typeName: '点击-搜索框'
+                });
+            }
+        });
+        
+        // 搜索按钮点击事件
+        searchButton.addEventListener('click', function(e) {
+            e.preventDefault();
+            sendSearchButtonTracking();
+            performGlobalSearch();
+        });
+        
+        // 输入框回车事件
+        searchInput.addEventListener('keypress', function(event) {
+            if (event.keyCode === 13 || event.which === 13) {
+                event.preventDefault();
+                sendSearchButtonTracking();
+                performGlobalSearch();
+            }
+        });
+    }
+    
+    // 执行全局搜索 - 暴露到全局作用域，供其他脚本调用
+    window.performGlobalSearch = function() {
+        var searchInput = document.getElementById('globalSearchInput');
+        var keyword = searchInput ? searchInput.value.trim() : '';
+        
+        if (!keyword) {
+            return;
+        }
+        
+        // 获取当前激活的搜索标签
+        var activeTab = document.querySelector('.search-section .search-tab.active');
+        if (!activeTab) {
+            // 如果没有激活的标签，默认使用第一个（招标信息）
+            activeTab = document.querySelector('.search-section .search-tab');
+        }
+        
+        var basePath = '' || '';
+        var encodedKeyword = encodeURIComponent(keyword);
+        var searchUrl = '';
+        
+        if (activeTab) {
+            // 根据激活的标签构建搜索URL
+            var dataUrl = activeTab.getAttribute('data-url');
+            var dataKeyword = activeTab.getAttribute('data-keyword');
+            
+            if (dataUrl) {
+                // 如果URL中包含keyword参数，替换它；否则添加keyword参数
+                if (dataUrl.indexOf('keyword=') >= 0) {
+                    searchUrl = dataUrl.replace(/keyword=[^&]*/, 'keyword=' + encodedKeyword);
+                } else {
+                    var separator = dataUrl.indexOf('?') >= 0 ? '&' : '?';
+                    searchUrl = dataUrl + separator + 'keyword=' + encodedKeyword;
+                }
+                // 确保有defaultSearch参数
+                if (searchUrl.indexOf('defaultSearch=') < 0) {
+                    separator = searchUrl.indexOf('?') >= 0 ? '&' : '?';
+                    searchUrl = searchUrl + separator + 'defaultSearch=true';
+                }
+                window.location.href = basePath + searchUrl;
+            } else {
+                // 降级方案：默认跳转到招标信息搜索
+                window.location.href = basePath + '/search/invitedBidSearch?defaultSearch=true&keyword=' + encodedKeyword;
+            }
+        } else {
+            // 降级方案：默认跳转到招标信息搜索
+            window.location.href = basePath + '/search/invitedBidSearch?defaultSearch=true&keyword=' + encodedKeyword;
+        }
+    };
+    
+    // 加载热门关键词
+    function loadHotKeywords() {
+        var container = document.getElementById('hotKeywordsContainer');
+        if (!container) {
+            return;
+        }
+        // 调用接口获取热门关键词
+        fetch('/homepage/hot/keywords/list')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('网络响应错误: ' + response.status);
+                }
+                return response.json();
+            })
+            .then(result => {
+                // 检查返回数据结构并处理
+                var keywordsList = [];
+                if (result && result.data && Array.isArray(result.data) && result.data.length > 0) {
+                    container.innerHTML = '';
+                    // 如果返回的是数组
+                    keywordsList = result.data;
+                    keywordsList.forEach(function(keyword) {
+                        var link = document.createElement('a');
+                        link.className = 'hot-keyword-link';
+                        link.textContent = keyword;
+                        link.href = ctx + '/search/invitedBidSearch?defaultSearch=true&keyword=' + encodeURIComponent(keyword);
+                        container.appendChild(link);
+                    });
+                }
+            })
+            .catch(error => {
+                console.error('加载热门关键词失败:', error);
+                // 接口调用失败时，保持默认显示（已经在上面添加了）
+            });
+    }
+    
+    // 初始化热门搜索词点击埋点
+    function initHotKeywordTracking() {
+        var hotKeywordsContainer = document.getElementById('hotKeywordsContainer');
+        if (!hotKeywordsContainer) {
+            return;
+        }
+        
+        // 使用事件委托，监听容器内所有热门搜索词的点击
+        hotKeywordsContainer.addEventListener('click', function(e) {
+            var target = e.target;
+            // 确保点击的是热门搜索词链接
+            if (target.classList.contains('hot-keyword-link')) {
+                // 获取搜索关键词
+                var keyword = target.textContent.trim() || '';
+                
+                // 获取当前激活的搜索标签（信息类型）
+                var activeTab = document.querySelector('.search-section .search-tab.active');
+                if (!activeTab) {
+                    activeTab = document.querySelector('.search-section .search-tab');
+                }
+                var msgType = activeTab ? activeTab.textContent.trim() : '';
+                
+                // 发送点击埋点
+                if (typeof sendBehaviorLog === 'function') {
+                    sendBehaviorLog('click', {
+                        type: '5200201204',
+                        typeName: '点击-搜索框下方-热门搜索词',
+                        value: {
+                            keyword: keyword,
+                            msgType: msgType
+                        }
+                    });
+                }
+            }
+        });
+    }
+    
+    // 乙方宝logo点击埋点
+    function initYFBLogoTracking() {
+        $('.search-logo-area').on('click', function(e) {
+            // 发送点击埋点
+            if (typeof sendBehaviorLog === 'function') {
+                sendBehaviorLog('click', {
+                    type: '5200201205',
+                    typeName: '点击-乙方宝logo'
+                });
+            }
+        });
+    }
+    setActiveTabByUrl();
+    updateSearchBoxRadius();
+    initSearchTab();
+    // 初始化搜索功能
+    initSearchFunction();
+    // 初始化热门搜索词点击埋点
+    initHotKeywordTracking();
+    // 页面加载完成后加载热门关键词
+    loadHotKeywords();
+    // 乙方宝logo点击埋点
+    initYFBLogoTracking();
+</script>
+
+
+<div class="wrapper" id="specialContent">
+        <div class="navv"><img src="/static/images/location.png"/>当前位置：<a href="/">首页</a>
+            > 中标信息
+        </div>
+        <div class="wrapper-content wrapper-content-self">
+            <div class="wrapper-content-left all-width">
+                <div class="wrapper-content-left-position">
+                    <ul class="search-nav-link clearfix" id="J_main_nav_link">
+                        <li><a tracker-tap="index_click_channel"  href="/search/invitedBidSearch?defaultSearch=true" target="_self" class="main-nav-atag ">招标信息</a></li>
+                        <li class="active"><a tracker-tap="index_click_channel"  href="/search/winBidSearch?defaultSearch=true" target="_self" class="main-nav-atag ">中标信息</a></li>
+                        <li><a tracker-tap="index_click_channel" href="/procurement-intention/list/page/1.html" target="_self" class="main-nav-atag ">采购意向</a></li>
+                        <li><a tracker-tap="index_click_channel"  href="/search/proposedProjectSearch?defaultSearch=true" target="_self" class="main-nav-atag ">拟建项目</a></li>
+                        <li><a tracker-tap="index_click_channel"  href="/zhicai/" target="_self" class="main-nav-atag">直采信息</a></li>
+                    </ul>
+                    
+                    
+                    
+                        <div class="count wrapper-content-left-count">已为您找到<span class="time">近1个月</span><b style="color: red"></b>相关的中标信息<b style="color: #2684FF">3294373条</b></div>
+                    
+                </div>
+                <div class="wrapper-search-top">
+                    <form id="searchForm" action="/search/winBidSearch" method="get">
+                        <input name="type" type="hidden" value="0"/>
+                        <input name="defaultSearch" type="hidden" value="false"/>
+                        <input name="keyword" type="hidden" value=""/>
+                        <input id="pageNo" name="pageNo" type="hidden" value="1"/>
+                        <input id="pageSize" name="pageSize" type="hidden" value="30"/>
+                        <div class="select-block clearfix">
+                            <label class="select-block-label">已选条件：</label>
+                            <div class="select-block-div select-block-div-list">
+                            </div>
+                            <div class="clear-selected-list"><img src="/static/images/yfb/clear-items.png"/>清空地区</div>
+                        </div>
+                        <div class="select-block select-province-block clearfix" style="margin-bottom: 6px;">
+                            <label class="select-block-label">项目地区：</label>
+                            <div class="select-block-div select-block-province-div select-block-div-area select-block-div-hasSelect all-width">
+                                <label><input type="checkbox" name="provinceId" value="2703" data-name="全国"/>全国</label>
+                                <label><input type="checkbox" name="provinceId" value="1" data-name="安徽">安徽</label>
+                                <label><input type="checkbox" name="provinceId" value="2" data-name="北京"/>北京</label>
+                                <label><input type="checkbox" name="provinceId" value="31" data-name="重庆"/>重庆</label>
+                                <label><input type="checkbox" name="provinceId" value="3" data-name="福建"/>福建</label>
+                                <label><input type="checkbox" name="provinceId" value="4" data-name="甘肃"/>甘肃</label>
+                                <label><input type="checkbox" name="provinceId" value="5" data-name="广东"/>广东</label>
+                                <label><input type="checkbox" name="provinceId" value="6" data-name="广西"/>广西</label>
+                                <label><input type="checkbox" name="provinceId" value="7" data-name="贵州"/>贵州</label>
+                                <label><input type="checkbox" name="provinceId" value="8" data-name="海南"/>海南</label>
+                                <label><input type="checkbox" name="provinceId" value="9" data-name="河北"/>河北</label>
+                                <label><input type="checkbox" name="provinceId" value="10" data-name="河南"/>河南</label>
+                                <label><input type="checkbox" name="provinceId" value="11" data-name="黑龙江"/>黑龙江</label>
+                                <label><input type="checkbox" name="provinceId" value="12" data-name="湖北"/>湖北</label>
+                                <label><input type="checkbox" name="provinceId" value="13" data-name="湖南"/>湖南</label>
+                                <label><input type="checkbox" name="provinceId" value="14" data-name="吉林"/>吉林</label>
+                                <label><input type="checkbox" name="provinceId" value="15" data-name="江苏"/>江苏</label>
+                                <label><input type="checkbox" name="provinceId" value="16" data-name="江西"/>江西</label>
+                                <label><input type="checkbox" name="provinceId" value="17" data-name="辽宁"/>辽宁</label>
+                                <label><input type="checkbox" name="provinceId" value="18" data-name="内蒙古"/>内蒙古</label>
+                                <label><input type="checkbox" name="provinceId" value="19" data-name="宁夏"/>宁夏</label>
+                                <label><input type="checkbox" name="provinceId" value="20" data-name="青海"/>青海</label>
+                                <label><input type="checkbox" name="provinceId" value="21" data-name="山东"/>山东</label>
+                                <label><input type="checkbox" name="provinceId" value="22" data-name="山西"/>山西</label>
+                                <label><input type="checkbox" name="provinceId" value="23" data-name="陕西"/>陕西</label>
+                                <label><input type="checkbox" name="provinceId" value="24" data-name="上海"/>上海</label>
+                                <label><input type="checkbox" name="provinceId" value="25" data-name="四川"/>四川</label>
+                                <label><input type="checkbox" name="provinceId" value="26" data-name="天津"/>天津</label>
+                                <label><input type="checkbox" name="provinceId" value="27" data-name="西藏"/>西藏</label>
+                                <label><input type="checkbox" name="provinceId" value="28" data-name="新疆"/>新疆</label>
+                                <label><input type="checkbox" name="provinceId" value="29" data-name="云南"/>云南</label>
+                                <label><input type="checkbox" name="provinceId" value="30" data-name="浙江"/>浙江</label>
+                                <label><input type="checkbox" name="provinceId" value="3557" data-name="香港"/>香港</label>
+                                <label><input type="checkbox" name="provinceId" value="3558" data-name="澳门"/>澳门</label>
+                                <label><input type="checkbox" name="provinceId" value="3559" data-name="台湾"/>台湾</label>
+                                <label><div class="can-multiple-select">*可多选</div></label>
+                            </div>
+                        </div>
+                        <div class="select-block clearfix">
+                            <label class="select-block-label">中标类型：</label>
+                            <div class="select-block-div select-block-div-type select-block-div-hasSelect">
+                                <label class="cur"><input type="radio" name="winBidType" value="4" checked/>全部</label>
+                                <label><input type="radio" name="winBidType" value="0"/>采购中标</label>
+                                <label><input type="radio" name="winBidType" value="1"/>工程中标</label>
+                                <label><input type="radio" name="winBidType" value="2"/>服务中标</label>
+                                <label><input type="radio" name="winBidType" value="3"/>其他</label>
+                            </div>
+                        </div>
+                        <div class="select-block" style="display: none;">
+                            <label class="select-block-label">选择时间：</label>
+                            <div class="select-block-div select-block-div-time select-block-div-hasSelect">
+                                <label><input type="radio" name="timeType" value="4"/>全部</label>
+                                <label><input type="radio" name="timeType" value="0"/>近7日</label>
+                                <label class="cur"><input type="radio" name="timeType" value="1" checked/>近1个月</label>
+                                <label><input type="radio" name="timeType" value="2"/>近3个月</label>
+                                <label><input type="radio" name="timeType" value="3"/>近半年</label>
+                            </div>
+                        </div>
+                        <div class="select-block" style="display: none;">
+                            <label class="select-block-label">检索内容：</label>
+                            <div class="select-block-div select-block-div-content">
+                                <label><input type="radio" name="searchType" value="1"/>全文</label>
+                                <label class="cur"><input type="radio" name="searchType" value="2" checked/>标题</label>
+                            </div>
+                        </div>
+                        <div class="select-block" style="display: none;">
+                            <label class="select-block-label">检索模式：</label>
+                            <div class="select-block-div select-block-div-mode">
+                                <label class="cur"><input type="radio" name="searchMode" value="1" checked/>智能检索</label>
+                                <label><input type="radio" name="searchMode" value="2"/>精准检索</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+                    <div class="content-block-left wrapper-search-bottom">
+                    <div class="content-block-L-bottom content-block-L-bottom-one">
+                        <table id="treeTable" class="table table-bordered table-condensed table-hover">
+                            <thead>
+                            <tr>
+                                <th style="width:65%;">公告标题</th>
+                                <th style="width:10%;">公告类型</th>
+                                <th style="width:15%;">地区</th>
+                                <th style="width:10%;">发布时间</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121171.html" title="芯盾防护系统信创升级服务采购【ZBH】" target="_blank">芯盾防护系统信创升级服务采购【ZBH】</a>
+                                    </td>
+                                    <td class="text-align">其他</td>
+                                    <td class="text-align">福建厦门</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121172.html" title="2026年新一代票据业务系统仿真测试软件与查控系统仿真维保采购" target="_blank">2026年新一代票据业务系统仿真测试软件与查控系统仿真维保采购</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">福建厦门</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121161.html" title="南通市通州区先锋街道社区卫生服务中心热水改造项目中标候选人公示" target="_blank">南通市通州区先锋街道社区卫生服务中心热水改造项目中标候选人公示</a>
+                                    </td>
+                                    <td class="text-align">工程中标</td>
+                                    <td class="text-align">南通通州区</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121160.html" title="清远市清城区教育局壁挂式空调机(批量)电子卖场合同" target="_blank">清远市清城区教育局壁挂式空调机(批量)电子卖场合同</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">清远清城区</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121157.html" title="那巴10标询价低耗0226-询价公示" target="_blank">那巴10标询价低耗0226-询价公示</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">贵州贵阳</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121151.html" title="海洋工程与技术学院*集成电路*电子模块数显降压 模块中标通知" target="_blank">海洋工程与技术学院*集成电路*电子模块数显降压 模块中标通知</a>
+                                    </td>
+                                    <td class="text-align">其他</td>
+                                    <td class="text-align">广东中山</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121152.html" title="海洋工程与技术学院*导航遥控设备*遥控船 DIY推进器中标通知" target="_blank">海洋工程与技术学院*导航遥控设备*遥控船 DIY推进器中标通知</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">广东中山</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121153.html" title="海洋工程与技术学院*集成电路*电子模块数显降压 模块中标通知" target="_blank">海洋工程与技术学院*集成电路*电子模块数显降压 模块中标通知</a>
+                                    </td>
+                                    <td class="text-align">其他</td>
+                                    <td class="text-align">广东中山</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121154.html" title="海洋工程与技术学院*配电控制设备*一进二出快速接线端子中标通知" target="_blank">海洋工程与技术学院*配电控制设备*一进二出快速接线端子中标通知</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">广东中山</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121149.html" title="海洋工程与技术学院*电子元件*电子元器件舵机中标通知" target="_blank">海洋工程与技术学院*电子元件*电子元器件舵机中标通知</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">广东中山</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121150.html" title="海洋工程与技术学院*集成电路*电子模块降压模块中标通知" target="_blank">海洋工程与技术学院*集成电路*电子模块降压模块中标通知</a>
+                                    </td>
+                                    <td class="text-align">其他</td>
+                                    <td class="text-align">广东中山</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121148.html" title="海洋工程与技术学院*电子元件 *电子线中标通知" target="_blank">海洋工程与技术学院*电子元件 *电子线中标通知</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">广东中山</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121140.html" title="四川信息职业技术学院马克思主义学院新时代高校思政课实践教学方案暨全国高校“两个结合”青春践行主题作品摄制项目评审结果公告" target="_blank">四川信息职业技术学院马克思主义学院新时代高校思政课实践教学方案暨全国高校“两个结合”青春践行主题作品摄制项目评审结果公告</a>
+                                    </td>
+                                    <td class="text-align">工程中标</td>
+                                    <td class="text-align">四川广元</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121120.html" title="中国电建市政公司温州市域铁路S3线及附属配套工程 (瑞安段)SG4标项目K18+283.819～K19+803.819段管理养护设施工程采购项目 成交结果公示" target="_blank">中国电建市政公司温州市域铁路S3线及附属配套工程 (瑞安段)SG4标项目K18+283.819～K19+803.819段管理养护设施工程采购项目 成交结果公示</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">温州瑞安市</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121107.html" title="青河县青河镇人民政府关于宣传品制作服务的服务市场采购项目成交公告" target="_blank">青河县青河镇人民政府关于宣传品制作服务的服务市场采购项目成交公告</a>
+                                    </td>
+                                    <td class="text-align">服务中标</td>
+                                    <td class="text-align">阿勒泰地区青河县</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121109.html" title="克孜勒苏柯尔克孜自治州生态环境局关于其他维修和保养服务的服务市场采购项目成交公告" target="_blank">克孜勒苏柯尔克孜自治州生态环境局关于其他维修和保养服务的服务市场采购项目成交公告</a>
+                                    </td>
+                                    <td class="text-align">服务中标</td>
+                                    <td class="text-align">克孜勒苏柯尔克孜阿图什市</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121108.html" title="昭苏县乌尊布拉克镇人民政府关于沙/石的网上超市采购项目成交公告" target="_blank">昭苏县乌尊布拉克镇人民政府关于沙/石的网上超市采购项目成交公告</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">伊犁昭苏县</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121105.html" title="沙湾市中心敬老院关于新鲜蔬菜/蔬菜制品的网上超市采购项目成交公告" target="_blank">沙湾市中心敬老院关于新鲜蔬菜/蔬菜制品的网上超市采购项目成交公告</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">塔城地区沙湾县</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121081.html" title="广西森林资源保护中心综合楼楼顶钢框架塔楼除锈涂漆维修项目成交结果公告-采购公告" target="_blank">广西森林资源保护中心综合楼楼顶钢框架塔楼除锈涂漆维修项目成交结果公告-采购公告</a>
+                                    </td>
+                                    <td class="text-align">工程中标</td>
+                                    <td class="text-align">南宁青秀区</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121082.html" title="深圳市龙华区民治小学附属幼儿园采购代理机构遴选服务项目采购结果公示" target="_blank">深圳市龙华区民治小学附属幼儿园采购代理机构遴选服务项目采购结果公示</a>
+                                    </td>
+                                    <td class="text-align">其他</td>
+                                    <td class="text-align">深圳龙华区</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121070.html" title="防城港渔澫港区第四作业区货运门及疏港东大道工程空调设备采购项目结果公告-采购公告" target="_blank">防城港渔澫港区第四作业区货运门及疏港东大道工程空调设备采购项目结果公告-采购公告</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">广西南宁</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121065.html" title="中铁四局集团有限公司第一工程分公司合肥经开区集成电路产业园项目经理部电梯采购成交候选人公示" target="_blank">中铁四局集团有限公司第一工程分公司合肥经开区集成电路产业园项目经理部电梯采购成交候选人公示</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">合肥合肥</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121066.html" title="中铁四局集团有限公司第一工程分公司松长高速工程项目伸缩缝采购成交候选人公示" target="_blank">中铁四局集团有限公司第一工程分公司松长高速工程项目伸缩缝采购成交候选人公示</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">河北衡水</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121056.html" title="丰泥发运5#、8#趸船水下检验中标公告" target="_blank">丰泥发运5#、8#趸船水下检验中标公告</a>
+                                    </td>
+                                    <td class="text-align">其他</td>
+                                    <td class="text-align">重庆丰都县</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121049.html" title="于田县科克亚乡人民政府的合同公告" target="_blank">于田县科克亚乡人民政府的合同公告</a>
+                                    </td>
+                                    <td class="text-align">其他</td>
+                                    <td class="text-align">和田于田县</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613120922.html" title="2026年安吉县白蚁防治（二）1-5标段采购项目合同" target="_blank">2026年安吉县白蚁防治（二）1-5标段采购项目合同</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">湖州安吉县</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121041.html" title="中新苏滁高新技术产业开发区第一小学关于淀粉及淀粉制品的网上超市采购项目合同履约验收公告" target="_blank">中新苏滁高新技术产业开发区第一小学关于淀粉及淀粉制品的网上超市采购项目合同履约验收公告</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">安徽滁州</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613121040.html" title="中新苏滁高新技术产业开发区第一小学关于新鲜水果的网上超市采购项目合同履约验收公告" target="_blank">中新苏滁高新技术产业开发区第一小学关于新鲜水果的网上超市采购项目合同履约验收公告</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">安徽滁州</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613120962.html" title="中标候选人公示" target="_blank">中标候选人公示</a>
+                                    </td>
+                                    <td class="text-align">其他</td>
+                                    <td class="text-align">山东日照</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                                <tr class="noRead">
+                                    <td style="padding:0px;">
+                                        <a class="firstTdAAA" href="/winbid/detail/20260711_613120906.html" title="钢爪熔铸焊设备收尘系统整改升级项目【重新采购】谈判采购-候选人公示" target="_blank">钢爪熔铸焊设备收尘系统整改升级项目【重新采购】谈判采购-候选人公示</a>
+                                    </td>
+                                    <td class="text-align">采购中标</td>
+                                    <td class="text-align">贵州黔西南</td>
+                                    <td class="text-align">2026/07/11</td>
+                            </tr>
+                            
+                            </tbody>
+                        </table>
+                        <div class="pagination"><ul>
+<li class="disabled"><a href="javascript:">上一页</a></li>
+<li class="active"><a href="http://www.yfbzb.com/search/winBidSearch&pageNo=1&pageSize=30">1</a></li>
+<li><a href="http://www.yfbzb.com/search/winBidSearch&pageNo=2&pageSize=30" onclick="page(2,30,'');return false;">2</a></li>
+<li><a href="http://www.yfbzb.com/search/winBidSearch&pageNo=3&pageSize=30" onclick="page(3,30,'');return false;">3</a></li>
+<li><a href="http://www.yfbzb.com/search/winBidSearch&pageNo=4&pageSize=30" onclick="page(4,30,'');return false;">4</a></li>
+<li><a href="http://www.yfbzb.com/search/winBidSearch&pageNo=5&pageSize=30" onclick="page(5,30,'');return false;">5</a></li>
+<li><a href="http://www.yfbzb.com/search/winBidSearch&pageNo=6&pageSize=30" onclick="page(6,30,'');return false;">6</a></li>
+<li><a href="http://www.yfbzb.com/search/winBidSearch&pageNo=7&pageSize=30" onclick="page(7,30,'');return false;">7</a></li>
+<li><a href="http://www.yfbzb.com/search/winBidSearch&pageNo=8&pageSize=30" onclick="page(8,30,'');return false;">8</a></li>
+<li class="disabled"><a href="http://www.yfbzb.com/search/winBidSearch">...</a></li>
+<li><a href="http://www.yfbzb.com/search/winBidSearch&pageNo=100&pageSize=30" onclick="page(100,30,'');return false;">100</a></li>
+<li><a href="http://www.yfbzb.com/search/winBidSearch&pageNo=2&pageSize=30" onclick="page(2,30,'');return false;">下一页</a></li>
+<li class="disabled controls"><a href="http://www.yfbzb.com/search/winBidSearch">当前 <input type="text" value="1" onkeypress="var e=window.event||event;var c=e.keyCode||e.which;if(c==13)page(this.value,30,'');" onclick="this.select();"/> / <input type="text" value="30" onkeypress="var e=window.event||event;var c=e.keyCode||e.which;if(c==13)page(1,this.value,'');" onclick="this.select();"/> 条，共 3000 条</a></li>
+</ul>
+<div style="clear:both;"></div></div>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="yfb-link-content-block">
+                    <div class="yfb-link-content-block-left">
+                        <div class="yfb-link-content-block-top">
+                            <span class="active" data-index="01">乙方宝全国招标网</span>
+                            <span data-index="02">全国政府采购网</span>
+                            <span data-index="03">全国公共资源交易中心</span>
+                        </div>
+                        <div class="yfb-link-content-block-bottom">
+                            <dl class="all-city-zhaobiao clearfix yfb-link-01" style="display:block;">
+                                <dd data-id="24" data-pinyin="shanghai"><a href="/shanghai/" title="上海">上海招标网</a></dd>
+                                <dd data-id="15" data-pinyin="jiangsu"><a href="/jiangsu/" title="江苏">江苏招标网</a></dd>
+                                <dd data-id="30" data-pinyin="zhejiang"><a href="/zhejiang/" title="浙江">浙江招标网</a></dd>
+                                <dd data-id="1" data-pinyin="anhui"><a href="/anhui/" title="安徽">安徽招标网</a></dd>
+                                <dd data-id="3" data-pinyin="fujian"><a href="/fujian/" title="福建">福建招标网</a></dd>
+                                <dd data-id="16" data-pinyin="jiangxi"><a href="/jiangxi/" title="江西">江西招标网</a></dd>
+                                <dd data-id="21" data-pinyin="shandong"><a href="/shandong/" title="山东">山东招标网</a></dd>
+                                <dd data-id="2" data-pinyin="beijing"><a href="/beijing/" title="北京">北京招标网</a></dd>
+                                <dd data-id="9" data-pinyin="hebei"><a href="/hebei/" title="河北">河北招标网</a></dd>
+                                <dd data-id="26" data-pinyin="tianjin"><a href="/tianjin/" title="天津">天津招标网</a></dd>
+                                <dd data-id="22" data-pinyin="shanxi"><a href="/shanxi/" title="山西">山西招标网</a></dd>
+                                <dd data-id="17" data-pinyin="liaoning"><a href="/liaoning/" title="辽宁">辽宁招标网</a></dd>
+                                <dd data-id="14" data-pinyin="jilin"><a href="/jilin/" title="吉林">吉林招标网</a></dd>
+                                <dd data-id="23" data-pinyin="sanxi"><a href="/sanxi/" title="陕西">陕西招标网</a></dd>
+                                <dd data-id="4" data-pinyin="gansu"><a href="/gansu/" title="甘肃">甘肃招标网</a></dd>
+                                <dd data-id="20" data-pinyin="qinghai"><a href="/qinghai/" title="青海">青海招标网</a></dd>
+                                <dd data-id="19" data-pinyin="ningxia"><a href="/ningxia/" title="宁夏">宁夏招标网</a></dd>
+                                <dd data-id="28" data-pinyin="xinjiang"><a href="/xinjiang/" title="新疆">新疆招标网</a></dd>
+                                <dd data-id="10" data-pinyin="henan"><a href="/henan/" title="河南">河南招标网</a></dd>
+                                <dd data-id="13" data-pinyin="hunan"><a href="/hunan/" title="湖南">湖南招标网</a></dd>
+                                <dd data-id="12" data-pinyin="hubei"><a href="/hubei/" title="湖北">湖北招标网</a></dd>
+                                <dd data-id="5" data-pinyin="guangdong"><a href="/guangdong/" title="广东">广东招标网</a></dd>
+                                <dd data-id="8" data-pinyin="hainan"><a href="/hainan/" title="海南">海南招标网</a></dd>
+                                <dd data-id="6" data-pinyin="guangxi"><a href="/guangxi/" title="广西">广西招标网</a></dd>
+                                <dd data-id="31" data-pinyin="chongqing"><a href="/chongqing/" title="重庆">重庆招标网</a></dd>
+                                <dd data-id="7" data-pinyin="guizhou"><a href="/guizhou/" title="贵州">贵州招标网</a></dd>
+                                <dd data-id="29" data-pinyin="yunnan"><a href="/yunnan/" title="云南">云南招标网</a></dd>
+                                <dd data-id="25" data-pinyin="sichuan"><a href="/sichuan/" title="四川">四川招标网</a></dd>
+                                <dd data-id="27" data-pinyin="xizang"><a href="/xizang/" title="西藏">西藏招标网</a></dd>
+                                <dd data-id="18" data-pinyin="neimenggu"><a href="/neimenggu/" title="内蒙古">内蒙古招标网</a></dd>
+                                <dd data-id="11" data-pinyin="heilongjiang"><a href="/heilongjiang/" title="黑龙江">黑龙江招标网</a></dd>
+                                <dd data-id="3557" data-pinyin="xianggang"><a href="/xianggang/" title="香港">香港招标网</a></dd>
+                                <dd data-id="3558" data-pinyin="aomen"><a href="/aomen/" title="澳门">澳门招标网</a></dd>
+                                <dd data-id="3559" data-pinyin="taiwan"><a href="/taiwan/" title="台湾">台湾招标网</a></dd>
+                            </dl>
+                            <dl class="all-city-zhaobiao clearfix yfb-link-02" style="display: none;">
+                                <dd data-id="24" data-pinyin="shanghai"><a href="/zbzt/32/24/" title="上海">上海政府采购网</a></dd>
+                                <dd data-id="15" data-pinyin="jiangsu"><a href="/zbzt/32/15/" title="江苏">江苏政府采购网</a></dd>
+                                <dd data-id="30" data-pinyin="zhejiang"><a href="/zbzt/32/1/" title="浙江">浙江政府采购网</a></dd>
+                                <dd data-id="1" data-pinyin="anhui"><a href="/zbzt/32/3/" title="安徽">安徽政府采购网</a></dd>
+                                <dd data-id="3" data-pinyin="fujian"><a href="/zbzt/32/3/" title="福建">福建政府采购网</a></dd>
+                                <dd data-id="16" data-pinyin="jiangxi"><a href="/zbzt/32/16/" title="江西">江西政府采购网</a></dd>
+                                <dd data-id="21" data-pinyin="shandong"><a href="/zbzt/32/21/" title="山东">山东政府采购网</a></dd>
+                                <dd data-id="2" data-pinyin="beijing"><a href="/zbzt/32/2/" title="北京">北京政府采购网</a></dd>
+                                <dd data-id="9" data-pinyin="hebei"><a href="/zbzt/32/9/" title="河北">河北政府采购网</a></dd>
+                                <dd data-id="26" data-pinyin="tianjin"><a href="/zbzt/32/26/" title="天津">天津政府采购网</a></dd>
+                                <dd data-id="22" data-pinyin="shanxi"><a href="/zbzt/32/22/" title="山西">山西政府采购网</a></dd>
+                                <dd data-id="17" data-pinyin="liaoning"><a href="/zbzt/32/17/" title="辽宁">辽宁政府采购网</a></dd>
+                                <dd data-id="14" data-pinyin="jilin"><a href="/zbzt/32/14/" title="吉林">吉林政府采购网</a></dd>
+                                <dd data-id="23" data-pinyin="sanxi"><a href="/zbzt/32/23/" title="陕西">陕西政府采购网</a></dd>
+                                <dd data-id="4" data-pinyin="gansu"><a href="/zbzt/32/4/" title="甘肃">甘肃政府采购网</a></dd>
+                                <dd data-id="20" data-pinyin="qinghai"><a href="/zbzt/32/20/" title="青海">青海政府采购网</a></dd>
+                                <dd data-id="19" data-pinyin="ningxia"><a href="/zbzt/32/19/" title="宁夏">宁夏政府采购网</a></dd>
+                                <dd data-id="28" data-pinyin="xinjiang"><a href="/zbzt/32/28/" title="新疆">新疆政府采购网</a></dd>
+                                <dd data-id="10" data-pinyin="henan"><a href="/zbzt/32/10/" title="河南">河南政府采购网</a></dd>
+                                <dd data-id="13" data-pinyin="hunan"><a href="/zbzt/32/13/" title="湖南">湖南政府采购网</a></dd>
+                                <dd data-id="12" data-pinyin="hubei"><a href="/zbzt/32/12/" title="湖北">湖北政府采购网</a></dd>
+                                <dd data-id="5" data-pinyin="guangdong"><a href="/zbzt/32/5/" title="广东">广东政府采购网</a></dd>
+                                <dd data-id="8" data-pinyin="hainan"><a href="/zbzt/32/8/" title="海南">海南政府采购网</a></dd>
+                                <dd data-id="6" data-pinyin="guangxi"><a href="/zbzt/32/6/" title="广西">广西政府采购网</a></dd>
+                                <dd data-id="31" data-pinyin="chongqing"><a href="/zbzt/32/31/" title="重庆">重庆政府采购网</a></dd>
+                                <dd data-id="7" data-pinyin="guizhou"><a href="/zbzt/32/7/" title="贵州">贵州政府采购网</a></dd>
+                                <dd data-id="29" data-pinyin="yunnan"><a href="/zbzt/32/29/" title="云南">云南政府采购网</a></dd>
+                                <dd data-id="25" data-pinyin="sichuan"><a href="/zbzt/32/25/" title="四川">四川政府采购网</a></dd>
+                                <dd data-id="27" data-pinyin="xizang"><a href="/zbzt/32/27/" title="西藏">西藏政府采购网</a></dd>
+                                <dd data-id="18" data-pinyin="neimenggu"><a href="/zbzt/32/18/" title="内蒙古">内蒙古政府采购网</a></dd>
+                                <dd data-id="11" data-pinyin="heilongjiang"><a href="/zbzt/32/11/" title="黑龙江">黑龙江政府采购网</a></dd>
+                                <dd data-id="3557" data-pinyin="xianggang"><a href="/zbzt/32/3557/" title="香港">香港政府采购网</a></dd>
+                                <dd data-id="3558" data-pinyin="aomen"><a href="/zbzt/32/3558/" title="澳门">澳门政府采购网</a></dd>
+                                <dd data-id="3559" data-pinyin="taiwan"><a href="/zbzt/32/3559/" title="台湾">台湾政府采购网</a></dd>
+                            </dl>
+                            <dl class="all-city-zhaobiao clearfix yfb-link-03" style="display: none;">
+                                <dd data-id="24" data-pinyin="shanghai"><a href="/zbzt/41/24/" title="上海">上海公共资源交易中心</a></dd>
+                                <dd data-id="15" data-pinyin="jiangsu"><a href="/zbzt/41/15/" title="江苏">江苏公共资源交易中心</a></dd>
+                                <dd data-id="30" data-pinyin="zhejiang"><a href="/zbzt/41/30/" title="浙江">浙江公共资源交易中心</a></dd>
+                                <dd data-id="1" data-pinyin="anhui"><a href="/zbzt/41/1/" title="安徽">安徽公共资源交易中心</a></dd>
+                                <dd data-id="3" data-pinyin="fujian"><a href="/zbzt/41/3/" title="福建">福建公共资源交易中心</a></dd>
+                                <dd data-id="16" data-pinyin="jiangxi"><a href="/zbzt/41/16/" title="江西">江西公共资源交易中心</a></dd>
+                                <dd data-id="21" data-pinyin="shandong"><a href="/zbzt/41/21/" title="山东">山东公共资源交易中心</a></dd>
+                                <dd data-id="2" data-pinyin="beijing"><a href="/zbzt/41/2/" title="北京">北京公共资源交易中心</a></dd>
+                                <dd data-id="9" data-pinyin="hebei"><a href="/zbzt/41/9/" title="河北">河北公共资源交易中心</a></dd>
+                                <dd data-id="26" data-pinyin="tianjin"><a href="/zbzt/41/26/" title="天津">天津公共资源交易中心</a></dd>
+                                <dd data-id="22" data-pinyin="shanxi"><a href="/zbzt/41/22/" title="山西">山西公共资源交易中心</a></dd>
+                                <dd data-id="17" data-pinyin="liaoning"><a href="/zbzt/41/17/" title="辽宁">辽宁公共资源交易中心</a></dd>
+                                <dd data-id="14" data-pinyin="jilin"><a href="/zbzt/41/14/" title="吉林">吉林公共资源交易中心</a></dd>
+                                <dd data-id="23" data-pinyin="sanxi"><a href="/zbzt/41/23/" title="陕西">陕西公共资源交易中心</a></dd>
+                                <dd data-id="4" data-pinyin="gansu"><a href="/zbzt/41/4/" title="甘肃">甘肃公共资源交易中心</a></dd>
+                                <dd data-id="20" data-pinyin="qinghai"><a href="/zbzt/41/20/" title="青海">青海公共资源交易中心</a></dd>
+                                <dd data-id="19" data-pinyin="ningxia"><a href="/zbzt/41/19/" title="宁夏">宁夏公共资源交易中心</a></dd>
+                                <dd data-id="28" data-pinyin="xinjiang"><a href="/zbzt/41/28/" title="新疆">新疆公共资源交易中心</a></dd>
+                                <dd data-id="10" data-pinyin="henan"><a href="/zbzt/41/10/" title="河南">河南公共资源交易中心</a></dd>
+                                <dd data-id="13" data-pinyin="hunan"><a href="/zbzt/41/13/" title="湖南">湖南公共资源交易中心</a></dd>
+                                <dd data-id="12" data-pinyin="hubei"><a href="/zbzt/41/12/" title="湖北">湖北公共资源交易中心</a></dd>
+                                <dd data-id="5" data-pinyin="guangdong"><a href="/zbzt/41/5/" title="广东">广东公共资源交易中心</a></dd>
+                                <dd data-id="8" data-pinyin="hainan"><a href="/zbzt/41/8/" title="海南">海南公共资源交易中心</a></dd>
+                                <dd data-id="6" data-pinyin="guangxi"><a href="/zbzt/41/6/" title="广西">广西公共资源交易中心</a></dd>
+                                <dd data-id="31" data-pinyin="chongqing"><a href="/zbzt/41/31/" title="重庆">重庆公共资源交易中心</a></dd>
+                                <dd data-id="7" data-pinyin="guizhou"><a href="/zbzt/41/7/" title="贵州">贵州公共资源交易中心</a></dd>
+                                <dd data-id="29" data-pinyin="yunnan"><a href="/zbzt/41/29/" title="云南">云南公共资源交易中心</a></dd>
+                                <dd data-id="25" data-pinyin="sichuan"><a href="/zbzt/41/25/" title="四川">四川公共资源交易中心</a></dd>
+                                <dd data-id="27" data-pinyin="xizang"><a href="/zbzt/41/27/" title="西藏">西藏公共资源交易中心</a></dd>
+                                <dd data-id="18" data-pinyin="neimenggu"><a href="/zbzt/41/18/" title="内蒙古">内蒙古公共资源交易中心</a></dd>
+                                <dd data-id="11" data-pinyin="heilongjiang"><a href="/zbzt/41/11/" title="黑龙江">黑龙江公共资源交易中心</a></dd>
+                                <dd data-id="3557" data-pinyin="xianggang"><a href="/zbzt/41/3557/" title="香港">香港公共资源交易中心</a></dd>
+                                <dd data-id="3558" data-pinyin="aomen"><a href="/zbzt/41/3558/" title="澳门">澳门公共资源交易中心</a></dd>
+                                <dd data-id="3559" data-pinyin="taiwan"><a href="/zbzt/41/3559/" title="台湾">台湾公共资源交易中心</a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-content-right">
+                
+                <div class="classify" style="display: none;">
+                    <div class="title"><img src="/static/images/dot-left.png"/><span>热门关键词</span><img src="/static/images/dot-right.png"/></div>
+                    
+                        <ul>
+                            
+                                <li><a>建筑工程</a></li>
+                            
+                                <li><a>市政工程</a></li>
+                            
+                                <li><a>给排水</a></li>
+                            
+                                <li><a>钢结构</a></li>
+                            
+                                <li><a>园林</a></li>
+                            
+                                <li><a>防水工程</a></li>
+                            
+                                <li><a>路灯护栏</a></li>
+                            
+                        </ul>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        // 进入页面埋点
+        if (typeof sendBehaviorLog === 'function') {
+            sendBehaviorLog('enterPage', {
+                type: '5200402101',
+                typeName: '进入-中标信息列表页'
+            });
+        }
+
+        // 中标信息列表页-列表tab点击埋点
+        $('#J_main_nav_link li a').on('click', function(e) {
+            var tab = $(this).text().trim() || '';
+            
+            // 发送点击埋点
+            if (typeof sendBehaviorLog === 'function') {
+                sendBehaviorLog('click', {
+                    type: '5200402204',
+                    typeName: '点击-中标信息列表页-列表tab',
+                    value: {
+                        tab: tab
+                    }
+                });
+            }
+        });
+
+        // 中标信息列表页-项目地区点击埋点
+        $('.select-province-block input[name=provinceId]').on('click', function(e) {
+            var areaId = $(this).val() || '';
+            
+            // 发送点击埋点
+            if (typeof sendBehaviorLog === 'function') {
+                sendBehaviorLog('click', {
+                    type: '5200402205',
+                    typeName: '点击-中标信息列表页-项目地区',
+                    value: {
+                        areaId: areaId
+                    }
+                });
+            }
+        });
+
+        // 中标信息列表页-删除所选地区点击埋点
+        $(document).on('click', '.has-selected-item.area img', function(e) {
+            // 不阻止事件冒泡，让删除逻辑可以正常执行
+            var areaId = $(this).siblings('span').attr('data-id') || $(this).siblings('span').text() || '';
+            
+            // 发送点击埋点
+            if (typeof sendBehaviorLog === 'function') {
+                sendBehaviorLog('click', {
+                    type: '5200402215',
+                    typeName: '点击-中标信息列表页-删除所选地区',
+                    value: {
+                        areaId: areaId
+                    }
+                });
+            }
+        });
+
+        // 中标信息列表页-中标类型点击埋点
+        $('input[name=winBidType]').on('click', function(e) {
+            var winBidType = $(this).val() || '';
+            
+            // 发送点击埋点
+            if (typeof sendBehaviorLog === 'function') {
+                sendBehaviorLog('click', {
+                    type: '5200402206',
+                    typeName: '点击-中标信息列表页-中标类型',
+                    value: {
+                        winBidType: winBidType
+                    }
+                });
+            }
+        });
+
+        // 中标信息列表页-筛选条件点击埋点（监听表单提交）
+        $('#searchForm').on('submit', function(e) {
+            var keyword = $('input[name=keyword]').val() || '';
+            var areaIds = [];
+            $('input[name=provinceId]:checked').each(function() {
+                areaIds.push($(this).val());
+            });
+            var areaId = areaIds.join(',') || '';
+            var winBidType = $('input[name=winBidType]:checked').val() || '';
+            
+            // 发送点击埋点
+            if (typeof sendBehaviorLog === 'function') {
+                sendBehaviorLog('click', {
+                    type: '5200402207',
+                    typeName: '点击-中标信息列表页-筛选条件',
+                    value: {
+                        keyword: keyword,
+                        areaId: areaId,
+                        winBidType: winBidType
+                    }
+                });
+            }
+        });
+
+        // 中标信息列表页-列表点击埋点
+        $('.firstTdAAA').on('click', function(e) {
+            var href = $(this).attr('href') || '';
+            var contentId = '';
+            // 从href中提取contentId，格式：/winbid/detail/20240101_123456.html
+            var match = href.match(/_(\d+)\.html/);
+            if (match && match[1]) {
+                contentId = match[1];
+            }
+            
+            // 发送点击埋点
+            if (typeof sendBehaviorLog === 'function') {
+                sendBehaviorLog('click', {
+                    type: '5200402208',
+                    typeName: '点击-中标信息列表页-列表',
+                    value: {
+                        contentId: contentId
+                    }
+                });
+            }
+        });
+
+        // 中标信息列表页-列表翻页器点击埋点
+        // 拦截page函数以获取翻页信息
+        if (typeof window.page === 'function') {
+            var originalPage = window.page;
+            window.page = function(n, s) {
+                var oldPage = $('#pageNo').val() || '1';
+                var newPage = String(n || '1');
+                
+                // 发送点击埋点
+                if (typeof sendBehaviorLog === 'function') {
+                    sendBehaviorLog('click', {
+                        type: '5200402209',
+                        typeName: '点击-中标信息列表页-列表翻页器',
+                        value: {
+                            oldPage: oldPage,
+                            newPage: newPage
+                        }
+                    });
+                }
+                
+                // 调用原始函数
+                return originalPage.apply(this, arguments);
+            };
+        }
+        
+        // 备用方案：监听翻页链接点击
+        $(document).on('click', '.pagination a', function(e) {
+            var oldPage = $('#pageNo').val() || '1';
+            var newPage = oldPage;
+            
+            // 尝试从onclick中提取页码
+            var onclickAttr = $(this).attr('onclick') || '';
+            if (onclickAttr) {
+                var pageMatch = onclickAttr.match(/page\((\d+)/);
+                if (pageMatch && pageMatch[1]) {
+                    newPage = pageMatch[1];
+                }
+            }
+            
+            // 如果已经通过page函数发送了埋点，这里就不重复发送
+            // 这个主要是作为备用方案
+        });
+    });
+</script>
+
+	
+
+
+
+
+
+
+
+
+
+
+<style>
+	.footer {
+		width: 100%;
+		background: #061022;
+		font-size: 12px;
+		color: rgba(255, 255, 255, 0.4);
+		line-height: 18px;
+	}
+
+	.footer_mid {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+
+	.footer-content {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: space-between;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+	}
+
+	.footer-links-section {
+		-ms-flex: 1;
+		-webkit-flex: 1;
+		flex: 1;
+	}
+
+	.footer-links-title {
+		font-size: 16px;
+		font-weight: 500;
+		color: #ffffff;
+		letter-spacing: 0.5px;
+		margin-bottom: 20px;
+	}
+
+	.footer-links-grid {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		gap: 10px 20px;
+		row-gap: 12px;
+	}
+
+	.footer-links-grid a {
+		color: #b8b8b8;
+		text-decoration: none;
+		font-size: 13px;
+		line-height: 2;
+		display: block;
+		transition: color 0.2s ease;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.footer-links-grid a:hover {
+		color: #ffffff;
+	}
+
+	.footer-divider {
+		width: 1px;
+		background: rgba(255, 255, 255, 0.15);
+		margin: 40px 40px 0 40px;
+		height: 40px;
+	}
+
+	.footer-statement-title {
+		font-size: 16px;
+		font-weight: 500;
+		color: #ffffff;
+		margin-bottom: 25px;
+		letter-spacing: 0.5px;
+	}
+
+	.footer-statement-links {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-direction: normal;
+		-webkit-box-orient: vertical;
+		-ms-flex-direction: column;
+		-webkit-flex-direction: column;
+		flex-direction: column;
+		gap: 14px;
+	}
+
+	.footer-statement-links a {
+		color: #b8b8b8;
+		text-decoration: none;
+		font-size: 13px;
+		line-height: 2;
+		transition: color 0.2s ease;
+	}
+
+	.footer-statement-links a:hover {
+		color: #ffffff;
+	}
+
+	.footer-qrcode-section {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		gap: 30px;
+		-webkit-box-align: start;
+		-ms-flex-align: flex-start;
+		-webkit-align-items: flex-start;
+		align-items: flex-start;
+		-webkit-flex-shrink: 0;
+		-ms-flex-negative: 0;
+		flex-shrink: 0;
+	}
+
+	.footer-qrcode-item {
+		text-align: center;
+	}
+
+	.footer-qrcode {
+		width: 110px;
+		height: 110px;
+		border: 2px solid rgba(255, 255, 255, 0.3);
+		border-radius: 8px;
+		background: #ffffff;
+		margin-bottom: 10px;
+		box-sizing: border-box;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+	}
+
+	.footer-qrcode img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		display: block;
+	}
+
+	.footer-qrcode-label {
+		font-size: 12px;
+		color: #b8b8b8;
+		line-height: 1.5;
+	}
+
+	.footer-bottom {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: space-between;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+	}
+
+	.footer-copyright {
+		font-size: 12px;
+		color: #939393;
+		line-height: 2;
+		text-align: left;
+	}
+
+	.footer-copyright p {
+		margin: 6px 0;
+	}
+
+	.footer-copyright a {
+		color: #939393;
+		text-decoration: none;
+		transition: color 0.2s ease;
+	}
+
+	.footer-copyright a:hover {
+		color: #ffffff;
+	}
+
+	.footer-certifications {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: end;
+		-ms-flex-pack: flex-end;
+		-webkit-justify-content: flex-end;
+		justify-content: flex-end;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+		gap: 10px;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.footer-certification-item {
+		display: inline-block;
+		transition: opacity 0.2s ease;
+	}
+
+	.footer-certification-item:hover {
+		opacity: 0.8;
+	}
+
+	.footer-certification-item img {
+		height: 44px;
+		width: auto;
+		display: block;
+	}
+</style>
+<div id="footer" class="footer">
+	<div class="footer_mid">
+		<div class="footer-links-title">友情链接</div>
+		<div class="footer-content">
+			<div class="footer-links-section" id="footerLinksSection">
+				<div class="footer-links-grid" id="footerLinksGrid">
+					<a href="http://www.qianlima.com/" title="千里马招标网" target="_blank">千里马招标网</a>
+					<a href="http://gz.zgjsks.com/" title="贵州教师招聘网" target="_blank">贵州教师招聘网</a>
+					<a href="http://www.bekcoo.com" title="转轮除湿机" target="_blank">转轮除湿机</a>
+					<a href="https://gz.6pian.cn" title="深圳宣传片" target="_blank">深圳宣传片</a>
+					<a href="http://www.yfbzb.com/zbw/zhengfucaigou/" title="政府采购网" target="_blank">政府采购网</a>
+					<a href="http://www.yfbzb.com/zbw/jianshegongcheng/" title="建设工程信息网" target="_blank">建设工程信息网</a>
+					<a href="http://www.yfbzb.com/zbw/gonggongziyuan/" title="公共资源交易中心" target="_blank">公共资源交易中心</a>
+					<a href="http://www.021xbwl.com" title="上海公兴搬场" target="_blank">上海公兴搬场</a>
+					<a href="https://m.yfbzb.com/" title="乙方宝移动站" target="_blank">乙方宝移动站</a>
+					<a href="http://www.imswork.com/" title="ehr系统" target="_blank">ehr系统</a>
+					<a href="https://tj.zhuangyi.com/" title="天津装修网" target="_blank">天津装修网</a>
+					<a href="http://www.yijiayizs.com" title="武汉装修公司" target="_blank">武汉装修公司</a>
+					<a href="http://www.rzyuanfeng.cn/" title="阀口袋" target="_blank">阀口袋</a>
+					<a href="http://www.szrdcj.com/" title="液晶广告机" target="_blank">液晶广告机</a>
+					<a href="http://www.piper-china.com" title="液压扳手" target="_blank">液压扳手</a>
+					<a href="http://www.22v.cn/" title="成都活动公司" target="_blank">成都活动公司</a>
+					<a href="http://www.yfbzb.com/zbw/zhaobiaocaigou/" title="招标采购网" target="_blank">招标采购网</a>
+					<a href="http://www.yfbzbw.com" title="乙方宝招标网" target="_blank">乙方宝招标网</a>
+				</div>
+			</div>
+			<div class="footer-divider" id="footerLinksDivider"></div>
+			<div class="footer-statement-section">
+				<div class="footer-statement-links">
+					<a href="/webState" target="_self" class="footer-web-state-link">网站声明</a>
+					<a href="/webMap" target="_self" class="footer-web-map-link">网站地图</a>
+					<a href="/linkUs" target="_self" class="footer-link-us-link">联系我们</a>
+				</div>
+			</div>
+			<div class="footer-divider"></div>
+			<div class="footer-qrcode-section">
+				<div class="footer-qrcode-item">
+					<div class="footer-qrcode">
+						<img src="https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQFd8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRWRwQk5Fa244V1AxMDAwMDAwN1MAAgSDElxaAwQAAAAA" alt="乙方宝公众号" />
+					</div>
+					<div class="footer-qrcode-label">乙方宝公众号</div>
+				</div>
+				<div class="footer-qrcode-item">
+					<div class="footer-qrcode">
+						<img src="/static/images/homepage/app_qrcode.png" alt="乙方宝App" />
+					</div>
+					<div class="footer-qrcode-label">乙方宝App</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<div class="footer-copyright">
+				<p>版权所有 2008-2026 乙方宝 www.yfbzb.com</p>
+				<p>Copyright©2008-2026 www.yfbzb.com All Rights Reserved <a href="https://dxzhgl.miit.gov.cn/#/home" target="_blank" rel="nofollow noopener noreferrer">京ICP证160587号</a> <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener noreferrer">京ICP备16007318号-5</a>
+				</p>
+				<p><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802035101" target="_blank" rel="nofollow noopener noreferrer">京公网安备 11010802035101号</a></p>
+			</div>
+			<div class="footer-certifications">
+				<span class="footer-certification-item">
+					<img src="/static/images/icon-1.png" alt="百度认证" />
+				</span>
+				<span class="footer-certification-item">
+					<img src="/static/images/icon-2.png" alt="经营性网站备案信息" />
+				</span>
+				<span class="footer-certification-item">
+					<img src="/static/images/icon-3.png" alt="可信网站" />
+				</span>
+				<span class="footer-certification-item">
+					<img src="/static/images/icon-4.png" alt="互联网信用企业" />
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	// 页面底部-友情链接点击埋点
+	$(document).ready(function() {
+		$('.footer-links-grid a').on('click', function(e) {
+			var text = $(this).text().trim() || '';
+			
+			// 发送点击埋点
+			if (typeof sendBehaviorLog === 'function') {
+				sendBehaviorLog('click', {
+					type: '5200603201',
+					typeName: '点击-页面底部-友情链接',
+					value: {
+						text: text
+					}
+				});
+			}
+		});
+		
+		// 页面底部-网站声明点击埋点
+		$('.footer-web-state-link').on('click', function(e) {
+			// 发送点击埋点
+			if (typeof sendBehaviorLog === 'function') {
+				sendBehaviorLog('click', {
+					type: '5200604201',
+					typeName: '点击-页面底部-网站声明'
+				});
+			}
+		});
+		
+		// 页面底部-网站地图点击埋点
+		$('.footer-web-map-link').on('click', function(e) {
+			// 发送点击埋点
+			if (typeof sendBehaviorLog === 'function') {
+				sendBehaviorLog('click', {
+					type: '5200605201',
+					typeName: '点击-页面底部-网站地图'
+				});
+			}
+		});
+		
+		// 页面底部-联系我们点击埋点
+		$('.footer-link-us-link').on('click', function(e) {
+			// 发送点击埋点
+			if (typeof sendBehaviorLog === 'function') {
+				sendBehaviorLog('click', {
+					type: '5200606201',
+					typeName: '点击-页面底部-联系我们'
+				});
+			}
+		});
+	});
+</script>
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+	<div class="qrCodeWrapperServer" style="display: none;">
+		<div class="qrcode_load_server_content">
+			<div class="qrcode_load_server">
+				<div class="img-cls"><img src="/static/images/wx-icon.png"/></div>
+				<div class="detail">微信扫码关注乙方宝服务号</div>
+				<div class="wx-code"><img src="/static/images/showqrcode.png"/></div>
+			</div>
+			<div class="yfb-server-code-close-btn2"><img src="/static/images/close-btn-01.png" class="virtual-number-close-img"/></div>
+		</div>
+	</div>
+	
+	<div class="acount-info-wrapper" style="display: none;">
+		<div class="acount-info_content">
+			<div class="right-bottom-img"><img src="/static/images/yfb/buzhidaoshenmetu.png"/></div>
+			<div class="detail01">更多账户信息</div>
+			<div class="detail02">可在乙方宝公众号查看</div>
+			<div class="wx-code"><img src="/static/images/showqrcode.png"/></div>
+		</div>
+	</div>
+	
+	<div class="quit-acount-wrapper" style="display: none;">
+		<div class="quit-acount_content">
+			<div class="right-bottom-img"><img src="/static/images/yfb/buzhidaoshenmetu.png"/></div>
+			<div class="detail01">退出登录</div>
+			<div class="detail02">您确定要退出当前账号吗？</div>
+			<div class="re-think">我在想想</div>
+			<div class="confirm-quit">去意已决</div>
+		</div>
+	</div>
+	
+	
+	<div class="popup-wrapper max-count-popup-wrapper" style="display: none;">
+		<div class="count-popup-content">
+			<div class="top">亲爱的朋友</div>
+			<div class="bottom">
+				<div class="detail">您的账号今天查看信息已达到1500条上限请明天再来</div>
+				<div class="open-vip max-couunt-close-btn">好的</div>
+			</div>
+			<img class="max-count-close-btn" src="/static/images/yfb/close-popup-btn.png"/>
+			<img class="VIP-member" src="/static/images/yfb/VIP-member.png"/>
+		</div>
+	</div>
+	<!-- 个人会员 -->
+	<div class="popup-wrapper max-count-popup-wrapper-vip" style="display: none;">
+		<div class="count-popup-content">
+			<div class="top">亲爱的朋友</div>
+			<div class="bottom">
+				<div class="detail">您的账号今天查看信息已达到100条上限请明天再来</div>
+				<div class="open-vip max-couunt-close-btn-vip">好的</div>
+			</div>
+			<img class="max-count-close-btn" src="/static/images/yfb/close-popup-btn.png"/>
+			<img class="VIP-member" src="/static/images/yfb/VIP-member.png"/>
+		</div>
+	</div>
+	<!-- 企业会员 -->
+	<div class="popup-wrapper max-count-popup-wrapper-qiyevip" style="display: none;">
+		<div class="count-popup-content">
+			<div class="top">亲爱的朋友</div>
+			<div class="bottom">
+				<div class="detail">您的账号今天查看信息已达到350条上限请明天再来</div>
+				<div class="open-vip max-couunt-close-btn-qiyevip">好的</div>
+			</div>
+			<img class="max-count-close-btn" src="/static/images/yfb/close-popup-btn.png"/>
+			<img class="VIP-member" src="/static/images/yfb/VIP-member.png"/>
+		</div>
+	</div>
+	
+	<div class="popup-wrapper count-popup-wrapper" style="display: none;">
+		<div class="count-popup-content">
+			<div class="top">亲爱的朋友</div>
+			<div class="bottom">
+				<div class="detail">您免费查看权限已用完，成为乙方宝VIP会员，可查看更多商机！</div>
+				<div class="open-vip"><a href="/pay" target="_self">立即开通</a></div>
+			</div>
+			<img class="close-popup-btn" src="/static/images/yfb/close-popup-btn.png"/>
+			<img class="VIP-member" src="/static/images/yfb/VIP-member.png"/>
+		</div>
+	</div>
+	
+	<div class="popup-wrapper area-popup-wrapper" style="display: none;">
+		<div class="area-popup-content">
+			<div class="content01"><img class="vip-huangguan" src="/static/images/yfb/vip-crown--fill.png"/><span>尊敬的会员</span></div>
+			<div class="content02 clearfix">
+				<span>您目前开通的会员地区为：</span>
+				<span class="vip-buy-area">等后台给。。。</span>
+			</div>
+			<div class="content03">该信息所在地区-<span class="current-see-area">山西</span>，您还未开通, 因此暂无查看权限</div>
+			<div class="content04"></div>
+			<div class="content05"><img class="close-popup-btn" src="/static/images/yfb/today-vip-buy-area.png"/></div>
+			<div class="content06"><a href="/pay" target="_self">点击进入送会员专场</a></div>
+			<div class="close-area-popup"><img class="close-area-popup-btn" src="/static/images/yfb/close-popup-btn.png"/></div>
+		</div>
+	</div>
+	
+	<div class="popup-wrapper fujian-buy-wrapper" style="display: none;">
+		<div class="fujian-buy-content">
+			<div class="block01">附件包可以一键下载啦！信息更全，商机更准！</div>
+			<div style="display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: justify;-ms-flex-pack: space-between;-webkit-justify-content: space-between;justify-content: space-between;" class="block02 clearfix">
+				<div class="t active fujina-buy-current" data-price="69">
+					<div>1个月</div>
+					<div style="font-size: 20px;color: rgba(189,137,67,1);margin-top: 4px">￥69</div>
+				</div>
+				<div class="t p fujina-buy-current" data-price="399" style="-webkit-box-pack: distribute;-ms-flex-pack: space-evenly;-webkit-justify-content: space-evenly;justify-content: space-evenly">
+					<div>12个月</div>
+					<div class="f">￥399</div>
+					<div class="d">￥<span>828</span></div>
+					<div class="dis">4.9折</div>
+				</div>
+				<div class="t p fujina-buy-current" data-price="165" style="-webkit-box-pack: distribute;-ms-flex-pack: space-evenly;-webkit-justify-content: space-evenly;justify-content: space-evenly">
+					<div>3个月</div>
+					<div class="f">￥165</div>
+					<div class="d">￥<span>207</span></div>
+					<div class="dis">8折</div>
+				</div>
+			</div>
+			<div style="margin-top: 20px;vertical-align: middle;font-size: 14px;font-weight: 400;color: #666666;display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;margin-left: 20px;margin-bottom: 20px">
+				<div class="n-attachment-copywriting-d" style="font-family: Alibaba PuHuiTi;font-weight: 400;">
+					<img src="/static/images/yfb/hot-icon.png" style="margin-right: 3px"/>
+					<span>
+                            <span class="tt1"></span>
+                            <span class="tt2" style="color: red;font-weight: normal;margin-right: 2px;"></span>
+                            <span class="tt3"></span>
+                        </span>
+				</div>
+			</div>
+			<div class="dotted-line"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<div class="block03 clearfix">
+				<div class="left" style="display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center">总计：<span style="font-size: 13px">￥</span><span class="fujian-price-all">69</span></div>
+				<div class="right go-to-by-fujian">去支付</div>
+			</div>
+			<div class="block04"><img src="/static/images/yfb/close-popup-btn.png"/></div>
+		</div>
+	</div>
+	
+	<div class="popup-wrapper init-member-project-popup-wrapper" style="display: none;">
+		<div class="init-member-project-popup-content">
+			<img class="VIP-member" src="/static/images/yfb/VIP-member.png"/>
+			<div class="top">企业高级会员服务</div>
+			<div class="bottom">
+				<div class="detail01">您尚未开通企业高级会员服务，请联系客服提升会员等级</div>
+				<div class="detail02"><img src="/static/images/yfb/popup-dianhua.png"/><span>请致电客服：400-055-2000</span></div>
+			<img class="close-popup-btn" src="/static/images/yfb/close-popup-btn.png"/>
+		</div>
+	</div>
+	</div>
+	
+	<div class="popup-wrapper bind-phone-number-wrapper" style="display: none;">
+		<div class="bind-phone-number-content">
+			<div class="detail01">绑定手机号 不错过每一条商机</div>
+			<div class="bind-phone">
+				<input type="text" value="" name="phone" placeholder="请输入您的手机号" maxlength="11" data-source="bindPhone"/>
+				<span class="bind-error-tip bind-phone-error" style="display: none;">
+					<img src="/static/images/yfb/error-tips@2x-28-28.png"/><span>手机号码有误</span>
+				</span>
+			</div>
+			<div class="bind-checkcode">
+				<input type="text" value="" name="checkcode" placeholder="请输入验证码" maxlength="6"/>
+				<div class="check-code-tips">
+					<span class="bind-error-tip bind-checkcode-erroe" style="display: none;">
+						<img src="/static/images/yfb/error-tips@2x-28-28.png"/><span>验证码有误</span>
+					</span>
+					<input type="button" class="verCodeBtn" id="verCodeBtn" value="获取验证码" onclick="getCheckCode(this);"/>
+				</div>
+			</div>
+			<div class="code-max-count"><img src="/static/images/yfb/error-tips@2x-28-28.png"/><span>您今日验证码请求次数已超限制，请明日再试</span></div>
+			<div class="bind-and-login-btn bind-btn bind-phone-number-btn">同意协议并绑定</div>
+			<div class="bind-tips">如有疑问，请联系客服：010-86409289</div>
+			<img class="logo-img" src="/static/images/yfb/logo@2x-202-174.png"/>
+
+			<img class="juxing-img" src="/static/images/yfb/juxing@2x-368-320.png"/>
+			<img class="close-bind-popup" src="/static/images/yfb/close-popup-btn-01.png"/>
+		</div>
+	</div>
+	
+	<div class="popup-wrapper phone-number-login-wrapper" style="display: none;">
+		<div class="phone-number-login-content bind-phone-number-content">
+			<div class="detail01">登录你的乙方宝 不错过每一条商机</div>
+			<div class="bind-phone">
+				<input type="text" value="" name="phone" placeholder="请输入您的手机号" maxlength="11" data-source="loginPhone"/>
+				<span class="bind-error-tip bind-phone-error" style="display: none;">
+					<img src="/static/images/yfb/error-tips@2x-28-28.png"/><span>手机号码有误</span>
+				</span>
+			</div>
+			<div class="bind-checkcode">
+				<input type="text" value="" name="checkcode" id="checkcodeClick" placeholder="请输入验证码" maxlength="6"/>
+				<div class="check-code-tips">
+					<span class="bind-error-tip bind-checkcode-erroe" style="display: none;">
+						<img src="/static/images/yfb/error-tips@2x-28-28.png"/><span>验证码有误</span>
+					</span>
+					<input type="button" class="verCodeBtn" id="" value="获取验证码" onclick="getCheckCode(this);"/>
+				</div>
+			</div>
+			<div class="code-max-count"><img src="/static/images/yfb/error-tips@2x-28-28.png"/><span>手机登录今日已超限，请选择其他登录方式</span></div>
+			<div class="bind-btn phone-number-login-btn bind-and-login-btn" style="margin-bottom: 0px;">同意协议并登录</div>
+
+			<img class="logo-img" src="/static/images/yfb/logo@2x-202-174.png"/>
+			<img class="juxing-img" src="/static/images/yfb/juxing@2x-368-320.png"/>
+
+		</div>
+	</div>
+	
+	<div class="toast-wrapper">
+		<div class="toast-content">模拟toast</div>
+	</div>
+	
+	<div class="popup-wrapper qiye-vip-telphone" style="display: none;">
+		<div class="qiye-vip-telphone-content">
+			<img src="/static/images/yfb/qiye-vip-telphone@2x-800-488.png" style="width:400px;height:244px;"/>
+			<img class="close-qiye-vip-telphone-btn" src="/static/images/yfb/close-popup-btn.png"/>
+		</div>
+	</div>
+	
+	<div class="popup-wrapper wx-bind-wrapper" style="display: none;">
+		<div class="wx-bind-content">
+			<div class="content01">为了给您提供更好的服务</div>
+			<div class="content01">请扫描下方二维码关联微信</div>
+			<div class="wx-bind"><img id="code2dWX" src="/static/images/yfb/loading.gif"/><p></p></div>
+			<img class="close-bind-wx-popup" src="/static/images/yfb/close-popup-btn-01.png"/>
+		</div>
+	</div>
+	<script>
+		// 友盟
+		var cnzz_s_tag = document.createElement('script');
+		cnzz_s_tag.type = 'text/javascript';
+		cnzz_s_tag.async = true;
+		cnzz_s_tag.charset = "utf-8";
+		cnzz_s_tag.src ="https://s4.cnzz.com/z_stat.php?id=1278576797&async=1";
+		var root_s = document.getElementsByTagName('script')[0];
+		root_s.parentNode.insertBefore(cnzz_s_tag, root_s);
+
+		//	百度统计
+		var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?cfddd72f87b9bc80b16d7b528ded4adc";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+		// 百度自动推送
+		(function(){
+			var bp = document.createElement('script');
+			var curProtocol = window.location.protocol.split(':')[0];
+			if (curProtocol === 'https') {
+				bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+			}
+			else {
+				bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+			}
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(bp, s);
+		})();
+		// 360
+		(function(){
+			var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
+			document.write('<script src="' + src + '" id="sozz"><\/script>');
+		})();
+
+	</script>
+</body>
+</html>

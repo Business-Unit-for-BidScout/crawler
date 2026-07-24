@@ -1,0 +1,239 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<meta http-equiv="Expires" CONTENT="0">
+<meta http-equiv="Cache-Control" CONTENT="no-cache">
+<meta http-equiv="Pragma" CONTENT="no-cache">
+<title>西藏民族大学附属医院--通知公告</title>
+<link href="images/style.css" rel="stylesheet" type="text/css" />
+<link href="images/index.css" rel="stylesheet" type="text/css" />
+<link href="images/menu.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="container">
+  
+
+
+<script type="text/javascript" language="JavaScript" >
+<!--		
+		function searchsubmit(){
+		if(document.form1.searchkey.value==''){
+			alert("请输入搜索关键字");
+			return false;
+		}
+		 document.form1.submit();
+		}
+-->
+</script>
+<script language="javascript" type="text/javascript" src="images/nav.js"></script>
+<div id="top">
+		<div id="logo"></div>
+		<div id="top_right">
+			<div id="tp"></div>
+			<div id="search">	   
+			<form id="form1" name="form1" method="post" action="search">
+				<table width="400" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="right"><img src="images/jyw.jpg" width="157" height="27" /></td>
+                    <td><input type="text" id="searchkey" name="searchkey" style="width:170px; height:18px; border:1px solid #0099FF"/>
+                      <a href="#">
+                      <input name="dept_id" id="dept_id" type="hidden" value="8" />
+                      </a> </td>
+                    <td><a href="#"><img src="images/search_1.jpg" border="0" onclick="searchsubmit()" /></a></td>
+                  </tr>
+                </table>
+				　
+			  </form></div>
+		</div>		
+	</div> 
+	<div id="menu">
+		<div class="hspace1"></div>
+		<ul id="nav" class="menubar">
+			<li><a href="index">医院首页</a></li>
+			<li><a href="contentlist?dept_id=8&column_id=173&column_type=1&per=1&url=list_yygk2">医院概况</a>
+			<li><a href="contentlist?dept_id=8&column_id=1411&column_type=1&per=10&url=list4">党史教育</a>
+				<ul  style='width:360px!important;'>
+				<li><a href="contentlist?dept_id=8&column_id=173&column_type=1&per=1&url=list_yygk2">医院简介</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=765&column_type=1&per=1&url=list_yygk2">现任领导</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=177&column_type=1&per=10&url=list_yygk">医院荣誉</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=180&column_type=2&per=9&url=list_yygk3">高新设备</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=178&column_type=2&per=9&url=list_yygk3">医院环境</a></li>
+				</ul>
+			</li>
+			<li><a href="contentlist?dept_id=8&column_id=198&column_type=1&per=10&url=list_ybhl">医保合疗</a>
+			   <ul style='width:360px!important;'>
+				<li><a href="contentlist?dept_id=8&column_id=198&column_type=1&per=10&url=list_ybhl">医保政策</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=199&column_type=1&per=10&url=list_ybhl">农合政策</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=200&column_type=1&per=10&url=list_ybhl">工伤保险</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=202&column_type=1&per=10&url=list_ybhl">生育保险</a></li>
+				</ul>
+			</li>
+			<li><a href="contentlist?dept_id=8&column_id=194&column_type=1&per=1&url=list_jyzn2">就医指南</a>
+			    <ul style='width:360px!important;'>
+				<li><a href="contentlist?dept_id=8&column_id=194&column_type=1&per=1&url=list_jyzn2">医院位置</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=193&column_type=1&per=1&url=list_jyzn2">体检中心</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=191&column_type=1&per=1&url=list_jyzn2">医保就诊流程</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=192&column_type=1&per=1&url=list_jyzn2">急诊就诊流程</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=196&column_type=1&per=1&url=list_jyzn2">门诊就诊流程</a></li>
+				</ul>
+			</li>
+			<li><a href="contentlist?dept_id=8&column_id=190&column_type=1&per=1&url=list_kszj2">科室与专家</a>
+				<ul style='width:360px!important;'>				
+				<li><a href="contentlist?dept_id=8&column_id=190&column_type=1&per=1&url=list_kszj2">门诊时间</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=171&column_type=1&per=12&url=list_kszj3">专家介绍</a></li>
+				<li><a href="lcks">临床科室</a></li>
+				<li><a href="yjks">医技科室</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=182&column_type=1&per=10&url=list_kszj">科室动态</a></li>
+				</ul>
+			</li>
+			<li><a href="contentlist?dept_id=8&column_id=849&column_type=1&per=10&url=list_hltd">护理天地</a>
+				<ul style='width:360px!important;'>				
+				<li><a href="contentlist?dept_id=8&column_id=849&column_type=1&per=10&url=list_hltd">护理教育</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=854&column_type=1&per=10&url=list_hltd">天使风采</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=853&column_type=1&per=10&url=list_hltd">护理动态</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=204&column_type=1&per=10&url=list_hltd">健康知识</a></li>
+				</ul>
+			</li>
+			<li><a href="contentlist?dept_id=8&column_id=169&column_type=1&per=10&url=list_jxky">教学科研</a>
+				<ul>				
+				<li><a href="contentlist?dept_id=8&column_id=169&column_type=1&per=10&url=list_jxky">科研动态</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=848&column_type=1&per=1&url=list_jxky2">教学团队</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=197&column_type=1&per=10&url=list_jxky">科研成果</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=1119&column_type=1&per=10&url=list_jxky">诊断学精品课程</a>
+					<ul>				
+						<li><a href="contentlist?dept_id=8&column_id=1120&column_type=1&per=10&url=list_jxky">诊断学教学大纲 </a></li>
+						<li><a href="contentlist?dept_id=8&column_id=1121&column_type=1&per=1&url=list_jxky2">诊断学教案</a></li>
+						<li><a href="contentlist?dept_id=8&column_id=1122&column_type=1&per=10&url=list_jxky">诊断学课程</a></li>
+						<li><a href="contentlist?dept_id=8&column_id=1123&column_type=1&per=10&url=list_jxky">诊断学题库 </a></li>
+						<li><a href="contentlist?dept_id=8&column_id=1123&column_type=1&per=10&url=list_jxky">诊断学视频 </a></li>
+					</ul>
+				</li>
+				</ul>
+			</li>
+			<li><a href="http://www.xzmu.edu.cn">学校首页</a></li>
+	  </ul>
+</div>
+  <div id="list_banner"></div>
+  <div id="wz"><span class="wzword">您的位置：首页 >> 通知公告</span></div>
+	<div id="main">	
+		<div id="list_left">
+			<div class="list_pic1"></div>
+			<div id="list_menu">
+				
+<ul>
+				  <li class="one"><a href="contentlist?dept_id=8&column_id=167&column_type=1&per=10&url=list">院内新闻</a></li>
+				  <li class="two"><a href="contentlist?dept_id=8&column_id=170&column_type=2&per=9&url=list3">图片新闻</a></li>
+				  <li class="one"><a href="contentlist?dept_id=8&column_id=168&column_type=1&per=10&url=list">通知公告</a></li>
+				  <li class="two"><a href="contentlist?dept_id=8&column_id=169&column_type=1&per=10&url=list">教学科研</a></li>
+				  <li class="one"><a href="contentlist?dept_id=8&column_id=203&column_type=1&per=10&url=list">下载中心</a></li>
+				  <li class="two"><a href="contentlist?dept_id=8&column_id=852&column_type=1&per=10&url=list">重点专题</a></li>
+				</ul>
+				
+			</div>
+		</div>
+		<div id="list_right">
+				
+			<div id="lcontent">
+        <div id="ctitle">通知公告</div>
+		
+        <div class="listcolumn" id="list">
+          <ul>
+          
+			<li>
+						
+						<a href="getcontent?id=89203&url=show" class="leftnav" target="_blank"><span  title="市医疗领域集中整治问题线索举报方式">市医疗领域集中整治问题线索举报方式</span></a>&nbsp;
+				    
+					
+					</li>
+		  
+			<li>
+						
+						<a href="getcontent?id=86692&url=show" class="leftnav" target="_blank"><span  title="重点项目绩效目标表">重点项目绩效目标表</span></a>&nbsp;
+				    
+					
+					</li>
+		  
+			<li>
+						
+						<a href="getcontent?id=86691&url=show" class="leftnav" target="_blank"><span  title="326-民大附属医院2024年度部门整体目标填报表">326-民大附属医院2024年度部门整体目标填报表</span></a>&nbsp;
+				    
+					
+					</li>
+		  
+			<li>
+						
+						<a href="getcontent?id=86690&url=show" class="leftnav" target="_blank"><span  title="2024年部门预算公开报表">2024年部门预算公开报表</span></a>&nbsp;
+				    
+					
+					</li>
+		  
+			<li>
+						
+						<a href="getcontent?id=86687&url=show" class="leftnav" target="_blank"><span  title="西藏民族大学附属医院2024年度部门预算">西藏民族大学附属医院2024年度部门预算</span></a>&nbsp;
+				    
+					
+					</li>
+		  
+			<li>
+						
+						<a href="getcontent?id=77846&url=show" class="leftnav" target="_blank"><span  title="西藏民族大学附属医院充电桩合作运营公告">西藏民族大学附属医院充电桩合作运营公告</span></a>&nbsp;
+				    
+					
+					</li>
+		  
+			<li>
+						
+						<a href="getcontent?id=77565&url=show" class="leftnav" target="_blank"><span  title="西藏民族大学附属医院超市项目竞争性磋商公告">西藏民族大学附属医院超市项目竞争性磋商公告</span></a>&nbsp;
+				    
+					
+					</li>
+		  
+			<li>
+						
+						<a href="getcontent?id=75502&url=show" class="leftnav" target="_blank"><span  title="医院食堂承包经营招标公告">医院食堂承包经营招标公告</span></a>&nbsp;
+				    
+					
+					</li>
+		  
+			<li>
+						
+						<a href="getcontent?id=75163&url=show" class="leftnav" target="_blank"><span  title="西藏民族大学附属医院招聘简章">西藏民族大学附属医院招聘简章</span></a>&nbsp;
+				    
+					
+					</li>
+		  
+			<li>
+						
+						<a href="getcontent?id=72748&url=show" class="leftnav" target="_blank"><span  title="西藏民族大学附属医院2021年预算绩效管理工作考核情况公示">西藏民族大学附属医院2021年预算绩效管理工作考核情况公示</span></a>&nbsp;
+				    
+					
+					</li>
+		  
+        </ul>
+		<br>
+		  <div id="pages">
+				  共 33 条&nbsp;共 4 页&nbsp;第 1 页&nbsp;首页&nbsp;1&nbsp;<a href='/fsyy/contentlist?dept_id=8&column_id=168&column_type=1&per=10&url=list&page=2'>2</a>&nbsp;<a href='/fsyy/contentlist?dept_id=8&column_id=168&column_type=1&per=10&url=list&page=3'>3</a>&nbsp;<a href='/fsyy/contentlist?dept_id=8&column_id=168&column_type=1&per=10&url=list&page=4'>4</a>&nbsp;<a href='/fsyy/contentlist?dept_id=8&column_id=168&column_type=1&per=10&url=list&page=4'>末页</a>       </div>
+        </div>
+        <div id="cbottom"> </div>
+      </div>
+		</div>
+	</div>
+  
+<div id="foot">
+  <div id="fword">
+    <div align="center"><a href="#" onclick="this.style.behavior='url(#default#homepage)'; 
+this.setHomePage('http://www.xzmy.edu.cn/fsyy/');">设为首页</a> | 网站地图 | 联系我们 | <a href="javascript:window.external.AddFavorite('http://www.xzmy.edu.cn/fsyy/', '西藏民族大学附属医院')">收藏本站</a>　　　　　　　　　　　　网站设计与开发：<a href="http://www.xzmy.edu.cn/nic/" target="_blank">网络信息技术中心</a> <br />
+      版权所有@2010-2015：西藏民族大学附属医院 　地址：陕西省咸阳市文汇东路6号　 邮编：712082　 电话：029—33755453、33755452、33755456 <br />
+      <a href="http://12377.xianyang.gov.cn/" target="_blank"><img src="images/wljb_bai.png" alt="中国互联网举报中心" width="100" height="50" border="0" longdesc="http://12377.xianyang.gov.cn/" /></a>  </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>

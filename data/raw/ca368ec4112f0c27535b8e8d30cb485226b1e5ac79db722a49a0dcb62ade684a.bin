@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-tag="V6.0.35.1_2_251217_GP-AUTH-WEB">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="images/png" sizes="32*32" href="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <script type="module" crossorigin src="/gp-auth-web/assets/index-DdJR3WE-.js"></script>
+    <link rel="stylesheet" crossorigin href="/gp-auth-web/assets/index-0ROxI4lG.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="/gp-auth-web/config.js" type="text/javascript" charset="utf-8"></script>
+    <script
+      src="/gp-auth-web/js/caJs/jquery.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <!-- <script
+      src="/js/caJs/bootstrap.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script> -->
+    <!-- <script
+      src="/js/caJs/common.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script> -->
+    <!-- <script
+      src="/js/caJs/rsWebPDF.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script> -->
+    <script
+      src="/gp-auth-web/js/caJs/qrcode.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script
+      src="/gp-auth-web/js/caJs/sm2.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script
+      src="/gp-auth-web/js/caJs/JSRESTful.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script
+      src="/gp-auth-web/js/caJs/coludSocket.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script
+      src="/gp-auth-web/js/caJs/ZHCAUnifiedTools_pwd.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+  </body>
+</html>
