@@ -70,15 +70,31 @@ jobs:
         shell: bash
         run: |
           python - <<'PY'
-          from bidscout_crawler.classifier import classify_ai
-          result = classify_ai(
-              "某医院采购公告",
-              "某医院现发布医疗设备采购公告，响应文件提交截止时间为2026年7月20日。",
-              "workflow smoke test",
-          )
-          assert result is not None
-          assert result.primary_class == "procurement_notice", result
-          assert result.method.startswith("ai:"), result
+          from bidscout_crawler.classifier import classify, classify_ai
+          from urllib.error import HTTPError
+
+          try:
+              result = classify_ai(
+                  "某医院采购公告",
+                  "某医院现发布医疗设备采购公告，响应文件提交截止时间为2026年7月20日。",
+                  "workflow smoke test",
+              )
+          except HTTPError as exc:
+              if exc.code != 410:
+                  raise
+              result = classify(
+                  "某医院采购公告",
+                  "某医院现发布医疗设备采购公告，响应文件提交截止时间为2026年7月20日。",
+                  "workflow smoke test",
+              )
+              assert result.primary_class == "procurement_notice", result
+              assert result.method == "rules", result
+              assert "HTTPError(410)" in result.reason, result
+              print("::warning::GitHub Models returned HTTP 410 during its scheduled retirement brownout; this run will continue with an explicit per-document rules fallback.")
+          else:
+              assert result is not None
+              assert result.primary_class == "procurement_notice", result
+              assert result.method.startswith("ai:"), result
           print(result.primary_class, result.method)
           PY
 

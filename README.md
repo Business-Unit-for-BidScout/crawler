@@ -54,7 +54,7 @@ python -m bidscout_crawler.report --input /path/to/crawl-data --output site --ru
 仓库需要配置：
 
 - `REQUIREMENTS_TOKEN`：只读访问私有 requirements 仓库；
-- `OPENAI_API_KEY`（可选，不配置时使用 `REQUIREMENTS_TOKEN` 调用 GitHub Models）；
+- `OPENAI_API_KEY`（可选，不配置时使用 `REQUIREMENTS_TOKEN` 调用 GitHub Models）；若 GitHub Models 在官方退休 brownout 期间返回 HTTP 410，工作流会明确告警并继续使用可审计的规则分类，不将其误报为 AI 分类。
 - `OPENAI_BASE_URL`（可选）
 - `OPENAI_MODEL`（可选）
 - `CRAWLER_USER_AGENT`（建议包含联系邮箱）
