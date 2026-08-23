@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>废标公告</title>
+</head>
+
+<body>
+    
+    <!--Header-->
+    <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="/templates/main/css/css.css">
+    <link rel="stylesheet" href="/templates/main/css/index.css">
+    <script src="/templates/main/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="/templates/main/js/sweiper/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="/templates/main/css/default.css" />
+    <link rel="stylesheet" type="text/css" href="/templates/main/css/component.css" />
+    <link rel="stylesheet" href="/templates/main/css/global.css">
+    <link rel="stylesheet" href="/templates/main/css/index.css">
+
+    <script src="/templates/main/js/common.js"></script>
+    <script type="text/javascript">
+    $(function () {
+        $(".seach_button").click(function () {
+            if ($('.search_text').val() == "") {
+                alert('请填写关键词！');
+                return false;
+            }
+            else {
+                //KeywordSearch('/yiyuan_search.html', '#keyword');
+                var strwhere = "";
+                var keywords = $.trim($('#keyword').val());
+                if (keywords != '')
+                    strwhere += encodeURI(keywords);
+                window.location.href = '/yiyuan_search/' + strwhere + '/1.html';
+            }
+        });
+        $(".search_text").keypress(function () {
+            if (event.keyCode == 13) {
+                if ($('.search_text').val() == "") {
+                    alert('请填写关键词！');
+                    return false;
+                }
+                else {
+                    //KeywordSearch('/yiyuan_search.html', '#keyword');
+                    var strwhere = "";
+                    var keywords = $.trim($('#keyword').val());
+                    if (keywords != '')
+                        strwhere += encodeURI(keywords);
+                    window.location.href = '/yiyuan_search/' + strwhere + '/1.html';
+                }
+            }
+        });
+    })
+    </script>
+</head>
+<body>
+    <div class="top-div">
+        <div class="top clearfix">
+            <a href="/yiyuan.html" class="active">医院</a>
+            <a href="/yisheng.html">医生</a>
+            <a href="/huanzhe.html">患者</a>
+            <a href="/dangjian.html">党建</a>
+            <a href="/yingwen.html">ENGLISH</a>
+        </div>
+    </div>
+    <div class="header j-header">
+        <img src="/templates/main/images/logo1.png" alt="logo" height="100%">
+        <div class="right seach">
+            <img src="/templates/main/images/seach-bg.png" alt="seach" class="seach_button">
+            <input type="text" placeholder="搜索你想要的内容" class="search_text" id="keyword">
+        </div>
+    </div>
+   
+    <div class="nav-content x-nav-content">
+        <div class="nav-bar  x-nav-bar xues-daohang">
+            <div id="cbp-hrmenu" class="cbp-hrmenu">
+                <ul class="clearfix">
+                    <li>
+                        <a href="/yiyuan.html" class="home">首页 </a>
+                    </li>
+                    
+                    <li>
+                        <a href="javascript:;">新闻中心
+                        </a>
+                        
+                        <div class="cbp-hrsub">
+                            <div class="cbp-hrsub-inner">
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_wenzi/54.html"
+                                        >通知公告</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_tuwen/55.html"
+                                        >院内新闻</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_tuwen/161.html"
+                                        >媒体报道</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_tuwen/160.html"
+                                        >视频中心</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_tuwen/1252.html"
+                                        >健康视频</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_tuwen/1251.html"
+                                        >直播回放</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_tuwen/1257.html"
+                                        >消化内镜中心</a></h4>
+                                </div>
+                                
+                                      
+                            </div><!-- /cbp-hrsub-inner -->
+                        </div><!-- /cbp-hrsub -->
+                       
+                    </li>
+                    
+                    <li>
+                        <a href="javascript:;">院务公开
+                        </a>
+                        
+                        <div class="cbp-hrsub">
+                            <div class="cbp-hrsub-inner">
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_danpian/show-168.html"
+                                        >医院简介</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_danpian/show-56.html"
+                                        >医院文化</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_danpian/show-169.html"
+                                        >医院短片</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_wenzi/163.html"
+                                        >医院荣誉</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_danpian/show-131.html"
+                                        >宣传标语</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_danpian/show-57.html"
+                                        >领导信息</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_danpian/show-162.html"
+                                        >机构设置</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/zizhi_list.html" href="/yiyuan_wenzi/58.html"
+                                        >从业人员资质</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_wenzi/59.html"
+                                        >统计报表</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_wenzi/60.html"
+                                        >人事任免</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_wenzi/61.html"
+                                        >价格服务</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_tuwen/1244.html"
+                                        >单位财政预决算</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_danpian/show-177.html"
+                                        >医院院歌</a></h4>
+                                </div>
+                                
+                                      
+                            </div><!-- /cbp-hrsub-inner -->
+                        </div><!-- /cbp-hrsub -->
+                       
+                    </li>
+                    
+                    <li>
+                        <a href="javascript:;">医政资讯
+                        </a>
+                        
+                        <div class="cbp-hrsub">
+                            <div class="cbp-hrsub-inner">
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_danpian/show-165.html"
+                                        >医政概况</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_wenzi/166.html"
+                                        >医政动态</a></h4>
+                                </div>
+                                
+                                      
+                            </div><!-- /cbp-hrsub-inner -->
+                        </div><!-- /cbp-hrsub -->
+                       
+                    </li>
+                    
+                    <li>
+                        <a href="javascript:;">护理园地
+                        </a>
+                        
+                        <div class="cbp-hrsub">
+                            <div class="cbp-hrsub-inner">
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_danpian/show-63.html"
+                                        >护理概况</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_tuwen/64.html"
+                                        >护理动态</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_wenzi/1253.html"
+                                        >护理进修</a></h4>
+                                </div>
+                                
+                                      
+                            </div><!-- /cbp-hrsub-inner -->
+                        </div><!-- /cbp-hrsub -->
+                       
+                    </li>
+                    
+                    <li>
+                        <a href="javascript:;">人才招聘
+                        </a>
+                        
+                        <div class="cbp-hrsub">
+                            <div class="cbp-hrsub-inner">
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_wenzi/68.html"
+                                        >招聘信息</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_wenzi/181.html"
+                                        >通知公告</a></h4>
+                                </div>
+                                
+                                      
+                            </div><!-- /cbp-hrsub-inner -->
+                        </div><!-- /cbp-hrsub -->
+                       
+                    </li>
+                    
+                    <li>
+                        <a class="home" href="/keyan.html">科研教学</a>
+                    </li>
+                    
+                    <li>
+                        <a href="javascript:;">招标采购
+                        </a>
+                        
+                        <div class="cbp-hrsub">
+                            <div class="cbp-hrsub-inner">
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_wenzi/69.html"
+                                        >招标公告</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_wenzi/70.html"
+                                        >中标公告</a></h4>
+                                </div>
+                                
+                                <div>
+                                    <h4><a href="/yiyuan_wenzi/1245.html"
+                                        >废标公告</a></h4>
+                                </div>
+                                
+                                      
+                            </div><!-- /cbp-hrsub-inner -->
+                        </div><!-- /cbp-hrsub -->
+                       
+                    </li>
+                    
+                    <li>
+                        <a class="home" href="/yiyuan_pingtai.html">数字平台</a>
+                    </li>
+                    
+                    <li>
+                        <a class="home"  href="/yiyuan_wenzi/159.html"
+                             class="home">扫黑除恶 </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/yanliang_danpian/show-72.html" class="home">阎良院区 </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="/templates/main/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/templates/main/js/lrtk.js"></script>
+    <script type="text/javascript" src="/templates/main/js/cbpHorizontalMenu.min.js"></script>
+    <script src="/templates/main/js/sweiper/swiper.min.js"></script>
+    <script>
+        $(function () {
+            
+        })
+        
+        var mySwiper = new Swiper('.swiper-container', {
+            autoplay: {
+                autoplay: true, //可选选项，自动滑动
+                disableOnInteraction: false, //手动播放停止
+            }
+        })
+        
+        $(function () {
+            $("#home").on("click", function () {
+                window.location.href = $("#home").attr('href');
+            })
+
+            $(".t-first").on("click", function () {
+                $(".t-first").css("color", "#ffffff")
+                $(".t-last").css("color", "#afeef4")
+                $(".qh-1").show();
+                $(".qh-2").hide();
+            })
+            $(".t-last").on("click", function () {
+                $(".t-first").css("color", "#afeef4")
+                $(".t-last").css("color", "#ffffff")
+                $(".qh-2").show();
+                $(".qh-1").hide();
+            })
+        })
+    </script>
+</body>
+</html>
+
+    <!--/Header-->
+	
+    <!--Img-->
+    
+<div class="in-1"></div>
+
+    <!--/Img-->
+	
+	
+    <div class="in-1-tags font-14 color-444"><a class="color-444" href="/yiyuan.html">首页</a>  &gt;招标采购&gt;<span class="color-999">废标公告</span></div>
+    <div class="background-eff padding-t-50">
+        
+            <a href="/yiyuan_neiye/show-57859.html">
+                <div class="xw-text-list">
+                    <div class="clearfix"><span class="left color-444">西安市红会医院泌尿科配置膀胱镜设备采购项目（废标）公告</span><span class="right color-999">2026-07-09</span></div>
+                    <p>一、项目名称：西安市红会医院泌尿科配置膀胱镜设备采购项目二、结果内容采购结果：废标废标理由：经审查，通过资格性审查和符合性审查的有效供应商不足，故本项目做废标处理。三、公告期限自本公告发布之日起1个工作日。四、凡对本次公告内容提出询问，请按以下方式联系采购单…</p>
+                    <div class="more">查看更多&gt;&gt;</div>
+                </div>
+            </a>
+            
+            <a href="/yiyuan_neiye/show-57858.html">
+                <div class="xw-text-list">
+                    <div class="clearfix"><span class="left color-444">西安市红会医院（北院区）东门地面改造项目（废标）公告</span><span class="right color-999">2026-07-09</span></div>
+                    <p>一、项目名称：西安市红会医院（北院区）东门地面改造项目二、结果内容采购结果：废标废标理由：经审查，通过资格性审查和符合性审查的有效供应商不足，故本项目做废标处理。三、公告期限自本公告发布之日起1个工作日。四、凡对本次公告内容提出询问，请按以下方式联系采购单位…</p>
+                    <div class="more">查看更多&gt;&gt;</div>
+                </div>
+            </a>
+            
+            <a href="/yiyuan_neiye/show-57850.html">
+                <div class="xw-text-list">
+                    <div class="clearfix"><span class="left color-444">西安市红会医院电子票据升级及运维服务项目（废标）公告</span><span class="right color-999">2026-07-06</span></div>
+                    <p>一、项目名称：西安市红会医院电子票据升级及运维服务项目二、结果内容采购结果：废标废标理由：投标有效供应商不足，故本项目做废标处理。三、公告期限自本公告发布之日起1个工作日。四、凡对本次公告内容提出询问，请按以下方式联系采购单位：西安市红会医院联系方式：029-8…</p>
+                    <div class="more">查看更多&gt;&gt;</div>
+                </div>
+            </a>
+            
+            <a href="/yiyuan_neiye/show-57848.html">
+                <div class="xw-text-list">
+                    <div class="clearfix"><span class="left color-444">西安市红会医院北院区室外枯萎树木清除项目（废标）公告</span><span class="right color-999">2026-07-03</span></div>
+                    <p>一、项目名称：西安市红会医院北院区室外枯萎树木清除项目    二、结果内容采购结果：废标废标理由：经审查，到现场供应商不足，故本项目做废标处理。三、公告期限自本公告发布之日起1个工作日。四、凡对本次公告内容提出询问，请按以下方式联系采购单位：西安市红会医院联系方…</p>
+                    <div class="more">查看更多&gt;&gt;</div>
+                </div>
+            </a>
+            
+            <a href="/yiyuan_neiye/show-57847.html">
+                <div class="xw-text-list">
+                    <div class="clearfix"><span class="left color-444">西安市红会医院北院区东门入口绿化景观提升项目（废标）公告</span><span class="right color-999">2026-07-03</span></div>
+                    <p>一、项目名称：西安市红会医院北院区东门入口绿化景观提升项目二、结果内容采购结果：废标废标理由：经审查，到现场供应商不足，故本项目做废标处理。三、公告期限自本公告发布之日起1个工作日。四、凡对本次公告内容提出询问，请按以下方式联系采购单位：西安市红会医院联系方…</p>
+                    <div class="more">查看更多&gt;&gt;</div>
+                </div>
+            </a>
+            
+
+        <div class="i2-pager">
+            <ul class="pagination">
+               <li><a class="disabled">«</a></li><li><a class="active">1</a></li><li><a href="/yiyuan_wenzi/1245/2.html">2</a></li><li><a href="/yiyuan_wenzi/1245/3.html">3</a></li><li><a href="/yiyuan_wenzi/1245/4.html">4</a></li><li><a>...</a></li><li><a href="/yiyuan_wenzi/1245/31.html">31</a></li><li><a href="/yiyuan_wenzi/1245/2.html">»</a></li><div class='clear'></div>
+            </ul>
+        </div>
+    </div>
+    <!--Footer-->
+    <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style>
+        .footer-code{
+            width: 119px;
+            text-align: center;
+        }
+        .footer-code img{
+            width: 100%;
+            height: 116px;
+        }
+        .footer-code p{
+            color: #ffffff;
+            margin-top: 5px;
+        }
+        .code p{
+            text-align: center;
+            color: #000000;
+        }
+        #phone{
+            height: auto;
+            right: 47px;
+            top: -28px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="j-footer">
+        <div class="footer-1 clearfix padding-t-26 padding-b-26">
+            <div class="footer-top">
+                <span class="yqlj">友情链接：</span>
+                
+                <a href="http://www.nhc.gov.cn/" target="_blank"  class="first">中华人民共和国国家卫生健康委员会</a>
+                
+                <a href="http://sxwjw.shaanxi.gov.cn/" target="_blank" >陕西省卫生健康委员会</a>
+                
+                <a href="http://xawjw.xa.gov.cn/" target="_blank" >西安市卫生健康委员会</a>
+                
+            </div>
+            <div class="left">
+                <img src="/templates/main/images/footer-logo.png" alt="" class="display-b margin-b-30">
+                <a href="/yiyuan.html" class="first">医院</a>
+                <a href="/yisheng.html">医生</a>
+                <a href="/huanzhe.html">患者</a>
+                <a href="/dangjian.html">党建</a>
+                <a href="/yingwen.html" class="active">ENGLISH</a>
+                <div class="margin-t-20">
+                    <span class="color-fff">电子信箱：honghui202355@163.com</span>
+                    <span class="color-fff">电话：029-83661911</span>
+                    <span class="color-fff">地址：陕西省西安市南稍门友谊东路555号</span>
+                </div>
+            </div>
+			 <div class="right footer-code">
+                <img src="/templates/main/images/icon/douyin.jpg" alt="">
+                <p>官方抖音</p>
+            </div>
+            <div class="right margin-r-10 footer-code">
+                <img src="/templates/main/images/icon/icon-codewb.jpg" alt="">
+                <p>官方微博</p>
+            </div>
+            <div class="right margin-r-10 footer-code">
+                <img src="/templates/main/images/icon/icon-tt.jpg" alt="">
+                <p>今日头条</p>
+            </div>
+            <div class="right margin-r-10 footer-code">
+                <img src="/templates/main/images/icon/gzh.jpg" alt="">
+                <p>官方公众号</p>
+            </div>
+            
+        </div>
+        <div class="footer-2 color-fff">西安市红会医院 © <a href="https://beian.miit.gov.cn" style="color:#fff;">版权所有　陕ICP备2021006469号-1   西卫网审[2015]7号　 陕公网安备 61010302000288号</a></div>
+		<div class="footer-2 color-fff">温馨提示：请用IE9版本以上浏览器以及1044*900以上分辨率浏览网站<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1276720947'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/stat.php%3Fid%3D1276720947%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></div>
+		
+    </div>
+    <!-- 侧边栏 -->
+    <div class="sidebar">
+        <ul>
+            <li class="li-1">
+                <img src="/templates/main/images/icon/icon-slide-bar-0.png" alt="">
+                <div class="s-b display-n position-r">微信联系
+                        <div class="code">
+                            <img src="/templates/main/images/icon/gzh.jpg" alt="">
+                            <p>官方公众号</p>
+                        </div>
+                </div>
+            </li>
+            <li class="li-2">
+                <img src="/templates/main/images/icon/icon-slide-bar-1.png" alt="">
+                <div class="s-b display-n" id="phone">
+                    <p>24小时服务中心电话：
+					<br/>029-83661911
+					</p> 
+					<p>门诊咨询电话：
+					<br/>029-83661911
+					</p> 
+                    <p>医疗总值班电话：18009215686(北院区)  15129265553(南院区)</p> 
+                    <p>护理总值班电话：17392275334(北院区)  15029087631(南院区)</p> 
+                    <p>行政总值班电话：17392913614(北院区)  13892893540(南院区)</p> 
+                    <p>整治漠视群众利益问题举报电话：18802940643</p> 
+                </div>
+                  
+            </li>
+            <li class="li-3">
+                <a href="/huanzhe_wenda/21.html">
+                    <img src="/templates/main/images/icon/icon-slide-bar-2.png" alt="">
+                    <div class="s-b display-n">患者问答</div>
+                </a>
+            </li>
+            <li class="li-4">
+                <a href="/huanzhe_danpian/show-15.html">
+                    <img src="/templates/main/images/icon/icon-slide-bar-3.png" alt="">
+                    <div class="s-b display-n">预约挂号</div>
+                </a>
+            </li>
+            <li class="li-5">
+                <a href="https://weibo.com/u/3232142874?profile_ftype=1&is_all=1#_0" target="_blank">
+                    <img src="/templates/main/images/icon/icon-slide-bar-4.png" alt="">
+                    <div class="s-b display-n position-r">官方微博
+                        <div class="code">
+                            <img src="/templates/main/images/icon/icon-codewb.jpg" alt="">
+                            <p>官方微博</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="gototop">
+                <img src="/templates/main/images/icon/icon-slide-bar-5.png" alt="">
+            </li>
+        </ul>
+    </div>
+	
+    <script>
+        $(function () {
+            $(".home").on("click", function () {
+                window.location.href = $(this).attr('href');
+            })
+             /******************/
+             $(".sidebar li").mouseover(function () {
+                if ($(this).index() !== 5) {
+                    $(this).children("img").attr("src", "/templates/main/images/icon/icon-" + $(this).index() + ".png")
+                }
+            }).mouseout(function () {
+                if ($(this).index() !== 5) {
+                    $(this).children("img").attr("src", "/templates/main/images/icon/icon-slide-bar-" + $(this).index() +
+                        ".png")
+                }
+            })
+            /***************/
+            $(window).scroll(function(){
+                if ($(window).scrollTop()>0){
+                    $(".gototop").fadeIn(1000);
+                }
+                else
+                {
+                    $(".gototop").fadeOut(1000);
+                }
+            });
+            $(".gototop").on("click",function(){
+                    var $scrolltop=$('html,body').scrollTop();
+                if($scrolltop!=0){
+                    console.log($scrolltop);
+                     $('html,body').stop().animate({scrollTop: 0}, 1000);
+                    return false;
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>
+    <!--/Footer-->
+</body>
+
+</html>

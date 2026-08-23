@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="keywords" content="陕西省政府采购网"/>
+    <meta name="description" content="陕西省政府采购网"/>
+<!--    去掉浏览器页签图标展示-->
+<!--    <link rel='shortcut icon' href='/cms-sx/site/shanxi/resources/img/bitbug_favicon.ico' type='image/x-icon' />-->
+    <title>陕西省政府采购网</title>
+
+    <!-- Bootstrap -->
+<!--    <link rel="shortcut icon" type="/cms-sx/site/shanxi//resources/img/png" href="./static/favicon.ico"/>-->
+    <link href="/cms-sx/site/shanxi//resources/lib/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/cms-sx/site/shanxi//resources/css/reset.css" />
+    <link rel="stylesheet" href="/cms-sx/site/shanxi//resources/css/common.css" />
+    <link rel="stylesheet" href="/cms-sx/site/shanxi//resources/css/index.css" />
+    <link  rel="stylesheet" href="/cms-sx/site/shanxi//resources/style/head_foot.css">
+    <link rel="stylesheet" href="/cms-sx/site/shanxi//resources/style/index.css" />
+    <link rel="stylesheet" href="/cms-sx/site/shanxi//resources/style/list.css" />
+    <link  rel="stylesheet" href="/cms-sx/site/shanxi//resources/css/zcfg.css">
+    <link href="/cms-sx/site/shanxi/resources/layui/css/layui.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/lib/css/myPagination.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/zcgn.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/zxly.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/zxlylist.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/searchInfo.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/iconfont.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/newIndex.css" rel="stylesheet"/>
+<!-- 栏目css-->
+    <link href="/cms-sx/site/shanxi/resources/css/jgzn.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/lxwm.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/xxgg.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/columnCommonStyles.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/gmfwMore.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/tszq.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/gysgs.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/gysgsDetail.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/zjgsDetail.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/cms-sx/site/shanxi/resources/cdn/swiper-5.4.5/package/css/swiper.min.css">
+
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/lib/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/lib/js/bootstrap.min.js"></script>
+    <script src="/cms-sx/site/shanxi/resources/cdn/echarts/echarts.min.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/js/jquery.cookie.js"></script>
+
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/head.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/index.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/laydate.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/pageMe.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/layui/layui.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/lib/js/myPagination.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/module/treeSelect/treeSelect.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/js/download.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/js/jquery.base64.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/publicMethods.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/download.js"></script>
+    <script src="/cms-sx/site/shanxi/resources/cdn/swiper-5.4.5/package/js/swiper.min.js"></script>
+    <!--引入加密算法js文件-->
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/jsencrypt.min.js"></script>
+    <!--引入新验签js-->
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/sha1.js"></script>
+    <!--引入md5js-->
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/md5.js"></script>
+    <!--网站无障碍-->
+    <script id="rrbayJs" src="//wza.rrbay.com/js/wza.min.js?65d59f6121c01118b862eae6"  referrerpolicy="origin" type="text/javascript"></script>
+  </head>
+
+  <body>
+  <input id="commonTitle" type="hidden" value="陕西省政府采购网">
+  <script>
+    var keywords=document.getElementsByTagName("meta")[2];
+    var description=document.getElementsByTagName("meta")[3];
+    keywords.content=$('#commonTitle').val();
+    description.content=$('#commonTitle').val();;
+    document.title=$('#commonTitle').val();
+    $(document).ready(function () {
+      $('#electronicStoreProvince li').click(function () {
+        $(this).addClass('activedList').siblings().removeClass('activedList');
+      })
+      $('#projectProcurementLeft li').click(function () {
+        $(this).addClass('activedLists').siblings().removeClass('activedLists');
+      })
+      $('#KJXYprojectProcurementLeft li').click(function () {
+        $(this).addClass('activedLists').siblings().removeClass('activedLists');
+      })
+      $('#projectProcurementLefts li').click(function () {
+        $(this).addClass('activedListss').siblings().removeClass('activedListss');
+      })
+    })
+    // 提取原调接口contextpathNo部分
+    function getFreecms() {
+      return "/freecms";
+    }
+  </script>
+<div class="head">
+    <nav class="navHead">
+        <div class="content">
+            <div class="navLeft">
+                                        <span>您好，欢迎进入陕西省政府采购网!</span>
+            </div>
+            <div class="navRight">
+                <ul>
+                            <a href="https://www.ccgp-shaanxi.gov.cn/gateway/gp-auth-center/login?tenantId=ZF_JGBM_000003&systemRegion=610001">
+                                <img src="/cms-sx/upload/a7a15d60-de5b-42f2-b35a-7e3efc34e54f/bdf291d7-606a-40c1-8874-bdcc32c16d1e.png" width="16">
+                                <span>请登录</span>
+                            </a>
+                            <a href="/cms-sx/site/shanxi/lxwmrk/index.html">
+                                <img src="/cms-sx/upload/a7a15d60-de5b-42f2-b35a-7e3efc34e54f/a5661fe3-43df-4505-bc9c-7dd308396300.png" width="16">
+                                <span >联系我们</span>
+                            </a>
+                        <a id="wzayd" style="display: none;" title="盲人朋友在线浏览按住Alt+g键" href="javascript:;" class="wzayd" accesskey="g"><span>无障碍阅读</span></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="LogoSearch ">
+        <div class="content ">
+            <div class="businessLogo">
+                    <a href="/cms-sx/site/shanxi//index.html" style="cursor: pointer;">
+                        <img src="/cms-sx/upload/a7a15d60-de5b-42f2-b35a-7e3efc34e54f/e3e02009-42dc-4e51-836f-a12b1c190203.png">
+                    </a>
+            </div>
+            <div class="search">
+                <!--<form action="/cms-sx/templetPro.do" method="post">-->
+                    <input type="hidden" name="siteid" value="a7a15d60-de5b-42f2-b35a-7e3efc34e54f">
+                    <input type="hidden" name="templetPath" value="searchinfo.html">
+                    <input type="text" name="key" id="title"  placeholder="输入查询内容">
+                        <a id="megaloscopeHref1" href="/cms-sx/site/shanxi/qwjsy/index.html" target="_blank">
+                            <button id="megaloscopeBtn1" class="megaloscope" code="1" style="height: 38px;width: 60px;color: #FFF;background: #167ae0; border: 1px solid #167ae0;">搜标题</button>
+                        </a>
+                    <a id="megaloscopeHref2" href="/cms-sx/site/shanxi/qwjsy/index.html" target="_blank">
+                        <button id="megaloscopeBtn2" class="megaloscope" code="2" style="height: 38px;width: 60px;color: #FFF;background: #1d5db8; border: 1px solid #1d5db8;">搜全文</button>
+                    </a>
+                <!--</form>-->
+            </div>
+            <div class="timeData">
+                <span class="daily" style="font-size: 24px;"></span>
+                <span style="font-size: 24px;">/</span>
+                <span class="topmonth" style="font-size: 44px;"></span>
+                <p class="toDateString"></p>
+                <span>&nbsp&nbsp</span>
+                <p class="week"></p>
+            </div>
+        </div>
+    </div>
+    <nav class="navList">
+        <ul class="nav-tab content">
+            <li class="activeList">
+                <a href="/cms-sx/site/shanxi/index.html">首页</a>
+            </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/zcfg/index.html?result=result">政策法规</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/jgzn/index.html?result=result">机构职能</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/gmfw/index.html?result=result">购买服务</a>
+                </li>
+                <li>
+                    <a href="https://www.ccgp-shaanxi.gov.cn/gpmall-main-web/index?result=result">电子卖场</a>
+                </li>
+                <li>
+                    <a href="https://www.ccgp-shaanxi.gov.cn/gpfa-main-web/index?result=result">框架协议</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/zxdt/index.html?result=result">资讯动态</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/xxgg/index.html?result=result">信息公告</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/jdgl/index.html?result=result">监督管理</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/1094/index.html?result=result">办事指南</a>
+                </li>
+        </ul>
+    </nav>
+</div>
+<!-- nav -->
+<script>
+    function init() {
+        var str = window.location.pathname;
+        if(str.indexOf("qwjsy")!=-1) {
+            $(".search").remove();
+        }
+    };
+    init();
+    $(document).ready(function () {
+        // 获取当前相对路径： /springmvc/page/frame/test.html
+        var pathName = window.location.pathname + '?result=result';
+        function getCaption(obj){
+            var index=obj.indexOf("\/");
+            obj=obj.substring(index+1,obj.length)   ;
+            return obj;
+        }
+        var aList =  $(".nav-tab a")
+        var liList =  $(".nav-tab li")
+        var navUrl = ''
+        for (var i = 0;i<aList.length;i++){
+            var arrUrl = aList[i]["href"].split("//")[1];
+            navUrl = '/'+getCaption(arrUrl);
+            if(navUrl == pathName){
+                liList.eq(i).addClass('activeList').siblings().removeClass('activeList');
+            }
+            if(arrUrl.indexOf("site")>=0){
+                aList[i].target = '_self'
+            }else{
+                aList[i].target = '_blank'
+            }
+        }
+    })
+
+    $('#megaloscopeBtn1').click(function () {
+        var title = $('#title').val();
+        var megaloscopeHref = $('#megaloscopeHref1').attr('href');
+        if (megaloscopeHref.indexOf("?") !=-1) {
+            megaloscopeHref=megaloscopeHref.split("?")[0]
+        }
+        if(title) {
+            $('#megaloscopeHref1').attr('href', encodeURI(megaloscopeHref + '?searchContentBT=' + title))
+        }
+    })
+    $('#megaloscopeBtn2').click(function () {
+        var title = $('#title').val();
+        var megaloscopeHref = $('#megaloscopeHref2').attr('href');
+        if (megaloscopeHref.indexOf("?") !=-1) {
+            megaloscopeHref=megaloscopeHref.split("?")[0]
+        }
+        if(title) {
+            $('#megaloscopeHref2').attr('href', encodeURI(megaloscopeHref + '?searchContentQW=' + title))
+        }
+    })
+</script>
+
+
+<!--投诉专区-->
+<section class="containers">
+    <section class="container" style="width: 100%">
+        <div class="currentlocation" style="width: 1200px;margin: 0 auto;">当前位置:<a href="/cms-sx/site/shanxi//index.html">首页</a>
+    <a href="/cms-sx/site/shanxi/tszq/index.html">>投诉专区</a>
+</div>
+        <div class="tszqContain contain">
+            <div>
+                <ul class="bar-tab" id="bar-tab">
+                    <li class="columnCommonStylesTabActive">线上投诉登记</li>
+                    <li>投诉流程范本</li>
+                    <li>投诉受理联系方式</li>
+                </ul>
+                <div class="contArea" id="contArea1">
+                    <div class="contAreaLeft">
+                        <div class="contTitle" style="display: none">
+                            <span>用户</span><span>功能</span>
+                        </div>
+                        <img src="/cms-sx/site/shanxi//resources/img/tszq-img/tsdj-img.png" style="width: 100%;margin-top: 20px">
+                    </div>
+                    <div class="contAreaRight" style="display: inline-block;">
+                        <div class="contAreaRightPublic contAreaRightTitle">
+                            <span>温馨提示</span>
+                        </div>
+                        <div class="contAreaRightPublic contAreaRightContent">
+                                    <p class="contAreaRightContentP" id="contAreaRightContents">1.投诉人须遵守《政府采购质疑和投诉办法》（财政部第94号令）相关要求，供应商投诉实行实名制，提交材料必须真实有效，不得弄虚作假。 2.参与政府采购电子化投诉供应商必须为陕西省政府采购网注册供应商，如未注册请在陕西省政府采购网投诉专区注册，注册须提交真实有效证件信息。 3.供应商提起电子化投诉后，对同一项目不得在线下重复递交投诉材料。 4.具体内容请查看“陕西省财政厅关于在全省开展电子化投诉工作有关事项的通知”。</p>
+                        </div>
+                                <a href="https://www.ccgp-shaanxi.gov.cn/gateway/gp-auth-center/login?systemRegion=610001"  target="_blank">
+                                    <div class="contAreaRightBtn">
+                                        <img src="/cms-sx/site/shanxi//resources/img/tszq-img/zxIcon.png">
+                                        <span>投诉登记</span>
+                                    </div>
+                                </a>
+                            <a href="https://www.ccgp-shaanxi.gov.cn/gpbs-gpbs/index.html#/gpbs/supplierReg/registrationPage?zoneCode=610001&tenantId=ZF_JGBM_000003"  target="_blank">
+                                <div class="contAreaRightBtn">
+                                    <img src="/cms-sx/site/shanxi//resources/img/tszq-img/gyszc.png">
+                                    <span>供应商注册</span>
+                                </div>
+                            </a>
+                    </div>
+                </div>
+                <div class="contArea" id="contArea2" style="display: none">
+                    <h3 class="text-center">政府采购投诉处理流程图</h3>
+                    <div class="text-center mar-t">
+                        <img src="/cms-sx/site/shanxi//resources/img/tszq-img/lcfb-img1.png">
+                    </div>
+                    <div class="downList mar-t" style="margin-bottom:30px">
+                        <h4 style="margin:20px 0;font-size: 20px">点击下载</h4>
+                        <p class="files"><a href="javascript:location.href = encodeURI(encodeURI('https://www.ccgp-shaanxi.gov.cn/cms-sx/upload/zfcggystssfb.doc'))">政府采购供应商投诉书范本.docx</a>
+                        <p class="files" style="margin-left:25px"><a href="javascript:location.href = encodeURI(encodeURI('https://www.ccgp-shaanxi.gov.cn/cms-sx/upload/zfcggyszyhfb.docx'))">政府采购供应商质疑函范本.docx</a>
+                    </div>
+                </div>
+                <div class="contArea" id="contArea3" style="display: none">
+                    <table class="table tab-striped tab-hover mar-t">
+                        <colgroup>
+                            <col width="5%" align="center">
+                            <col width="10%" align="center">
+                            <col width="30%">
+                            <col width="15%" align="center">
+                            <col width="40%">
+                        </colgroup>
+                        <thead>
+                        <tr style="background:#F5F5F5;color: #3e464c;">
+                            <th>序号</th>
+                            <th>行政区域</th>
+                            <th>联系部门</th>
+                            <th>联系电话</th>
+                            <th>联系地址</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td align="center">1</td>
+                            <td align="center">省级</td>
+                            <td>陕西省财政厅政府采购管理处</td>
+                            <td align="center">029-96702</td>
+                            <td>西安市冰窖巷6号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">2</td>
+                            <td align="center" rowspan="20" style="background:#fff">西安</td>
+                            <td>西安市财政局政府采购管理处</td>
+                            <td align="center">029-89821846</td>
+                            <td>西安市经开区凤城八路西北国金中心A座1802</td>
+                        </tr>
+                        <tr>
+                            <td align="center">3</td>
+                            <td>西安市新城区财政局政府采购管理科</td>
+                            <td align="center">029-87438480</td>
+                            <td>西安市新城区尚勤路231号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">4</td>
+                            <td>西安市碑林区财政局政府采购管理科</td>
+                            <td align="center">029-89625302</td>
+                            <td>西安市南院门27号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">5</td>
+                            <td>西安市莲湖区财政局综合科</td>
+                            <td align="center">029-87614013</td>
+                            <td>西安市西梆子市街143号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">6</td>
+                            <td>西安市雁塔区财政局综合科</td>
+                            <td align="center">029-85241571<br>029-85350625</td>
+                            <td>西安市雁塔西路177号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">7</td>
+                            <td>西安市灞桥区财政局政府采购管理科</td>
+                            <td align="center">029-83519160</td>
+                            <td>西安市灞桥区纺一路809号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">8</td>
+                            <td>西安市未央区财政局政府采购管理科</td>
+                            <td align="center">029-86276259</td>
+                            <td>西安市未央区广安路19号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">9</td>
+                            <td>西安市阎良区政府采购中心</td>
+                            <td align="center">029-86204415</td>
+                            <td>西安市阎良区凤凰东路33号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">10</td>
+                            <td>西安市临潼区财政局政府采购服务中心</td>
+                            <td align="center">029-83815758</td>
+                            <td>西安市临潼区东大街60号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">11</td>
+                            <td>西安市长安区政府采购中心</td>
+                            <td align="center">029-85645891</td>
+                            <td>西安市长安区北长安街89号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">12</td>
+                            <td>西安市鄠邑区财政局绩效管理科</td>
+                            <td align="center">029-84881081</td>
+                            <td>西安市鄠邑区人民路中段</td>
+                        </tr>
+                        <tr>
+                            <td align="center">13</td>
+                            <td>西安市高陵区财政局政府采购管理科</td>
+                            <td align="center">029-86919290</td>
+                            <td>西安市高陵区鹿苑街道南环西路187号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">14</td>
+                            <td>西安市蓝田县财政局政府采购中心</td>
+                            <td align="center">029-82721045</td>
+                            <td>西安市蓝田县向阳路18号（蓝田县财政局院内）</td>
+                        </tr>
+                        <tr>
+                            <td align="center">15</td>
+                            <td>西安市周至县财政局综合科</td>
+                            <td align="center">029-87113948</td>
+                            <td>西安市周至县影西路4号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">16</td>
+                            <td>西安市高新区财政局监督检查部</td>
+                            <td align="center">029-88333950</td>
+                            <td>西安市锦业路一号都市之门A座1906室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">17</td>
+                            <td>西安市经开区财政局</td>
+                            <td align="center">029-86522654</td>
+                            <td>西安市凤城十二路凯瑞F座1203室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">18</td>
+                            <td>西安曲江新区政府采购管理办公室</td>
+                            <td align="center">029-68660284</td>
+                            <td>西安市曲江新区杜陵邑南路6号</td>
+                        </tr>
+<!--                        <tr>-->
+<!--                            <td align="center">19</td>-->
+<!--                            <td>西安市浐灞生态区财政局</td>-->
+<!--                            <td align="center">029-83597334</td>-->
+<!--                            <td>西安市浐灞大道1号商务中心5B02</td>-->
+<!--                        </tr>-->
+                        <tr>
+                            <td align="center">20</td>
+                            <td>西安浐灞国际港财政局</td>
+                            <td align="center">029-83521198</td>
+                            <td>西安市浐灞国际港港务大道6号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">21</td>
+                            <td>西安阎良国家航空高技术产业基地管理委员会财政局</td>
+                            <td align="center">029-86857228</td>
+                            <td>西安市阎良区蓝天路7号航空科技大厦5楼E15室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">22</td>
+                            <td>西安国家民用航天产业基地管理委员会财政局</td>
+                            <td align="center">029-85688753</td>
+                            <td>西安市航天基地航天中路</td>
+                        </tr>
+                        <tr>
+                            <td align="center">23</td>
+                            <td align="center" rowspan="14" style="background:#fff">宝鸡</td>
+                            <td>宝鸡市财政局采购管理科</td>
+                            <td align="center">0917-3262072</td>
+                            <td>宝鸡市行政中心5号楼</td>
+                        </tr>
+                        <tr>
+                            <td align="center">24</td>
+                            <td>渭滨区财政局采管信息股</td>
+                            <td align="center">0917-3253935</td>
+                            <td>宝鸡市新建路中段80号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">25</td>
+                            <td>金台区财政局办公室</td>
+                            <td align="center">0917-3158606</td>
+                            <td>宝鸡市金台市民中心（大庆路61号）</td>
+                        </tr>
+                        <tr>
+                            <td align="center">26</td>
+                            <td>陈仓区财政局采购管理股</td>
+                            <td align="center">0917-6231036</td>
+                            <td>宝鸡市陈仓区南环路育才酒店正对面</td>
+                        </tr>
+                        <tr>
+                            <td align="center">27</td>
+                            <td>凤翔县财政局采购管理股</td>
+                            <td align="center">0917-7212595</td>
+                            <td>凤翔县县城凤舞路</td>
+                        </tr>
+                        <tr>
+                            <td align="center">28</td>
+                            <td>扶风县财政局行政政法股（采购管理股）</td>
+                            <td align="center">0917-5217375</td>
+                            <td>扶风县城新区南一路</td>
+                        </tr>
+                        <tr>
+                            <td align="center">29</td>
+                            <td>岐山县财政局监督检查股</td>
+                            <td align="center">0917-8212525</td>
+                            <td>岐山县电力路</td>
+                        </tr>
+                        <tr>
+                            <td align="center">30</td>
+                            <td>眉县财政局采购管理股</td>
+                            <td align="center">0917-8994458</td>
+                            <td>眉县首善镇首善街西段</td>
+                        </tr>
+                        <tr>
+                            <td align="center">31</td>
+                            <td>陇县财政局采购管理股</td>
+                            <td align="center">0917-4605064</td>
+                            <td>陇县北坡路7号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">32</td>
+                            <td>千阳县财政局政府采购股</td>
+                            <td align="center">0917-4249705</td>
+                            <td>千阳县城东大街16号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">33</td>
+                            <td>麟游县财政局采购管理股</td>
+                            <td align="center">0917-7960238</td>
+                            <td>麟游县杜阳路47号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">34</td>
+                            <td>凤县财政局采购管理股</td>
+                            <td align="center">0917-4762771</td>
+                            <td>凤县双石铺镇新建路</td>
+                        </tr>
+                        <tr>
+                            <td align="center">35</td>
+                            <td>太白县财政局采购管理股</td>
+                            <td align="center">0917-4956873</td>
+                            <td>太白县城北大街</td>
+                        </tr>
+                        <tr>
+                            <td align="center">36</td>
+                            <td>宝鸡高新技术产业开发区财政中心税费综合科</td>
+                            <td align="center">0917-8859510</td>
+                            <td>宝鸡市高新大道69号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">37</td>
+                            <td align="center" rowspan="15" style="background:#fff">咸阳</td>
+                            <td>咸阳市财政局政府采购管理科</td>
+                            <td align="center">029-33213484</td>
+                            <td>咸阳市渭阳西路1号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">38</td>
+                            <td>秦都区财政局采购科</td>
+                            <td align="center">029-33213231</td>
+                            <td>咸阳市渭阳中路1号秦都区政府南楼秦都区财政局</td>
+                        </tr>
+                        <tr>
+                            <td align="center">39</td>
+                            <td>渭城区财政局采购科</td>
+                            <td align="center">029-33157928</td>
+                            <td>渭城区抗战北路38号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">40</td>
+                            <td>兴平市财政局采购资产科</td>
+                            <td align="center">029-38816396</td>
+                            <td>兴平市南大街财政局</td>
+                        </tr>
+                        <tr>
+                            <td align="center">41</td>
+                            <td>彬州市财政局政府采购管理股</td>
+                            <td align="center">029-34929718</td>
+                            <td>彬州市公刘街西城拐角财政局  </td>
+                        </tr>
+                        <tr>
+                            <td align="center">42</td>
+                            <td>武功县财政局采购管理股</td>
+                            <td align="center">029--38935317</td>
+                            <td>武功县长青路财政局</td>
+                        </tr>
+                        <tr>
+                            <td align="center">43</td>
+                            <td>三原县财政局采购管理股</td>
+                            <td align="center">029-32268653</td>
+                            <td>三原县政府街财政局</td>
+                        </tr>
+                        <tr>
+                            <td align="center">44</td>
+                            <td>泾阳县财政局采购和资产管理股&nbsp;</td>
+                            <td align="center">029-36220073</td>
+                            <td>泾阳县中心街402号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">45</td>
+                            <td>礼泉县财政局采购管理股    </td>
+                            <td align="center">029-35621496</td>
+                            <td>礼泉县城市政西大街13号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">46</td>
+                            <td>乾县财政局采购管理股</td>
+                            <td align="center">029 -35521140</td>
+                            <td>乾县东新街财政局</td>
+                        </tr>
+                        <tr>
+                            <td align="center">47</td>
+                            <td>永寿县财政局政府采购管理股</td>
+                            <td align="center">029-37663237</td>
+                            <td>永寿县监军街道新永路5号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">48</td>
+                            <td>长武县财政局采购管理股</td>
+                            <td align="center">029-34290193</td>
+                            <td>县城南大街11号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">49</td>
+                            <td>旬邑县财政局采购与资产管理股  </td>
+                            <td align="center">029-37115830</td>
+                            <td>旬邑县北大街</td>
+                        </tr>
+                        <tr>
+                            <td align="center">50</td>
+                            <td>淳化县财政局采购股</td>
+                            <td align="center">029-32772525</td>
+                            <td>淳化县人民街财政局</td>
+                        </tr>
+                        <tr>
+                            <td align="center">51</td>
+                            <td>咸阳高新技术产业开发区政府采购管理办公室</td>
+                            <td align="center">029-32003603</td>
+                            <td>咸阳市高科三路创业大厦8楼</td>
+                        </tr>
+                        <tr>
+                            <td align="center">52</td>
+                            <td align="center" rowspan="15" style="background:#fff">渭南</td>
+                            <td>渭南市财政局采购管理科</td>
+                            <td align="center">0913-2100007</td>
+                            <td>渭南市临渭区朝阳大街中段中银大厦</td>
+                        </tr>
+                        <tr>
+                            <td align="center">53</td>
+                            <td>渭南市临渭区财政局政府采购股</td>
+                            <td align="center">0913-2130873</td>
+                            <td>渭南市乐天大街123号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">54</td>
+                            <td>渭南市经济技术开发区财政局党政办公室</td>
+                            <td align="center">0913-2580199</td>
+                            <td>渭南经济技术开发区香山大道3号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">55</td>
+                            <td>渭南高新区财政局采购管理股</td>
+                            <td align="center">0913-2111101</td>
+                            <td>渭南高新区青松街1号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">56</td>
+                            <td>渭南市华州区财政局采购管理股</td>
+                            <td align="center">0913-4720669</td>
+                            <td>华州区子仪大街15号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">57</td>
+                            <td>合阳县财政局采购管理股</td>
+                            <td align="center">0913-8343423</td>
+                            <td>合阳县东新街43号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">58</td>
+                            <td>潼关县财政局采购管理股</td>
+                            <td align="center">0913-8493950</td>
+                            <td>潼关县中心街西段</td>
+                        </tr>
+                        <tr>
+                            <td align="center">59</td>
+                            <td>蒲城县财政局采购管理股</td>
+                            <td align="center">0913-7255613</td>
+                            <td>蒲城县延安路东段113号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">60</td>
+                            <td>富平县财政局采购管理股</td>
+                            <td align="center">0913-8221119</td>
+                            <td>富平县频阳大道3号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">61</td>
+                            <td>白水县财政局采购管理股</td>
+                            <td align="center">0913-8483373</td>
+                            <td>白水县仓颉路中段</td>
+                        </tr>
+                        <tr>
+                            <td align="center">62</td>
+                            <td>华阴市财政局采购管理股</td>
+                            <td align="center">0913-8373765</td>
+                            <td>华阴市东岳路中段</td>
+                        </tr>
+                        <tr>
+                            <td align="center">63</td>
+                            <td>大荔县财政局国有资产中心</td>
+                            <td align="center">0913-3256363</td>
+                            <td>大荔县洛滨大道中段</td>
+                        </tr>
+                        <tr>
+                            <td align="center">64</td>
+                            <td>澄城县财政局采购管理股</td>
+                            <td align="center">0913-6868908</td>
+                            <td>澄城县古徵街五路北财政局大楼</td>
+                        </tr>
+                        <tr>
+                            <td align="center">65</td>
+                            <td>渭南卤阳湖开发区财政分局预算股</td>
+                            <td align="center">0913-3338188</td>
+                            <td>卤阳湖创业大楼</td>
+                        </tr>
+                        <tr>
+                            <td align="center">66</td>
+                            <td>韩城市财政局政府采购管理科</td>
+                            <td align="center">0913-8334935</td>
+                            <td>韩城市太史大街财政局</td>
+                        </tr>
+                        <tr>
+                            <td align="center">67</td>
+                            <td align="center" rowspan="12" style="background:#fff">汉中</td>
+                            <td>汉中市财政局政府采购管理科</td>
+                            <td align="center">0916-2514015</td>
+                            <td>汉中市汉台区将坛西路23号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">68</td>
+                            <td>勉县财政局政府采购管理股</td>
+                            <td align="center">0916-8652188</td>
+                            <td>勉县勉阳街道办和平路东段</td>
+                        </tr>
+                        <tr>
+                            <td align="center">69</td>
+                            <td>宁强县财政局采购管理科</td>
+                            <td align="center">0916-4222669</td>
+                            <td>宁强县羌州中路</td>
+                        </tr>
+                        <tr>
+                            <td align="center">70</td>
+                            <td>汉台区财政局政府采购管理股</td>
+                            <td align="center">0916-2249355</td>
+                            <td>汉台区汉台街15号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">71</td>
+                            <td>略阳县财政局监督监察股</td>
+                            <td align="center">0916-4825944</td>
+                            <td>略阳县电厂路</td>
+                        </tr>
+                        <tr>
+                            <td align="center">72</td>
+                            <td>留坝县财政局政府采购中心</td>
+                            <td align="center">0916-3921596</td>
+                            <td>留坝县迎宾路001号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">73</td>
+                            <td>佛坪县财政局综合股</td>
+                            <td align="center">0916-8913691</td>
+                            <td>佛坪县熊猫大道1号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">74</td>
+                            <td>城固县财政局政府采购管理股</td>
+                            <td align="center">0916-7203525</td>
+                            <td>城固县小东关45号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">75</td>
+                            <td>西乡县财政局综合股</td>
+                            <td align="center">0916-8151192</td>
+                            <td>西乡县文昌路中段</td>
+                        </tr>
+                        <tr>
+                            <td align="center">76</td>
+                            <td>镇巴县财政局政府采购中心</td>
+                            <td align="center">0916-8641963</td>
+                            <td>镇巴县县城新街16号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">77</td>
+                            <td>洋县财政局政府采购中心</td>
+                            <td align="center">0916-2986238</td>
+                            <td>洋县洋州街道办事处唐塔北路51号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">78</td>
+                            <td>南郑区财政局政府采购管理科</td>
+                            <td align="center">0916-2995312</td>
+                            <td>南郑区南大街9号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">79</td>
+                            <td align="center" rowspan="13" style="background:#fff">安康</td>
+                            <td>安康市财政局政府采购管理科</td>
+                            <td align="center">0915-3214817</td>
+                            <td>安康市大桥南路17号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">80</td>
+                            <td>安康市汉滨区财政局采购事务股</td>
+                            <td align="center">0915-3203423</td>
+                            <td>安康市大桥南路7号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">81</td>
+                            <td title="安康市汉阴县财政局政府采购与行政事业单位资产管理股">安康市汉阴县财政局政府采购与行政事业单位资产管理股</td>
+                            <td align="center">0915-5273512</td>
+                            <td>安康市汉阴县凤凰大道47号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">82</td>
+                            <td>安康市石泉县财政局综合业务股</td>
+                            <td align="center">0915-6322900</td>
+                            <td>安康市石泉县城关镇桃园路3号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">83</td>
+                            <td>安康市宁陕县财政局采购管理股</td>
+                            <td align="center">0915-6821968</td>
+                            <td>安康市宁陕县城关镇行政小区</td>
+                        </tr>
+                        <tr>
+                            <td align="center">84</td>
+                            <td>安康市紫阳县财政局采购管理股</td>
+                            <td align="center">0915-4423681</td>
+                            <td>安康市紫阳县环城路之字巷65号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">85</td>
+                            <td>安康市旬阳县财政局会统财监股</td>
+                            <td align="center">0915-7202659</td>
+                            <td>安康市旬阳县瑞莲路46号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">86</td>
+                            <td>安康市白河县财政局政府采购监督管理办公室</td>
+                            <td align="center">0915-7823978</td>
+                            <td>安康市白河县人民路68号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">87</td>
+                            <td>安康市平利县财政局政府采购管理股</td>
+                            <td align="center">0915-8428502</td>
+                            <td>安康市平利县城关镇新正街779号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">88</td>
+                            <td>安康市岚皋县财政局政府采购管理股</td>
+                            <td align="center">0915-2529319</td>
+                            <td>安康市岚皋县城关镇堰溪街126号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">89</td>
+                            <td>安康市镇坪县财政局政府采购管理股</td>
+                            <td align="center">0915-8823223</td>
+                            <td>安康市镇坪县城关镇上新街10号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">90</td>
+                            <td>安康市高新区财政局政府采购办公室</td>
+                            <td align="center">0915-3325830</td>
+                            <td>安康市高新区安康大道创业大厦529室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">91</td>
+                            <td>安康市恒口示范区财政局业务管理科</td>
+                            <td align="center">0915-3629161</td>
+                            <td>安康市恒口示范区（试验区）月滨北大道创业大厦12楼1214室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">92</td>
+                            <td align="center" rowspan="9" style="background:#fff">商洛</td>
+                            <td>商洛市财政局采购管理科</td>
+                            <td align="center">0914-2330993</td>
+                            <td>商洛市商州区工农路12号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">93</td>
+                            <td>商洛市商州区财政局采购管理股</td>
+                            <td align="center">0914-2382323</td>
+                            <td>商州区名人街39号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">94</td>
+                            <td>洛南县财政局采购股</td>
+                            <td align="center">09147321610</td>
+                            <td>洛南县华阳路中段财政局404</td>
+                        </tr>
+                        <tr>
+                            <td align="center">95</td>
+                            <td>丹凤县财政局政府采购管理股</td>
+                            <td align="center">0914-3378966</td>
+                            <td>丹凤县北新街12号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">96</td>
+                            <td>商南县财政局政府采购管理股</td>
+                            <td align="center">0914-6321799</td>
+                            <td>商南县东环路92号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">97</td>
+                            <td>山阳县国有资产管理办公室</td>
+                            <td align="center">0914—8322477</td>
+                            <td>山阳县丰阳大酒店2006室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">98</td>
+                            <td>镇安县财政局政府采购管理股</td>
+                            <td align="center">0914-5325602</td>
+                            <td>镇安县迎宾路世纪豪城A座</td>
+                        </tr>
+                        <tr>
+                            <td align="center">99</td>
+                            <td>柞水县财政局政府采购管理股</td>
+                            <td align="center">0914-4323221</td>
+                            <td>柞水县城临河路12号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">100</td>
+                            <td>商洛高新区（商丹园区）财政局</td>
+                            <td align="center">0914-2035860</td>
+                            <td>商洛高新区（商丹园区）管委会</td>
+                        </tr>
+                        <tr>
+                            <td align="center">101</td>
+                            <td align="center" rowspan="15" style="background:#fff">榆林</td>
+                            <td>榆林市财政局政府采购和行政事业单位资产管理科</td>
+                            <td align="center">0912-3595892<br>0912-3629532 </td>
+                            <td>陕西省榆林市榆阳区泰安路榆林市财政局718室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">102</td>
+                            <td>靖边县财政局采购监督管理股</td>
+                            <td align="center">0912-4621035</td>
+                            <td>靖边县党政第二办公区二号楼财政局1709室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">103</td>
+                            <td>佳县财政局采购监督管理股</td>
+                            <td align="center">0912-6724709</td>
+                            <td>陕西省榆林佳县佳芦镇人民路185号佳县财政局511室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">104</td>
+                            <td>米脂县财政局政府采购管理股</td>
+                            <td align="center">0912-6225588</td>
+                            <td>米脂县盘龙南路169号财政局109室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">105</td>
+                            <td>绥德县财政局采购管理股</td>
+                            <td align="center">0912-5622156</td>
+                            <td>绥德县永乐大道财政局619室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">106</td>
+                            <td>子洲县财政局采购管理股</td>
+                            <td align="center">0912-7386609</td>
+                            <td>子洲县小河沟南路8号财政局一号楼209室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">107</td>
+                            <td>榆林市横山区财政局政府采购管理办公室</td>
+                            <td align="center">0912-7616562</td>
+                            <td>榆林市横山区体育西巷财政局二楼213室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">108</td>
+                            <td>吴堡县财政局采购监督管理股</td>
+                            <td align="center">0912-6523869</td>
+                            <td>吴堡县宋家川街道办新建街财政局320室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">109</td>
+                            <td>定边县财政局采购办公室</td>
+                            <td align="center">0912-4229111</td>
+                            <td>定边县南大街73号财政局302室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">110</td>
+                            <td>榆林市榆阳区财政局政府采购管理股</td>
+                            <td align="center">0912-3518955</td>
+                            <td>榆林市榆阳区榆林大道166号榆阳区政务服务中心318室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">111</td>
+                            <td>府谷县财政局采购管理股</td>
+                            <td align="center">0912-8734420</td>
+                            <td>府谷县新区财税中心610室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">112</td>
+                            <td>榆林高新区政府采购监督管理办公室</td>
+                            <td align="center">0912-2399683</td>
+                            <td>榆林高新区创业大厦1513室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">113</td>
+                            <td>榆神工业区财政局采购科</td>
+                            <td align="center">0912-8491620</td>
+                            <td>陕西省榆林市神木县大保当镇清水工业园榆神管委会办公楼312室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">114</td>
+                            <td>神木市财政局政府采购管理办公室</td>
+                            <td align="center">0912-8330666</td>
+                            <td>神木市滨河新区财政大楼1403室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">115</td>
+                            <td>清涧县政府采购管理办公室</td>
+                            <td align="center">0912-5223638</td>
+                            <td>清涧县汉元街中段财政局东一楼111室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">116</td>
+                            <td align="center" rowspan="14" style="background: #fff">延安</td>
+                            <td>延安市财政局政府采购管理科</td>
+                            <td align="center">0911-7091014</td>
+                            <td>延安新区为民服务中心综合一号楼10楼</td>
+                        </tr>
+                        <tr>
+                            <td align="center">117</td>
+                            <td>宝塔区财政局政府采购管理股</td>
+                            <td align="center">0911-2410815</td>
+                            <td>延安市宝塔区财政局三楼（宝塔区南桥）</td>
+                        </tr>
+                        <tr>
+                            <td align="center">118</td>
+                            <td>安塞区财政局政府采购管理股</td>
+                            <td align="center">0911-3327902</td>
+                            <td>延安市安塞区一道街文化大楼十五楼</td>
+                        </tr>
+                        <tr>
+                            <td align="center">119</td>
+                            <td>吴起县财政局政府采购管理股</td>
+                            <td align="center">0911-7614188</td>
+                            <td>吴起县财政局三楼（吴起县长征街）</td>
+                        </tr>
+                        <tr>
+                            <td align="center">120</td>
+                            <td>志丹县财政局政秘股</td>
+                            <td align="center">0911-6622371</td>
+                            <td>志丹县财政局二楼（保安街130号）</td>
+                        </tr>
+                        <tr>
+                            <td align="center">121</td>
+                            <td>延川县财政局政府采购管理股</td>
+                            <td align="center">0911-8331591</td>
+                            <td>延川县财政局四楼（延川县南关街）</td>
+                        </tr>
+                        <tr>
+                            <td align="center">122</td>
+                            <td>子长市财政局政府采购管理股</td>
+                            <td align="center">0911-7111830</td>
+                            <td>子长市财政局二楼（秀延街13号）</td>
+                        </tr>
+                        <tr>
+                            <td align="center">123</td>
+                            <td>延长县财政局政府采购管理股</td>
+                            <td align="center">0911-8611260</td>
+                            <td>延长县财政局二楼（西街）</td>
+                        </tr>
+                        <tr>
+                            <td align="center">124</td>
+                            <td>富县财政局政府采购管理股</td>
+                            <td align="center">0911-3212119</td>
+                            <td>富县财政局三楼（富县正街）</td>
+                        </tr>
+                        <tr>
+                            <td align="center">125</td>
+                            <td>甘泉县财政局政秘股</td>
+                            <td align="center">0911-4222373</td>
+                            <td>甘泉县财政局六楼（政务中心大楼）</td>
+                        </tr>
+                        <tr>
+                            <td align="center">126</td>
+                            <td>宜川县财政局政府采购管理股</td>
+                            <td align="center">0911-8371728</td>
+                            <td>宜川县财政局四楼（南关街）</td>
+                        </tr>
+                        <tr>
+                            <td align="center">127</td>
+                            <td>洛川县财政局政府采购管理股</td>
+                            <td align="center">0911-3620098</td>
+                            <td>洛川县财政局四楼（陵园路）</td>
+                        </tr>
+                        <tr>
+                            <td align="center">128</td>
+                            <td>黄陵县财政局政府采购管理股</td>
+                            <td align="center">0911-5214205</td>
+                            <td>黄陵县财政局三楼（中心街）</td>
+                        </tr>
+                        <tr>
+                            <td align="center">129</td>
+                            <td>黄龙县财政局政府采购管理股</td>
+                            <td align="center">0911-5622104</td>
+                            <td>黄龙县财政局三楼（中心街）</td>
+                        </tr>
+                        <tr>
+                            <td align="center">130</td>
+                            <td align="center" rowspan="6" style="background:#fff">铜川</td>
+                            <td>铜川市财政局政府采购和行政事业单位资产管理科</td>
+                            <td align="center">0919-3281620</td>
+                            <td>铜川市新区金谟东路1号财税大厦</td>
+                        </tr>
+                        <tr>
+                            <td align="center">131</td>
+                            <td>铜川市新区财政局行政事业财务科</td>
+                            <td align="center">0919-3181026</td>
+                            <td>铜川市新区金谟东路1号财税大厦</td>
+                        </tr>
+                        <tr>
+                            <td align="center">132</td>
+                            <td>铜川市印台区国有资产管理中心</td>
+                            <td align="center">0919-4191018</td>
+                            <td>铜川市印台区顺金南路53号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">133</td>
+                            <td>铜川市耀州区财政局采购科</td>
+                            <td align="center">0919-6602227</td>
+                            <td>铜川市耀州区步寿路5号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">134</td>
+                            <td>铜川市王益区财政局采购资产管理科</td>
+                            <td align="center">0919-2582209</td>
+                            <td>铜川市王益区柳堤路9号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">135</td>
+                            <td>铜川市宜君县财政局采购管理股</td>
+                            <td align="center">0919-5996058</td>
+                            <td>铜川市宜君县兴宜路6号</td>
+                        </tr>
+                        <tr>
+                            <td align="center">136</td>
+                            <td align="center" rowspan="6" style="background:#fff" title="西咸新区">西咸新区</td>
+                            <td>陕西省西咸新区财政局</td>
+                            <td align="center">029-33585364</td>
+                            <td>陕西省西咸新区沣泾大道西一路1号西咸大厦</td>
+                        </tr>
+                        <tr>
+                            <td align="center">137</td>
+                            <td>陕西省西咸新区空港新城财政局</td>
+                            <td align="center">029-33636190</td>
+                            <td>陕西省西咸新区空港新城迎宾大道空港国际商务中心</td>
+                        </tr>
+                        <tr>
+                            <td align="center">138</td>
+                            <td>陕西省西咸新区沣东新城财政局</td>
+                            <td align="center">029-89113165</td>
+                            <td>陕西省西安市长安区红光路沣东大道沣东新城管委会9号楼401室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">139</td>
+                            <td>陕西省西咸新区秦汉新城财政局</td>
+                            <td align="center">029-33185138</td>
+                            <td>陕西省咸阳市兰池大道中段秦汉新城管委会B座111室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">140</td>
+                            <td>陕西省西咸新区沣西新城财政局</td>
+                            <td align="center">029-38020513</td>
+                            <td>陕西省咸阳市秦都区沣西新城管理委员会9号楼811室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">141</td>
+                            <td>陕西省西咸新区泾河新城财政局</td>
+                            <td align="center">029-36385516</td>
+                            <td>陕西省咸阳市泾阳县崇文镇泾河大道中段产业孵化中心</td>
+                        </tr>
+                        <tr>
+                            <td align="center">142</td>
+                            <td align="center" rowspan="2" style="background:#fff" title="杨凌示范区">杨凌示范区</td>
+                            <td>杨凌示范区财政局采购办</td>
+                            <td align="center">029-87036951</td>
+                            <td>陕西省杨凌示范区政务大厦436室</td>
+                        </tr>
+                        <tr>
+                            <td align="center">143</td>
+                            <td>杨陵区财政局采购办</td>
+                            <td align="center">029-87015694</td>
+                            <td>陕西省杨陵区康乐路30号</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--尾部相关内容-->
+
+<style>
+    .footRightCharacter a img {
+        /*width: 56px;*/
+        height: 37px;
+    }
+    .mapBoxStyle{
+        padding-left: 16px!important;
+        font-size: 14px!important;
+        font-weight: 400!important;
+        color: #fff!important;
+    }
+    .iconImg {
+        width: 24px !important;
+        height: 24px !important;
+        margin-top: 0px !important;
+    }
+</style>
+<div class="foot">
+    <div class="content">
+        <div class="footLeft">
+                                <a href="https://bszs.conac.cn/sitename?method=show&id=6FC372524948EBEBE053022E1AACFAB6" target="_blank">
+                        <img src="/cms-sx/upload/a7a15d60-de5b-42f2-b35a-7e3efc34e54f/0ba12f96-997e-4e9e-94d9-175959284e41.png">
+                    </a>
+            <div class="footLeftCharacter">
+                        <p>陕西省财政厅政府采购管理处主办 | 陕西省财政厅信息化建设管理处承办</p>
+                <br/>
+                <p>
+                    技术支持：029-96702 | 欢迎来到陕西省政府采购网
+                    您是第 <span class="views_number" style="font-size: 16px; font-weight: bold;"></span> 位访问者
+                </p><br/>
+                <p style="padding-left:20px">
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61010402000339" target="_blank" style="position: relative">
+                        <img class="iconImg" src="/cms-sx/site/shanxi//resources/img/gov_7.png" style="position: absolute; left: -20px; top: -5px;">
+                    </a>
+                    <span style="padding-left: 10px;">
+                        陕公网安备 61010402000339号&nbsp;&nbsp;&nbsp;
+                        <a href="https://beian.miit.gov.cn/#/Integrated/index">
+                            <span style="color: #fff;">陕ICP备06003708号-2</span>
+                        </a>
+                        &nbsp;&nbsp;| &nbsp;&nbsp;网站标识码：6100000112
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="footRight">
+            <div class="footRightCharacter">
+                        <a href="/cms-sx/site/shanxi/wzdt/index.html" target="_blank">
+                            <img src="/cms-sx/site/shanxi//resources/img/webmap.png">
+                            <span style="" class="mapBoxStyle">网站地图</span>
+                        </a>
+                <script id="_jiucuo_" sitecode='6100000112' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        var url = getFreecms() +'/rest/v1/notice/statisticsVisits.do';
+        var nowTime = new Date().getTime();
+        var encryptContent = hex_md5(hex_sha1(nowTime+'_'+String(url).split('?')[0]+'_bosssoft_platform_095285'));
+        $.ajax({
+            type: 'GET',
+            url: getFreecms() +'/rest/v1/notice/statisticsVisits.do',
+            headers:{
+                'nsssjss':encryptByRSA(getFreecms() +'/rest/v1/notice/statisticsVisits.do' + '$$'+ new Date().getTime()),
+                'time':nowTime,
+                'url':url,
+                'sign':encryptContent
+            },
+            contentType: "application/json;charset=utf-8",
+            success: function (res) {
+                var visitAll = res.data.totalVisits;
+                $(".views_number").append(visitAll);
+            }
+        });
+    })
+</script>
+
+</section>
+<script>
+//投诉专区
+(function ($) {
+    //tab切换
+    $.fn.extend({
+        qmTabs: function () {
+            var aTabBodys = $('.contain > div >div');
+            $(this).children("li").each(function (index) {
+                $(this).click(function () {
+                    $(this).addClass('columnCommonStylesTabActive').siblings().removeClass('columnCommonStylesTabActive');
+                    aTabBodys.hide().eq(index).show();
+                });
+            });
+        }
+    });
+})(jQuery);
+    $(document).ready(function () {
+        $("#bar-tab").qmTabs();
+        var break_line = document.getElementById("contAreaRightContents");
+        var content = break_line.innerHTML;
+        break_line.innerHTML = content.replace(/。/g,"。<br/>");
+    })
+</script>

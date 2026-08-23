@@ -1,0 +1,1708 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>全国公共资源交易平台</title>
+  <link type="text/css" href="/assets/css/main.css" rel="stylesheet">
+  <link type="text/css" href="/assets/css/deal.css" rel="stylesheet">
+  <style>
+      .p_tit {
+          color: #FF0000;
+      }
+      
+      /* 自定义提示框样式 */
+      .custom-modal-overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.5);
+          z-index: 9999;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      .custom-modal {
+          background: white;
+          border-radius: 8px;
+          padding: 20px;
+          min-width: 300px;
+          max-width: 500px;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+      
+      .custom-modal-title {
+          font-size: 16px;
+          font-weight: bold;
+          margin-bottom: 15px;
+          color: #333;
+      }
+      
+      .custom-modal-content {
+          margin-bottom: 20px;
+          color: #666;
+          line-height: 1.6;
+      }
+      
+      .custom-modal-buttons {
+          display: flex;
+          justify-content: flex-end;
+          gap: 10px;
+      }
+      
+      .custom-modal-btn {
+          padding: 8px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 14px;
+          transition: all 0.3s;
+      }
+      
+      .custom-modal-btn-primary {
+          background: #409EFF;
+          color: white;
+      }
+      
+      .custom-modal-btn-primary:hover {
+          background: #66b1ff;
+      }
+      
+      .custom-modal-btn-default {
+          background: #fff;
+          color: #606266;
+          border: 1px solid #dcdfe6;
+      }
+      
+      .custom-modal-btn-default:hover {
+          color: #409EFF;
+          border-color: #c6e2ff;
+          background-color: #ecf5ff;
+      }
+      
+      /* Toast 提示样式 */
+      .custom-toast {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background: rgba(0, 0, 0, 0.7);
+          color: white;
+          padding: 12px 24px;
+          border-radius: 4px;
+          z-index: 10000;
+          font-size: 14px;
+          animation: fadeInOut 2s ease-in-out;
+      }
+      
+      @keyframes fadeInOut {
+          0% { opacity: 0; }
+          10% { opacity: 1; }
+          90% { opacity: 1; }
+          100% { opacity: 0; }
+      }
+  </style>
+  <script src="/assets/js/vue.min.js"></script>
+  <script src="/data/platform.js"></script>
+  <script src="/data/area.js"></script>
+  <script type="text/javascript" src="/assets/js/date/WdatePicker.js"></script>
+  <script>
+    const searchJson = {
+  "chooseTime": [
+    {
+      "id": "01",
+      "time": "当天"
+    },
+    {
+      "id": "02",
+      "time": "近三天"
+    },
+    {
+      "id": "03",
+      "time": "近十天"
+    },
+    {
+      "id": "04",
+      "time": "近一月"
+    },
+    {
+      "id": "05",
+      "time": "近三月"
+    },
+    {
+      "id": "06",
+      "time": "时间区间"
+    }
+  ],
+  "chooseSource": [
+    {
+      "id": "1",
+      "source": "省平台",
+      "key": "province"
+    },
+    {
+      "id": "2",
+      "source": "央企招投标",
+      "key": "central"
+    },
+    {
+      "id": "6",
+      "source": "商务部",
+      "key": "shangwubu"
+    },
+    {
+      "id": "3",
+      "source": "财政部",
+      "key": "caizhengbu"
+    },
+    {
+      "id": "4",
+      "source": "自然资源部",
+      "key": "zrzyb"
+    },
+    {
+      "id": "5",
+      "source": "国资委",
+      "key": "guoziwei"
+    }
+  ],
+  "chooseClassify": [
+    {
+      "id": "00",
+      "type": "不限"
+    },
+    {
+      "id": "01",
+      "type": "工程建设"
+    },
+    {
+      "id": "bw01",
+      "type": "工程建设"
+    },
+    {
+      "id": "02",
+      "type": "政府采购"
+    },
+    {
+      "id": "bw02",
+      "type": "政府采购"
+    },
+    {
+      "id": "03",
+      "type": "土地使用权"
+    },
+    {
+      "id": "04",
+      "type": "矿业权"
+    },
+    {
+      "id": "bw04",
+      "type": "矿业权"
+    },
+    {
+      "id": "05",
+      "type": "国有产权"
+    },
+    {
+      "id": "21",
+      "type": "碳排放权"
+    },
+    {
+      "id": "22",
+      "type": "排污权"
+    },
+    {
+      "id": "23",
+      "type": "药品采购权"
+    },
+    {
+      "id": "24",
+      "type": "二类疫苗"
+    },
+    {
+      "id": "25",
+      "type": "林权"
+    },
+    {
+      "id": "90",
+      "type": "其他"
+    }
+  ],
+  "infoType": [
+    {
+      "id": "00",
+      "type": "不限",
+      "info": [
+        {
+          "id": "0000",
+          "name": "不限"
+        },
+        {
+          "id": "0001",
+          "name": "交易公告"
+        },
+        {
+          "id": "0002",
+          "name": "成交公示"
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "type": "工程建设",
+      "info": [
+        {
+          "id": "0100",
+          "name": "不限"
+        },
+        {
+          "id": "0101",
+          "name": "招标/资审公告"
+        },
+        {
+          "id": "0102",
+          "name": "开标记录"
+        },
+        {
+          "id": "0104",
+          "name": "交易结果公示"
+        },
+        {
+          "id": "0105",
+          "name": "招标/资审文件澄清"
+        }
+      ]
+    },
+    {
+      "id": "bw01",
+      "type": "工程建设",
+      "souece": "四部委",
+      "info": [
+        {
+          "id": "bw0100",
+          "name": "不限"
+        },
+        {
+          "id": "bw0101",
+          "name": "招标/资审公告"
+        },
+        {
+          "id": "bw0104",
+          "name": "中标结果公示"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "type": "政府采购",
+      "info": [
+        {
+          "id": "0200",
+          "name": "不限"
+        },
+        {
+          "id": "0201",
+          "name": "采购/资审公告"
+        },
+        {
+          "id": "0202",
+          "name": "中标公告"
+        },
+        {
+          "id": "0203",
+          "name": "采购合同"
+        },
+        {
+          "id": "0204",
+          "name": "更正事项"
+        }
+      ]
+    },
+    {
+      "id": "bw02",
+      "type": "政府采购",
+      "souece": "四部委",
+      "info": [
+        {
+          "id": "bw0200",
+          "name": "不限"
+        },
+        {
+          "id": "bw0201",
+          "name": "公告信息"
+        },
+        {
+          "id": "bw0203",
+          "name": "采购合同"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "type": "土地使用权",
+      "info": [
+        {
+          "id": "0300",
+          "name": "不限"
+        },
+        {
+          "id": "0301",
+          "name": "出让公示"
+        },
+        {
+          "id": "0302",
+          "name": "成交宗地"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "type": "矿业权",
+      "info": [
+        {
+          "id": "0400",
+          "name": "不限"
+        },
+        {
+          "id": "0401",
+          "name": "出让公告"
+        },
+        {
+          "id": "0402",
+          "name": "出让结果"
+        },
+        {
+          "id": "0403",
+          "name": "公开信息"
+        },
+        {
+          "id": "0404",
+          "name": "登记公告信息"
+        }
+      ]
+    },
+    {
+      "id": "bw04",
+      "type": "矿业权",
+      "info": [
+        {
+          "id": "bw0400",
+          "name": "不限"
+        },
+        {
+          "id": "bw0401",
+          "name": "出让公告"
+        },
+        {
+          "id": "bw0402",
+          "name": "出让结果"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "type": "国有产权",
+      "info": [
+        {
+          "id": "0500",
+          "name": "不限"
+        },
+        {
+          "id": "0501",
+          "name": "挂牌披露"
+        },
+        {
+          "id": "0502",
+          "name": "交易结果"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "type": "碳排放权",
+      "info": [
+        {
+          "id": "2100",
+          "name": "不限"
+        },
+        {
+          "id": "2101",
+          "name": "出售公告"
+        },
+        {
+          "id": "2102",
+          "name": "结果公示"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "type": "排污权",
+      "info": [
+        {
+          "id": "2200",
+          "name": "不限"
+        },
+        {
+          "id": "2201",
+          "name": "交易公告"
+        },
+        {
+          "id": "2202",
+          "name": "结果公示"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "type": "药品采购权",
+      "info": [
+        {
+          "id": "2300",
+          "name": "不限"
+        },
+        {
+          "id": "2302",
+          "name": "交易公告"
+        },
+        {
+          "id": "2303",
+          "name": "交易目录"
+        },
+        {
+          "id": "2304",
+          "name": "变更公告"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "type": "二类疫苗",
+      "info": [
+        {
+          "id": "2400",
+          "name": "不限"
+        },
+        {
+          "id": "2402",
+          "name": "交易公告"
+        },
+        {
+          "id": "2403",
+          "name": "交易目录"
+        },
+        {
+          "id": "2404",
+          "name": "变更公告"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "type": "林权",
+      "info": [
+        {
+          "id": "2500",
+          "name": "不限"
+        },
+        {
+          "id": "2501",
+          "name": "信息披露"
+        },
+        {
+          "id": "2502",
+          "name": "成交公告"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "type": "其他",
+      "info": [
+        {
+          "id": "9000",
+          "name": "不限"
+        },
+        {
+          "id": "9001",
+          "name": "交易公告"
+        },
+        {
+          "id": "9002",
+          "name": "成交公示"
+        }
+      ]
+    }
+  ],
+  "chooseTrade": [
+    {"id": "0","trade": "不限"},
+    {"id":"A01","trade":"农业"},
+    {"id":"A02","trade":"林业"},
+    {"id":"A03","trade":"畜牧业"},
+    {"id":"A04","trade":"渔业"},
+    {"id":"A05","trade":"农、林、牧、渔服务业"},
+    {"id":"B06","trade":"煤炭开采和洗选业"},
+    {"id":"B07","trade":"石油和天然气开采业"},
+    {"id":"B08","trade":"黑色金属矿采选业"},
+    {"id":"B09","trade":"有色金属矿采选业"},
+    {"id":"C14","trade":"食品制造业"},
+    {"id":"C16","trade":"烟草制品业"},
+    {"id":"C17","trade":"纺织业"},
+    {"id":"C21","trade":"家具制造业"},
+    {"id":"C27","trade":"医药制造业"},
+    {"id":"C28","trade":"化学纤维制造业"},
+    {"id":"C33","trade":"金属制品业"},
+    {"id":"C34","trade":"通用设备制造业"},
+    {"id":"C36","trade":"汽车制造业"},
+    {"id":"C38","trade":"电气机械和器材制造业"},
+    {"id":"D44","trade":"电力、热力生产和供应业"},
+    {"id":"D46","trade":"水的生产和供应业"},
+    {"id":"E47","trade":"房屋建筑业"},
+    {"id":"E50","trade":"建筑装饰和其他建筑业"},
+    {"id":"G53","trade":"铁路运输业"},
+    {"id":"G56","trade":"航空运输业"},
+    {"id":"I65","trade":"软件和信息技术服务业"},
+    {"id":"K70","trade":"房地产业"},
+    {"id":"L72","trade":"商务服务业"},
+    {"id":"N76","trade":"水利管理业"},
+    {"id":"N77","trade":"生态保护和环境治理业"}
+  ]
+}
+  </script>
+</head>
+<body>
+  <div class="header">
+  <div class="header_top">
+    <p class="p_fliat">
+      <a href="/SIC/web/govreport.po" target="_blank">政府网站工作年度报表</a>
+    </p>
+    <div id="addNewSearch">
+      <div class="p_last" style="margin-right:0px;"><a href="/serve/wechat/wechat.html" target="_blank"><img
+              src="/assets/images/weixin.png" id="weixin"></a></div>
+    </div>
+    <div id="ewm">
+      <div class="arrows"><img src="/assets/images/ewm.png"></div>
+      <div class="div">
+        <div class="div_on"><img src="/assets/images/wechatserve.jpg" width="100" height="100">
+          <p>服务号</p>
+        </div>
+        <!--     <div class="div_tw"><img src="/assets/images/wechatdy.jpg" width="100" height="100"><p>订阅号</p></div> -->
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+    // 等待 DOM 加载完成
+    document.addEventListener('DOMContentLoaded', function() {
+        var weixin = document.getElementById('weixin');
+        var ewm = document.getElementById('ewm');
+        var timeoutId = null;
+        
+        if (weixin && ewm) {
+            // 鼠标移入微信图标
+            weixin.addEventListener('mouseenter', function() {
+                // 清除之前的定时器
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                    timeoutId = null;
+                }
+                // 显示二维码（使用 slideDown 效果）
+                slideDown(ewm);
+            });
+            
+            // 鼠标移出微信图标
+            weixin.addEventListener('mouseleave', function() {
+                // 延迟隐藏，给用户时间移动到二维码区域
+                timeoutId = setTimeout(function() {
+                    slideUp(ewm);
+                }, 100);
+            });
+            
+            // 鼠标移入二维码区域
+            ewm.addEventListener('mouseenter', function() {
+                // 清除隐藏定时器，保持显示
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                    timeoutId = null;
+                }
+            });
+            
+            // 鼠标移出二维码区域
+            ewm.addEventListener('mouseleave', function() {
+                slideUp(ewm);
+            });
+        }
+    });
+    
+    // 模拟 jQuery 的 slideDown 效果
+    function slideDown(element) {
+        element.style.overflow = 'hidden';
+        element.style.display = 'block';
+        element.style.height = '0';
+        element.style.opacity = '0';
+        
+        var targetHeight = element.scrollHeight;
+        var duration = 200; // 动画持续时间（毫秒）
+        var startTime = null;
+        
+        function animate(currentTime) {
+            if (!startTime) startTime = currentTime;
+            var progress = currentTime - startTime;
+            var percent = Math.min(progress / duration, 1);
+            
+            // 缓动函数（ease-out）
+            var easePercent = 1 - Math.pow(1 - percent, 3);
+            
+            element.style.height = (targetHeight * easePercent) + 'px';
+            element.style.opacity = easePercent;
+            
+            if (percent < 1) {
+                requestAnimationFrame(animate);
+            } else {
+                element.style.height = 'auto';
+                element.style.opacity = '1';
+            }
+        }
+        
+        requestAnimationFrame(animate);
+    }
+    
+    // 模拟 jQuery 的 slideUp 效果
+    function slideUp(element) {
+        element.style.overflow = 'hidden';
+        var startHeight = element.offsetHeight;
+        element.style.height = startHeight + 'px';
+        
+        var duration = 200; // 动画持续时间（毫秒）
+        var startTime = null;
+        
+        function animate(currentTime) {
+            if (!startTime) startTime = currentTime;
+            var progress = currentTime - startTime;
+            var percent = Math.min(progress / duration, 1);
+            
+            // 缓动函数（ease-in）
+            var easePercent = Math.pow(percent, 3);
+            
+            element.style.height = (startHeight * (1 - easePercent)) + 'px';
+            element.style.opacity = 1 - easePercent;
+            
+            if (percent < 1) {
+                requestAnimationFrame(animate);
+            } else {
+                element.style.display = 'none';
+                element.style.height = '';
+                element.style.opacity = '';
+                element.style.overflow = '';
+            }
+        }
+        
+        requestAnimationFrame(animate);
+    }
+</script>
+<div class="banner">
+</div>
+<div class="nav_bj">
+  <div class="nav">
+    <ul class="nav_ul">
+      <li class="nav_stair nav_first"><a href="/">首页</a></li>
+      <li class="nav_stair"><a href="/SIC/web/govfunc.po">机构职能</a></li>
+      <li class="nav_stair"><a href="/deal/dealList.html">交易公开</a>
+        <ul class="nav_second nav_special">
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=01">工程建设</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=02">政府采购</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=03">土地使用权</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=04">矿业权</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=05">国有产权</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=21">碳排放权</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=22">排污权</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=23">药品采购</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=24">二类疫苗</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=25">林权</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=90">其他</a></li>
+        </ul>
+      </li>
+      <li class="nav_stair"><a href="/deal/creditList.html">交易诚信</a>
+        <ul class="nav_second">
+          <li><a href="/deal/creditList.html?SHOWTYPE=1">违法违规</a></li>
+          <li><a href="/deal/creditList.html?SHOWTYPE=2">奖励信息</a></li>
+        </ul>
+      </li>
+      <li class="nav_stair"><a href="https://data.ggzy.gov.cn/">数据服务</a></li>
+      <li class="nav_stair"><a href="/dealCollect/dealCollect.html">交易统计</a></li>
+      <li class="nav_stair"><a href="/SIC/web/platform.po">平台导航</a></li>
+      <li class="nav_stair"><a href="/SIC/web/policyFileList.po">政策法规</a>
+        <ul class="nav_second">
+          <li><a href="/SIC/web/policyFileList.po">政策法规文件</a></li>
+          <li><a href="/SIC/web/policyReadList.po">政策法规解读</a></li>
+        </ul>
+      </li>
+      <!-- <li class="nav_stair"><a href="http://data.ggzy.gov.cn/portal_legal/cxcg/index.html" target="_blank">培训交流</a></li>-->
+      <!--     <li class="nav_stair"><a href="https://59.252.80.14/reTurnUrl" target="_blank">统一认证</a></li>-->
+      <li class="nav_stair"><a href="/serve/service.html">服务中心</a>
+        <ul class="nav_second">
+          <li><a href="http://data.ggzy.gov.cn/portal_legal/cxcg/index.html" target="_blank">培训交流</a></li>
+          <li><a href="/serve/wechat/wechat.html">微信订阅</a></li>
+          <li><a href="/SIC/web/opinion.po">意见建议</a></li>
+          <li><a href="/SIC/web/collectList.po">调查征集</a></li>
+          <li><a href="/serve/regards/regards.html">关于我们</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+  <div id="app">
+
+    <div class="location" style="margin-bottom:0;">
+      <a href="/">首页</a>&nbsp;&nbsp;>&nbsp;&nbsp;<a href="/deal/dealList.html">交易公开</a>
+    </div>
+    <div class="main">
+      <h4>交易查询</h4>
+      <form id="FIND" name="FIND" method="post">
+        <div class="choose_on choose_time">
+          <span class="span_on">发布时间：</span>
+          <ul>
+            <li 
+              v-for="item in searchJson.chooseTime" 
+              :id="'choose_time_' + item.id"
+              :class="{ toggle: myDealTime == item.id }"
+              @click="myDealTime = item.id"
+            >
+              <a href="javascript:;">{{ item.time }}</a>
+            </li>
+            <span id="dateShowId" v-show="myDealTime == '06'" style="margin-left: 5px">
+              <span>
+                <input class="input"
+                      type="text"
+                      id="TIMEBEGIN_SHOW"
+                      name="TIMEBEGIN_SHOW"
+                      autocomplete="off"
+                      v-model="timeBegin"
+                      placeholder="开始时间"
+                      @click="openDatePicker('TIMEBEGIN_SHOW')"
+                >
+              </span>
+                      -
+              <span>
+                <input class="input"
+                      type="text"
+                      id="TIMEEND_SHOW"
+                      name="TIMEEND_SHOW"
+                      autocomplete="off"
+                      v-model="timeEnd"
+                      placeholder="结束时间"
+                      @click="openDatePicker('TIMEEND_SHOW')"
+                >
+              </span>
+            </span>
+          </ul>
+
+          <span class="history-button" style="cursor: pointer;" @click="goToHistory">一年前数据</span>
+        </div>
+        <!--这块固定-->
+        <div class="choose_on">
+          <span class="span_on">数据来源：</span>
+          <ul>
+            <li 
+              v-for="item in searchJson.chooseSource" 
+              :id="'choose_source_' + item.id"
+              :class="{ toggle: mySoureType == item.id }"
+              @click="changeSourceType(item.id)"
+            >
+              <a href="javascript:;">{{ item.source }}</a>
+            </li>
+          </ul>
+        </div>
+        <div v-show="!advancedCollapsed">
+          <div class="qyhy">
+            <div class="choose_on provinceDiv" v-show="mySoureType == '1'">
+              <span class="span_on">交易来源：</span>
+              <ul style="height:30px;">
+                <li>省份：
+                  <select id="provinceId" v-model="myProvince" @change="changeProvince">
+                    <option value="0">不限</option>
+                    <option v-for="province in provinceJson" :value="province.id">{{ province.name }}</option>
+                  </select>
+                </li>
+                <li>市：
+                  <select id="cityId" v-model="myCity" @change="changeCity">
+                    <option value="0">不限</option>
+                    <option v-for="city in cityList" :value="city.id">{{ city.name }}</option>
+                  </select>
+                </li>
+                <li>来源平台：
+                  <select id="platformId" style="width:250px;" v-model="myPlatform">
+                    <option value="0">不限</option>
+                    <option v-for="platform in platformList" :value="platform.id">{{ platform.name }}</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+          
+          
+            <div class="choose_on bidDiv" v-show="mySoureType == '2'">
+              <span class="span_on">交易来源：</span>
+              <ul style="height:30px;">
+                <li>来源平台：
+                  <select id="bidPlatformId" style="width: 400px;" v-model="bidPlatformId">
+                    <option value="0">不限</option>
+                    <option v-for="platform in centralPlatformList" :value="platform.id">{{ platform.name }}</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+            <!--这块信息固定-->
+            <div class="choose_on">
+              <span class="span_on">业务类型：</span>
+              <ul>
+                <li 
+                  v-for="item in chooseClassifyList" 
+                  :id="'choose_classify_' + item.id"
+                  :class="{ toggle: myDealClassify == item.id }"
+                  @click="changeClassify(item.id)"
+                >
+                  <a href="javascript:;">{{ item.type }}</a>
+                </li>
+              </ul>
+            </div>
+            <div 
+              v-for="item in searchJson.infoType" 
+              :id="'choose_classify_' + item.id + '_show'" 
+              class="choose_on"
+              :style="{ display: myDealClassify == item.id ? 'block' : 'none' }"
+            >
+              <span class="span_on">信息类型：</span>
+              <ul>
+                <li 
+                  v-for="info in item.info" 
+                  :id="'choose_stage_' + info.id"
+                  :class="{ toggle: myDealStage == info.id }"
+                  @click="myDealStage = info.id"
+                >
+                  <a href="javascript:;">{{ info.name }}</a>
+                </li>
+              </ul>
+            </div>
+            <div class="choose_on trade_info" id='choose_trade_div_01'  v-show="myDealClassify == '01'">
+              <span class="span_on">行业：</span>
+              <ul id='choose_trade_ul_01'>
+                <li 
+                  v-for="item in showChooseSource" 
+                  :id="'choose_trade_' + item.id"
+                  :class="{ toggle: myDealTrade == item.id }"
+                  @click="myDealTrade = item.id"
+                >
+                  <a href="javascript:;">{{ item.trade }}</a>
+                </li>
+              </ul>
+              <span class="spanthis_on" id='span_hy_on_01' @click="toggleMoreTrade"> {{ showMoreTrade? '收起∧' : '更多&or;' }}</span>
+            </div>
+          </div>
+        </div>
+        <input type="hidden" id="TIMEBEGIN" name="TIMEBEGIN" v-model="timeBegin">
+        <input type="hidden" id="TIMEEND" name="TIMEEND" v-model="timeEnd">
+        <input type="hidden" id="SOURCE_TYPE" name="SOURCE_TYPE" v-model="mySoureType">
+        <input type="hidden" id="DEAL_TIME" name="DEAL_TIME" v-model="myDealTime">
+        <input type="hidden" id="DEAL_CLASSIFY" name="DEAL_CLASSIFY" v-model="myDealClassify">
+        <input type="hidden" id="DEAL_STAGE" name="DEAL_STAGE" v-model="myDealStage">
+        <input type="hidden" id="DEAL_PROVINCE" name="DEAL_PROVINCE" v-model="myProvince">
+        <input type="hidden" id="DEAL_CITY" name="DEAL_CITY" v-model="myCity">
+        <input type="hidden" id="DEAL_PLATFORM" name="DEAL_PLATFORM" v-model="myPlatform">
+        <input type="hidden" id="BID_PLATFORM" name="BID_PLATFORM" v-model="bidPlatformId">
+        <input type="hidden" id="DEAL_TRADE" name="DEAL_TRADE" v-model="myDealTrade">
+        <input type="hidden" id="isShowAll" name="isShowAll" value="1">
+        <input type="hidden" id="PAGENUMBER" name="PAGENUMBER" v-model="currentPage">
+        <div class="search" style="padding-left: 150px;">
+          <input type="text" id="FINDTXT" name="FINDTXT" v-model="myFindTxt" @keypress.enter="cmd_find"
+                placeholder="请输入关键字"/>
+          <button :disabled="loading" id="searchButton" @click="cmd_find">搜索</button>
+          <span id="djxs" @click="toggleAdvanced">{{ advancedCollapsed ? '高级选项' : '收起&and;' }}</span>  
+          <div style="color: #a7aab5; padding-top: 5px; font-size: 10px;">注：数据源于有关部门和各地方公共资源交易平台。</div>     
+        </div>
+      </form>
+    </div>
+
+    <div id="verifyCodeModal" style="display: none; padding: 20px;">
+      <div style="display: flex; align-items: center;">
+        <input type="text" id="validationCode" name="validationCode" v-model="verifyCode" style="margin-left:15px;width:100px;height:35px; outline:none;line-height:35px; border:1px solid #75a7c4; font-size:15px; font-family: '微软雅黑';border-radius:4px;text-align: center" placeholder="验证码" >
+        <img id="validationCodeImg" :src="captchaImage" alt="验证码图片" style="cursor: pointer; padding-left: 10px; " title="点击刷新验证码" @click="refreshCode"  />
+      </div>
+    </div>
+
+
+    <div id="filter" class="filter" v-show="loading">
+      <span>数据正在搜索中...</span>
+    </div>
+
+    <div class="publiclycont" id="publicl">
+
+      <div class="contp" style="margin-top: 0px;">
+            <span id="search_topleft">
+              <template v-if="loading">页面正在努力加载中......</template>
+              <!-- <template v-else>
+                <span class="span_left">搜索记录数:<b>{{ ttlrow }}</b></span>
+                <span class="span_left">搜索用时:<b>{{ usetime }}ms</b></span>
+              </template> -->
+            </span>
+        <span style="margin-left: 210px;font-size: 16px;" v-show="!loading && ttlrow == 0"
+              id="noDataShow"><b>所选条件下暂无信息发布，请重新选择查询条件。</b></span>
+        <!-- <span class="span_right">页码<b id="topRight">{{ currentPage }}/{{ ttlpage }}</b></span> -->
+      </div>
+
+      <div id="toview">
+        <div v-for="item in records" class="publicont">
+          <div>
+            <h4>
+              <a :href="item.url" :title="item.title" target="_blank" v-html="addHighLight(item.title)"></a>
+              <span class="span_o">{{ item.publishTime || '' }}</span>
+            </h4>
+            <p class="p_tw">
+              <span >省份：</span>
+              <span class="span_on">{{ item.provinceText || '' }}</span>
+              <span >来源平台：</span>
+              <span class="span_on" :title="item.transactionSourcesPlatformText">{{ cutString(item.transactionSourcesPlatformText) || '' }}</span>
+              <span >业务类型：</span>
+              <span class="span_on">{{ item.businessTypeText || '' }}</span>
+              <span >信息类型：</span>
+              <span class="span_on">{{ item.informationTypeText || '' }}</span>
+              <span v-if="item.businessTypeText == '工程建设' && mySoureType == '1'">行业：</span>
+              <span v-if="item.businessTypeText == '工程建设' && mySoureType == '1'" class="span_on">{{ containsChinese(item.industryTypeText) ? item.industryTypeText : '' }}</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="paging" id="paging" v-if="!loading">
+        <!-- <span class="count">共 {{ ttlrow }} 条</span> -->
+        <a href="javascript:;" class="a_righta" @click="prevPage" :class="{ 'a_righta': currentPage > 1 }" :style="{ cursor: currentPage > 1 ? 'pointer' : 'default' }">上一页</a>
+        <!-- 第一页 -->
+        <a href="javascript:;" @click="goToPage(1)" :class="{ 'a_hover': currentPage == 1 }">1</a>
+        <!-- 前省略号 -->
+        <span v-if="showPrevEllipsis" class="spot">...</span>
+        <!-- 中间页码（最多9个，加上首页共10个） -->
+        <a v-for="page in pageNumbers" href="javascript:;" @click="goToPage(page)" :class="{ 'a_hover': currentPage == page }">{{ page }}</a>
+        <!-- 后省略号 -->
+        <span v-if="showNextEllipsis" class="spot">...</span>
+        <!-- 下一页按钮 -->
+        <a href="javascript:;" class="a_righta" @click="nextPage" :class="{ 'a_righta': currentPage < ttlpage }" :style="{ cursor: currentPage < ttlpage ? 'pointer' : 'default' }">下一页</a>
+        <!-- <span class="count">共 {{ ttlpage }} 页</span> -->
+      </div>
+    </div>
+
+  </div>
+<div class="foot">
+  <ul>
+    <li><a href="/home/webmap.html" target="_blank">网站地图</a><span>|</span></li>
+    <li><a href="/home/webStated.html" target="_blank">网站声明</a><span>|</span></li>
+    <li><a href="javascript:;" onclick="addFavorite();">添加收藏</a><span>|</span></li>
+    <li><a href="/home/contact.html" target="_blank">联系我们</a></li>
+  </ul>
+</div>
+<div class="footer">
+  <div class="footer_page" style="width:990px;">
+    <div style="float:left;margin-top:5px !important;">
+      <img onclick="linkto_jiucuo('bm04000008')" style="margin:0;border:0;cursor: pointer;"
+           src="/assets/images/jiucuo.png">
+    </div>
+    <div style="float:left;width:85px;height:85px;margin-top:-5px !important;">
+      <a href="https://bszs.conac.cn/sitename?method=show&id=59FE0779EB534910E053022E1AAC7D54" target="_blank">
+        <img id="imgConac" vspace="0" hspace="0" border="0" src="/assets/images/imgConac.png"
+             data-bd-imgshare-binded="1">
+      </a>
+    </div>
+    <div style="float:left;margin-left:20px;">
+      <p>主办：国家信息中心&nbsp;&nbsp;&nbsp;&nbsp;指导单位： 国家发展和改革委员会 </p>
+      <p>网站标识码：bm04000008&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" target="_blank"
+                                             style="color:#000">京ICP备05052393号-9</a>&nbsp;&nbsp;
+        <!--<img src="/assets/images/guobiao.png" width="14" height="14">-->
+        京公网安备11010202007733号 </p>
+      <p>地址：北京西城区三里河路58号&nbsp;&nbsp;&nbsp;&nbsp;邮政编码：100045</p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+    function linkto_jiucuo(site_code) {
+        //获取该站点需要纠错页面的url地址
+        var url = "";
+        if (parent !== window) {
+            try {
+                url = window.top.location.href;
+            } catch (e) {
+                url = window.top.document.referrer;
+            }
+        }
+        if (url.length == 0)
+            url = document.location.href;
+        //跳转至纠错系统填写页面
+        window.open("http://121.43.68.40/exposure/jiucuo.html?site_code=" + site_code + "&url=" + encodeURIComponent(url));
+    }
+
+    function addFavorite() {
+        var url = window.location;
+        var title = document.title;
+        var ua = navigator.userAgent.toLowerCase();
+        if (ua.indexOf("360se") > -1) {
+            alert("由于360浏览器功能限制，请按 Ctrl+D 手动收藏！");
+        } else if (ua.indexOf("msie 8") > -1) {
+            window.external.AddToFavoritesBar(url, title); //IE8
+        } else if (document.all) {
+            try {
+                window.external.addFavorite(url, title);
+            } catch (e) {
+                alert("您的浏览器不支持,请按 Ctrl+D 手动收藏!");
+            }
+        } else if (window.sidebar) {
+            window.sidebar.addPanel(title, url, "");
+        } else {
+            alert("您的浏览器不支持,请按 Ctrl+D 手动收藏!");
+        }
+    }
+</script>
+
+<script>
+new Vue({
+  el: '#app',
+  data: {
+    // 搜索参数
+    mySoureType: '1',
+    myDealTime: '02',
+    myDealClassify: '00',
+    myDealStage: '0000',
+    myDealTrade: '0',
+    myProvince: '0',
+    myCity: '0',
+    myPlatform: '0',
+    bidPlatformId: '0',
+    myFindTxt: '',
+    timeBegin: '',
+    timeEnd: '',
+    
+    // 数据
+    provinceJson: [
+      {"id":"110000","name":"北京"},
+      {"id":"120000","name":"天津"},
+      {"id":"130000","name":"河北"},
+      {"id":"140000","name":"山西"},
+      {"id":"150000","name":"内蒙古"},
+      {"id":"210000","name":"辽宁"},
+      {"id":"220000","name":"吉林"},
+      {"id":"230000","name":"黑龙江"},
+      {"id":"310000","name":"上海"},
+      {"id":"320000","name":"江苏"},
+      {"id":"330000","name":"浙江"},
+      {"id":"340000","name":"安徽"},
+      {"id":"350000","name":"福建"},
+      {"id":"360000","name":"江西"},
+      {"id":"370000","name":"山东"},
+      {"id":"410000","name":"河南"},
+      {"id":"420000","name":"湖北"},
+      {"id":"430000","name":"湖南"},
+      {"id":"440000","name":"广东"},
+      {"id":"450000","name":"广西"},
+      {"id":"460000","name":"海南"},
+      {"id":"500000","name":"重庆"},
+      {"id":"510000","name":"四川"},
+      {"id":"520000","name":"贵州"},
+      {"id":"530000","name":"云南"},
+      {"id":"540000","name":"西藏"},
+      {"id":"610000","name":"陕西"},
+      {"id":"620000","name":"甘肃"},
+      {"id":"630000","name":"青海"},
+      {"id":"640000","name":"宁夏"},
+      {"id":"650000","name":"新疆"},
+      {"id":"660000","name":"兵团"}
+    ],
+    cityList: [],
+    platformList: [],
+    centralPlatformList: [],
+    
+    // 验证码相关
+    captchaToken: '',
+    verifyCode: '',
+    captchaImage: '/information/captcha',
+    
+    // 分页相关
+    currentPage: 1,
+    ttlpage: 1,
+    ttlrow: 0,
+    usetime: 0,
+    records: [],
+    loading: false,
+    gotoPageNum: 1,
+    
+    // 其他
+    advancedCollapsed: false,
+    searchJson: searchJson,
+
+    showMoreTrade: false
+  },
+  computed: {
+    chooseClassifyList() {
+      if (this.mySoureType == '1') {
+        return this.searchJson.chooseClassify.filter(item => !['bw01', 'bw02', 'bw04'].includes(item.id));
+      } else if (this.mySoureType == '2') {
+        return this.searchJson.chooseClassify.filter(item => item.id == '01');
+      } else if (this.mySoureType == '6') {
+        return this.searchJson.chooseClassify.filter(item => item.id == 'bw01');
+      } else if (this.mySoureType == '3') {
+        return this.searchJson.chooseClassify.filter(item => item.id == 'bw02');
+      } else if (this.mySoureType == '4') {
+        return this.searchJson.chooseClassify.filter(item => ['03', 'bw04'].includes(item.id));
+      } else if (this.mySoureType == '5') {
+        return this.searchJson.chooseClassify.filter(item => item.id == '05');
+      }
+      return this.searchJson.chooseClassify;
+    },
+    pageNumbers() {
+      const pages = [];
+      const totalPages = this.ttlpage;
+      const current = this.currentPage;
+      
+      // 如果总页数小于等于10，显示所有页码（去掉首页）
+      if (totalPages <= 10) {
+        for (let i = 2; i <= totalPages; i++) {
+          pages.push(i);
+        }
+        return pages;
+      }
+      
+      // 超过10页时，最多显示9个中间页码（加上首页共10个）
+      let start, end;
+      
+      // 当前页靠近开头
+      if (current <= 5) {
+        start = 2;
+        end = 10;
+      }
+      // 当前页靠近结尾
+      else if (current >= totalPages - 4) {
+        start = totalPages - 8;
+        end = totalPages;
+      }
+      // 当前页在中间
+      else {
+        start = current - 4;
+        end = current + 4;
+      }
+      
+      for (let i = start; i <= end; i++) {
+        pages.push(i);
+      }
+      
+      return pages;
+    },
+    showPrevEllipsis() {
+      // 当总页数超过10页，且当前页大于6时显示前省略号
+      // 因为当前页<=6时，页码范围从2开始，紧接首页1，无需省略号
+      return this.ttlpage > 10 && this.currentPage > 6;
+    },
+    showNextEllipsis() {
+      // 当总页数超过10页，且当前页小于总页数-5时显示后省略号
+      // 确保末尾页码连续显示
+      return this.ttlpage > 10 && this.currentPage < this.ttlpage - 5;
+    },
+    showChooseSource() {
+      if (this.showMoreTrade) {
+        return this.searchJson.chooseTrade
+      } else {
+        return this.searchJson.chooseTrade.slice(0, 9)
+      }
+    }
+  },
+  mounted() {
+    this.initData();
+    this.getList(1);
+  },
+  methods: {
+    // 自定义提示框方法
+    showToast(message, duration = 2000) {
+      const toast = document.createElement('div');
+      toast.className = 'custom-toast';
+      toast.textContent = message;
+      document.body.appendChild(toast);
+      
+      setTimeout(() => {
+        if (toast.parentNode) {
+          document.body.removeChild(toast);
+        }
+      }, duration);
+    },
+    
+    showAlert(message, callback) {
+      const overlay = document.createElement('div');
+      overlay.className = 'custom-modal-overlay';
+      
+      const modal = document.createElement('div');
+      modal.className = 'custom-modal';
+      
+      const content = document.createElement('div');
+      content.className = 'custom-modal-content';
+      content.style.whiteSpace = 'pre-line';
+      content.textContent = message;
+      
+      const buttons = document.createElement('div');
+      buttons.className = 'custom-modal-buttons';
+      
+      const confirmBtn = document.createElement('button');
+      confirmBtn.className = 'custom-modal-btn custom-modal-btn-primary';
+      confirmBtn.textContent = '确定';
+      confirmBtn.onclick = () => {
+        document.body.removeChild(overlay);
+        if (callback) callback();
+      };
+      
+      buttons.appendChild(confirmBtn);
+      modal.appendChild(content);
+      modal.appendChild(buttons);
+      overlay.appendChild(modal);
+      document.body.appendChild(overlay);
+    },
+    
+    showModal(options) {
+      const { title, content, btn = ['确定', '取消'], yes, cancel } = options;
+      
+      const overlay = document.createElement('div');
+      overlay.className = 'custom-modal-overlay';
+      
+      const modal = document.createElement('div');
+      modal.className = 'custom-modal';
+      modal.style.minWidth = '350px';
+      
+      if (title) {
+        const titleEl = document.createElement('div');
+        titleEl.className = 'custom-modal-title';
+        titleEl.textContent = title;
+        modal.appendChild(titleEl);
+      }
+      
+      const contentEl = document.createElement('div');
+      contentEl.className = 'custom-modal-content';
+      if (typeof content === 'string') {
+        contentEl.innerHTML = content;
+      } else {
+        contentEl.appendChild(content);
+      }
+      modal.appendChild(contentEl);
+      
+      const buttons = document.createElement('div');
+      buttons.className = 'custom-modal-buttons';
+      
+      if (btn.length >= 2) {
+        const cancelBtn = document.createElement('button');
+        cancelBtn.className = 'custom-modal-btn custom-modal-btn-default';
+        cancelBtn.textContent = btn[1];
+        cancelBtn.onclick = () => {
+          document.body.removeChild(overlay);
+          if (cancel) cancel();
+        };
+        buttons.appendChild(cancelBtn);
+      }
+      
+      const confirmBtn = document.createElement('button');
+      confirmBtn.className = 'custom-modal-btn custom-modal-btn-primary';
+      confirmBtn.textContent = btn[0];
+      confirmBtn.onclick = () => {
+        if (yes) yes(null, overlay);
+      };
+      buttons.appendChild(confirmBtn);
+      
+      modal.appendChild(buttons);
+      overlay.appendChild(modal);
+      document.body.appendChild(overlay);
+      
+      return overlay;
+    },
+    
+    closeAllModals() {
+      const overlays = document.querySelectorAll('.custom-modal-overlay');
+      overlays.forEach(overlay => {
+        if (overlay.parentNode) {
+          document.body.removeChild(overlay);
+        }
+      });
+    },
+    
+    initData() {
+      this.setCityHtml(this.myProvince);
+      this.setPlatformHtml(this.myProvince, this.myCity);
+      this.initCentralPlatform();
+      this.initTime();
+      this.getParams();
+    },
+    initTime() {
+      let date = new Date();
+      let threeBeforeTime = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+      threeBeforeTime.setDate(threeBeforeTime.getDate()-365);
+      let thenBeforeTime = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+      thenBeforeTime.setDate(thenBeforeTime.getDate()-10);
+      let newTime = new Date(date.getFullYear(), date.getMonth(), date.getDate()+1);
+      this.timeBegin = thenBeforeTime.toISOString().slice(0, 10);
+      this.timeEnd = newTime.toISOString().slice(0, 10);
+    },
+    openDatePicker(id) {
+      const today = new Date();
+      const oneYearAgo = new Date(today.getFullYear() - 1, today.getMonth(), today.getDate());
+      const todayStr = today.toISOString().slice(0, 10);
+      const oneYearAgoStr = oneYearAgo.toISOString().slice(0, 10);
+      
+      if (id === 'TIMEBEGIN_SHOW') {
+        WdatePicker({
+          el: id,
+          dateFmt: 'yyyy-MM-dd',
+          minDate: oneYearAgoStr,
+          maxDate: this.timeEnd || todayStr,
+          onpicked: () => {
+            // 开始时间选择后，更新结束时间的最小值
+            this.timeBegin = document.getElementById('TIMEBEGIN_SHOW').value;
+          }
+        });
+      } else if (id === 'TIMEEND_SHOW') {
+        WdatePicker({
+          el: id,
+          dateFmt: 'yyyy-MM-dd',
+          minDate: this.timeBegin || oneYearAgoStr,
+          maxDate: todayStr,
+          onpicked: () => {
+            // 结束时间选择后，更新开始时间的最大值
+            this.timeEnd = document.getElementById('TIMEEND_SHOW').value;
+          }
+        });
+      }
+    },
+    getParams() {
+      const searchParams = new URLSearchParams(window.location.search);
+      if (searchParams.get('HEADER_DEAL_TYPE')) {
+        this.myDealClassify = searchParams.get('HEADER_DEAL_TYPE');
+      }
+      if (searchParams.get('HEADER_DEAL_TYPE') && !searchParams.get('DEAL_STAGE')) {
+        this.myDealStage = searchParams.get('HEADER_DEAL_TYPE') + "00";
+      }
+      if (searchParams.get('DEAL_PROVINCE')) {
+        this.myProvince = searchParams.get('DEAL_PROVINCE');
+      }
+      if (searchParams.get('DEAL_CITY')) {
+        this.myCity = searchParams.get('DEAL_CITY');
+      }
+      if (searchParams.get('DEAL_PLATFORM')) {
+        this.myPlatform = searchParams.get('DEAL_PLATFORM');
+      }
+      if (searchParams.get('DEAL_TIME')) {
+        this.myDealTime = searchParams.get('DEAL_TIME');
+      }
+      if (searchParams.get('DEAL_STAGE')) {
+        this.myDealStage = searchParams.get('DEAL_STAGE');
+      }
+      if (searchParams.get('DEAL_CLASSIFY')) {
+        this.myDealClassify = searchParams.get('DEAL_CLASSIFY');
+      }
+      if (searchParams.get('FINDTXT')) {
+        this.myFindTxt = searchParams.get('FINDTXT');
+      }
+    },
+    setCityHtml(pid) {
+      this.cityList = cityJson[pid] || [];
+      this.myCity = '0';
+      this.setPlatformHtml(pid, '0');
+    },
+
+    setPlatformHtml(pid, cid) {
+      this.platformList = [];
+      let tempList = [];
+      
+      if (cid == '0' && pid != '0') {
+        if (pid == '660000') {
+          var key = '660000';
+          if (platformJson.provincePlatform[key]) {
+            tempList = platformJson.provincePlatform[key];
+          }
+        } else {
+          if (cityJson[pid]) {
+            cityJson[pid].forEach(city => {
+              var key = city.id;
+              if (platformJson.provincePlatform[key]) {
+                // 将数据推入临时数组，稍后统一去重
+                tempList = tempList.concat(platformJson.provincePlatform[key]);
+              }
+            });
+          }
+        }
+      } else {
+        if (platformJson.provincePlatform[cid]) {
+          tempList = platformJson.provincePlatform[cid];
+        }
+      }
+
+      // 根据 id 字段去重
+      if (tempList.length > 0) {
+        const uniqueMap = new Map();
+        tempList.forEach(item => {
+          if (!uniqueMap.has(item.id)) {
+            uniqueMap.set(item.id, item);
+          }
+        });
+        this.platformList = Array.from(uniqueMap.values());
+      } else {
+        this.platformList = [];
+      }
+
+      this.myPlatform = '0';
+    },
+    
+    initCentralPlatform() {
+      if (platformJson.centralPlatform) {
+        this.centralPlatformList = platformJson.centralPlatform;
+      }
+    },
+    changeProvince() {
+      this.setCityHtml(this.myProvince);
+    },
+    changeCity() {
+      this.setPlatformHtml(this.myProvince, this.myCity);
+    },
+    changeSourceType(sourceType) {
+      this.mySoureType = sourceType;
+      this.myProvince = '0';
+      this.myCity = '0';
+      this.myPlatform = '0';
+      this.bidPlatformId = '0';
+      this.setCityHtml('0');
+      
+      if (sourceType == '1') {
+        this.myDealClassify = '00';
+        this.myDealStage = '0000';
+      } else if (sourceType == '2') {
+        this.myDealClassify = '01';
+        this.myDealStage = '0100';
+      } else if (sourceType == '6') {
+        this.myDealClassify = 'bw01';
+        this.myDealStage = 'bw0100';
+      } else if (sourceType == '3') {
+        this.myDealClassify = 'bw02';
+        this.myDealStage = 'bw0200';
+      } else if (sourceType == '4') {
+        this.myDealClassify = '03';
+        this.myDealStage = '0300';
+      } else if (sourceType == '5') {
+        this.myDealClassify = '05';
+        this.myDealStage = '0500';
+      }
+      this.myDealTrade = '0';
+    },
+    changeClassify(classifyId) {
+      this.myDealClassify = classifyId;
+      this.myDealStage = classifyId + '00';
+      this.myDealTrade = '0';
+    },
+    toggleAdvanced() {
+      this.advancedCollapsed = !this.advancedCollapsed;
+    },
+    goToHistory() {
+      window.location.href = '/history/dealList.html';
+    },
+    checkDate() {
+      if (this.myDealTime == '06') {
+        if (!this.timeBegin) {
+          this.showToast('请输入开始日期');
+          return false;
+        }
+        if (!this.timeEnd) {
+          this.showToast('请输入结束日期');
+          return false;
+        }
+      }
+      return true;
+    },
+    cmd_find() {
+      history.pushState({}, '', `${window.location.origin}${window.location.pathname}`);
+      this.getList(1);
+    },
+    openVerifyModal() {
+      const modalContent = document.getElementById('verifyCodeModal').cloneNode(true);
+      modalContent.style.display = 'block';
+      
+      // 设置验证码图片的src（因为克隆后Vue绑定失效）
+      const captchaImg = modalContent.querySelector('#validationCodeImg');
+      if (captchaImg) {
+        captchaImg.src = this.captchaImage;
+        // 重新绑定验证码图片的点击事件
+        captchaImg.onclick = () => {
+          this.refreshCodeInModal(captchaImg);
+        };
+      }
+      
+      // 重新绑定输入框的双向绑定
+      const verifyInput = modalContent.querySelector('#validationCode');
+      if (verifyInput) {
+        verifyInput.value = this.verifyCode;
+        verifyInput.oninput = (e) => {
+          this.verifyCode = e.target.value;
+        };
+      }
+      
+      this.showModal({
+        title: '验证码验证',
+        content: modalContent,
+        btn: ['提交', '取消'],
+        yes: (index, overlay) => {
+          if(!this.verifyCode){
+            this.showToast('请输入验证码');
+            return false;
+          }
+          if (overlay && overlay.parentNode) {
+            document.body.removeChild(overlay);
+          }
+          this.getList(this.currentPage, this.verifyCode);
+        },
+        cancel: () => {
+          // 取消操作
+        }
+      });
+    },
+    refreshCodeInModal(imgElement) {
+      // 只在模态框中刷新验证码
+      fetch('/information/captcha')
+        .then(response => response.json())
+        .then(response => {
+          this.captchaToken = response.data.captchaToken;
+          const newCaptchaImage = `data:image/png;base64,${response.data.captchaImage}`;
+          // 更新模态框中的图片
+          if (imgElement) {
+            imgElement.src = newCaptchaImage;
+          }
+          // 同时更新Vue数据（以备下次打开模态框时使用）
+          this.captchaImage = newCaptchaImage;
+        })
+        .catch(error => {
+          this.showToast('获取验证码失败');
+        });
+      this.verifyCode = '';
+    },
+    refreshCode() {
+      fetch('/information/captcha')
+        .then(response => response.json())
+        .then(response => {
+          this.captchaToken = response.data.captchaToken;
+          this.captchaImage = `data:image/png;base64,${response.data.captchaImage}`;
+        })
+        .catch(error => {
+          this.showToast('获取验证码失败');
+        });
+      this.verifyCode = '';
+    },
+    getList(pagenum, verifyCode) {
+      this.currentPage = pagenum || 1;
+      this.gotoPageNum = this.currentPage;
+      
+      if (!this.checkDate()) {
+        return;
+      }
+      
+      this.loading = true;
+      
+      let formObject = {};
+      if (this.myDealClassify != '00') formObject.DEAL_CLASSIFY = this.myDealClassify.startsWith('bw') ? this.myDealClassify.substr(2) : this.myDealClassify;
+      if (this.myDealStage && (this.myDealStage.substr(2) != '00' && this.myDealStage.substr(4) != '00')) formObject.DEAL_STAGE = this.myDealStage.startsWith('bw') ? this.myDealStage.substr(2) : this.myDealStage;
+      if (this.myDealTrade != '0') formObject.DEAL_TRADE = this.myDealTrade;
+      if (this.myProvince != '0') formObject.DEAL_PROVINCE = this.myProvince;
+      if (this.myCity != '0') formObject.DEAL_CITY = this.myCity;
+      if (this.myPlatform != '0') formObject.DEAL_PLATFORM = this.myPlatform;
+      if (this.bidPlatformId != '0') formObject.BID_PLATFORM = this.bidPlatformId;
+      if (this.mySoureType) formObject.SOURCE_TYPE = this.mySoureType;
+      if (this.myDealTime) formObject.DEAL_TIME = this.myDealTime;
+      if (this.timeBegin) formObject.TIMEBEGIN = this.timeBegin;
+      if (this.timeEnd) formObject.TIMEEND = this.timeEnd;
+      if (this.myFindTxt) formObject.FINDTXT = this.myFindTxt;
+      formObject.PAGENUMBER = this.currentPage;
+      
+      var url = "/information/pubTradingInfo/getTradList";
+      var token = '';
+      if (verifyCode) {
+        token = `${this.captchaToken}#${verifyCode}`;
+      }
+      
+      fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'Access-Control-Allow-Origin': 'http://ggzy.gov.cn',
+          'X-Pass-Token': token
+        },
+        body: new URLSearchParams(formObject)
+      })
+      .then(response => response.json())
+      .then(data => {
+        this.loading = false;
+        if (data.code == 829) {
+          this.openVerifyModal();
+          this.captchaToken = data.captchaToken;
+          this.captchaImage = `data:image/png;base64,${data.captchaImage}`;
+        } else if (data.code == 801) {
+          this.showToast("错误:" + "\n" + data.message);
+        } else if (data.code == 804) {
+          this.showToast("请细化查询条件后再次检索");
+        } else if (data.code == 800) {
+          this.showAlert("眼睛累了，稍适休息！");
+        } else if (data.code == 200) {
+          this.verifyCode = '';
+          this.closeAllModals();
+          this.records = data.data.records;
+          this.ttlrow = data.data.total;
+          this.ttlpage = data.data.pages == 50 ? 100 : data.data.pages;
+          this.currentPage = data.data.current;
+          this.usetime = data.usetime;
+        } else {
+          this.showAlert("错误:" + "\n" + data.message);
+        }
+      })
+      .catch(error => {
+        this.loading = false;
+        this.showToast('连接失败');
+      });
+    },
+
+
+    prevPage() {
+      if (this.currentPage > 1) {
+        this.getList(this.currentPage - 1);
+      }
+    },
+    nextPage() {
+      if (this.currentPage < this.ttlpage) {
+        this.getList(this.currentPage + 1);
+      }
+    },
+    goToPage(page) {
+      page = parseInt(page);
+      if (page >= 1 && page <= this.ttlpage) {
+        this.getList(page);
+      }
+    },
+    addHighLight(title) {
+      if (!this.myFindTxt || !this.myFindTxt.trim()) return title;
+      // 转义正则表达式中的特殊字符
+      const escapedText = this.myFindTxt.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      return title.replace(new RegExp(escapedText, 'g'), `<span class="p_tit">${this.myFindTxt}</span>`);
+    },
+    cutString(str, length = 20) {
+      if (!str) return '';
+      if (str.length <= length) return str;
+      return str.substr(0, length) + '...';
+    },
+    containsChinese(str) {
+      var reg = /[\u4e00-\u9fa5]/;
+      return reg.test(str);
+    },
+
+    toggleMoreTrade() {
+      this.showMoreTrade = !this.showMoreTrade;
+    }
+  }
+});
+</script>
+</body>
+
+</html>

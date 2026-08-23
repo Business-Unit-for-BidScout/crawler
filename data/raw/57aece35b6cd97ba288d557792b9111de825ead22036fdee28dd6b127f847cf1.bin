@@ -1,0 +1,1227 @@
+﻿<!DOCTYPE html><html><head>
+
+    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+        <title>通知公告-西安交通大学附属儿童医院</title><META Name="keywords" Content="西安交通大学附属儿童医院，西安市儿童医院，西安儿童医院，儿童医院，西安儿医,通知公告" />
+
+        <link href="../css/style.css" rel="stylesheet">
+        <script src="../js/bdtxk.js"></script>
+        <script src="../js/slide.js"></script>
+    <!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230697547545352574003090000 -->
+<link rel="stylesheet" type="text/css" href="../sj1_p_list.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc|pad"></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1072,'/sj1_p_list.jsp',-1,1592963312)</script>
+</head>
+    <body>
+        <!-- top开始 -->
+        <div class="p-top">
+            <div class="wrap">
+                <div class="fr">
+                    <ul>
+                        <li class="on"><a href=""><img src="../images/p-top01.png"></a></li>
+                       <li><a href="http://www.xachyy.com/staff/index.htm"><img src="../images/p-top02.png"></a></li>
+                    </ul>
+                    <div class="en">
+                        <h2>English</h2>
+                        <script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script><div class="box">
+
+
+  <h5 class="on"><a href="http://www.xachyy.com/yrh/ENGLISH/Home_page.htm" onclick="_addDynClicks(&#34;wburl&#34;, 1592963312, 61696)">English</a></h5>
+
+
+
+
+
+  <h5><a href="http://www.xachyy.com/yrh/rb_/syrw.htm" onclick="_addDynClicks(&#34;wburl&#34;, 1592963312, 61697)">日本語</a></h5>
+
+
+
+
+
+  <h5><a href="http://www.xachyy.com/yrh/hg/hsy.htm" onclick="_addDynClicks(&#34;wburl&#34;, 1592963312, 61698)">韩国语</a></h5>
+
+
+
+</div>
+                    </div>
+                    <script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode251611').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey251611").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey251611").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey251611").value = base64.encode(document.getElementById("lucenenewssearchkey251611").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode251611"));
+        return true;
+    } 
+</script>
+<form action="../p_ssjgy.jsp?wbtreeid=1072" method="post" id="au1a" name="au1a" onsubmit="return _nl_ys_check()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkey251611" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype251611" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope251611" name="searchScope" value="0">
+
+
+<div class="search">
+                        <input class="ss" type="text" name="showkeycode" id="showkeycode251611">
+                        <input class="btn" type="submit" value="">
+                    </div>
+
+
+
+
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!-- top结束 -->
+        <!-- head开始 -->
+        <div class="p-head wrap">
+            <div class="p-logo fl">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="../index.htm" title="西安儿童医院"><img src="../images/p-logo.png"> </a></div>
+            <!-- nav -->
+            <div class="navs">
+            <ul id="nav_ul">
+<li class="nLi "><a href="../sy.htm" target="_blank">首页</a>
+</li>
+<li class="nLi "><a href="../yygk/yyjj.htm" target="_blank">医院概况</a>
+        <ul class="sub" style="display: none;">
+            <li><a href="../yygk/yyjj.htm">医院简介</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../yygk/ldtd.htm">领导团队</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../yygk/zzjg.htm">组织架构</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../yygk/dsj.htm">大事记</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../yygk/yywh.htm">医院文化</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../yygk/yyry.htm">医院荣誉</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+        </ul>
+</li>
+<li class="nLi "><a href="../ksdh.htm" target="_blank">科室导航</a>
+        <ul class="sub" style="display: none;">
+            <li><a href="../ksdh/lcks.htm">临床科室</a>
+           <!---三级导航--->
+            </li>
+            <li><a href="../ksdh/mzks.htm">门诊科室</a>
+           <!---三级导航--->
+            </li>
+            <li><a href="../ksdh/yjks.htm">医技科室</a>
+           <!---三级导航--->
+            </li>
+        </ul>
+</li>
+<li class="nLi "><a href="../zjjs/lcks.htm" target="_blank">专家介绍</a>
+        <ul class="sub" style="display: none;">
+            <li><a href="../zjjs/lcks.htm">临床科室</a>
+           <!---三级导航--->
+            </li>
+            <li><a href="../zjjs/mzks.htm">门诊科室</a>
+           <!---三级导航--->
+            </li>
+            <li><a href="../zjjs/yjks.htm">医技科室</a>
+           <!---三级导航--->
+            </li>
+        </ul>
+</li>
+<li class="nLi on"><a href="xwdt1/yydt1.htm" target="_blank">新闻中心</a>
+        <ul class="sub" style="display: none;">
+            <li class="wysj"><a href="tzgg1.htm">通知公告</a>
+           <!---三级导航--->
+             <div class="nav_sub" style="display: none;">
+             <ul>
+              <li><a href="tzgg1/zytz.htm" target="_blank">重要通知</a>
+              <li><a href="tzgg1/rsrm.htm" target="_blank">人事任免</a>
+              <li><a href="tzgg1/ryzp.htm" target="_blank">人员招聘</a>
+              <li><a href="tzgg1/zbcggg.htm" target="_blank">招标采购公告</a>
+              <li><a href="tzgg1/zjzzdz.htm" target="_blank">专家坐诊调整</a>
+             </ul>
+             </div>
+           <!---三级导航----> 
+            </li>
+            <li class="wysj"><a href="xwdt1.htm">新闻动态</a>
+           <!---三级导航--->
+             <div class="nav_sub" style="display: none;">
+             <ul>
+              <li><a href="xwdt1/yydt1.htm" target="_blank">医院动态</a>
+              <li><a href="xwdt1/ksdt.htm" target="_blank">科室动态</a>
+              <li><a href="xwdt1/mtbd1.htm" target="_blank">媒体报道</a>
+              <li><a href="xwdt1/ldgh.htm" target="_blank">领导关怀</a>
+              <li><a href="xwdt1/xybd.htm" target="_blank">行业报道</a>
+             </ul>
+             </div>
+           <!---三级导航----> 
+            </li>
+            <li><a href="tpxw.htm">图片新闻</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="spzs.htm">视频展示</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+        </ul>
+</li>
+<li class="nLi "><a href="../dqgz/jcdj.htm" target="_blank">党群工作</a>
+        <ul class="sub" style="display: none;">
+            <li><a href="../dqgz/jcdj.htm">基层党建</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../dqgz/tzgz.htm">统战工作</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../dqgz/jjjc.htm">纪检监察</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../dqgz/zgzj.htm">职工之家</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../dqgz/tyqn.htm">团员青年</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../dqgz/pfxc.htm">普法宣传</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+        </ul>
+</li>
+<li class="nLi "><a href="../yxjy/kyjy.htm" target="_blank">医学教研</a>
+        <ul class="sub" style="display: none;">
+            <li><a href="../yxjy/zyysgfhpx_.htm">住院医师规范化培训 </a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li class="wysj"><a href="../yxjy/kyjy.htm">科研教育</a>
+           <!---三级导航--->
+             <div class="nav_sub" style="display: none;">
+             <ul>
+              <li><a href="../yxjy/kyjy/jxjy.htm" target="_blank">继续教育</a>
+              <li><a href="../yxjy/kyjy/xsjz.htm" target="_blank">学术讲座</a>
+              <li><a href="../yxjy/kyjy/yhpx.htm" target="_blank">医护培训</a>
+              <li><a href="../yxjy/kyjy/yjyjs.htm" target="_blank">医教研建设</a>
+              <li><a href="../yxjy/kyjy/kyjxcgzs.htm" target="_blank">科研教学成果展示</a>
+              <li><a href="../yxjy/kyjy/dwjlhz.htm" target="_blank">对外交流合作</a>
+              <li><a href="../yxjy/kyjy/yxtsqk.htm" target="_blank">医学图书期刊</a>
+              <li><a href="../yxjy/kyjy/kylwfb.htm" target="_blank">科研论文发表</a>
+             </ul>
+             </div>
+           <!---三级导航----> 
+            </li>
+            <li class="wysj"><a href="../yxjy/hlyd.htm">护理园地</a>
+           <!---三级导航--->
+             <div class="nav_sub" style="display: none;">
+             <ul>
+              <li><a href="../yxjy/hlyd/hldt.htm" target="_blank">护理动态</a>
+              <li><a href="../yxjy/hlyd/jzkt.htm" target="_blank">家长课堂</a>
+             </ul>
+             </div>
+           <!---三级导航----> 
+            </li>
+            <li class="wysj"><a href="../yxjy/jkxj.htm">健康宣教</a>
+           <!---三级导航--->
+             <div class="nav_sub" style="display: none;">
+             <ul>
+              <li><a href="../yxjy/jkxj/jkjt.htm" target="_blank">健康讲堂</a>
+              <li><a href="../yxjy/jkxj/kyzsxj.htm" target="_blank">控烟知识宣讲</a>
+             </ul>
+             </div>
+           <!---三级导航----> 
+            </li>
+        </ul>
+</li>
+<li class="nLi "><a href="../xxgk/xfjs.htm" target="_blank">信息公开</a>
+        <ul class="sub" style="display: none;">
+            <li><a href="../xxgk/xfjs.htm">行风建设</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li class="wysj"><a href="../xxgk/rsxx.htm">人事信息</a>
+           <!---三级导航--->
+             <div class="nav_sub" style="display: none;">
+             <ul>
+              <li><a href="../xxgk/rsxx/rsrm.htm" target="_blank">人事任免</a>
+              <li><a href="../xxgk/rsxx/ryzl.htm" target="_blank">人员招录</a>
+             </ul>
+             </div>
+           <!---三级导航----> 
+            </li>
+            <li class="wysj"><a href="../xxgk/zbcg.htm">招标采购</a>
+           <!---三级导航--->
+             <div class="nav_sub" style="display: none;">
+             <ul>
+              <li><a href="../xxgk/zbcg/zbgg.htm" target="_blank">招标公告</a>
+              <li><a href="../xxgk/zbcg/zbtz.htm" target="_blank">中标通知</a>
+             </ul>
+             </div>
+           <!---三级导航----> 
+            </li>
+            <li><a href="../xxgk/wjgs.htm">物价公示</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../xxgk/czyjs.htm">财政预决算</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../xxgk/dxylsb.htm">大型医疗设备</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../xxgk/xxgkml.htm">信息公开目录</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../xxgk/zyxkz1.htm">执业许可证</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+        </ul>
+</li>
+<li class="nLi "><a href="../fwzn/jzxz/jzlc.htm" target="_blank">服务指南</a>
+        <ul class="sub" style="display: none;">
+            <li class="wysj"><a href="../fwzn/jzxz.htm">就诊须知</a>
+           <!---三级导航--->
+             <div class="nav_sub" style="display: none;">
+             <ul>
+              <li><a href="../fwzn/jzxz/jzlc.htm" target="_blank">就诊流程</a>
+              <li><a href="../fwzn/jzxz/jyzysx.htm" target="_blank">就医注意事项</a>
+              <li><a href="../fwzn/jzxz/yndh.htm" target="_blank">院内导航</a>
+              <li><a href="../fwzn/jzxz/yljfclcx.htm" target="_blank">医疗纠纷处理程序</a>
+              <li><a href="../fwzn/jzxz/ywbllc.htm" target="_blank">业务办理流程</a>
+             </ul>
+             </div>
+           <!---三级导航----> 
+            </li>
+            <li class="wysj"><a href="../fwzn/fwgz.htm">服务规章</a>
+           <!---三级导航--->
+             <div class="nav_sub" style="display: none;">
+             <ul>
+              <li><a href="../fwzn/fwgz/jsfwgf.htm" target="_blank">技术服务规范</a>
+              <li><a href="../fwzn/fwgz/zyddgf.htm" target="_blank">职业道德规范</a>
+              <li><a href="../fwzn/fwgz/hlfwgf.htm" target="_blank">护理服务规范</a>
+              <li><a href="../fwzn/fwgz/zyzfwgf.htm" target="_blank">志愿者服务规范</a>
+             </ul>
+             </div>
+           <!---三级导航----> 
+            </li>
+            <li><a href="../fwzn/czxx.htm">出诊信息</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li class="wysj"><a href="../fwzn/ylfw.htm">医疗服务</a>
+           <!---三级导航--->
+             <div class="nav_sub" style="display: none;">
+             <ul>
+              <li><a href="../fwzn/ylfw/tszkjzlxmxx.htm" target="_blank">特色专科及诊疗项目信息</a>
+              <li><a href="../fwzn/ylfw/bqcwzyqkjzydt.htm" target="_blank">病区床位占用情况及住院动态</a>
+              <li><a href="../fwzn/ylfw/zxfwdh.htm" target="_blank">咨询服务电话</a>
+             </ul>
+             </div>
+           <!---三级导航----> 
+            </li>
+            <li class="wysj"><a href="../fwzn/yygh1.htm">预约挂号</a>
+           <!---三级导航--->
+             <div class="nav_sub" style="display: none;">
+             <ul>
+              <li><a href="http://book.xachyy.com/" target="_blank">网上预约服务</a>
+              <li><a href="../fwzn/yygh1/dhyyfw.htm" target="_blank">电话预约服务</a>
+             </ul>
+             </div>
+           <!---三级导航----> 
+            </li>
+            <li><a href="../fwzn/bmcs.htm">便民措施</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li class="wysj"><a href="../fwzn/zxcx.htm">在线查询</a>
+           <!---三级导航--->
+             <div class="nav_sub" style="display: none;">
+             <ul>
+              <li><a href="../fwzn/zxcx/hzfycx.htm" target="_blank">患者费用查询</a>
+              <li><a href="../fwzn/zxcx/jcjgcx.htm" target="_blank">检查结果查询</a>
+             </ul>
+             </div>
+           <!---三级导航----> 
+            </li>
+        </ul>
+</li>
+<li class="nLi "><a href="../ldxx-list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1476" target="_blank">医患互动</a>
+        <ul class="sub" style="display: none;">
+            <li><a href="../ldxx-list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1476">院长信箱</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="http://znkf.vsbclub.com/robot/chat2.html?sysNum=1580866489211521">在线咨询</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../hd_ts_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1478">举报投诉</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../hd_fk_tj.jsp?urltype=tree.TreeTempUrl&wbtreeid=1679">就医反馈</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../yhhd/yzjdr.htm">院长接待日</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+            <li><a href="../yhhd/srgczybxgdjsxxjywlyjx.htm">深入贯彻中央八项规定精神学习教育网络意见箱</a>
+           <!---三级导航--->
+           <!---三级导航----> 
+            </li>
+        </ul>
+</li>
+
+              
+            </ul>
+        </div>
+        <script id="jsID" type="text/javascript">
+            
+           jQuery("#nav_ul").slide({
+        type: "menu",
+        titCell: ".nLi",
+        targetCell: ".sub",
+        effect: "slideDown",
+        delayTime: 500,
+        triggerTime: 0,
+        returnDefault: true
+            });
+        </script>    
+        
+ <script type="text/javascript">
+$(document).ready(function(){
+  $(".wysj").mouseover(function(){
+    
+    $(this).find(".nav_sub").show();
+  });
+   $(".wysj").mouseout(function(){
+    $(this).find(".nav_sub").hide() ;
+  });
+});
+</script>
+            <div class="clear"></div>
+        </div>
+        <!-- head结束 -->
+    <!-- list-banner开始 -->
+    <div class="p-list-banner">
+        <div class="pic"><img src="../images/p-about01.jpg" /></div>
+        <div class="tit">
+            <h5>
+
+
+
+通知公告</h5>
+            <p></p>
+        </div>
+    </div>
+    <!-- list-banner结束 -->
+    <!-- position开始 -->
+    <div class="p-list-position">
+        <div class="wrap">
+            <ul><li><a href="tzgg1/zytz.htm">重要通知</a></li>
+                
+<li><a href="tzgg1/rsrm.htm">人事任免</a></li>
+                
+<li><a href="tzgg1/ryzp.htm">人员招聘</a></li>
+                
+<li><a href="tzgg1/zbcggg.htm">招标采购公告</a></li>
+                
+<li><a href="tzgg1/zjzzdz.htm">专家坐诊调整</a></li>
+                
+
+            
+            
+            </ul>
+            <p>        
+                <a href="../index.htm">引导页</a>
+
+                / 
+                <a href="xwdt1/yydt1.htm">新闻中心</a>
+
+                / 
+                <a href="tzgg1.htm">通知公告</a>
+</p>
+        </div>
+    </div>
+    <!-- position结束 -->
+    <!-- p-list -->
+    
+
+<script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><div class="p-list">
+        <ul>
+    
+
+
+<li>
+                <a href="../info/1431/15564.htm">
+                    <div class="time">
+                        <div class="day">09</div>
+                        <div class="year">2026-07</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院工作人员招聘公告</h5>
+                        <p>根据医院发展需要，现面向社会公开招聘编制外聘用人员。一、招聘原则和程序坚持公开、公平、择优的原则，根据岗位要求，按照公开报名、资格审查、笔试、面试、体检、考察、试用等程序，择优聘用。二、招聘条件1.应聘者须遵纪守法，品行端正、具有良好的职业道德，无违法犯罪记录或不良执业行为记录...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15562.htm">
+                    <div class="time">
+                        <div class="day">09</div>
+                        <div class="year">2026-07</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院西门院区停车场维保服务项目竞争性磋商公告（三次）</h5>
+                        <p>西安市儿童医院按照政府采购程序，对西安市儿童医院西门院区停车场维保服务项目进行竞争性磋商，欢迎符合资格的供应商参加磋商。　　一、项目名称：西安市儿童医院西门院区停车场维保服务项目　二、项目编号：FS202626三、项目归口部门：西安市儿童医院保卫科　　地址：西安市莲湖区西举院巷69号（...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15560.htm">
+                    <div class="time">
+                        <div class="day">09</div>
+                        <div class="year">2026-07</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院空调零星采购项目竞争性磋商公告（三次）</h5>
+                        <p>西安市儿童医院按照政府采购程序，对西安市儿童医院空调零星采购项目进行竞争性磋商，欢迎符合资格的供应商参加磋商。　　一、项目名称：西安市儿童医院空调零星采购项目　二、项目编号：FS202621三、项目归口部门：西安市儿童医院总务科 　　地址：西安市莲湖区西举院巷69号（西安市儿童医院西门院...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15536.htm">
+                    <div class="time">
+                        <div class="day">02</div>
+                        <div class="year">2026-07</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院病房提升改造项目初步设计（含概算）服务项目竞争性磋商公告</h5>
+                        <p>西安市儿童医院按照政府采购程序，对西安市儿童医院病房提升改造项目初步设计（含概算）服务项目进行竞争性磋商，欢迎符合资格的供应商参加磋商。　　一、项目名称：西安市儿童医院病房提升改造项目初步设计（含概算）服务项目　二、项目编号：FS202635三、项目归口部门：西安市儿童医院总务科　　...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15534.htm">
+                    <div class="time">
+                        <div class="day">02</div>
+                        <div class="year">2026-07</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院病房提升改造项目项目建议书、可行性报告服务项目竞争性磋商公告</h5>
+                        <p>西安市儿童医院按照政府采购程序，对西安市儿童医院病房提升改造项目项目建议书、可行性报告服务项目进行竞争性磋商，欢迎符合资格的供应商参加磋商。　　一、项目名称：西安市儿童医院病房提升改造项目项目建议书、可行性报告服务项目　二、项目编号：FS202634三、项目归口部门：西安市儿童医院总...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15530.htm">
+                    <div class="time">
+                        <div class="day">01</div>
+                        <div class="year">2026-07</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院经开院区院史展板设计制作项目中标结果公示</h5>
+                        <p>西安市儿童医院经开院区院史展板设计制作项目已于2026年6月18日进行院内竞争性磋商，现招标工作已结束，根据磋商小组的评审结论现将中标结果公告如下：一、项目名称：西安市儿童医院经开院区院史展板设计制作项目二、项目编号: FS202614三、项目归口部门：西安市儿童医院宣传科地址：陕西省西安市西...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15512.htm">
+                    <div class="time">
+                        <div class="day">23</div>
+                        <div class="year">2026-06</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院空调零星采购项目竞争性磋商公告（二次）</h5>
+                        <p>西安市儿童医院按照政府采购程序，对西安市儿童医院空调零星采购项目进行竞争性磋商，欢迎符合资格的供应商参加磋商。　　一、项目名称：西安市儿童医院空调零星采购项目　二、项目编号：FS202621三、项目归口部门：西安市儿童医院总务科 　　地址：西安市莲湖区西举院巷69号（西安市儿童医院西门院...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15491.htm">
+                    <div class="time">
+                        <div class="day">22</div>
+                        <div class="year">2026-06</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院西门院区停车场维保服务项目竞争性磋商公告（二次）</h5>
+                        <p>西安市儿童医院按照政府采购程序，对西安市儿童医院西门院区停车场维保服务项目进行竞争性磋商，欢迎符合资格的供应商参加磋商。　　一、项目名称：西安市儿童医院西门院区停车场维保服务项目　二、项目编号：FS202626三、项目归口部门：西安市儿童医院保卫科　　地址：西安市莲湖区西举院巷69号（...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15487.htm">
+                    <div class="time">
+                        <div class="day">15</div>
+                        <div class="year">2026-06</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院2026—2027法律顾问（含诉讼代理）服务项目询价公告</h5>
+                        <p>一、采购项目名称：西安市儿童医院2026—2027法律顾问（含诉讼代理）服务项目二、采购人名称：西安市儿童医院地址：西安市莲湖区西举院巷69号三、服务期：自合同签订之日起一年四、项目概况西安市儿童医院为规范管理，防范法律风险，发挥法律顾问在医院工作中的保障作用，增强依法治院水平，拟就202...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15478.htm">
+                    <div class="time">
+                        <div class="day">11</div>
+                        <div class="year">2026-06</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院脑电图仪采购项目竞争性谈判公告</h5>
+                        <p>西安市儿童医院按照医院招标采购程序，对西安市儿童医院脑电图仪采购项目进行院内竞争性谈判，欢迎符合资格的供应商参加。项目名称：西安市儿童医院脑电图仪采购项目二、项目编号：FS202627三、项目归口部门：西安市儿童医院器械科地址：西安市莲湖区西举院巷69号联系人： 乌阳联系方式：029-876925...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15474.htm">
+                    <div class="time">
+                        <div class="day">08</div>
+                        <div class="year">2026-06</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院医疗电子票据系统升级改造服务项目单一来源公示</h5>
+                        <p>一、项目信息：项目名称：西安市儿童医院医疗电子票据系统升级改造服务项目预算金额：50000元采用单一来源采购方式的原因及说明:只能由福建博思软件股份有限公司完成对接。 二、拟定供应商信息名称： 福建博思软件股份有限公司三、公示期限2026年6月8日至2026年6月12日四、其他补充事宜无五、联系方...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15472.htm">
+                    <div class="time">
+                        <div class="day">08</div>
+                        <div class="year">2026-06</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院经开院区院史展板设计制作项目竞争性磋商公告（三次）</h5>
+                        <p>西安市儿童医院按照政府采购程序，对西安市儿童医院经开院区院史展板设计制作项目进行竞争性磋商，欢迎符合资格的供应商参加磋商。　　一、项目名称：西安市儿童医院经开院区院史展板设计制作项目　二、项目编号：FS202614三、项目归口部门：西安市儿童医院宣传科　　地址：西安市莲湖区西举院巷69...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15470.htm">
+                    <div class="time">
+                        <div class="day">08</div>
+                        <div class="year">2026-06</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院西门院区停车场维保服务项目竞争性磋商公告</h5>
+                        <p>西安市儿童医院按照政府采购程序，对西安市儿童医院西门院区停车场维保服务项目进行竞争性磋商，欢迎符合资格的供应商参加磋商。　　一、项目名称：西安市儿童医院西门院区停车场维保服务项目　二、项目编号：FS202626三、项目归口部门：西安市儿童医院保卫科　　地址：西安市莲湖区西举院巷69号（...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15468.htm">
+                    <div class="time">
+                        <div class="day">08</div>
+                        <div class="year">2026-06</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院睡眠监测系统升级及配套监测系统相关硬件服务项目竞争性磋商公告（二次）</h5>
+                        <p>西安市儿童医院按照政府采购程序，对西安市儿童医院睡眠监测系统升级及配套监测系统相关硬件服务项目进行竞争性磋商，欢迎符合资格的供应商参加磋商。　　一、项目名称：西安市儿童医院睡眠监测系统升级及配套监测系统相关硬件服务项目　二、项目编号：FS202622三、项目归口部门：西安市儿童医院信...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15466.htm">
+                    <div class="time">
+                        <div class="day">08</div>
+                        <div class="year">2026-06</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院空调零星采购项目竞争性磋商公告</h5>
+                        <p>西安市儿童医院按照政府采购程序，对西安市儿童医院空调零星采购项目进行竞争性磋商，欢迎符合资格的供应商参加磋商。　　一、项目名称：西安市儿童医院空调零星采购项目　二、项目编号：FS202621三、项目归口部门：西安市儿童医院总务科 　　地址：西安市莲湖区西举院巷69号（西安市儿童医院西门院...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15448.htm">
+                    <div class="time">
+                        <div class="day">29</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院“六一”儿童节玩具采购项目中标结果公示</h5>
+                        <p>西安市儿童医院“六一”儿童节玩具采购项目已于2026年5月27日进行院内竞争性谈判，现招标工作已结束，根据谈判小组的评审结论现将中标结果公告如下：一、项目名称：西安市儿童医院“六一”儿童节玩具采购项目二、项目编号: FS202624三、项目归口部门：西安市儿童医院总务科地址：陕西省西安市西举院...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15443.htm">
+                    <div class="time">
+                        <div class="day">27</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院京颐综合支付平台维保服务项目中标结果公示</h5>
+                        <p>西安市儿童医院京颐综合支付平台维保服务项目已于2026年5月21日进行院内竞争性磋商，现招标工作已结束，根据磋商小组的评审结论现将中标结果公告如下：一、项目名称：西安市儿童医院京颐综合支付平台维保服务项目二、项目编号: FS202615三、项目归口部门：西安市儿童医院信息科地址：陕西省西安市西...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15436.htm">
+                    <div class="time">
+                        <div class="day">25</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院经开院区院史展板设计制作项目竞争性磋商公告（二次）</h5>
+                        <p>西安市儿童医院按照政府采购程序，对西安市儿童医院经开院区院史展板设计制作项目进行竞争性磋商，欢迎符合资格的供应商参加磋商。　　一、项目名称：西安市儿童医院经开院区院史展板设计制作项目　二、项目编号：FS202614三、项目归口部门：西安市儿童医院宣传科　　地址：西安市莲湖区西举院巷69...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1431/15434.htm">
+                    <div class="time">
+                        <div class="day">22</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院护理人员招聘公告</h5>
+                        <p>我院因工作需要，现公开招聘编制外护理人员，有关事项公告如下：招聘原则和程序坚持公平、公开、公正原则，按照报名、资格审查、笔试、面试、技能操作考核、体检、考察的程序择优录取。岗位要求1、具有中华人民共和国国籍，遵纪守法，品行端正，热爱护理工作。2、性格开朗、身体健康，年龄不超过28...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15423.htm">
+                    <div class="time">
+                        <div class="day">21</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院中华医学期刊全文数据库服务项目单一来源公示</h5>
+                        <p>一、项目信息：项目名称：西安市儿童医院中华医学期刊全文数据库服务项目预算金额：50000元（最高限价：40000元）采用单一来源采购方式的原因及说明:为确保数据库的专业性。 二、拟定供应商信息名称： 西安聚安诚电子科技有限公司三、公示期限2026年5月21日至2026年5月27日四、其他补充事宜无五、联...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15421.htm">
+                    <div class="time">
+                        <div class="day">21</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院本地PubMed检索平台服务项目单一来源公示</h5>
+                        <p>一、项目信息：项目名称：西安市儿童医院本地PubMed检索平台服务项目预算金额：86000元采用单一来源采购方式的原因及说明:为确保平台的专业性。 二、拟定供应商信息名称： 西安聚安诚电子科技有限公司三、公示期限2026年5月21日至2026年5月27日四、其他补充事宜无五、联系方式采购人：西安市儿童医...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15419.htm">
+                    <div class="time">
+                        <div class="day">21</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院“中国知网”数据库服务项目单一来源公示</h5>
+                        <p>一、项目信息：项目名称：西安市儿童医院“中国知网”数据库服务项目预算金额：43000元采用单一来源采购方式的原因及说明:为确保数据库的专业性。 二、拟定供应商信息名称： 同方知网（北京）技术有限公司陕西分公司三、公示期限2026年5月21日至2026年5月27日四、其他补充事宜无五、联系方式采购人...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15411.htm">
+                    <div class="time">
+                        <div class="day">19</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院“六一”儿童节玩具采购项目竞争性谈判公告</h5>
+                        <p>西安市儿童医院按照医院招标采购程序，对西安市儿童医院“六一”儿童节玩具采购项目进行院内竞争性谈判，欢迎符合资格的供应商参加。项目名称：西安市儿童医院“六一”儿童节玩具采购项目二、项目编号：FS202524三、项目归口部门：西安市儿童医院总务科地址：西安市莲湖区西举院巷69号联系人： 杨敏...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15408.htm">
+                    <div class="time">
+                        <div class="day">18</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院西门院区零星标识制作服务信息收集公告</h5>
+                        <p>各相关企业：为做好我院西门院区零星标识制作服务采购前信息收集的准备工作，拟于2026 年5月18日- 2026 年5月22日（工作日上午9:00-12:00，下午 14:00-17:00；北京时间）进行信息收集，现就相关事宜公告如下： 一、项目清单 标识项目品种价格清单常用物料规格数量单位单价（元）白胶车贴单张0.05平...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15403.htm">
+                    <div class="time">
+                        <div class="day">13</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院锅炉烟气检测服务项目中标结果公示</h5>
+                        <p>西安市儿童医院锅炉烟气检测服务项目已于2026年5月9日进行院内竞争性磋商，现招标工作已结束，根据磋商小组的评审结论现将中标结果公告如下：一、项目名称：西安市儿童医院锅炉烟气检测服务项目二、项目编号: FS202612三、项目归口部门：西安市儿童医院总务科地址：陕西省西安市西举院巷69号联系方...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15401.htm">
+                    <div class="time">
+                        <div class="day">13</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院2026年放射人员体检项目中标结果公示</h5>
+                        <p>西安市儿童医院2026年放射人员体检项目已于2026年4月30日进行院内竞争性磋商，现招标工作已结束，根据磋商小组的评审结论现将中标结果公告如下：一、项目名称：西安市儿童医院2026年放射人员体检项目二、项目编号: FS202609三、项目归口部门：西安市儿童医院疾控科地址：陕西省西安市西举院巷69号联...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15399.htm">
+                    <div class="time">
+                        <div class="day">13</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院经开院区零星标识制作服务信息收集公告</h5>
+                        <p>各相关企业：为做好我院经开院区零星标识制作服务采购前信息收集的准备工作，拟于2026 年5月13日- 2026 年5月20日（工作日上午9:00-12:00，下午14:00-17:00；北京时间）进行信息收集，现就相关事宜公告如下： 一、项目清单 标识项目品种价格清单常用物料规格数量(按单位平米/块/面/个)单位(按单位平...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15390.htm">
+                    <div class="time">
+                        <div class="day">12</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院经开院区院史展板设计制作项目竞争性磋商公告</h5>
+                        <p>西安市儿童医院按照政府采购程序，对西安市儿童医院经开院区院史展板设计制作项目进行竞争性磋商，欢迎符合资格的供应商参加磋商。　　一、项目名称：西安市儿童医院经开院区院史展板设计制作项目　二、项目编号：FS202614三、项目归口部门：西安市儿童医院宣传科　　地址：西安市莲湖区西举院巷69...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15382.htm">
+                    <div class="time">
+                        <div class="day">09</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院京颐综合支付平台维保服务项目竞争性磋商公告</h5>
+                        <p>西安市儿童医院按照政府采购程序，对西安市儿童医院京颐综合支付平台维保服务项目进行竞争性磋商，欢迎符合资格的供应商参加磋商。　　一、项目名称：西安市儿童医院京颐综合支付平台维保服务项目　二、项目编号：FS202615三、项目归口部门：西安市儿童医院信息科　　地址：西安市莲湖区西举院巷69...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15380.htm">
+                    <div class="time">
+                        <div class="day">09</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院一体式儿科膀胱镜采购项目竞争性谈判公告（三次）</h5>
+                        <p>西安市儿童医院按照医院招标采购程序，对西安市儿童医院一体式儿科膀胱镜采购项目进行院内竞争性谈判，欢迎符合资格的供应商参加。项目名称：西安市儿童医院一体式儿科膀胱镜采购项目二、项目编号：FS202610三、项目归口部门：西安市儿童医院器械科地址：西安市莲湖区西举院巷69号联系人： 乌阳联系...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15378.htm">
+                    <div class="time">
+                        <div class="day">09</div>
+                        <div class="year">2026-05</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院小儿膀胱尿道镜采购项目竞争性谈判公告（三次）</h5>
+                        <p>西安市儿童医院按照医院招标采购程序，对西安市儿童医院小儿膀胱尿道镜采购项目进行院内竞争性谈判，欢迎符合资格的供应商参加。项目名称：西安市儿童医院小儿膀胱尿道镜采购项目二、项目编号：FS202606三、项目归口部门：西安市儿童医院器械科地址：西安市莲湖区西举院巷69号联系人： 乌阳联系方式...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15351.htm">
+                    <div class="time">
+                        <div class="day">29</div>
+                        <div class="year">2026-04</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院经开院区公共区域垃圾桶采购项目中标结果公示</h5>
+                        <p>西安市儿童医院经开院区公共区域垃圾桶采购项目已于2026年4月23日进行院内竞争性谈判，现招标工作已结束，根据谈判小组的评审结论现将中标结果公告如下：一、项目名称：西安市儿童医院经开院区公共区域垃圾桶采购项目二、项目编号: FS202613三、项目归口部门：西安市儿童医院总务科地址：陕西省西安...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15330.htm">
+                    <div class="time">
+                        <div class="day">27</div>
+                        <div class="year">2026-04</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院一体式儿科膀胱镜采购项目竞争性谈判公告（二次）</h5>
+                        <p>西安市儿童医院按照医院招标采购程序，对西安市儿童医院一体式儿科膀胱镜采购项目进行院内竞争性谈判，欢迎符合资格的供应商参加。项目名称：西安市儿童医院一体式儿科膀胱镜采购项目二、项目编号：FS202610三、项目归口部门：西安市儿童医院器械科地址：西安市莲湖区西举院巷69号联系人： 乌阳联系...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15322.htm">
+                    <div class="time">
+                        <div class="day">24</div>
+                        <div class="year">2026-04</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院耳鼻喉器械采购项目竞争性磋商公告</h5>
+                        <p>西安市儿童医院按照政府采购程序，对西安市儿童医院鼻窦及喉显微等器械采购项目进行竞争性磋商，欢迎符合资格的供应商参加磋商。项目名称：西安市儿童医院鼻窦及喉显微等器械采购项目项目编号：ZC202603三、项目归口部门：西安市儿童医院设备科　　四、采购预算：16980元　　五、供应商资格要求：　...</p>
+                    </div>
+                </a>
+            </li>
+
+
+
+
+
+<li>
+                <a href="../info/1432/15312.htm">
+                    <div class="time">
+                        <div class="day">24</div>
+                        <div class="year">2026-04</div>
+                    </div>
+                    <div class="tit">
+                        <h5>西安市儿童医院锅炉烟气检测服务项目竞争性磋商公告（二次）</h5>
+                        <p>西安市儿童医院按照政府采购程序，对西安市儿童医院锅炉烟气检测服务项目进行竞争性磋商，欢迎符合资格的供应商参加磋商。　　一、项目名称：西安市儿童医院锅炉烟气检测服务项目　二、项目编号：FS202612三、项目归口部门：西安市儿童医院总务科　　地址：西安市莲湖区西举院巷69号联系人：李磊　...</p>
+                    </div>
+                </a>
+            </li>
+
+
+    </UL>
+   <link rel="stylesheet" Content-type="text/css" href="/system/resource/css/pagedown/sys.css"><div class="pb_sys_common pb_sys_normal pb_sys_style4" style="margin-top:10px;text-align:center;"><span class="p_pages"><span class="p_first_d p_fun_d">首页</span><span class="p_prev_d p_fun_d">上页</span><span class="p_no_d">1</span><span class="p_no"><a href="tzgg1/40.htm">2</a></span><span class="p_no"><a href="tzgg1/39.htm">3</a></span><span class="p_no"><a href="tzgg1/38.htm">4</a></span><span class="p_no"><a href="tzgg1/37.htm">5</a></span><span class="p_dot">...</span><span class="p_no"><a href="tzgg1/1.htm">41</a></span><span class="p_next p_fun"><a href="tzgg1/40.htm">下页</a></span><span class="p_last p_fun"><a href="tzgg1/1.htm">尾页</a></span></span></div>
+</div><script>_showDynClickBatch(['dynclicks_u9_15564','dynclicks_u9_15562','dynclicks_u9_15560','dynclicks_u9_15536','dynclicks_u9_15534','dynclicks_u9_15530','dynclicks_u9_15512','dynclicks_u9_15491','dynclicks_u9_15487','dynclicks_u9_15478','dynclicks_u9_15474','dynclicks_u9_15472','dynclicks_u9_15470','dynclicks_u9_15468','dynclicks_u9_15466','dynclicks_u9_15448','dynclicks_u9_15443','dynclicks_u9_15436','dynclicks_u9_15434','dynclicks_u9_15423','dynclicks_u9_15421','dynclicks_u9_15419','dynclicks_u9_15411','dynclicks_u9_15408','dynclicks_u9_15403','dynclicks_u9_15401','dynclicks_u9_15399','dynclicks_u9_15390','dynclicks_u9_15382','dynclicks_u9_15380','dynclicks_u9_15378','dynclicks_u9_15351','dynclicks_u9_15330','dynclicks_u9_15322','dynclicks_u9_15312'],[15564,15562,15560,15536,15534,15530,15512,15491,15487,15478,15474,15472,15470,15468,15466,15448,15443,15436,15434,15423,15421,15419,15411,15408,15403,15401,15399,15390,15382,15380,15378,15351,15330,15322,15312],"wbnews", 1592963312)</script>
+
+    <!-- p-list -->
+        <!-- links -->
+        <div class="links">
+            <div class="wrap">
+                <h5>友情链接 <i>/links</i></h5>
+                <div class="txtMarquee-left links-nr">
+                    <div class="hd">
+                        <a class="next"></a>
+                        <a class="prev"></a>
+                    </div>
+                    <div class="bd">
+                        <ul class="infoList">
+
+
+ <li><a href="http://www.nhc.gov.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 1592963312, 61699)">中华人民共和国国家卫生健康委员会</a></li>
+
+
+
+
+
+ <li><a href="http://sxwjw.shaanxi.gov.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 1592963312, 61700)">陕西省卫生健康委员会</a></li>
+
+
+
+
+
+ <li><a href="http://xawjw.xa.gov.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 1592963312, 61701)">西安市卫生健康委员会</a></li>
+
+
+
+
+
+ <li><a href="http://www.xayxh.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 1592963312, 61702)">西安医学护理学会</a></li>
+
+
+
+
+
+ <li><a href="https://www.cma.org.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 1592963312, 61703)">中华医学会</a></li>
+
+
+
+ </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+<div class="footer">
+    <!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<div class="wrap">
+        
+        <div class="zxzz_tel"><a href="../yhhd/zfjszxxdgzjbtd.htm">作风建设专项行动工作举报电话：87692017  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作风建设专项行动工作举报通道→        <a /></div>
+<div class="zxzz_tel"><a href="../yhhd/a2022nzxzzjbtd.htm">深入开展群众身边腐败和作风问题专项整治监督举报通道&nbsp;&nbsp;→  <a /></div>
+        <p>西安市儿童医院就诊咨询电话&nbsp;&nbsp;&nbsp;</p><p>儿医热线：87311818（8:00~16:00）</p><p>发热门诊：87692141</p><p>Copyright © 2006 -2014 Xi&#39;an Children&#39;s Hospital All Rights Reserved</p><p>版权所有：西安市儿童医院 咨询电话：029-87311818&nbsp;技术支持：<a href="http://www.chinawebber.com/" target="_blank" style="color: rgb(255, 255, 255);">博达软件</a></p><p><a href="http://beian.miit.gov.cn/" target="_blank">陕ICP备05003755号-1</a></p>   
+        <div class="pic"><img src="../images/p-part5-06.png"></div>
+        </div>
+</div>
+
+        <!-- fixed -->
+        <div class="fixed">
+            <ul class="fixed01">
+                <li><a href="http://znkf.vsbclub.com/robot/chat2.html?sysNum=1580866489211521" target="_blank">在线咨询</a></li>
+                <li><a href="../hd_ts_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1478">举报投诉</a></li>
+                <li><a href="../yygk/lxfs.htm">联系电话</a></li>
+                <li><a href="../ldxx-list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1476">院长信箱</a></li>
+            </ul>
+            <ul class="fixed02">
+                <li>
+                    <div class="show">
+                    <div class="pic">
+                        <img src="../images/fixed05.png">
+                    </div>
+                    <p>微信</p>
+                    </div>
+                    <div class="hide">
+                        <div class="pic">
+                            <img src="../images/fixed-ewm-wx.jpg">
+                        </div>
+                        <p>官方微信</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="show">
+                    <div class="pic">
+                        <img src="../images/fixed05.png">
+                    </div>
+                    <p>微博</p>
+                    </div>
+                    <div class="hide">
+                        <div class="pic">
+                            <img src="../images/fixed-ewm-xl.jpg">
+                        </div>
+                        <p>官方微博</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="backtop">
+                <img src="../images/fixed07.png">
+            </div>
+        </div>
+        
+    
+    
+    
+    
+    
+    
+    
+
+
+</body><!-- 语言下拉 --><script>
+        $(".p-top .fr .en .box").hide()
+        $(".p-top .fr .en").click(function() {
+            $(".p-top .fr .en .box").slideToggle();
+        });
+    </script><script type="text/javascript">
+    jQuery(".show-section05-nr").slide({mainCell:".bd ul",autoPlay:true,effect:"leftMarquee",vis:4,interTime:50,trigger:"click"});
+    </script><script type="text/javascript">
+    jQuery(".links-nr").slide({mainCell:".bd ul",autoPlay:true,effect:"leftMarquee",interTime:50});
+    </script><script>
+        $(function() {
+            var sc = $(document),
+                win = $(window);
+
+            win.scroll(function() {
+                if (sc.scrollTop() > 200) {
+                    $('.backtop').fadeIn();
+                } else {
+                    $('.backtop').fadeOut();
+                }
+            })
+
+            $('.backtop').click(function() {
+                $("html,body").animate({
+                    "scrollTop": 0
+                }, 500);
+            })
+
+        })
+    </script></html>
