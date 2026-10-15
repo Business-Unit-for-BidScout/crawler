@@ -5,9 +5,11 @@ import html
 import json
 import re
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
+
+from .daily import write_daily_reports
 
 CLASS_LABELS = {
     "procurement_notice": "采购公告",
@@ -123,6 +125,7 @@ def render_html(payload: dict) -> str:
     <div class="run-pill">RUN {run_id}</div>
   </header>
   <main>
+    <p><a href="daily/index.html">查看每日报告与历史归档 →</a></p>
     <section class="hero">
       <div><p class="eyebrow">PROCUREMENT INTELLIGENCE</p><h1>从公开来源中，<br><span>更早发现招采信号。</span></h1><p class="hero-copy">采集公开页面，保存原始证据，并通过 AI 区分采购公告、中标结果、变更与其他信息。</p></div>
       <div class="hero-stat"><span id="heroCount">0</span><small>累计收录文档</small></div>
@@ -154,7 +157,7 @@ def render_html(payload: dict) -> str:
 </html>"""
 
 
-def build_site(input_dir: Path, output_dir: Path, run_id: str = "") -> dict:
+def build_site(input_dir: Path, output_dir: Path, run_id: str = "", *, daily_date: date | None = None, snapshot_updated_at: str = "") -> dict:
     data_root = _find_data_root(input_dir)
     payload = build_payload(data_root, run_id)
     assets = output_dir / "assets"
@@ -165,6 +168,13 @@ def build_site(input_dir: Path, output_dir: Path, run_id: str = "") -> dict:
     template_root = Path(__file__).resolve().parent / "report_assets"
     for name in ("app.css", "app.js"):
         (assets / name).write_text((template_root / name).read_text(encoding="utf-8"), encoding="utf-8")
+    last_run = _read_json(data_root / "last-run.json", {})
+    write_daily_reports(
+        payload["documents"], output_dir, report_date=daily_date,
+        snapshot_updated_at=snapshot_updated_at or last_run.get("completed_at", ""),
+        eligible_sources=last_run.get("eligible_sources"),
+        collection_incomplete=any(row.get("failed") or row.get("blocked") for row in last_run.get("results", [])),
+    )
     return payload
 
 
@@ -173,8 +183,10 @@ def main() -> None:
     parser.add_argument("--input", required=True, type=Path)
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--run-id", default="")
+    parser.add_argument("--daily-date", type=date.fromisoformat, help="Latest completed daily report date (defaults to yesterday in Shanghai)")
+    parser.add_argument("--snapshot-updated-at", default="", help="Data snapshot commit timestamp, not the report generation time")
     args = parser.parse_args()
-    payload = build_site(args.input, args.output, args.run_id)
+    payload = build_site(args.input, args.output, args.run_id, daily_date=args.daily_date, snapshot_updated_at=args.snapshot_updated_at)
     print(json.dumps({"documents": payload["meta"]["document_count"], "output": str(args.output), "run_id": args.run_id}, ensure_ascii=False))
 
 

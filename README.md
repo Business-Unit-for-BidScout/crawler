@@ -4,6 +4,50 @@ BidScout 第一阶段爬虫项目。目标来源由 `Business-Unit-for-BidScout/
 
 公开报告：<https://bidscout.futurescience.technology/>
 
+每日报告：<https://bidscout.futurescience.technology/daily/index.html>
+
+## 每日招采报告与企业微信
+
+参考节能行业监测项目，`daily-report.yml` 每天北京时间 **09:00** 生成并发布
+**前一自然日 00:00 至次日 00:00** 的招采日报，然后发送到现有
+`WECOM_WEBHOOK_URL` 对应的企业微信群。GitHub 定时任务可能延迟。
+日报独立于现有 14:00、19:00 的分时摘要；日报即使没有新增信息也会发送。
+
+- 统计口径为 `first_seen_at`（首次采集时间），不把历史公告当作当天发布。
+- 展示新增总数、招采相关数、分类分布、来源数、人工复核数及公告原文入口。
+- 完整报告和历史归档位于 `daily/YYYY-MM-DD.html` 与 `daily/index.html`；
+  同日期 JSON 只包含日报所需的公开字段，不包含数据库、原始路径或内部诊断。
+- 企业微信只发送精简日报和日期报告链接，消息限制在 4096 UTF-8 字节内。
+- 先发布 Pages，再核验对应 HTML/JSON 可访问，最后发送企业微信。
+- 数据取自现有 `data` 分支，无需来源清单凭据或运行新一轮爬取。
+  报告显示数据快照的实际更新时间；快照过期、时间未知或最近采集无来源时明确提示覆盖不足，
+  不将零新增解释为当天没有招采公告。历史日期根据当前累计归档回溯。
+- 每个机器人、每个报告日期只发送一次。`notification-state` 分支保存日期、发送状态和哈希，
+  不保存 Webhook、机器人密钥或消息原文。发送前先记录 `sending`；网络结果不确定时保留该状态，
+  后续运行停止重发，需人工核对群消息和记录。明确拒绝时记录 `rejected`，修正配置后可重试。
+
+手动运行 Actions → **Publish and send BidScout daily report**：默认只发布日报；
+勾选 `send_wecom` 后发送前一日的日报，重复运行会跳过已经成功发送的日期。
+现有 `WECOM_WEBHOOK_URL` Secret 可直接复用，不需要将密钥写入仓库或本地文件。
+
+离线构建与消息预览：
+
+```bash
+python -m bidscout_crawler.report --input data --output site --snapshot-updated-at "2026-10-15T00:00:00Z"
+python -m bidscout_crawler.notify_daily --public-dir site --dry-run
+```
+
+`--snapshot-updated-at` 应填写数据分支提交时间，而非当前时间。缺省时读取
+`last-run.json` 的 `completed_at`；旧快照没有此字段时显示更新时间未知。
+可以用 `--daily-date YYYY-MM-DD` 构建截至指定完整自然日的历史报告，用
+`notify_daily --date YYYY-MM-DD --dry-run` 预览对应摘要。
+
+**2026-10-15 接入检查：** `data` 分支最近一次更新为 2026-08-23；
+最近云端采集在读取私有 requirements 仓库时报告 `Bad credentials`，
+来源清单中 `verified + monitoring.active=true` 的来源数为 0。
+需要恢复 `REQUIREMENTS_TOKEN` 的读取权限，并审核启用实际来源，才能持续产生新的采集数据。
+日报会继续如实呈现数据覆盖情况。
+
 ## 当前能力
 
 - 从来源注册表读取地址；

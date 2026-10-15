@@ -1,0 +1,147 @@
+name: Publish and send BidScout daily report
+
+on:
+  schedule:
+    # 09:00 Beijing / Singapore, summarizing the previous complete calendar day.
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+    inputs:
+      send_wecom:
+        description: Send the previous day's published report to the configured WeCom group (once per date)
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+# Share the Pages lock with pages.yml, through publication and notification.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pages: read
+    outputs:
+      report_date: ${{ steps.report.outputs.report_date }}
+      summary_artifact_id: ${{ steps.summary.outputs.artifact-id }}
+    steps:
+      - name: Check out report code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install and test
+        run: |
+          python -m pip install -e '.[test]'
+          pytest -q
+
+      - name: Restore the published data snapshot
+        id: snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch --no-tags origin data
+          git archive FETCH_HEAD data | tar -x
+          test -f data/documents.jsonl
+          echo "updated_at=$(git show -s --format=%cI FETCH_HEAD)" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse FETCH_HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Build full site and daily archive
+        id: report
+        env:
+          SNAPSHOT_UPDATED_AT: ${{ steps.snapshot.outputs.updated_at }}
+          SNAPSHOT_SHA: ${{ steps.snapshot.outputs.sha }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          report_date="$(python -c 'from bidscout_crawler.daily import yesterday; print(yesterday())')"
+          python -m bidscout_crawler.report --input data --output site \
+            --run-id "$GITHUB_RUN_ID" --daily-date "$report_date" \
+            --snapshot-updated-at "$SNAPSHOT_UPDATED_AT"
+          cp CNAME site/CNAME
+          python -m bidscout_crawler.notify_daily --public-dir site --date "$report_date" --dry-run > daily-preview.md
+          cat daily-preview.md >> "$GITHUB_STEP_SUMMARY"
+          echo "report_date=$report_date" >> "$GITHUB_OUTPUT"
+          echo "Snapshot: $SNAPSHOT_SHA ($SNAPSHOT_UPDATED_AT)"
+
+      - name: Save public daily summary
+        id: summary
+        uses: actions/upload-artifact@v4
+        with:
+          name: bidscout-daily-summary-${{ github.run_id }}-${{ github.run_attempt }}
+          path: site/daily/${{ steps.report.outputs.report_date }}.json
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish daily report
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  notify:
+    needs: [build, deploy]
+    if: github.event_name == 'schedule' || inputs.send_wecom == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out notification code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install notification code
+        run: python -m pip install -e .
+
+      - name: Download the public daily summary
+        uses: actions/download-artifact@v4
+        with:
+          artifact-ids: ${{ needs.build.outputs.summary_artifact_id }}
+          path: public-site/daily
+          merge-multiple: true
+
+      - name: Send the published daily report once
+        env:
+          WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          REPORT_DATE: ${{ needs.build.outputs.report_date }}
+        run: >-
+          python -m bidscout_crawler.notify_daily
+          --public-dir public-site --date "$REPORT_DATE" --wait-for-publication

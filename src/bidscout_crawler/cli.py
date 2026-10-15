@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+from datetime import datetime, timezone
 from pathlib import Path
 import yaml
 from .crawler import Crawler
@@ -27,7 +28,7 @@ def main():
     crawler = Crawler(storage, os.getenv("CRAWLER_USER_AGENT", "BidScout-Crawler/0.1 (+https://github.com/Business-Unit-for-BidScout/crawler)"), float(os.getenv("CRAWL_DELAY_MIN_SECONDS", "3")), float(os.getenv("CRAWL_DELAY_MAX_SECONDS", "7")))
     results = [crawler.crawl_source(source, args.max_items).__dict__ for source in selected]
     storage.export_jsonl()
-    summary = {"eligible_sources": len(selected), "results": results}
+    summary = {"completed_at": datetime.now(timezone.utc).isoformat(), "eligible_sources": len(selected), "results": results}
     Path(args.data_dir, "last-run.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(summary, ensure_ascii=False))
 

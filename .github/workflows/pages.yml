@@ -87,6 +87,7 @@ jobs:
             }
             core.setOutput('run_id', String(run.id));
             core.setOutput('artifact_id', String(artifact.id));
+            core.setOutput('snapshot_updated_at', run.updated_at);
 
       - name: Download crawl artifact
         uses: actions/download-artifact@v4
@@ -117,6 +118,7 @@ jobs:
           --input crawl-data
           --output site
           --run-id "${{ steps.resolve.outputs.run_id }}"
+          --snapshot-updated-at "${{ steps.resolve.outputs.snapshot_updated_at }}"
 
       - name: Set custom domain
         run: cp CNAME site/CNAME
