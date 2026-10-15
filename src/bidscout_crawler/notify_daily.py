@@ -155,16 +155,23 @@ class GitHubDeliveryStore:
 
 
 def deliver(payload, webhook, store, sender=send_wecom):
+    return deliver_message(payload["date"], build_message(payload), webhook, store, "wecom-daily", sender)
+
+
+def deliver_message(report_date, message, webhook, store, namespace, sender=send_wecom):
+    """Use independent receipt namespaces for separate daily report products."""
     validate_webhook(webhook)
-    message = build_message(payload)
+    if not re.fullmatch(r"[a-z0-9-]+", namespace):
+        raise NotificationError("Invalid delivery namespace.")
+    date.fromisoformat(report_date)
     target = hashlib.sha256(webhook.encode()).hexdigest()[:24]
-    key = f"wecom-daily/{target}/{payload['date']}"
+    key = f"{namespace}/{target}/{report_date}"
     previous, sha = store.get(key)
     if previous and previous["status"] == "sent":
         return "already_sent"
     if previous and previous["status"] == "sending":
         raise NotificationError("An earlier delivery has no confirmed receipt. Check the group and ledger before retrying.")
-    record = {"date": payload["date"], "status": "sending", "attempted_at": datetime.now(timezone.utc).isoformat(), "content_hash": hashlib.sha256(message.encode()).hexdigest()}
+    record = {"date": report_date, "status": "sending", "attempted_at": datetime.now(timezone.utc).isoformat(), "content_hash": hashlib.sha256(message.encode()).hexdigest()}
     # Reserve delivery durably before the network request, including on retries.
     sha = store.put(key, record, sha)
     try:

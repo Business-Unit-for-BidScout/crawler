@@ -120,6 +120,14 @@ pytest
 python -m bidscout_crawler.cli --sources /path/to/requirements/knowledge/index/sources.yaml --allow-candidates --source-id example --max-sources 1 --max-items 2
 ```
 
+## 陕西企业政策日报推送
+
+独立的 [shaanxi-policy-monitor](https://github.com/Business-Unit-for-Enterprise-Service/shaanxi-policy-monitor) 负责陕西省、西安市企业政策采集和网页发布。本仓库的 `policy-daily.yml` 只读取其当天已发布的日报，复用现有 `WECOM_WEBHOOK_URL` 发送政策简报。
+
+计划北京时间每天 09:05 发送，10:05、11:05 检查漏发；GitHub 定时任务可能延迟。前两次若当日报告尚未发布则等待下一次，最后一次仍缺失会明确失败。手动运行 `Send Shaanxi policy daily report` 也可补发当天报告。不会发送前一天的陈旧快照。
+
+政策日报采用 `notification-state` 分支下独立的 `wecom-shaanxi-policy` 发送记录，与招采日报互不冲突；已确认发送的日期不重复发送。网络超时后若无法确认企业微信是否收到，会保留 `sending` 状态并阻止自动重发，需要核对群消息与记录后处理。
+
 ## 合规边界
 
 不破解或绕过登录、验证码、会员、付费墙、robots 或访问控制，不使用账号轮换、指纹伪装或暴力枚举。代理池和 IP 轮换可以用于出口隐私、区域可达性、节点健康切换和负载分散，但不得由目标站点的拒绝、限流、验证码或 WAF 信号触发立即换 IP 继续请求，也不得清零来源状态或增加总请求量。

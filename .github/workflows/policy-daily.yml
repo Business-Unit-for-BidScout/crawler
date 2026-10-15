@@ -1,0 +1,47 @@
+name: Send Shaanxi policy daily report
+
+on:
+  schedule:
+    # 09:05 / 10:05 Beijing: try publication; confirmed receipts prevent duplicates.
+    - cron: '5 1,2 * * *'
+    # 11:05 Beijing: final catch-up fails visibly if publication is still missing.
+    - cron: '5 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: shaanxi-policy-notification
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install and test notification code
+        run: |
+          python -m pip install -e '.[test]'
+          pytest -q
+      - name: Send today's published policy report once
+        env:
+          WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          EARLY_ATTEMPT: ${{ github.event_name == 'schedule' && github.event.schedule == '5 1,2 * * *' }}
+        run: |
+          if [ "$EARLY_ATTEMPT" = 'true' ]; then
+            python -m bidscout_crawler.notify_policy --allow-not-ready
+          else
+            python -m bidscout_crawler.notify_policy
+          fi
