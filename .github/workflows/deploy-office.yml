@@ -1,11 +1,9 @@
 name: Deploy crawler to bid-office-01
 
 on:
-  push:
-    branches:
-      - main
-  schedule:
-    - cron: "*/10 * * * *"
+  # The office deployment target is a private self-hosted runner. Keep this
+  # workflow manual while that runner is offline so pushes do not accumulate
+  # misleading queued deployments.
   workflow_dispatch:
 
 permissions:
