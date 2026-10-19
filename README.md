@@ -10,7 +10,7 @@ BidScout 第一阶段爬虫项目。目标来源由 `Business-Unit-for-BidScout/
 
 参考节能行业监测项目，`daily-report.yml` 每天北京时间 **09:00** 生成并发布
 **前一自然日 00:00 至次日 00:00** 的招采日报，然后发送到现有
-`WECOM_WEBHOOK_URL` 对应的企业微信群。GitHub 定时任务可能延迟。
+与节能行业监测项目相同的企业微信群。BidScout 仓库的 `WECOM_WEBHOOK_URL` 必须配置为该机器人 Webhook；GitHub 不会在仓库之间自动复制 Secret。GitHub 定时任务可能延迟。
 日报独立于现有 14:00、19:00 的分时摘要；日报即使没有新增信息也会发送。
 
 - 统计口径为 `first_seen_at`（首次采集时间），不把历史公告当作当天发布。
@@ -122,7 +122,7 @@ python -m bidscout_crawler.cli --sources /path/to/requirements/knowledge/index/s
 
 ## 陕西企业政策日报推送
 
-独立的 [shaanxi-policy-monitor](https://github.com/Business-Unit-for-Enterprise-Service/shaanxi-policy-monitor) 负责陕西省、西安市企业政策采集和网页发布。本仓库的 `policy-daily.yml` 只读取其当天已发布的日报，复用现有 `WECOM_WEBHOOK_URL` 发送政策简报。
+独立的 [shaanxi-policy-monitor](https://github.com/Business-Unit-for-Enterprise-Service/shaanxi-policy-monitor) 负责陕西省、西安市企业政策采集和网页发布。本仓库的 `policy-daily.yml` 只读取其当天已发布的日报，使用与 [industry-monitor](https://github.com/Business-Unit-for-Energy-Saving/industry-monitor) 相同的企业微信机器人发送政策简报。BidScout 仓库的 `WECOM_WEBHOOK_URL` 必须配置为该节能行业机器人 Webhook；GitHub 不会在仓库之间自动复制 Secret。
 
 计划北京时间每天 09:05 发送，10:05、11:05 检查漏发；GitHub 定时任务可能延迟。前两次若当日报告尚未发布则等待下一次，最后一次仍缺失会明确失败。手动运行 `Send Shaanxi policy daily report` 也可补发当天报告。不会发送前一天的陈旧快照。
 
