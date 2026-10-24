@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="keywords" content="陕西省政府采购网"/>
+    <meta name="description" content="陕西省政府采购网"/>
+<!--    去掉浏览器页签图标展示-->
+<!--    <link rel='shortcut icon' href='/cms-sx/site/shanxi/resources/img/bitbug_favicon.ico' type='image/x-icon' />-->
+    <title>陕西省政府采购网</title>
+
+    <!-- Bootstrap -->
+<!--    <link rel="shortcut icon" type="/cms-sx/site/shanxi//resources/img/png" href="./static/favicon.ico"/>-->
+    <link href="/cms-sx/site/shanxi//resources/lib/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/cms-sx/site/shanxi//resources/css/reset.css" />
+    <link rel="stylesheet" href="/cms-sx/site/shanxi//resources/css/common.css" />
+    <link rel="stylesheet" href="/cms-sx/site/shanxi//resources/css/index.css" />
+    <link  rel="stylesheet" href="/cms-sx/site/shanxi//resources/style/head_foot.css">
+    <link rel="stylesheet" href="/cms-sx/site/shanxi//resources/style/index.css" />
+    <link rel="stylesheet" href="/cms-sx/site/shanxi//resources/style/list.css" />
+    <link  rel="stylesheet" href="/cms-sx/site/shanxi//resources/css/zcfg.css">
+    <link href="/cms-sx/site/shanxi/resources/layui/css/layui.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/lib/css/myPagination.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/zcgn.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/zxly.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/zxlylist.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/searchInfo.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/iconfont.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/newIndex.css" rel="stylesheet"/>
+<!-- 栏目css-->
+    <link href="/cms-sx/site/shanxi/resources/css/jgzn.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/lxwm.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/xxgg.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/columnCommonStyles.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/gmfwMore.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/tszq.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/gysgs.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/gysgsDetail.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/zjgsDetail.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/cms-sx/site/shanxi/resources/cdn/swiper-5.4.5/package/css/swiper.min.css">
+
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/lib/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/lib/js/bootstrap.min.js"></script>
+    <script src="/cms-sx/site/shanxi/resources/cdn/echarts/echarts.min.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/js/jquery.cookie.js"></script>
+
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/head.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/index.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/laydate.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/pageMe.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/layui/layui.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/lib/js/myPagination.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/module/treeSelect/treeSelect.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/js/download.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/js/jquery.base64.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/publicMethods.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/download.js"></script>
+    <script src="/cms-sx/site/shanxi/resources/cdn/swiper-5.4.5/package/js/swiper.min.js"></script>
+    <!--引入加密算法js文件-->
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/jsencrypt.min.js"></script>
+    <!--引入新验签js-->
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/sha1.js"></script>
+    <!--引入md5js-->
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/md5.js"></script>
+    <!--网站无障碍-->
+    <script id="rrbayJs" src="//wza.rrbay.com/js/wza.min.js?65d59f6121c01118b862eae6"  referrerpolicy="origin" type="text/javascript"></script>
+  </head>
+
+  <body>
+  <input id="commonTitle" type="hidden" value="陕西省政府采购网">
+  <script>
+    var keywords=document.getElementsByTagName("meta")[2];
+    var description=document.getElementsByTagName("meta")[3];
+    keywords.content=$('#commonTitle').val();
+    description.content=$('#commonTitle').val();;
+    document.title=$('#commonTitle').val();
+    $(document).ready(function () {
+      $('#electronicStoreProvince li').click(function () {
+        $(this).addClass('activedList').siblings().removeClass('activedList');
+      })
+      $('#projectProcurementLeft li').click(function () {
+        $(this).addClass('activedLists').siblings().removeClass('activedLists');
+      })
+      $('#KJXYprojectProcurementLeft li').click(function () {
+        $(this).addClass('activedLists').siblings().removeClass('activedLists');
+      })
+      $('#projectProcurementLefts li').click(function () {
+        $(this).addClass('activedListss').siblings().removeClass('activedListss');
+      })
+    })
+    // 提取原调接口contextpathNo部分
+    function getFreecms() {
+      return "/freecms";
+    }
+  </script>
+<div class="head">
+    <nav class="navHead">
+        <div class="content">
+            <div class="navLeft">
+                                        <span>您好，欢迎进入陕西省政府采购网!</span>
+            </div>
+            <div class="navRight">
+                <ul>
+                            <a href="https://www.ccgp-shaanxi.gov.cn/gateway/gp-auth-center/login?tenantId=ZF_JGBM_000003&systemRegion=610001">
+                                <img src="/cms-sx/upload/a7a15d60-de5b-42f2-b35a-7e3efc34e54f/bdf291d7-606a-40c1-8874-bdcc32c16d1e.png" width="16">
+                                <span>请登录</span>
+                            </a>
+                            <a href="/cms-sx/site/shanxi/lxwmrk/index.html">
+                                <img src="/cms-sx/upload/a7a15d60-de5b-42f2-b35a-7e3efc34e54f/a5661fe3-43df-4505-bc9c-7dd308396300.png" width="16">
+                                <span >联系我们</span>
+                            </a>
+                        <a id="wzayd" style="display: none;" title="盲人朋友在线浏览按住Alt+g键" href="javascript:;" class="wzayd" accesskey="g"><span>无障碍阅读</span></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="LogoSearch ">
+        <div class="content ">
+            <div class="businessLogo">
+                    <a href="/cms-sx/site/shanxi//index.html" style="cursor: pointer;">
+                        <img src="/cms-sx/upload/a7a15d60-de5b-42f2-b35a-7e3efc34e54f/e3e02009-42dc-4e51-836f-a12b1c190203.png">
+                    </a>
+            </div>
+            <div class="search">
+                <!--<form action="/cms-sx/templetPro.do" method="post">-->
+                    <input type="hidden" name="siteid" value="a7a15d60-de5b-42f2-b35a-7e3efc34e54f">
+                    <input type="hidden" name="templetPath" value="searchinfo.html">
+                    <input type="text" name="key" id="title"  placeholder="输入查询内容">
+                        <a id="megaloscopeHref1" href="/cms-sx/site/shanxi/qwjsy/index.html" target="_blank">
+                            <button id="megaloscopeBtn1" class="megaloscope" code="1" style="height: 38px;width: 60px;color: #FFF;background: #167ae0; border: 1px solid #167ae0;">搜标题</button>
+                        </a>
+                    <a id="megaloscopeHref2" href="/cms-sx/site/shanxi/qwjsy/index.html" target="_blank">
+                        <button id="megaloscopeBtn2" class="megaloscope" code="2" style="height: 38px;width: 60px;color: #FFF;background: #1d5db8; border: 1px solid #1d5db8;">搜全文</button>
+                    </a>
+                <!--</form>-->
+            </div>
+            <div class="timeData">
+                <span class="daily" style="font-size: 24px;"></span>
+                <span style="font-size: 24px;">/</span>
+                <span class="topmonth" style="font-size: 44px;"></span>
+                <p class="toDateString"></p>
+                <span>&nbsp&nbsp</span>
+                <p class="week"></p>
+            </div>
+        </div>
+    </div>
+    <nav class="navList">
+        <ul class="nav-tab content">
+            <li class="activeList">
+                <a href="/cms-sx/site/shanxi/index.html">首页</a>
+            </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/zcfg/index.html?result=result">政策法规</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/jgzn/index.html?result=result">机构职能</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/gmfw/index.html?result=result">购买服务</a>
+                </li>
+                <li>
+                    <a href="https://www.ccgp-shaanxi.gov.cn/gpmall-main-web/index?result=result">电子卖场</a>
+                </li>
+                <li>
+                    <a href="https://www.ccgp-shaanxi.gov.cn/gpfa-main-web/index?result=result">框架协议</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/zxdt/index.html?result=result">资讯动态</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/xxgg/index.html?result=result">信息公告</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/jdgl/index.html?result=result">监督管理</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/1094/index.html?result=result">办事指南</a>
+                </li>
+        </ul>
+    </nav>
+</div>
+<!-- nav -->
+<script>
+    function init() {
+        var str = window.location.pathname;
+        if(str.indexOf("qwjsy")!=-1) {
+            $(".search").remove();
+        }
+    };
+    init();
+    $(document).ready(function () {
+        // 获取当前相对路径： /springmvc/page/frame/test.html
+        var pathName = window.location.pathname + '?result=result';
+        function getCaption(obj){
+            var index=obj.indexOf("\/");
+            obj=obj.substring(index+1,obj.length)   ;
+            return obj;
+        }
+        var aList =  $(".nav-tab a")
+        var liList =  $(".nav-tab li")
+        var navUrl = ''
+        for (var i = 0;i<aList.length;i++){
+            var arrUrl = aList[i]["href"].split("//")[1];
+            navUrl = '/'+getCaption(arrUrl);
+            if(navUrl == pathName){
+                liList.eq(i).addClass('activeList').siblings().removeClass('activeList');
+            }
+            if(arrUrl.indexOf("site")>=0){
+                aList[i].target = '_self'
+            }else{
+                aList[i].target = '_blank'
+            }
+        }
+    })
+
+    $('#megaloscopeBtn1').click(function () {
+        var title = $('#title').val();
+        var megaloscopeHref = $('#megaloscopeHref1').attr('href');
+        if (megaloscopeHref.indexOf("?") !=-1) {
+            megaloscopeHref=megaloscopeHref.split("?")[0]
+        }
+        if(title) {
+            $('#megaloscopeHref1').attr('href', encodeURI(megaloscopeHref + '?searchContentBT=' + title))
+        }
+    })
+    $('#megaloscopeBtn2').click(function () {
+        var title = $('#title').val();
+        var megaloscopeHref = $('#megaloscopeHref2').attr('href');
+        if (megaloscopeHref.indexOf("?") !=-1) {
+            megaloscopeHref=megaloscopeHref.split("?")[0]
+        }
+        if(title) {
+            $('#megaloscopeHref2').attr('href', encodeURI(megaloscopeHref + '?searchContentQW=' + title))
+        }
+    })
+</script>
+
+
+<link rel="stylesheet" href="/cms-sx/site/shanxi//resources/style/info.css" />
+<section class="content">
+    <section class="container">
+        <div class="currentlocation">你的位置:<a href="/cms-sx/site/shanxi//index.html">首页</a>
+    <a href="/cms-sx/site/shanxi/zxdt/index.html">>资讯动态</a>
+    <a href="/cms-sx/site/shanxi/zytz/index.html">>重要通知</a>
+</div>
+        <div class="infoCommon">
+            <div class="al-main">
+                <div class="info-main" id="print-content">
+                    <h1 class="info-title" style="display: flex;align-items: center;justify-content: center;height: 40px;line-height: 40px" title="全省政府采购业务培训班成功举办">全省政府采购业务培训班成功举办</h1>
+                    <div class="info-source">
+                        <p>
+                            <span>发布机构：
+                省财政厅政府采购管理处
+                            </span>
+                            <span style="margin: 0px 84px;">发布时间：<i style="color: #f30;padding-right: 15px">2025-02-05 11:01:14</i></span>
+                            <span>【字号
+                                <a class="fontSize_16">大</a>
+                                <a class="fontSize_14">中</a>
+                                <a class="fontSize_12">小</a>】
+                            </span>
+                            <span href="" id="print" onclick="onprint()" style="cursor: pointer">【打印】</span>
+                        </p>
+                    </div>
+                    <div class="info-article in active">
+                        <div id="content">
+                            <p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; list-style: none; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-stretch: inherit; font-size: 14px; line-height: 35px; font-family: 微软雅黑; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); min-height: 35px; color: rgb(51, 51, 51); text-wrap-mode: wrap; background-color: rgb(255, 255, 255); text-indent: 2em; text-align: center;"><span style="text-indent: 2em; box-sizing: border-box; margin: 0px; padding: 0px; list-style: none; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 21px; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; font-family: 宋体, SimSun;">全省政府采购业务培训班成功举办</span></p><p style="text-align:center"><img src="/cms-sx/upload/a7a15d60-de5b-42f2-b35a-7e3efc34e54f/20250205/72251738724629382.jpg" _src="/cms-sx/upload/a7a15d60-de5b-42f2-b35a-7e3efc34e54f/20250205/72251738724629382.jpg" style="width: 1040px; height: 797px;"/></p>
+                        </div>
+<!--                        <div id="info_download" ></div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<script>
+    // 动态创建iframe实现浏览器打印
+    function onprint(){
+
+        //判断iframe是否存在，不存在则创建iframe
+        var iframe=document.getElementById("print-iframe");
+        if(!iframe){
+            var el = document.getElementById("print-content");
+            iframe = document.createElement('IFRAME');
+            var doc = null;
+            iframe.setAttribute("id", "print-iframe");
+            iframe.setAttribute("name", "print-iframe");
+            iframe.setAttribute('style', 'position:absolute;width:0px;height:0px;left:-500px;top:-500px;');
+            document.body.appendChild(iframe);
+            doc = iframe.contentWindow.document;
+            //这里可以自定义样式
+            doc.write('<style media="print">@page {size: auto;margin: 0mm}</style>'); //解决出现页眉页脚和路径的问题
+            doc.write('<div style="padding:25px 20px">' + el.innerHTML + '</div>');
+            doc.close();
+            iframe.contentWindow.focus();
+        }
+        setTimeout(function(){ iframe.contentWindow.print();},50)  //解决第一次样式不生效的问题
+        if (navigator.userAgent.indexOf("MSIE") > 0){
+            document.body.removeChild(iframe);
+        }
+        ft();
+    }
+
+    //  修改iframe内css样式
+    function ft() {
+        var deptObjs = document.getElementById("print-iframe").contentWindow.document.getElementsByTagName("h1");
+        console.log(111)
+        for (var i = 0; i < deptObjs.length; i++) {
+            var tmp = deptObjs[i];
+            if (tmp.className == "info-title") {
+                //alert(tmp.style.display);
+                tmp.style.height = "auto";
+                //alert(tmp.style.display);
+            }
+        }
+    }
+  $(document).ready(function () {
+    var id = "d5b23426-e36f-11ef-8063-08c0eb20c666";
+    var currPage = 1;
+    var pageSize = 10;
+    // function printHtml(html) {
+        // var bodyHtml = document.body.innerHTML;
+        // document.body.innerHTML = html;
+        // window.print()
+        // document.body.innerHTML = bodyHtml;
+    // }
+    // function onprint() {
+    //     var html = $("#print-content").html();
+    //     printHtml(html);
+    // }
+
+    //字号
+    $(".fontSize_16").click(function() {
+        $(".info-article p,.info-article span").css({ fontSize: "16px" });
+    });
+    $(".fontSize_14").click(function() {
+        $(".info-article p,.info-article span").css({ fontSize: "14px" });
+    });
+    $(".fontSize_12").click(function() {
+        $(".info-article p,.info-article span").css({ fontSize: "12px" });
+    });
+    function isIE() {
+        if (!!window.ActiveXObject || "ActiveXObject" in window)
+            return true;
+        else
+            return false;
+    }
+    function download(filename,name) {
+
+        new FileDownloader({
+            url: encodeURI(filename),
+            filename: name
+        })
+    }
+    function getDataList(id) {
+        var data = '?currPage=' + currPage + '&pageSize=' + pageSize  + '&id=' + id ;
+
+        $("#info_download").innerHTML="";
+        var url = getFreecms() +'/rest/v1/notice/selectNoticeDocInfo.do';
+        var nowTime = new Date().getTime();
+        var encryptContent = hex_md5(hex_sha1(nowTime+'_'+String(url).split('?')[0]+'_bosssoft_platform_095285'));
+        $.ajax({
+            type: 'GET',
+            url: getFreecms() +'/rest/v1/notice/selectNoticeDocInfo.do' + data,
+            headers:{
+                'nsssjss':encryptByRSA(getFreecms() +'/rest/v1/notice/selectNoticeDocInfo.do' + '$$'+ new Date().getTime()),
+                'time':nowTime,
+                'url':url,
+                'sign':encryptContent
+            },
+            contentType: "application/json;charset=utf-8",
+            success: function (res) {
+                var obj = res.data;
+
+                var data = new Date().valueOf();
+
+                var info_download = '' ;
+                if (obj.length > 0) {
+                    for (var i = 0; i < obj.length; i++) {
+                        var app = {};
+                        app.id = obj[i].id;
+                        var filename = obj[i].fileUrl+'?t='+data;
+                        var name = obj[i].fileName;
+                        if(isIE()){
+                            info_download +='<a href="'+filename+'"  target="_blank">'+'点击下载  :  '+obj[i].fileName+'</a>'+'<br>';
+                        }else{
+                            info_download +='<a href="'+filename+'"  target="_blank" style="color: #f30">'+''+obj[i].fileName+'</a>'+'<br>';
+                            // info_download += '<button class="info_download" style="color: #f30"  onclick="download(\''+filename+'\',\''+name+'\')"  >'+'点击下载  :  '+obj[i].fileName+'</button>'+'<br>'
+                        }
+                    }
+                    $("#info_download").append(info_download);
+
+
+                }
+
+            }
+        });
+
+    }
+    //获取附件列表
+    function getFileList (id) {
+      var data = '?objid=' + id ;
+      $("#file_list").innerHTML="";
+      var url = getFreecms() +'/rest/v1/notice/selectUploadFile.do';
+      var nowTime = new Date().getTime();
+      var encryptContent = hex_md5(hex_sha1(nowTime+'_'+String(url).split('?')[0]+'_bosssoft_platform_095285'));
+      $.ajax({
+          type: 'GET',
+          url: getFreecms() +'/rest/v1/notice/selectUploadFile.do' + data,
+          headers:{
+              'nsssjss':encryptByRSA(getFreecms() +'/rest/v1/notice/selectUploadFile.do' + '$$'+ new Date().getTime()),
+              'time':nowTime,
+              'url':url,
+              'sign':encryptContent
+          },
+          contentType: "application/json;charset=utf-8",
+          success: function (res) {
+            var obj = res.uploadfileList;
+                var data = new Date().valueOf();
+                var info_file = '' ;
+                if (obj.length > 0) {
+                    for (var i = 0; i < obj.length; i++) {
+                        var app = {};
+                        app.id = obj[i].id;
+                        var filepath = obj[i].filepath;
+                        var name = obj[i].filename;
+                        if(isIE()){
+                            info_file +='<a href="/freecms'+filepath+'"  target="_blank">'+'点击下载  :  '+name+'</a>'+'<br>';
+                        }else{
+                            info_file +='<a href="/freecms'+filepath+'"  target="_blank" style="color: #f30">'+''+name+'</a>'+'<br>';
+                        }
+                    }
+                    $("#file_list").append(info_file);
+                }
+          }
+        })
+    }
+    if(id) {
+        getDataList(id)
+        getFileList(id)
+    }
+  })
+</script>
+<style>
+
+</style>
+<!--尾部相关内容-->
+
+<style>
+    .footRightCharacter a img {
+        /*width: 56px;*/
+        height: 37px;
+    }
+    .mapBoxStyle{
+        padding-left: 16px!important;
+        font-size: 14px!important;
+        font-weight: 400!important;
+        color: #fff!important;
+    }
+    .iconImg {
+        width: 24px !important;
+        height: 24px !important;
+        margin-top: 0px !important;
+    }
+</style>
+<div class="foot">
+    <div class="content">
+        <div class="footLeft">
+                                <a href="https://bszs.conac.cn/sitename?method=show&id=6FC372524948EBEBE053022E1AACFAB6" target="_blank">
+                        <img src="/cms-sx/upload/a7a15d60-de5b-42f2-b35a-7e3efc34e54f/0ba12f96-997e-4e9e-94d9-175959284e41.png">
+                    </a>
+            <div class="footLeftCharacter">
+                        <p>陕西省财政厅政府采购管理处主办 | 陕西省财政厅信息化建设管理处承办</p>
+                <br/>
+                <p>
+                    技术支持：029-96702 | 欢迎来到陕西省政府采购网
+                    您是第 <span class="views_number" style="font-size: 16px; font-weight: bold;"></span> 位访问者
+                </p><br/>
+                <p style="padding-left:20px">
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61010402000339" target="_blank" style="position: relative">
+                        <img class="iconImg" src="/cms-sx/site/shanxi//resources/img/gov_7.png" style="position: absolute; left: -20px; top: -5px;">
+                    </a>
+                    <span style="padding-left: 10px;">
+                        陕公网安备 61010402000339号&nbsp;&nbsp;&nbsp;
+                        <a href="https://beian.miit.gov.cn/#/Integrated/index">
+                            <span style="color: #fff;">陕ICP备06003708号-2</span>
+                        </a>
+                        &nbsp;&nbsp;| &nbsp;&nbsp;网站标识码：6100000112
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="footRight">
+            <div class="footRightCharacter">
+                        <a href="/cms-sx/site/shanxi/wzdt/index.html" target="_blank">
+                            <img src="/cms-sx/site/shanxi//resources/img/webmap.png">
+                            <span style="" class="mapBoxStyle">网站地图</span>
+                        </a>
+                <script id="_jiucuo_" sitecode='6100000112' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        var url = getFreecms() +'/rest/v1/notice/statisticsVisits.do';
+        var nowTime = new Date().getTime();
+        var encryptContent = hex_md5(hex_sha1(nowTime+'_'+String(url).split('?')[0]+'_bosssoft_platform_095285'));
+        $.ajax({
+            type: 'GET',
+            url: getFreecms() +'/rest/v1/notice/statisticsVisits.do',
+            headers:{
+                'nsssjss':encryptByRSA(getFreecms() +'/rest/v1/notice/statisticsVisits.do' + '$$'+ new Date().getTime()),
+                'time':nowTime,
+                'url':url,
+                'sign':encryptContent
+            },
+            contentType: "application/json;charset=utf-8",
+            success: function (res) {
+                var visitAll = res.data.totalVisits;
+                $(".views_number").append(visitAll);
+            }
+        });
+    })
+</script>
+
