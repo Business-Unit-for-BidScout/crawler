@@ -1,0 +1,562 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <title>校直单位招标-通知公告网</title><META Name="keywords" Content="通知公告网,校直单位招标" />
+
+    <link href="../2018_css/style.css" rel="stylesheet">
+    <script src="../2018_js/bdtxk.js"></script>
+    <script src="../2018_js/slide.js"></script>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230697547545350544303090003 -->
+<link rel="stylesheet" type="text/css" href="../zzz_zbcg_list.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc|pad"></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1271,'/zzz_zbcg_list.jsp',-1,1032281859)</script>
+</head>
+<body class="bg">
+    
+    <!-- top  -->
+    <div class="top">
+        <div class="wrap">
+                <script language="javascript" src="/system/resource/js/dynclicks.js"></script><div class="fl">
+                <a href="https://www.fmmu.edu.cn/" target="_blank" onclick="_addDynClicks(&#34;wbimage&#34;, 1032281859, 20443)">
+                <img src="../2018_images/logo.png" border="0">
+            </a>  
+</div>
+
+             <script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode239275').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey239275").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey239275").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey239275").value = base64.encode(document.getElementById("lucenenewssearchkey239275").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode239275"));
+        return true;
+    } 
+</script>
+<form action="../zzz_seach.jsp?wbtreeid=1271" method="post" id="au1a" name="au1a" onsubmit="return _nl_ys_check()" target="_blank" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkey239275" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype239275" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope239275" name="searchScope" value="1">
+
+ <div class="fr">
+<input class="ss" type="text" name="showkeycode" id="showkeycode239275" placeholder="请输入关键字">
+
+<input class="btn" type="image" src="../2018_images/seach/32.png" align="absmiddle" style="cursor: hand">
+
+
+
+
+ </div>
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+
+
+            
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <!-- nav  -->
+    <div class="nav">
+        <div class="wrap">
+            <ul>
+        <li style="border-left:0;">
+        <a href="../index.htm" title="首页">首页</a>
+      </li>
+      <li>
+        <a href="../zxtz.htm" title="最新通知">最新通知</a>
+      </li>
+      <li>
+        <a href="../xshd1.htm" title="学术活动">学术活动</a>
+      </li>
+      <li>
+        <a href="../gsxx.htm" title="公示信息">公示信息</a>
+      </li>
+      <li>
+        <a href="zbcgxx.htm" title="招标采购">招标采购</a>
+        <dl>
+                <dd>
+                    <a href="zbcgxx.htm" title="招标采购信息">招标采购信息</a>
+                </dd>
+                <dd>
+                    <a href="xzdwzb.htm" title="校直单位招标">校直单位招标</a>
+                </dd>
+                <dd>
+                    <a href="tsyxzxzb.htm" title="特色医学中心招标">特色医学中心招标</a>
+                </dd>
+                <dd>
+                    <a href="xjyyzb.htm" title="西京医院招标">西京医院招标</a>
+                </dd>
+                <dd>
+                    <a href="tdyyzb.htm" title="唐都医院招标">唐都医院招标</a>
+                </dd>
+                <dd>
+                    <a href="kqyyzb.htm" title="口腔医院招标">口腔医院招标</a>
+                </dd>
+                <dd>
+                    <a href="yyzb986.htm" title="986医院招标">986医院招标</a>
+                </dd>
+                <dd>
+                    <a href="qtzbxx.htm" title="其他招标信息">其他招标信息</a>
+                </dd>
+        </dl>
+      </li>
+      <li>
+        <a href="../jgtz1.htm" title="机关通知">机关通知</a>
+        <dl>
+                <dd>
+                    <a href="../jgtz1/bgs1.htm" title="办公室">办公室</a>
+                </dd>
+                <dd>
+                    <a href="../jgtz1/jwc.htm" title="教务处">教务处</a>
+                </dd>
+                <dd>
+                    <a href="../jgtz1/jbc.htm" title="教保处">教保处</a>
+                </dd>
+                <dd>
+                    <a href="../jgtz1/kyxsc1.htm" title="科研学术处">科研学术处</a>
+                </dd>
+                <dd>
+                    <a href="../jgtz1/zzgzc1.htm" title="政治工作处">政治工作处</a>
+                </dd>
+                <dd>
+                    <a href="../jgtz1/jjjcc1.htm" title="纪检监察处">纪检监察处</a>
+                </dd>
+                <dd>
+                    <a href="../jgtz1/aqglc1.htm" title="安全管理处">安全管理处</a>
+                </dd>
+                <dd>
+                    <a href="../jgtz1/gybzc1.htm" title="供应保障处">供应保障处</a>
+                </dd>
+        </dl>
+      </li>
+      <li>
+        <a href="../yxtz.htm" title="院系通知">院系通知</a>
+        <dl>
+                <dd>
+                    <a href="../yxtz/jcyxy.htm" title="基础医学院">基础医学院</a>
+                </dd>
+                <dd>
+                    <a href="../yxtz/yjsy1.htm" title="研究生院">研究生院</a>
+                </dd>
+                <dd>
+                    <a href="../yxtz/hkhtyxx1.htm" title="航空航天医学系">航空航天医学系</a>
+                </dd>
+                <dd>
+                    <a href="../yxtz/jsswyxgcxx.htm" title="军事生物医学工程学系">军事生物医学工程学系</a>
+                </dd>
+                <dd>
+                    <a href="../yxtz/jsyfyxx1.htm" title="军事预防医学系">军事预防医学系</a>
+                </dd>
+                <dd>
+                    <a href="../yxtz/yxx1.htm" title="药学系">药学系</a>
+                </dd>
+                <dd>
+                    <a href="../yxtz/jsyxxlxx.htm" title="军事医学心理学系">军事医学心理学系</a>
+                </dd>
+                <dd>
+                    <a href="../yxtz/hlx1.htm" title="护理系">护理系</a>
+                </dd>
+        </dl>
+      </li>
+      <li>
+        <a href="../fsyy2.htm" title="附属医院">附属医院</a>
+        <dl>
+                <dd>
+                    <a href="../fsyy2/xjyy1.htm" title="西京医院">西京医院</a>
+                </dd>
+                <dd>
+                    <a href="../fsyy2/tdyy1.htm" title="唐都医院">唐都医院</a>
+                </dd>
+                <dd>
+                    <a href="../fsyy2/kqyy.htm" title="口腔医院">口腔医院</a>
+                </dd>
+                <dd>
+                    <a href="../fsyy2/jblyy.htm" title="九八六医院">九八六医院</a>
+                </dd>
+        </dl>
+      </li>
+</ul>
+
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <!-- banner  -->
+    <div class="banner banner-in">
+            <div class="bg"></div>
+		<img alt="" src="../2018_images/bannernyw777.jpg">
+
+
+    </div>
+
+    <!-- inner -->
+    <div class="inner">
+        <div class="wrap">
+            <div class="now">
+                <div class="fl">
+    当前位置: 
+                        <a href="../index.htm">首页</a>
+                >>
+                <a href="zbcgxx.htm">招标采购</a>
+                >>
+                <a href="xzdwzb.htm">校直单位招标</a>
+</div>
+                <div class="fr">校直单位招标</div>
+                <div class="clear"></div>
+            </div>
+            <div class="inner-bd">
+                <div class="inner-bd-l fl">
+                    <div class="tri"></div>
+                    <div class="lanmu"><span>招标采购</span></div>
+                    <div class="subnav"><ul>
+<li>
+    <a href="zbcgxx.htm" title="招标采购信息">
+    <i class="red"></i>
+    <span>招标采购信息</span>
+    <div class="line"></div>
+</a>
+</li>
+
+
+
+
+
+<li>
+    <a href="xzdwzb.htm" title="校直单位招标">
+    <i class="red"></i>
+    <span>校直单位招标</span>
+    <div class="line"></div>
+</a>
+</li>
+
+
+
+
+
+<li>
+    <a href="tsyxzxzb.htm" title="特色医学中心招标">
+    <i class="red"></i>
+    <span>特色医学中心招标</span>
+    <div class="line"></div>
+</a>
+</li>
+
+
+
+
+
+<li>
+    <a href="xjyyzb.htm" title="西京医院招标">
+    <i class="red"></i>
+    <span>西京医院招标</span>
+    <div class="line"></div>
+</a>
+</li>
+
+
+
+
+
+<li>
+    <a href="tdyyzb.htm" title="唐都医院招标">
+    <i class="red"></i>
+    <span>唐都医院招标</span>
+    <div class="line"></div>
+</a>
+</li>
+
+
+
+
+
+<li>
+    <a href="kqyyzb.htm" title="口腔医院招标">
+    <i class="red"></i>
+    <span>口腔医院招标</span>
+    <div class="line"></div>
+</a>
+</li>
+
+
+
+
+
+<li>
+    <a href="yyzb986.htm" title="986医院招标">
+    <i class="red"></i>
+    <span>986医院招标</span>
+    <div class="line"></div>
+</a>
+</li>
+
+
+
+
+
+<li>
+    <a href="qtzbxx.htm" title="其他招标信息">
+    <i class="red"></i>
+    <span>其他招标信息</span>
+    <div class="line"></div>
+</a>
+</li>
+
+
+
+
+</ul></div>
+                    <div class="decorate">
+                            <img src="../2018_images/inner-l.png" border="0">
+
+
+                    </div>
+                </div>
+                <div class="inner-bd-r fr">
+                    <div class="jgtz">
+                       
+<script language="javascript" src="/system/resource/js/ajax.js"></script><div>
+    <UL>
+        <li id="line_u9_0">
+<a href="../info/1271/42059.htm" target="_blank" title="空军军医大学经颅磁刺激仪器废标公告（2025-JK15-W1318）" style="padding:0 0 0 12px;float:left;">
+
+
+空军军医大学经颅磁刺激仪器废标公告（2025-JK15-W1318）</a>
+<em>2026-07-10</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_0" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_1">
+<a href="../info/1271/42058.htm" target="_blank" title="空军军医大学科学会堂周边沥青道路改造工程采购结果公示（2026-JK15-G1027）" style="padding:0 0 0 12px;float:left;">
+
+
+空军军医大学科学会堂周边沥青道路改造工程采购结果公示（2026-JK15-G1027）</a>
+<em>2026-07-10</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_1" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_2">
+<a href="../info/1271/42055.htm" target="_blank" title="空军军医大学选拔体检职业适应性检测系统国产化改造竞争性谈判公告  （2026-JK15-W3048）" style="padding:0 0 0 12px;float:left;">
+
+
+空军军医大学选拔体检职业适应性检测系统国产化改造竞争性谈判公告  （2026-JK15-W3048）</a>
+<em>2026-07-10</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_2" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_3">
+<a href="../info/1271/42054.htm" target="_blank" title="空军军医大学移动体检平台招标公告(2026-JK15-W1039)" style="padding:0 0 0 12px;float:left;">
+
+
+空军军医大学移动体检平台招标公告(2026-JK15-W1039)</a>
+<em>2026-07-10</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_3" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_4">
+<a href="../info/1271/42051.htm" target="_blank" title="2026年秋教材讲义印制比价采购公告" style="padding:0 0 0 12px;float:left;">
+
+
+2026年秋教材讲义印制比价采购公告</a>
+<em>2026-07-10</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_4" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_5">
+<a href="../info/1271/42050.htm" target="_blank" title="研究生教学培养资料印制项目比价结果公示" style="padding:0 0 0 12px;float:left;">
+
+
+研究生教学培养资料印制项目比价结果公示</a>
+<em>2026-07-10</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_5" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_6">
+<a href="../info/1271/42030.htm" target="_blank" title="关于本科新学员双肩包及水杯等项目成交结果公示" style="padding:0 0 0 12px;float:left;">
+
+
+关于本科新学员双肩包及水杯等项目成交结果公示</a>
+<em>2026-07-09</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_6" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_7">
+<a href="../info/1271/42026.htm" target="_blank" title="新校区建筑材料检验检测采购结果公示" style="padding:0 0 0 12px;float:left;">
+
+
+新校区建筑材料检验检测采购结果公示</a>
+<em>2026-07-09</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_7" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_8">
+<a href="../info/1271/42025.htm" target="_blank" title="航空航天医学系关于公开征集外协单位的公告" style="padding:0 0 0 12px;float:left;">
+
+
+航空航天医学系关于公开征集外协单位的公告</a>
+<em>2026-07-09</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_8" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_9">
+<a href="../info/1271/42019.htm" target="_blank" title="迎新氛围布置比价采购招标公告" style="padding:0 0 0 12px;float:left;">
+
+
+迎新氛围布置比价采购招标公告</a>
+<em>2026-07-09</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_9" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_10">
+<a href="../info/1271/42016.htm" target="_blank" title="空军军医大学多肽生产商招标竞争性谈判公告（2026-JK15-W3061）" style="padding:0 0 0 12px;float:left;">
+
+
+空军军医大学多肽生产商招标竞争性谈判公告（2026-JK15-W3061）</a>
+<em>2026-07-08</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_10" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_11">
+<a href="../info/1271/42015.htm" target="_blank" title="空军军医大学群体效能分析计算模块竞争性谈判公告 （2026-JK15-W3060）" style="padding:0 0 0 12px;float:left;">
+
+
+空军军医大学群体效能分析计算模块竞争性谈判公告 （2026-JK15-W3060）</a>
+<em>2026-07-08</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_11" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_12">
+<a href="../info/1271/42014.htm" target="_blank" title=" 空军军医大学学员广场改造工程项目结果公示（2026-JK15-G1070）" style="padding:0 0 0 12px;float:left;">
+
+
+ 空军军医大学学员广场改造工程项目结果公示（2026-JK15-G1070）</a>
+<em>2026-07-08</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_12" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_13">
+<a href="../info/1271/42003.htm" target="_blank" title="空军军医大学友谊西路职工安置住房供配电工程采购结果公示（2026-JK15-G1069）" style="padding:0 0 0 12px;float:left;">
+
+
+空军军医大学友谊西路职工安置住房供配电工程采购结果公示（2026-JK15-G1069）</a>
+<em>2026-07-08</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_13" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_14">
+<a href="../info/1271/42001.htm" target="_blank" title="中心2026年第二批项目比价公告" style="padding:0 0 0 12px;float:left;">
+
+
+中心2026年第二批项目比价公告</a>
+<em>2026-07-08</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_14" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_15">
+<a href="../info/1271/41988.htm" target="_blank" title="大学新校区财务档案室建设项目采购意向公示" style="padding:0 0 0 12px;float:left;">
+
+
+大学新校区财务档案室建设项目采购意向公示</a>
+<em>2026-07-08</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_15" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_16">
+<a href="../info/1271/41958.htm" target="_blank" title="2026年新训被装比价采购招标公告" style="padding:0 0 0 12px;float:left;">
+
+
+2026年新训被装比价采购招标公告</a>
+<em>2026-07-07</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_16" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_17">
+<a href="../info/1271/41957.htm" target="_blank" title="空军军医大学电子书包招标公告（2026-JK15-W1030）" style="padding:0 0 0 12px;float:left;">
+
+
+空军军医大学电子书包招标公告（2026-JK15-W1030）</a>
+<em>2026-07-07</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_17" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_18">
+<a href="../info/1271/41953.htm" target="_blank" title="“应急伤员模拟与流程建模”（20万元以下）采购结果公示" style="padding:0 0 0 12px;float:left;">
+
+
+“应急伤员模拟与流程建模”（20万元以下）采购结果公示</a>
+<em>2026-07-07</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_18" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    <li id="line_u9_19">
+<a href="../info/1271/41950.htm" target="_blank" title="空军军医大学住院三部地下一层动物饲养平台装修改造采购结果公示（2026-JK15-G2024）" style="padding:0 0 0 12px;float:left;">
+
+
+空军军医大学住院三部地下一层动物饲养平台装修改造采购结果公示（2026-JK15-G2024）</a>
+<em>2026-07-06</em></li>
+        <!--列表分段用的分隔符，可在配置栏分段相关配置中设置分段条数-->
+    <span id="section_u9_19" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+    </UL>
+<link rel="stylesheet" Content-type="text/css" href="/system/resource/css/pagedown/sys.css"><div class="pb_sys_common pb_sys_normal pb_sys_style1" style="margin-top:10px;text-align:center;"><span class="p_t">共4376条</span> <span class="p_pages"><span class="p_first_d p_fun_d">首页</span><span class="p_prev_d p_fun_d">上页</span><span class="p_no_d">1</span><span class="p_no"><a href="xzdwzb/218.htm">2</a></span><span class="p_no"><a href="xzdwzb/217.htm">3</a></span><span class="p_no"><a href="xzdwzb/216.htm">4</a></span><span class="p_no"><a href="xzdwzb/215.htm">5</a></span><span class="p_dot">...</span><span class="p_no"><a href="xzdwzb/1.htm">219</a></span><span class="p_next p_fun"><a href="xzdwzb/218.htm">下页</a></span><span class="p_last p_fun"><a href="xzdwzb/1.htm">尾页</a></span></span></div>
+</div>
+<script>_showDynClickBatch(['dynclicks_u9_42059','dynclicks_u9_42058','dynclicks_u9_42055','dynclicks_u9_42054','dynclicks_u9_42051','dynclicks_u9_42050','dynclicks_u9_42030','dynclicks_u9_42026','dynclicks_u9_42025','dynclicks_u9_42019','dynclicks_u9_42016','dynclicks_u9_42015','dynclicks_u9_42014','dynclicks_u9_42003','dynclicks_u9_42001','dynclicks_u9_41988','dynclicks_u9_41958','dynclicks_u9_41957','dynclicks_u9_41953','dynclicks_u9_41950'],[42059,42058,42055,42054,42051,42050,42030,42026,42025,42019,42016,42015,42014,42003,42001,41988,41958,41957,41953,41950],"wbnews", 1032281859)</script>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- footer  -->
+    <div class="footer footer-in">
+        <div class="wrap">
+            <div class="fl">
+<dl>
+    <dt>通知发布指南</dt>
+</dl>
+
+
+            </div>
+            <div class="fr">
+                <script language="javascript" src="/system/resource/js/news/mp4video.js"></script>
+<dl> 
+ <dt>
+   联系我们 
+ </dt> 
+ <dd>
+   学校地址：西安市长乐西路169号&nbsp; 
+ </dd> 
+ <dd>
+   电子邮箱：webmaster@fmmu.edu.cn 
+ </dd> 
+</dl>
+            </div>
+        </div>
+    </div>
+
+    <!-- copyright  -->
+    <div class="copyright">
+        
+<p>版权所有：<strong>空军军医大学</strong>（第四军医大学） &nbsp; &nbsp;技术支持：教研保障中心信息技术室 &nbsp; &nbsp; <a href="https://beian.miit.gov.cn/" style="color: rgb(255, 255, 255);">京ICP备20028242号-2</a></p>
+    </div>
+
+    <script>
+        jQuery(".banner").slide({mainCell:".bd ul",effect:"fold",autoPlay:true,interTime:5000,delayTime:1000});
+        $('.nav ul li').mouseenter(function(){
+            $(this).addClass('on').siblings('').removeClass('on');
+        })
+        $('.nav ul').mouseleave(function(){
+            $(this).find('li').removeClass('on');
+            $(this).find('dl').hide();
+        })
+        $('.nav ul li').hover(function(){
+            $(this).find('dl').show();
+            $(this).siblings().find('dl').hide();
+        })
+        jQuery(".jwc").slide({titCell:".depart-hd ul li",mainCell:".depart-bd"});
+        jQuery(".kyxsc").slide({titCell:".depart-hd ul li",mainCell:".depart-bd"});
+        jQuery(".jjjcc").slide({titCell:".depart-hd ul li",mainCell:".depart-bd"});
+        jQuery(".gybzc").slide({titCell:".depart-hd ul li",mainCell:".depart-bd"});
+        jQuery(".yjsy").slide({titCell:".depart-hd ul li",mainCell:".depart-bd"});
+        jQuery(".gzx").slide({titCell:".depart-hd ul li",mainCell:".depart-bd"});
+    </script>
+
+
+
+</body></html>
