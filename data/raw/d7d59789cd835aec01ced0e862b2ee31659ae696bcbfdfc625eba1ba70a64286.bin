@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.01">
+<meta name="renderer" content="webkit">
+<title>西藏民族大学附属医院</title>
+<link rel="stylesheet" type="text/css" href="/css/swiper.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/layout.css" />
+<script src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/base.js"></script>
+<script type="text/javascript" src="/js/respond.min.js"></script>
+<script type="text/javascript" src="/js/swiper.min.js"></script>
+
+</head>
+
+<body>
+
+	<!--header-->
+<!--header-->
+    <div class="header container flex flex-pack-justify">
+						<a href="/" class="logo flex flex-align-center">
+					<img src="/MediaStore/site/xzmy/image/2023/11/20/05ef5bd9-4b5f-4d20-9cba-60a236390b7e.png" class="logo1" />
+				</a>
+        <div class="flex flex-align-center">
+            <div class="tel">
+				    <span class="Barlow-BoldItalic di_bl">029—33755456</span> 救护车24小时免费接市内住院病人
+            </div>
+            <div class="search-con flex">
+                	<input id="input_230004065681542" type="text" class="flex-1" placeholder="输入您想搜索的内容" maxlength="25">
+                	<input type="submit" onclick="search_230004065681542()"  style="text-indent: 999rem;"/>
+                	<script type="text/javascript" >function search_230004065681542(){var keyword = $.trim($("#input_230004065681542").val());if(keyword == ""){alert("请输入关键字！");return false;}window.location.href = "/Server/Preview/Search/List?siteCode=xzmy&searchCode=qwjs&keyword=" + keyword;}</script>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+		    <ul class="flex flex-pack-justify container">
+		            <li class="p_r">
+		                <a href="/" class=" di_bl">
+		                    医院首页
+		                </a>
+		                    <div class="submenu te_c">
+									<a href="/yydt/list/page.html" class="di_bl">
+										医院动态
+									</a>
+									<a href="/tzgg/list/page.html" class="di_bl">
+										通知公告
+									</a>
+		                    </div>
+		            </li>
+		            <li class="p_r">
+		                <a href="/yyjj/content/231221307321176605.html" class=" di_bl">
+		                    医院概况
+		                </a>
+		                    <div class="submenu te_c">
+									<a href="/yyjj/content/231221307321176605.html" class="di_bl">
+										医院简介
+									</a>
+									<a href="/xrld/content/231220826254747646.html" class="di_bl">
+										现任领导
+									</a>
+									<a href="/yyry/list/page.html" class="di_bl">
+										医院荣誉
+									</a>
+									<a href="/gxsb/list/page.html" class="di_bl">
+										高新设备
+									</a>
+									<a href="/yyhj/list/page.html" class="di_bl">
+										医院环境
+									</a>
+		                    </div>
+		            </li>
+		            <li class="p_r">
+		                <a href="/djzt/list/page.html" class=" di_bl">
+		                    党建专题
+		                </a>
+		            </li>
+		            <li class="p_r">
+		                <a href="/ybzc/list/page.html" class=" di_bl">
+		                    医保政策
+		                </a>
+		            </li>
+		            <li class="p_r">
+		                <a href="/yygh/content/240739044356578236.html" class=" di_bl">
+		                    就医指南
+		                </a>
+		                    <div class="submenu te_c">
+									<a href="/yygh/content/240739044356578236.html" class="di_bl">
+										预约挂号
+									</a>
+									<a href="/hzfw/content/240724613301375684.html" class="di_bl">
+										患者服务
+									</a>
+									<a href="/jrwm/content/250735199316374023.html" class="di_bl">
+										加入我们
+									</a>
+									<a href="/ycxx/content/single.html" class="di_bl">
+										院长信箱
+									</a>
+		                    </div>
+		            </li>
+		            <li class="p_r">
+		                <a href="/mzsj/content/240435199365135770.html" class=" di_bl">
+		                    科室与专家
+		                </a>
+		                    <div class="submenu te_c">
+									<a href="/mzsj/content/240435199365135770.html" class="di_bl">
+										门诊时间
+									</a>
+									<a href="/zjjs/list/page.html" class="di_bl">
+										专家介绍
+									</a>
+									<a href="/ksjs/list/page.html" class="di_bl">
+										科室介绍
+									</a>
+									<a href="/ksdt/list/page.html" class="di_bl">
+										科室动态
+									</a>
+		                    </div>
+		            </li>
+		            <li class="p_r">
+		                <a href="/hltd/list/page.html" class=" di_bl">
+		                    医疗工作
+		                </a>
+		                    <div class="submenu te_c">
+									<a href="/hltd/list/page.html" class="di_bl">
+										护理天地
+									</a>
+									<a href="/fwgz/list/page.html" class="di_bl">
+										服务工作
+									</a>
+		                    </div>
+		            </li>
+		            <li class="p_r">
+		                <a href="/kydt/list/page.html" class=" di_bl">
+		                    教学科研
+		                </a>
+		                    <div class="submenu te_c">
+									<a href="/kydt/list/page.html" class="di_bl">
+										科研动态
+									</a>
+									<a href="/jxtd/list/page.html" class="di_bl">
+										教学团队
+									</a>
+									<a href="/kycg/list/page.html" class="di_bl">
+										科研成果
+									</a>
+		                    </div>
+		            </li>
+		            <li class="p_r">
+		                <a href="https://www.xzmu.edu.cn/" class=" di_bl">
+		                    学校首页
+		                </a>
+		            </li>
+		    </ul>
+    </div>
+    <!--header end-->	<!--header end-->
+ <!-- 当前位置和列表页导航 -->
+
+  		<div class="pub-banner" style="background-image: url(/MediaStore/site/xzmy/image/2023/11/20/4a131790-6e8f-4abc-8290-747f05fc6e43.jpg)">
+ <div class="container flex flex-column">
+ 			<div class="title p_r">医院首页 </div>
+ 	<div class="crumbs">
+ 					<a href="/" class="home">
+ 				医院首页
+ 				</a>
+ 					>
+ 							<a href="/tzgg/list/page.html">
+ 				通知公告
+ 				</a>
+ 	</div>
+ </div>
+ </div>
+ <div class="subnav">
+ 	<div class="container flex flex-align-center">
+ 					<a href="/yydt/list/page.html" >
+ 						医院动态
+ 					</a>
+ 					<a href="/tzgg/list/page.html" class="on" >
+ 						通知公告
+ 					</a>
+ 	</div>
+ </div>	<div class="pub-bg">
+		<div class="container news-details">
+					<h1 class=" te_c">西藏民族大学附属医院进口高压注射器维修招标公告</h1>
+					<div class="info te_c">
+						<span>发布时间：2026-06-30</span>
+						<span>浏览次数：<pageview id="0808e228-0d37-4906-824a-4103f4aaa2e6" >0</pageview><script type="text/javascript">$(function(){$.ajax({url: "/Server/Preview/callBack/News/PageView",type: "POST",data: {newsId:"0808e228-0d37-4906-824a-4103f4aaa2e6"},success: function(result) {if (result.success){$("#0808e228-0d37-4906-824a-4103f4aaa2e6").text(result.data.pageView);}}});});</script></span>
+					</div>
+					<div class="line p_r"></div>
+					<div class="body">
+						<p class="p" style="margin-left: 0pt; line-height: 21.75pt; text-indent: 2em;"><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">我院将就一</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">台进口高压注射器</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">进行</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">维修</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">，</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">招标</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">公告如下：</span></p> 
+<p class="p" style="margin-left: 0pt; text-indent: 2em;"><strong><span class="15" style="mso-spacerun: 'yes'; font-family: 宋体; mso-ansi-font-weight: bold; font-size: 11.0000pt;">一、</span></strong><strong><span class="15" style="mso-spacerun: 'yes'; font-family: 宋体; mso-ansi-font-weight: bold; font-size: 11.0000pt;">维修</span></strong><strong><span class="15" style="mso-spacerun: 'yes'; font-family: 宋体; mso-ansi-font-weight: bold; font-size: 11.0000pt;">地点</span></strong></p> 
+<p class="p" style="margin-left: 0pt; text-indent: 2em;"><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">西藏民族大学附属医院新综合楼</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">影像科</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">。</span></p> 
+<p class="p" style="margin-left: 0pt; text-indent: 2em;"><strong><span class="15" style="mso-spacerun: 'yes'; font-family: 宋体; mso-ansi-font-weight: bold; font-size: 11.0000pt;">二：产品概况：</span></strong><strong><span class="15" style="mso-spacerun: 'yes'; font-family: 宋体; mso-ansi-font-weight: bold; font-size: 11.0000pt;">&nbsp;</span></strong></p> 
+<div style="text-indent: 2em;" align="center"> 
+ <table class="MsoNormalTable" style="width: 464.25pt; border-image: initial; text-indent: 2em; border: medium none currentcolor;" border="1" cellspacing="0"> 
+  <tbody style="text-indent: 2em;"> 
+   <tr style="height: 23.1pt; text-indent: 2em;"> 
+    <td style="width: 36.65pt; padding: 0pt 5.4pt; border: 1pt solid #000000; text-indent: 2em;" valign="center" width="48"> <p class="p" style="text-align: center; vertical-align: middle; text-indent: 2em;" align="center"><span style="font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">序号</span></p> </td> 
+    <td style="width: 151.5pt; padding: 0pt 5.4pt; border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: #000000 #000000 #000000 currentcolor; text-indent: 2em;" valign="center" width="202"> <p class="p" style="text-align: center; vertical-align: middle; text-indent: 2em;" align="center"><span style="font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">产品</span><span style="font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">名称</span></p> </td> 
+    <td style="width: 33.75pt; padding: 0pt 5.4pt; border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: #000000 #000000 #000000 currentcolor; text-indent: 2em;" valign="center" width="45"> <p class="p" style="text-align: center; vertical-align: middle; text-indent: 2em;" align="center"><span style="font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">数量</span></p> </td> 
+    <td style="width: 33pt; padding: 0pt 5.4pt; border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: #000000 #000000 #000000 currentcolor; text-indent: 2em;" valign="center" width="44"> <p class="p" style="text-align: center; vertical-align: middle; text-indent: 2em;" align="center"><span style="font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">单位</span></p> </td> 
+    <td style="width: 209.35pt; padding: 0pt 5.4pt; border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: #000000 #000000 #000000 currentcolor; text-indent: 2em;" valign="center" width="279"> <p class="p" style="text-align: center; vertical-align: middle; text-indent: 2em;" align="center"><span style="font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">情况说明</span></p> </td> 
+   </tr> 
+   <tr style="height: 37pt; text-indent: 2em;"> 
+    <td style="width: 36.65pt; padding: 0pt 5.4pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor #000000 #000000; text-indent: 2em;" valign="center" width="48"> <p class="p" style="text-align: center; vertical-align: middle; text-indent: 2em;" align="center"><span style="font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">1</span></p> </td> 
+    <td style="width: 151.5pt; padding: 0pt 5.4pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor #000000 #000000 currentcolor; text-indent: 2em;" valign="center" width="202"> <p class="p" style="text-align: center; text-indent: 2em;" align="center"><span style="font-family: 宋体; font-size: 12.0000pt; mso-font-kerning: 0.0000pt;">美瑞德（拜耳）高压注射器</span></p> <p class="p" style="text-align: center; text-indent: 2em;" align="center"><span style="font-family: 宋体; font-size: 12.0000pt; mso-font-kerning: 0.0000pt;">SCT211</span></p> </td> 
+    <td style="width: 33.75pt; padding: 0pt 5.4pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor #000000 #000000 currentcolor; text-indent: 2em;" valign="center" width="45"> <p class="p" style="text-align: center; text-indent: 2em;" align="center"><span style="font-family: Calibri; mso-fareast-font-family: 宋体; font-size: 10.5000pt; mso-font-kerning: 0.0000pt;">1</span></p> </td> 
+    <td style="width: 33pt; padding: 0pt 5.4pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor #000000 #000000 currentcolor; text-indent: 2em;" valign="center" width="44"> <p class="p" style="text-align: center; text-indent: 2em;" align="center"><span style="font-family: 宋体; font-size: 10.5000pt; mso-font-kerning: 0.0000pt;">台</span></p> </td> 
+    <td style="width: 209.35pt; padding: 0pt 5.4pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor #000000 #000000 currentcolor; text-indent: 2em;" valign="center" width="279"> <p class="p" style="text-align: center; text-indent: 2em;" align="center"><span style="font-family: 宋体; font-size: 12.0000pt; mso-font-kerning: 0.0000pt;">高压注射器核心主控板、针筒传感器板</span></p> </td> 
+   </tr> 
+  </tbody> 
+ </table> 
+</div> 
+<p class="p" style="margin-left: 0pt; text-indent: 2em;"><strong><span class="15" style="mso-spacerun: 'yes'; font-family: 宋体; mso-ansi-font-weight: bold; font-size: 11.0000pt;">二、</span></strong><strong><span class="15" style="mso-spacerun: 'yes'; font-family: 宋体; mso-ansi-font-weight: bold; font-size: 11.0000pt;">投标</span></strong><strong><span class="15" style="mso-spacerun: 'yes'; font-family: 宋体; mso-ansi-font-weight: bold; font-size: 11.0000pt;">要求</span></strong></p> 
+<p class="p" style="margin-left: 21.25pt; line-height: 28.8pt; text-indent: 2em;"><!-- [if !supportLists]--><span style="font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">1. </span><!--[endif]--><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">维修公司需要提供原厂配件。</span></p> 
+<p class="p" style="margin: 0pt 0pt 0pt 21.25pt; line-height: 28.8pt; text-indent: 2em;"><!-- [if !supportLists]--><span style="font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">2. </span><!--[endif]--><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">维修公司须具备</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">原厂对维修公司的授权、</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">营业执照、</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">医疗器械</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">备案凭证</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">、医疗器械经营许可</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">证、</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">维修工程师应具备相应资质或经过原厂技术培训。</span></p> 
+<p class="p" style="margin-left: 21.25pt; line-height: 28.8pt; text-indent: 2em;"><!-- [if !supportLists]--><span style="font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">3. </span><!--[endif]--><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">维修完成后，应对设备进行全面的功能测试和性能校准，确保各项性能指标达到或超过设备原有标准。</span></p> 
+<p class="p" style="margin-left: 21.25pt; line-height: 28.8pt; text-indent: 2em;"><!-- [if !supportLists]--><span style="font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">4. </span><!--[endif]--><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;"><span style="font-family: 宋体;">维修质量保证期：维修完成验收合格之日起，同一故障保修不低于</span><span style="font-family: 宋体;">6个月。</span></span></p> 
+<p class="18" style="margin-left: 21.25pt; line-height: 28.8pt; text-indent: 2em;"><!-- [if !supportLists]--><span style="font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">5. </span><!--[endif]--><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">质保期内如因维修质量问题或配件质量问题导致设备再次故障，维修公司应无偿进行修复，并承担由此产生的一切费用，包括但不限于配件费用、运输费用、人工费用等</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">。</span></p> 
+<p class="p" style="margin-left: 21.25pt; line-height: 28.8pt; text-indent: 2em;"><!-- [if !supportLists]--><span style="font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">6. </span><!--[endif]--><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;"><span style="font-family: 宋体;">维修公司应设立</span><span style="font-family: 宋体;">24小时服务电话，提供技术支持。</span></span></p> 
+<p class="p" style="margin-left: 21.25pt; line-height: 28.8pt; text-indent: 2em;"><!-- [if !supportLists]--><span style="font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">7. </span><!--[endif]--><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">维修公司应在质保期内提供免费的售后技术服务，包括故障排查、技术咨询等。</span></p> 
+<p class="p" style="margin-left: 21.25pt; line-height: 28.8pt; text-indent: 2em;"><!-- [if !supportLists]--><span style="font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">8. </span><!--[endif]--><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">维修公司应对维修后的设备进行定期回访，了解设备运行状况。</span></p> 
+<p class="18" style="line-height: 18pt; text-indent: 2em;"><strong><span class="15" style="mso-spacerun: 'yes'; font-family: 宋体; mso-ansi-font-weight: bold; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">三、报名要求：</span></strong></p> 
+<p class="18" style="line-height: 18pt; text-indent: 2em;"><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">1、报名时间（网上报名）：2026年</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">7</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;"><span style="font-family: 宋体;">月</span><span style="font-family: 宋体;">1日起至2026年</span></span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">7</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">月</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">7</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;"><span style="font-family: 宋体;">日上午</span><span style="font-family: 宋体;">11:30止。（上午：08:00—11:30，下午：14:00—17:30，节假日和非工作时间除外。）逾期将不再接收任何资料</span></span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">。</span></p> 
+<p class="18" style="line-height: 18pt; text-indent: 2em;"><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">2、</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">报名资料：</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">原厂对维修公司授权书、</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">营业执照、医疗器械</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">备案凭证</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">、医疗器械经营许可、</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">维修</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">公司对个人授权委托书、</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">报价单等</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;"><span style="font-family: 宋体;">资料一式</span><span style="font-family: 宋体;">5份</span></span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">并</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">加盖单位鲜章（</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">开标时</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">提交）。</span></p> 
+<p class="18" style="line-height: 18pt; text-indent: 2em;"><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.5000pt; mso-font-kerning: 1.0000pt;">4、</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">上述资料需</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;">先</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 1.0000pt;"><span style="font-family: 宋体;">以</span><span style="font-family: 宋体;">PDF格式于报名时间内发送至邮箱：</span></span><a href="mailto:1377663579@qq.com"><u><span class="16" style="font-family: 宋体; color: #0000ff; font-size: 11pt;"><span style="font-family: 宋体;">1377663579</span></span></u><u><span class="16" style="font-family: 宋体; color: #0000ff; font-size: 11pt;"><span style="font-family: 宋体;">@qq.</span></span></u><u><span class="16" style="font-family: 宋体; color: #0000ff; font-size: 11pt;"><span style="font-family: 宋体;">com</span></span></u></a></p> 
+<p class="p" style="margin-left: 0pt; text-indent: 2em;"><strong><span class="15" style="mso-spacerun: 'yes'; font-family: 宋体; mso-ansi-font-weight: bold; font-size: 11.0000pt;">开标时间及地点</span></strong></p> 
+<p class="p" style="margin-left: 0pt; text-indent: 2em;"><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">1.开标时间：202</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">6</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">年</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">7</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;"><span style="font-family: 宋体;">月</span><span style="font-family: 宋体;">7日15:00</span></span></p> 
+<p class="p" style="margin-left: 0pt; text-indent: 2em;"><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">2.开标地点：西藏民族大学附属医院综合楼</span></p> 
+<p class="p" style="margin-left: 0pt; text-indent: 2em;"><strong><span class="15" style="mso-spacerun: 'yes'; font-family: 宋体; mso-ansi-font-weight: bold; font-size: 11.0000pt;">四、联系方式</span></strong><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">&nbsp;</span></p> 
+<p class="p" style="margin-left: 0pt; text-indent: 2em;"><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">联系人：</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">文老师</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">&nbsp;&nbsp;联系电话：</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">029-</span><span style="mso-spacerun: 'yes'; font-family: 宋体; font-size: 11.0000pt; mso-font-kerning: 0.0000pt;">33757556</span></p>
+					</div>
+					<div class="line p_r"></div>
+					<div class="next">
+							<a href="/tzgg/content/260620851209566382.html" class=" di_bl">上一篇：关于视频监控系统二级等保测评服务竞争性谈判项目采购结果公示</a>
+							<a href="/tzgg/content/260735199337219934.html" class=" di_bl">下一篇：西藏民族大学附属医院进口高压注射器维修第二次招标公告</a>
+						
+						<!-- 
+							<a href="/tzgg/content/260735199337219934.html" class=" di_bl">上一篇：西藏民族大学附属医院进口高压注射器维修第二次招标公告</a>
+							<a href="/tzgg/content/260620851209566382.html" class=" di_bl">下一篇：关于视频监控系统二级等保测评服务竞争性谈判项目采购结果公示</a>
+						 -->
+					</div>
+		</div>
+
+	</div>
+
+	<!--footer-->
+<!--footer-->
+<div class="link">
+	<div class="container flex flex-warp">
+		友情连接：
+						<a href="http://wjw.xianyang.gov.cn/">
+					咸阳卫生信息网
+				</a>
+					<span>|</span>
+				<a href="https://www.who.int/zh">
+					世界卫生组织
+				</a>
+	</div>
+</div>
+<div class="footer">
+	<div class="container flex flex-align-center flex-pack-justify">
+		<div class="logo">
+					<img src="/MediaStore/site/xzmy/image/2023/11/20/4d2c1bfe-4468-4205-9f19-b3781b3e86c1.png" class=" di_bl" />
+		</div>
+
+		<div class="item">
+			<!-- <h3>联系方式</h3> -->
+					<h3>联系方式</h3>
+					<p>地址：陕西省咸阳市文汇东路6号</p> 
+<p>邮编：712082</p> 
+<p>电话：029—33755452、33755453、33755456</p>
+		</div>
+		<div class="item">
+			<!-- <h3>投诉受理</h3> -->
+					<h3>投诉受理</h3>
+					<p>党建办：029-33755904</p> 
+<p>（周一至周五上午08：00-11:40，下午14:00-17:40）</p> 
+<p>总值班电话：029-33755453</p> 
+<p>（节假日、夜间请拨打此电话）</p>
+		</div>
+		<div class="item">
+			<img src="/images/img.png" alt="">
+		</div>
+	</div>
+	<div class="copyright te_c">
+				版权所有@2010-2024：西藏民族大学附属医院
+	</div>
+</div>
+<!--footer end-->	<!--footer end-->
+
+
+
+
+	<!--本页面用的js文件位置 -->
+
+
+	<!--本页面用的js文件位置 end-->
+
+
+</body>
+
+</html>
