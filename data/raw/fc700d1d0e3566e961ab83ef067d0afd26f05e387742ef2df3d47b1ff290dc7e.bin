@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="keywords" content="陕西省政府采购网"/>
+    <meta name="description" content="陕西省政府采购网"/>
+<!--    去掉浏览器页签图标展示-->
+<!--    <link rel='shortcut icon' href='/cms-sx/site/shanxi/resources/img/bitbug_favicon.ico' type='image/x-icon' />-->
+    <title>陕西省政府采购网</title>
+
+    <!-- Bootstrap -->
+<!--    <link rel="shortcut icon" type="/cms-sx/site/shanxi//resources/img/png" href="./static/favicon.ico"/>-->
+    <link href="/cms-sx/site/shanxi//resources/lib/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/cms-sx/site/shanxi//resources/css/reset.css" />
+    <link rel="stylesheet" href="/cms-sx/site/shanxi//resources/css/common.css" />
+    <link rel="stylesheet" href="/cms-sx/site/shanxi//resources/css/index.css" />
+    <link  rel="stylesheet" href="/cms-sx/site/shanxi//resources/style/head_foot.css">
+    <link rel="stylesheet" href="/cms-sx/site/shanxi//resources/style/index.css" />
+    <link rel="stylesheet" href="/cms-sx/site/shanxi//resources/style/list.css" />
+    <link  rel="stylesheet" href="/cms-sx/site/shanxi//resources/css/zcfg.css">
+    <link href="/cms-sx/site/shanxi/resources/layui/css/layui.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/lib/css/myPagination.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/zcgn.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/zxly.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/zxlylist.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/searchInfo.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/iconfont.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/newIndex.css" rel="stylesheet"/>
+<!-- 栏目css-->
+    <link href="/cms-sx/site/shanxi/resources/css/jgzn.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/lxwm.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/xxgg.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/columnCommonStyles.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/gmfwMore.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/tszq.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/gysgs.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/gysgsDetail.css" rel="stylesheet"/>
+    <link href="/cms-sx/site/shanxi/resources/css/zjgsDetail.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/cms-sx/site/shanxi/resources/cdn/swiper-5.4.5/package/css/swiper.min.css">
+
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/lib/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/lib/js/bootstrap.min.js"></script>
+    <script src="/cms-sx/site/shanxi/resources/cdn/echarts/echarts.min.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/js/jquery.cookie.js"></script>
+
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/head.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/index.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/laydate.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/pageMe.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/layui/layui.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/lib/js/myPagination.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/module/treeSelect/treeSelect.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/js/download.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi/resources/js/jquery.base64.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/publicMethods.js"></script>
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/download.js"></script>
+    <script src="/cms-sx/site/shanxi/resources/cdn/swiper-5.4.5/package/js/swiper.min.js"></script>
+    <!--引入加密算法js文件-->
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/jsencrypt.min.js"></script>
+    <!--引入新验签js-->
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/sha1.js"></script>
+    <!--引入md5js-->
+    <script type="text/javascript" src="/cms-sx/site/shanxi//resources/js/md5.js"></script>
+    <!--网站无障碍-->
+    <script id="rrbayJs" src="//wza.rrbay.com/js/wza.min.js?65d59f6121c01118b862eae6"  referrerpolicy="origin" type="text/javascript"></script>
+  </head>
+
+  <body>
+  <input id="commonTitle" type="hidden" value="陕西省政府采购网">
+  <script>
+    var keywords=document.getElementsByTagName("meta")[2];
+    var description=document.getElementsByTagName("meta")[3];
+    keywords.content=$('#commonTitle').val();
+    description.content=$('#commonTitle').val();;
+    document.title=$('#commonTitle').val();
+    $(document).ready(function () {
+      $('#electronicStoreProvince li').click(function () {
+        $(this).addClass('activedList').siblings().removeClass('activedList');
+      })
+      $('#projectProcurementLeft li').click(function () {
+        $(this).addClass('activedLists').siblings().removeClass('activedLists');
+      })
+      $('#KJXYprojectProcurementLeft li').click(function () {
+        $(this).addClass('activedLists').siblings().removeClass('activedLists');
+      })
+      $('#projectProcurementLefts li').click(function () {
+        $(this).addClass('activedListss').siblings().removeClass('activedListss');
+      })
+    })
+    // 提取原调接口contextpathNo部分
+    function getFreecms() {
+      return "/freecms";
+    }
+  </script>
+<div class="head">
+    <nav class="navHead">
+        <div class="content">
+            <div class="navLeft">
+                                        <span>您好，欢迎进入陕西省政府采购网!</span>
+            </div>
+            <div class="navRight">
+                <ul>
+                            <a href="https://www.ccgp-shaanxi.gov.cn/gateway/gp-auth-center/login?tenantId=ZF_JGBM_000003&systemRegion=610001">
+                                <img src="/cms-sx/upload/a7a15d60-de5b-42f2-b35a-7e3efc34e54f/bdf291d7-606a-40c1-8874-bdcc32c16d1e.png" width="16">
+                                <span>请登录</span>
+                            </a>
+                            <a href="/cms-sx/site/shanxi/lxwmrk/index.html">
+                                <img src="/cms-sx/upload/a7a15d60-de5b-42f2-b35a-7e3efc34e54f/a5661fe3-43df-4505-bc9c-7dd308396300.png" width="16">
+                                <span >联系我们</span>
+                            </a>
+                        <a id="wzayd" style="display: none;" title="盲人朋友在线浏览按住Alt+g键" href="javascript:;" class="wzayd" accesskey="g"><span>无障碍阅读</span></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="LogoSearch ">
+        <div class="content ">
+            <div class="businessLogo">
+                    <a href="/cms-sx/site/shanxi//index.html" style="cursor: pointer;">
+                        <img src="/cms-sx/upload/a7a15d60-de5b-42f2-b35a-7e3efc34e54f/e3e02009-42dc-4e51-836f-a12b1c190203.png">
+                    </a>
+            </div>
+            <div class="search">
+                <!--<form action="/cms-sx/templetPro.do" method="post">-->
+                    <input type="hidden" name="siteid" value="a7a15d60-de5b-42f2-b35a-7e3efc34e54f">
+                    <input type="hidden" name="templetPath" value="searchinfo.html">
+                    <input type="text" name="key" id="title"  placeholder="输入查询内容">
+                        <a id="megaloscopeHref1" href="/cms-sx/site/shanxi/qwjsy/index.html" target="_blank">
+                            <button id="megaloscopeBtn1" class="megaloscope" code="1" style="height: 38px;width: 60px;color: #FFF;background: #167ae0; border: 1px solid #167ae0;">搜标题</button>
+                        </a>
+                    <a id="megaloscopeHref2" href="/cms-sx/site/shanxi/qwjsy/index.html" target="_blank">
+                        <button id="megaloscopeBtn2" class="megaloscope" code="2" style="height: 38px;width: 60px;color: #FFF;background: #1d5db8; border: 1px solid #1d5db8;">搜全文</button>
+                    </a>
+                <!--</form>-->
+            </div>
+            <div class="timeData">
+                <span class="daily" style="font-size: 24px;"></span>
+                <span style="font-size: 24px;">/</span>
+                <span class="topmonth" style="font-size: 44px;"></span>
+                <p class="toDateString"></p>
+                <span>&nbsp&nbsp</span>
+                <p class="week"></p>
+            </div>
+        </div>
+    </div>
+    <nav class="navList">
+        <ul class="nav-tab content">
+            <li class="activeList">
+                <a href="/cms-sx/site/shanxi/index.html">首页</a>
+            </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/zcfg/index.html?result=result">政策法规</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/jgzn/index.html?result=result">机构职能</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/gmfw/index.html?result=result">购买服务</a>
+                </li>
+                <li>
+                    <a href="https://www.ccgp-shaanxi.gov.cn/gpmall-main-web/index?result=result">电子卖场</a>
+                </li>
+                <li>
+                    <a href="https://www.ccgp-shaanxi.gov.cn/gpfa-main-web/index?result=result">框架协议</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/zxdt/index.html?result=result">资讯动态</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/xxgg/index.html?result=result">信息公告</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/jdgl/index.html?result=result">监督管理</a>
+                </li>
+                <li>
+                    <a href="/cms-sx/site/shanxi/1094/index.html?result=result">办事指南</a>
+                </li>
+        </ul>
+    </nav>
+</div>
+<!-- nav -->
+<script>
+    function init() {
+        var str = window.location.pathname;
+        if(str.indexOf("qwjsy")!=-1) {
+            $(".search").remove();
+        }
+    };
+    init();
+    $(document).ready(function () {
+        // 获取当前相对路径： /springmvc/page/frame/test.html
+        var pathName = window.location.pathname + '?result=result';
+        function getCaption(obj){
+            var index=obj.indexOf("\/");
+            obj=obj.substring(index+1,obj.length)   ;
+            return obj;
+        }
+        var aList =  $(".nav-tab a")
+        var liList =  $(".nav-tab li")
+        var navUrl = ''
+        for (var i = 0;i<aList.length;i++){
+            var arrUrl = aList[i]["href"].split("//")[1];
+            navUrl = '/'+getCaption(arrUrl);
+            if(navUrl == pathName){
+                liList.eq(i).addClass('activeList').siblings().removeClass('activeList');
+            }
+            if(arrUrl.indexOf("site")>=0){
+                aList[i].target = '_self'
+            }else{
+                aList[i].target = '_blank'
+            }
+        }
+    })
+
+    $('#megaloscopeBtn1').click(function () {
+        var title = $('#title').val();
+        var megaloscopeHref = $('#megaloscopeHref1').attr('href');
+        if (megaloscopeHref.indexOf("?") !=-1) {
+            megaloscopeHref=megaloscopeHref.split("?")[0]
+        }
+        if(title) {
+            $('#megaloscopeHref1').attr('href', encodeURI(megaloscopeHref + '?searchContentBT=' + title))
+        }
+    })
+    $('#megaloscopeBtn2').click(function () {
+        var title = $('#title').val();
+        var megaloscopeHref = $('#megaloscopeHref2').attr('href');
+        if (megaloscopeHref.indexOf("?") !=-1) {
+            megaloscopeHref=megaloscopeHref.split("?")[0]
+        }
+        if(title) {
+            $('#megaloscopeHref2').attr('href', encodeURI(megaloscopeHref + '?searchContentQW=' + title))
+        }
+    })
+</script>
+
+
+<!--信息公告页面-->
+<section class="containers" >
+    <section class="container" style="width: 100%">
+        <div class="currentlocation" style="width: 1200px;margin: 0 auto;">当前位置:<a href="/cms-sx/site/shanxi//index.html">首页</a>
+    <a href="/cms-sx/site/shanxi/xxgg/index.html">>信息公告</a>
+</div>
+        <div class="xxggWrap">
+            <div>
+                <div class="xxggLeft fl">
+                    <div class="area">
+                        <div class="titleBoxs">
+                            <img src="/cms-sx/site/shanxi//resources/img/xxgg-img/titleImg.png" >
+                            <span>区域</span>
+                        </div>
+                        <div class="areaLists">
+                            <ul class="areaListUl" id="areaNews">
+                                <li codes="610001" class="xxggActive" style="width: 100%;">陕西省本级</li>
+                                        <li class="" codes="610100" codeName="西安市">西安市</li>
+                                        <li class="" codes="610200" codeName="铜川市">铜川市</li>
+                                        <li class="" codes="610300" codeName="宝鸡市">宝鸡市</li>
+                                        <li class="" codes="610400" codeName="咸阳市">咸阳市</li>
+                                        <li class="" codes="610500" codeName="渭南市">渭南市</li>
+                                        <li class="" codes="610600" codeName="延安市">延安市</li>
+                                        <li class="" codes="610700" codeName="汉中市">汉中市</li>
+                                        <li class="" codes="610800" codeName="榆林市">榆林市</li>
+                                        <li class="" codes="610900" codeName="安康市">安康市</li>
+                                        <li class="" codes="611000" codeName="商洛市">商洛市</li>
+                                        <li class="" codes="611100" codeName="杨凌示范区">杨凌示范区</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="noticeType">
+                        <div class="titleBoxs">
+                            <img src="/cms-sx/site/shanxi//resources/img/xxgg-img/titleImg.png" >
+                            <span>公告类型</span>
+                        </div>
+                        <!--  购买服务信息公告  -->
+                        <ul class="xxggGmfw">
+                            <li codes="00101,001011,00105" class="xxggActive" title="采购公告">采购公告</li>
+                            <li codes="00102" title="结果公告">结果公告</li>
+                        </ul>
+                       <!--  首页信息公告   -->
+                         <ul class="xxggIndex">
+                            <li codes="001011,001012,001013,001014,001016,001019" class="xxggActive" title="采购公告">采购公告</li>
+                            <li codes="001021,001022,001023,001024,001025,001026,001029,001006" title="结果公告">结果公告</li>
+                            <li codes="001031,001032" title="更正公告">更正公告</li>
+                            <li codes="001004,001006" title="终止公告">终止公告</li>
+                            <li codes="001053,001052,00105B" title="其他">其他</li>
+                            <li codes="001051,00105F" title="采购前公示">采购前公示</li>
+                            <li codes="59,5E" title="意向公开">意向公开</li>
+                            <li codes="001054,00105K,001033" title="合同公示">合同公示</li>
+                            <li codes="00105A,001009,00100C" title="履约验收信息">履约验收信息</li>
+                            <li codes="001062" title="中小企业预留份额执行情况公示">中小企业预留份额执行情况公示</li>
+                         </ul>
+                    </div>
+                </div>
+                <div class="xxggRight fr">
+                    <div class="informationNotice">
+                        <div class="titleBoxs">
+                            <img src="/cms-sx/site/shanxi//resources/img/xxgg-img/titleImg.png" >
+                            <span>信息公告</span>
+                        </div>
+                        <form class="layui-form">
+                            <div class="layui-row">
+                                <div class="layui-col-md4">
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">区域:</label>
+                                        <div class="layui-input-block">
+                                            <input type="text" id="tree" lay-filter="tree" class="layui-input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="layui-col-md4">
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">采购目录:</label>
+                                        <div class="layui-input-block">
+                                            <select name="interest" lay-filter="pingmuNews" id="purchaseNature">
+                                                <option value="-1">请选择采购目录</option>
+                                                <option value="-1" disabled>分散采购目录</option>
+                                                <option value="3">服务类(政府购买服务)</option>
+                                                <option value="2">工程类</option>
+                                                <option value="1">货物类</option>
+                                                <option value="-1" disabled>政府集中目录</option>
+                                                <option value="3">服务类(政府购买服务)</option>
+                                                <option value="2">工程类</option>
+                                                <option value="1">货物类</option>
+                                                <option value="-1" disabled>部门采购目录</option>
+                                                <option value="3">服务类(政府购买服务)</option>
+                                                <option value="2">工程类</option>
+                                                <option value="1">货物类</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="layui-col-md4">
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">采购方式:</label>
+                                        <div class="layui-input-block">
+                                            <select name="modules" lay-verify="required" lay-search="" lay-filter="caigoufangshiNews" id="purchaseManner">
+                                                <option class="" value="-1">请选择采购方式</option>
+                                                <option class="" value="1">公开招标</option>
+                                                <option class="" value="2">邀请招标</option>
+                                                <option class="" value="3">竞争性谈判</option>
+                                                <option class="" value="4">询价</option>
+                                                <option class="" value="5">单一来源</option>
+                                                <option class="" value="6">竞争性磋商</option>
+                                           </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-row">
+                                <div class="layui-col-md8">
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">公告标题:</label>
+                                        <div class="layui-input-block" style="width: 508px;">
+                                            <input type="text" id="titleName" name="identity" lay-verify="identity" placeholder="请输入公告标题" autocomplete="off" class="layui-input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="layui-col-md4">
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">公告编号:</label>
+                                        <div class="layui-input-block">
+                                            <input type="text" id="purchaseNumber" name="identity" lay-verify="identity" placeholder="请输入公告编号" autocomplete="off" class="layui-input">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-row">
+                                <div class="layui-col-md8">
+                                    <div class="layui-inline">
+                                        <label class="layui-form-label">发布时间:</label>
+                                        <div class="layui-input-inline">
+                                            <input type="text" name="date" id="stateDate" lay-verify="date" placeholder="请选择开始时间" autocomplete="off" class="layui-input" style="width: 238px">
+                                        </div>
+                                        <span style="display: inline-block;margin: 0 10px 0 10px;">~</span>
+                                        <div class="layui-input-inline">
+                                            <input type="text" name="date" id="endDate" lay-verify="date" placeholder="请选择结束时间" autocomplete="off" class="layui-input" style="width: 238px">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="layui-col-md2" style="margin-left:35px">
+                                    <div class="layui-form-item">
+                                        <button type="button" class="layui-btn layui-btn-normal" id="Inquire">查询</button>
+                                        <button type="button" class="layui-btn layui-btn-primary" id="queryReset">重置</button>
+                                    </div>
+                                </div>
+                            </div>
+                    <div class="layui-row">
+                        <div class="layui-col-md8">
+                            <div class="grid-demo grid-demo-bg1">
+                                <i style="color: red;float: left;width: 10px;text-align: right;padding-top: 15px;">* </i>
+                                <label style="width: 50px;" class="layui-form-label">验证码:</label>
+                                <input id="verifycode" style="display: inline-block;width: 25%;" type="text" id="yanzhengma" name="identity" lay-verify="identity" placeholder="请输入验证码" autocomplete="off" class="layui-input">
+                                <img style="width: 100px; height: 34px;" onclick="refreshCode();" id="code_img" onerror="refreshCode()" height="36" style="margin:0 10px;">
+                                <!--                    <input type="hidden" value="1None">-->
+                            </div>
+                        </div>
+
+                    </div>
+                        </form>
+                    </div>
+                    <div class="noticeList">
+                        <div class="noticeTitle"><span>序号</span><span>地区</span><span>标题</span><span>时间</span></div>
+                        <ul class="noticeListUl">
+                        </ul>
+                        <div style="height: 50px;text-align: center;margin-top: 20px;color: red;font-weight: 600;position: relative;top: -450px;" class="procurementAnnouncementShowList noticeShowList" id="verifycodefinshed">
+                            请完成上方验证码操作
+                        </div>
+                        <div id="pagination" class="pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--尾部相关内容-->
+
+<style>
+    .footRightCharacter a img {
+        /*width: 56px;*/
+        height: 37px;
+    }
+    .mapBoxStyle{
+        padding-left: 16px!important;
+        font-size: 14px!important;
+        font-weight: 400!important;
+        color: #fff!important;
+    }
+    .iconImg {
+        width: 24px !important;
+        height: 24px !important;
+        margin-top: 0px !important;
+    }
+</style>
+<div class="foot">
+    <div class="content">
+        <div class="footLeft">
+                                <a href="https://bszs.conac.cn/sitename?method=show&id=6FC372524948EBEBE053022E1AACFAB6" target="_blank">
+                        <img src="/cms-sx/upload/a7a15d60-de5b-42f2-b35a-7e3efc34e54f/0ba12f96-997e-4e9e-94d9-175959284e41.png">
+                    </a>
+            <div class="footLeftCharacter">
+                        <p>陕西省财政厅政府采购管理处主办 | 陕西省财政厅信息化建设管理处承办</p>
+                <br/>
+                <p>
+                    技术支持：029-96702 | 欢迎来到陕西省政府采购网
+                    您是第 <span class="views_number" style="font-size: 16px; font-weight: bold;"></span> 位访问者
+                </p><br/>
+                <p style="padding-left:20px">
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61010402000339" target="_blank" style="position: relative">
+                        <img class="iconImg" src="/cms-sx/site/shanxi//resources/img/gov_7.png" style="position: absolute; left: -20px; top: -5px;">
+                    </a>
+                    <span style="padding-left: 10px;">
+                        陕公网安备 61010402000339号&nbsp;&nbsp;&nbsp;
+                        <a href="https://beian.miit.gov.cn/#/Integrated/index">
+                            <span style="color: #fff;">陕ICP备06003708号-2</span>
+                        </a>
+                        &nbsp;&nbsp;| &nbsp;&nbsp;网站标识码：6100000112
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="footRight">
+            <div class="footRightCharacter">
+                        <a href="/cms-sx/site/shanxi/wzdt/index.html" target="_blank">
+                            <img src="/cms-sx/site/shanxi//resources/img/webmap.png">
+                            <span style="" class="mapBoxStyle">网站地图</span>
+                        </a>
+                <script id="_jiucuo_" sitecode='6100000112' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        var url = getFreecms() +'/rest/v1/notice/statisticsVisits.do';
+        var nowTime = new Date().getTime();
+        var encryptContent = hex_md5(hex_sha1(nowTime+'_'+String(url).split('?')[0]+'_bosssoft_platform_095285'));
+        $.ajax({
+            type: 'GET',
+            url: getFreecms() +'/rest/v1/notice/statisticsVisits.do',
+            headers:{
+                'nsssjss':encryptByRSA(getFreecms() +'/rest/v1/notice/statisticsVisits.do' + '$$'+ new Date().getTime()),
+                'time':nowTime,
+                'url':url,
+                'sign':encryptContent
+            },
+            contentType: "application/json;charset=utf-8",
+            success: function (res) {
+                var visitAll = res.data.totalVisits;
+                $(".views_number").append(visitAll);
+            }
+        });
+    })
+</script>
+
+</section>
+<script>
+    <!--验证码刷新-->
+    function refreshCode() {
+        $("#code_img").attr(
+            "src",
+            getFreecms() + "/verify/verifyCode.do?createTypeFlag=n&name=notice&d"
+            + new Date().getTime());
+    }
+    layui.config({
+        base: '/cms-sx/site/shanxi//resources/module/'
+    }).extend({
+        treeSelect: 'treeSelect/treeSelect'
+    });
+    $(document).ready(function () {
+        function formatDateTime(date) {
+            var year = date.getFullYear();
+            var month = (date.getMonth() + 1).toString().padStart(2, '0');
+            var day = date.getDate().toString().padStart(2, '0');
+            var hours = date.getHours().toString().padStart(2, '0');
+            var minutes = date.getMinutes().toString().padStart(2, '0');
+            var seconds = date.getSeconds().toString().padStart(2, '0');
+            return year + '-' + month + '-' + day + ' ' + hours + ':' + minutes + ':' + seconds;
+        }
+        $('#stateDate').val(getDay(0));
+        $('#endDate').val(formatDateTime(new Date()));
+        var selectTimeName='noticeTime';
+        var siteId = 'a7a15d60-de5b-42f2-b35a-7e3efc34e54f';
+        var channel = '1eb454a2-7ff7-4a3b-b12c-12acc2685bd1';
+        var noticeType ='00101,001011';
+        var regionCode = '610001';
+        var purchaseManner='';
+        //当前页
+        var currPage =1;
+        var pageSize ='10';
+        var total='';
+        // 开始时间
+        var operationStartTime = '';
+        // 结束时间
+        var operationEndTime = formatDateTime(new Date());
+        // 公告标题
+        var title = '';
+        var openTenderCode = '';
+        var purchaseNature='';
+        //123 主页信息公告    124 购买服务信息公告
+        var xxggType='123';
+        var govService='1';
+        var cityOrArea='';
+        //验证码
+        var verifyCode = '';
+        verifyCode = $('#verifycode').val();
+        //区域下拉数据
+        layui.use(['form','treeSelect'], function(){
+            var treeSelect1= layui.treeSelect;
+            treeSelect1.render({
+                // 选择器
+                elem: '#tree',
+                // 数据
+                data: '/cms-sx/site/shanxi/resources/json/sxTree.json',
+                // 异步加载方式：get/post，默认get
+                type: 'get',
+                // 占位符
+                placeholder: '请选择区域',
+                // 是否开启搜索功能：true/false，默认false
+                search: true,
+                // 点击回调
+                click: function(d){
+                    regionCode = d.current.regionCode;
+                    if(d.current.regionCode!="-1"){
+                        $('#areaNews').find('li[codes='+regionCode+']').addClass('xxggActive').siblings().removeClass('xxggActive');
+                    }else{
+                        $('#areaNews').find('li[codeName="全部"]').addClass('xxggActive').siblings().removeClass('xxggActive');
+                        regionCode=''
+                    }
+                    if(d.current.leaf=="0") {
+                        cityOrArea = '6';
+                    }else{
+                        cityOrArea = '';
+                    }
+                    getDataList(channel,currPage, pageSize, noticeType, regionCode);
+                },
+                success:function(d){
+                  
+                  //区域点击
+                  // console.log(treeSelect1)
+                  $('.areaListUl li').on('click',(function(treeSelect1){
+                    return function() {     
+                      $(this).addClass('xxggActive').siblings().removeClass('xxggActive');
+                        regionCode = $(this).attr('codes');
+                        cityOrArea = '6'
+                        var selectId = ''
+                        for(var i=0;i<d.data.length;i++) {
+                          if (d.data[i].regionCode == regionCode){
+                            selectId = d.data[i].id
+                            break
+                          }
+
+                        }
+                        treeSelect1.checkNode('tree',selectId)
+                        // var select = 'li[code=' + regionCode + ']';
+                        // var selectId = $('#tree').siblings("div.layui-treeSelect").find('div.layui-treeSelect-body').find(select).attr('id')
+                        // if(regionCode!=-1){
+                        //     $('#tree').siblings("div.layui-treeSelect").find('div.layui-treeSelect-body').find(select).find('a').click(function(event){event.stopPropagation()});
+                        // }else{
+                        //     $('#tree').siblings("div.layui-treeSelect").find('div.layui-treeSelect-body').find(select).find('a').click(function(event){event.stopPropagation()});
+                        //     regionCode=''
+                        // }
+                        getDataList(channel,currPage, pageSize, noticeType, regionCode);
+                    };
+                  })(treeSelect1))
+                }
+            });
+        });
+
+        //GetRequest在publicMethods.js文件里写的
+        var urlParams=GetRequest();
+        xxggType=urlParams.xxggType?urlParams.xxggType:xxggType;
+        noticeType = urlParams.noticeType?urlParams.noticeType:noticeType;
+        //判断noticeType是什么公告类型并激活当前类名,执行函数
+        function IsnoticeType(){
+            if(noticeType){
+                if(xxggType=='123'){
+                    $('.xxggIndex').show();
+                    $('.xxggGmfw').hide();
+                }else{
+                    $('.xxggGmfw').show();
+                    $('.xxggIndex').hide();
+                }
+                // 获取信息公告栏目页左侧公告区域li
+                // var zcs = document.querySelectorAll('.xxggIndex > li');
+                // var typeMap = {
+                //     0: '00101,001011',
+                //     1: '00102',
+                //     2: '00103',
+                //     3: '001004',
+                //     4: '00105',
+                //     5: '001059',
+                //     6: '59',
+                //     7: '001054',
+                //     8: '00105A',
+                //     9: '001061',
+                //     10: '00105B,001062'
+                // }
+                // for (var k in typeMap) {
+                //     if (typeMap[k] === noticeType || typeMap[k] === decodeURIComponent(noticeType)) {
+                //         console.log(zcs[k].classList);
+                //         zcs[k].classList.add('xxggActive');
+                //         // console.log(zcs[k].classList);
+                //     } else if(zcs[k].classList.contains('xxggActive')){
+                //         zcs[k].classList.remove('xxggActive');
+                //         console.log(111);
+                //         console.log(zcs[k]);
+                //         console.log(222);
+                //     } else if(noticeType === "00101" && k==10) {
+                //         zcs[0].classList.add('xxggActive');
+                //         console.log(zcs[0]);
+                //     }
+                // }
+
+                // dom元素循环用each方法
+                $(".xxggIndex li").each(function(){
+                    if(noticeType===$(this).attr("codes") || $(this).attr("codes")===decodeURIComponent(noticeType)){
+                        $(this).addClass('xxggActive').siblings().removeClass('xxggActive');
+                    }
+                });
+                $(".xxggGmfw li").each(function(){
+                    if(noticeType===$(this).attr("codes") || $(this).attr("codes")===decodeURIComponent(noticeType)){
+                        $(this).addClass('xxggActive').siblings().removeClass('xxggActive');
+                    }
+                });
+                // 获取购买服务公告栏目页左侧公告区域li
+                // var zcs1= document.querySelectorAll('.xxggGmfw > li');
+                // var typeMap1 = {
+                //     0: '00101,001011',
+                //     1: '00105',
+                //     2: '00102'
+                // }
+                // for (var l in typeMap1) {
+                //     if (typeMap1[l] === noticeType || typeMap1[l] === decodeURIComponent(noticeType)) {
+                //         zcs1[l].classList.add('xxggActive');
+                //     } else if(zcs1[l].classList.contains('xxggActive')){
+                //         zcs1[l].classList.remove('xxggActive');
+                //     } else if(noticeType === "00101,001011") {
+                //         zcs1[0].classList.add('xxggActive');
+                //     }
+                // }
+
+            }
+        }
+
+        //调用执行函数
+        IsnoticeType();
+        //123 主页信息公告 124 购买服务信息公告
+        if(xxggType=='123'){
+            noticeType=noticeType;
+            channel='1eb454a2-7ff7-4a3b-b12c-12acc2685bd1';
+            $('.xxggIndex').show();
+            $('.xxggGmfw').hide();
+            // getDataList(channel,currPage, pageSize,noticeType,regionCode);
+        }else if(xxggType=='124'){
+            noticeType=noticeType;
+            channel='1eb454a2-7ff7-4a3b-b12c-12acc2685bd1';
+            $('.xxggGmfw').show();
+            $('.xxggIndex').hide();
+            // getDataList(channel,currPage, pageSize,noticeType,regionCode);
+        }
+        
+        //公告类型点击
+        $('.noticeType ul li').click(function () {
+            $(this).addClass('xxggActive').siblings().removeClass('xxggActive');
+            noticeType = $(this).attr('codes');
+            getDataList(channel,currPage, pageSize, noticeType, regionCode);
+        });
+
+        //列表数据加载
+        function getDataList(channel,currPage, pageSize,  noticeType,  regionCode,resetting) {
+            if (resetting) {
+                if(xxggType=='123'){
+                    noticeType='00101,001011';
+                }else{
+                    //暂定 以防以后修改
+                    noticeType='00101,001011';
+                }
+                regionCode = '610001';
+                purchaseManner = '';
+                $('.noticeType ul li').eq(0).addClass('xxggActive').siblings().removeClass('xxggActive');
+                $('#areaNews li').eq(0).addClass('xxggActive').siblings().removeClass('xxggActive');
+                var select = 'dd[lay-value=' + -1 + ']';
+                var selectTree = 'li[code=' + -1 + ']';
+                $('#tree').siblings("div.layui-treeSelect").find('div.layui-treeSelect-body').find(selectTree).find('a').click();
+                $('#purchaseNature ').siblings("div.layui-form-select").find('dl').find(select).click();
+                $('#purchaseManner').siblings("div.layui-form-select").find('dl').find(select).click();
+                title = $('#titleName').val('');
+                openTenderCode = $('#purchaseNumber').val('');
+                purchaseNature = '';
+                operationStartTime = $('#stateDate').val('');
+                operationEndTime = $('#endDate').val('');
+                getDataList(channel,currPage, pageSize, noticeType, regionCode);
+            }
+            //采购方式选择
+            layui.use(['form'], function(){
+                var form = layui.form;
+                form.on('select(caigoufangshiNews)', function(data){
+                    if(data.value!="-1"){
+                        purchaseManner = data.value;
+                    }else{
+                        purchaseManner = '';
+                    }
+                });
+                form.on('select(pingmuNews)', function(data){
+                    if(data.value!="-1"){
+                        purchaseNature = data.value;
+                    }else{
+                        purchaseNature = '';
+                    }
+                });
+            });
+
+            title = $('#titleName').val();
+            openTenderCode = $('#purchaseNumber').val();
+            // 计算日期范围
+            var today2 = new Date();
+            var threeYearsAgo2 = new Date();
+            threeYearsAgo2.setFullYear(today2.getFullYear() - 3);
+            operationStartTime = $('#stateDate').val() || formatDateTime(new Date(threeYearsAgo2));
+            operationEndTime = $('#endDate').val()|| formatDateTime(new Date(today2));
+            verifyCode = $('#verifycode').val();
+            if(xxggType=='124'){
+                var data = '?&siteId=' + siteId + '&channel=' + channel + '&currPage=' + currPage + '&pageSize=' + pageSize + '&' + 'noticeType' + '=' + noticeType +
+                    '&regionCode=' + regionCode+'&purchaseManner='+ purchaseManner+'&title='+ title+'&verifyCode='+ verifyCode+
+                    '&openTenderCode=' + openTenderCode+
+                    '&purchaseNature=' + purchaseNature+'&operationStartTime='+ operationStartTime+'&operationEndTime='+ operationEndTime+"&selectTimeName="+selectTimeName+"&govService="+govService+"&cityOrArea="+cityOrArea;
+            }else{
+                var data = '?&siteId=' + siteId + '&channel=' + channel + '&currPage=' + currPage + '&pageSize=' + pageSize + '&' + 'noticeType' + '=' + noticeType +
+                    '&regionCode=' + regionCode+'&purchaseManner='+ purchaseManner+'&title='+ title+'&verifyCode='+ verifyCode+
+                    '&openTenderCode=' + openTenderCode+
+                    '&purchaseNature=' + purchaseNature+'&operationStartTime='+ operationStartTime+'&operationEndTime='+ operationEndTime+"&selectTimeName="+selectTimeName+"&cityOrArea="+cityOrArea;
+            }
+            var url = getFreecms() +'/rest/v1/notice/selectInfoMoreChannel.do';
+            var nowTime = new Date().getTime();
+            var encryptContent = hex_md5(hex_sha1(nowTime+'_'+String(url).split('?')[0]+'_bosssoft_platform_095285'));
+            $.ajax({
+                type: 'GET',
+                url: getFreecms()+'/rest/v1/notice/selectInfoMoreChannel.do' + data,
+                headers:{
+                    'nsssjss':encryptByRSA(getFreecms() +'/rest/v1/notice/selectInfoMoreChannel.do' + '$$'+ new Date().getTime()),
+                    'time':nowTime,
+                    'url':url,
+                    'sign':encryptContent
+                },
+                contentType: "application/json;charset=utf-8",
+                success: function (res) {
+                    var obj = res.data;
+                    // 分页
+                    total = res.total;
+                    new Page({
+                        id: 'pagination',
+                        pageTotal: Math.ceil((total / pageSize)), //必填,总页数
+                        pageAmount: pageSize,  //每页多少条
+                        dataTotal: total, //总共多少条数据
+                        curPage:currPage, //初始页码,不填默认为1
+                        pageSize: 5, //分页个数,不填默认为5
+                        showPageTotalFlag:true, //是否显示数据统计,不填默认不显示
+                        showSkipInputFlag:true, //是否支持跳转,不填默认不显示
+                        getPage: function (page) {
+                            //获取当前页数
+                            currPage = page;
+                            getDataList(channel,currPage, pageSize, noticeType, regionCode);
+                        }
+                    });
+                    $(".noticeListUl").empty();
+                    if(res.code == -1) {
+                        $("#verifycode").val("");
+                        refreshCode();
+                        alert("验证码错误或已失效，请重新输入");
+                        $("#pagination").hide();
+                        $("#verifycodefinshed").show();
+                    }else if (obj.length > 0) {
+                        for (var i = 0; i < obj.length; i++) {
+                            var htmlTr = '';
+                            var num=i+1;
+                            var time = obj[i].noticeTime;
+                            if(time){
+                                time = time.substr(0, 10);
+                            }else{
+                                time = '无'
+                            }
+                            var titleVal='';
+                            // 给公告标题带有(已撤销)字眼的文本变成红色字体
+                            if(obj[i].title && obj[i].title.indexOf("(已撤销)")===-1){
+                                titleVal = obj[i].title;
+                            }else if(obj[i].title && obj[i].title.indexOf("(已撤销)")){
+                                titleVal = obj[i].title.replace(/\(已撤销\)/, "<font color=red>$&</font>");
+                            }else{
+                                titleVal = ''
+                            }
+                            var regionName = '';
+                            if(obj[i].regionName){
+                                regionName = obj[i].regionName;
+                            }else{
+                                regionName = '无'
+                            }
+                            var url=obj[i].pageurl+'?'+'noticeType='+obj[i].noticeType+'&noticeId='+obj[i].id;
+                            htmlTr='<li>' +
+                                '<a href="'+ url + '"  target="_blank">' +
+                                '<span>'+ (10 * (currPage - 1) + num) +'</span>' +
+                                '<span>'+regionName+'</span>' +
+                                '<span>'+titleVal+'</span>' +
+                                '<span>'+time+'</span>' +
+                                '</a>' +
+                                '</li>';
+                            $(".noticeListUl").append(htmlTr);
+                        }
+                        $("#pagination").show()
+                        $("#verifycodefinshed").hide();
+                    } else {
+                        $(".noticeListUl").append('<p style="text-align: center;margin-top: 40px;">暂无数据</p>');
+                        $("#pagination").hide()
+                        $("#verifycodefinshed").hide();
+                    }
+
+                }
+            });
+        }
+        // 查询
+        $("#Inquire").click(function () {
+            currPage = 1;
+            getDataList(channel,currPage, pageSize,noticeType,regionCode);
+        });
+        //重置
+        $('#queryReset').click(function () {
+            regionCode='';
+            getDataList(channel,currPage, pageSize,noticeType,regionCode,1);
+        });
+
+        //layui初始化加载
+        layui.use(['form', 'layedit', 'laydate'], function(){
+            var form = layui.form
+                ,laydate = layui.laydate;
+
+             // 日期格式化函数
+            function formatDate(date) {
+                var year = date.getFullYear();
+                var month = (date.getMonth() + 1).toString().padStart(2, '0');
+                var day = date.getDate().toString().padStart(2, '0');
+                var hours = date.getHours().toString().padStart(2, '0');
+                var minutes = date.getMinutes().toString().padStart(2, '0');
+                var seconds = date.getSeconds().toString().padStart(2, '0');
+                return year + '-' + month + '-' + day + ' ' + hours + ':' + minutes + ':' + seconds;
+
+            }
+
+            // 计算日期范围
+            var today = new Date();
+            var threeYearsAgo = new Date();
+            threeYearsAgo.setFullYear(today.getFullYear() - 3);
+
+            var minDateStr = formatDate(threeYearsAgo);
+            var maxDateStr = formatDate(today);
+
+            //日期
+            laydate.render({
+                elem: '#stateDate',
+                min: minDateStr,
+                max: maxDateStr,
+                type: 'datetime',
+                trigger:'click'
+            });
+            laydate.render({
+                elem: '#endDate',
+                min: minDateStr,
+                max: maxDateStr,
+                type: 'datetime',
+                trigger:'click',
+            });
+            form.render();
+        });
+    })
+</script>
+<style>
+    .ztree li span.button{
+        width: 0;
+    }
+    .layui-treeSelect .ztree li span.button.ico_docu:before{
+        content: "";
+    }
+    .layui-treeSelect .ztree li a.curSelectedNode{
+        color: #3888fe;
+    }
+    .layui-treeSelect.layui-form-select .layui-anim{
+        width: 187px!important;
+        overflow-x: auto;
+    }
+    .layui-form-select dl::-webkit-scrollbar,.layui-treeSelect.layui-form-select .layui-anim::-webkit-scrollbar{
+        width: 2px!important;
+        height: 5px!important;
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+</style>

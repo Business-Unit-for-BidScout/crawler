@@ -1,0 +1,722 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>招标采购-西安医学院第二附属医院三级甲等医院</title><META Name="keywords" Content="web,招标采购" />
+
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/banner.css" />
+    <link rel="stylesheet" href="../css/list.css" />
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232306975475650555742000400014256 -->
+<link rel="stylesheet" type="text/css" href="../list.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc|mobile|pad"></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1099,'/list.jsp',-1,2014026884)</script>
+</head>
+<body>
+    <div class="toplink">    <script language="javascript" src="/system/resource/js/dynclicks.js"></script>
+                            <a href="../sy.htm" title="公众版" onclick="_addDynClicks(&#34;wbimage&#34;, 2014026884, 1008485)" target="_blank" class="text" style="background-image: url(../images/24/03/25/1sd2lytyd3/index36.png);">
+                             公众版
+                            </a>
+
+
+                            <a href="../Staff/sy.htm" title="员工版" onclick="_addDynClicks(&#34;wbimage&#34;, 2014026884, 1008484)" target="_blank" class="text" style="background-image: url(../images/24/03/25/1sd2lytyd3/index35.png);">
+                             员工版
+                            </a>
+
+
+                            <a href="https://oa.xy2fy.com.cn/#/login" title="0A系统" onclick="_addDynClicks(&#34;wbimage&#34;, 2014026884, 1008483)" target="_blank" class="text" style="background-image: url(../images/24/03/25/1sd2lytyd3/index34.png);">
+                             0A系统
+                            </a>
+
+</div>
+    <!-- 头 -->
+    <div class="header">
+        <a name="top"></a>
+        <!-- 搜索栏 -->
+        <div class="search fr">
+            <div class="search_box">
+                <div class="search_wrap clearfix">
+                   <script type="text/javascript">
+    function _nl_ys_check() {
+
+        var keyword = document.getElementById('showkeycode1106721').value;
+        if (keyword == null || keyword == "") {
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if (window.toFF == 1) {
+            document.getElementById("lucenenewssearchkey1106721").value = Simplized(keyword);
+        } else {
+            document.getElementById("lucenenewssearchkey1106721").value = keyword;
+        }
+        var base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1106721").value = base64.encode(document.getElementById("lucenenewssearchkey1106721").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1106721"));
+        return true;
+    } 
+</script>
+<form action="../search.jsp?wbtreeid=1099" method="post" id="au1a" name="au1a" onsubmit="return _nl_ys_check()" style="display: inline">
+    <input type="hidden" id="lucenenewssearchkey1106721" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype1106721" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope1106721" name="searchScope" value="0">
+    <input type="text" placeholder="请输入关键词" class="text" name="showkeycode" id="showkeycode1106721">
+    <input align="absmiddle" type="submit" value="" class="submit">
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+
+                </div>
+                <a class="cd-popup-close close_btn " href="javascript:;"></a>
+            </div>
+        </div>
+        <div class="topline"></div>
+        <div class="top">
+            <div class="back"></div>
+            <div class="block">
+                <!-- 手机端菜单按钮  搜索按钮 -->
+                <img class="search_an search_btn" src="../image/ssfdj1.png">
+                <div class="minimenu"><span></span><span></span><span></span></div>
+                <!-- 手机端菜单 -->
+                <div class="nav">
+                    <ul class="clearfix ul2">
+            <li>
+            <a href="../sy.htm">首页</a>
+        </li>
+        <li>
+            <a href="../yygk.htm">医院概况</a>
+                    <i></i>
+                    <ol>
+                            <li>
+                                <a href="../yygk/yyjs.htm">医院介绍</a>
+                            </li>
+                            <li>
+                                <a href="../yygk/zzjg.htm">组织机构</a>
+                            </li>
+                            <li>
+                                <a href="../yygk/fzlc.htm">发展历程</a>
+                            </li>
+                            <li>
+                                <a href="../yygk/yyld.htm">医院领导</a>
+                            </li>
+                            <li>
+                                <a href="../yygk/rydt.htm">荣誉殿堂</a>
+                            </li>
+                            <li>
+                                <a href="../yygk/yydsj.htm">医院大事记</a>
+                            </li>
+                    </ol>
+        </li>
+        <li>
+            <a href="../yyxw/yyxw.htm">医院新闻</a>
+                    <i></i>
+                    <ol>
+                            <li>
+                                <a href="../yyxw/yyxw.htm">医院新闻</a>
+                            </li>
+                            <li>
+                                <a href="../yyxw/tzgg.htm">通知公告</a>
+                            </li>
+                    </ol>
+        </li>
+        <li>
+            <a href="../zjjs1.htm">专家教授</a>
+        </li>
+        <li>
+            <a href="../ksdh.htm">科室导航</a>
+                    <i></i>
+                    <ol>
+                            <li>
+                                <a href="../ksdh/lcks.htm">临床科室</a>
+                            </li>
+                            <li>
+                                <a href="../ksdh/yjks.htm">医技科室</a>
+                            </li>
+                            <li>
+                                <a href="../ksdh/xzks.htm">行政科室</a>
+                            </li>
+                            <li>
+                                <a href="../ksdh/tsks.htm">特色科室</a>
+                            </li>
+                    </ol>
+        </li>
+        <li>
+            <a href="../jyzn.htm">就医指南</a>
+                    <i></i>
+                    <ol>
+                            <li>
+                                <a href="../jyzn/mzzn.htm">门诊指南</a>
+                            </li>
+                            <li>
+                                <a href="../jyzn/bmfw.htm">便民服务</a>
+                            </li>
+                            <li>
+                                <a href="../jyzn/zyzn.htm">住院指南</a>
+                            </li>
+                            <li>
+                                <a href="../jyzn/czsj.htm">出诊时间</a>
+                            </li>
+                            <li>
+                                <a href="../jyzn/yktbl.htm">一卡通办理</a>
+                            </li>
+                            <li>
+                                <a href="../jyzn/jtzn.htm">交通指南</a>
+                            </li>
+                            <li>
+                                <a href="../jyzn/yygh.htm">预约挂号</a>
+                            </li>
+                            <li>
+                                <a href="../jyzn/jggs.htm">价格公示</a>
+                            </li>
+                            <li>
+                                <a href="../jyzn/jkjy.htm">健康教育</a>
+                            </li>
+                            <li>
+                                <a href="../jyzn/fjzl.htm">分级诊疗</a>
+                            </li>
+                    </ol>
+        </li>
+        <li>
+            <a href="../dqgz.htm">党群工作</a>
+                    <i></i>
+                    <ol>
+                            <li>
+                                <a href="../dqgz/dqjs.htm">党群建设</a>
+                            </li>
+                            <li>
+                                <a href="../dqgz/bljs.htm">堡垒建设</a>
+                            </li>
+                            <li>
+                                <a href="../dqgz/zthd.htm">主题活动</a>
+                            </li>
+                            <li>
+                                <a href="../dqgz/jjjc.htm">纪检监察</a>
+                            </li>
+                            <li>
+                                <a href="../dqgz/ghgz.htm">工会工作</a>
+                            </li>
+                            <li>
+                                <a href="../dqgz/twgz.htm">团委工作</a>
+                            </li>
+                            <li>
+                                <a href="../dqgz/ydyf.htm">医德医风</a>
+                            </li>
+                    </ol>
+        </li>
+        <li>
+            <a href="../ybzq/ybhzjzz.htm">医保专区</a>
+                    <i></i>
+                    <ol>
+                            <li>
+                                <a href="../ybzq/ybhzjzz.htm">医保患者就诊知</a>
+                            </li>
+                            <li>
+                                <a href="../ybzq/xascxjmybjzxz.htm">西安市城乡居民医保就诊须知</a>
+                            </li>
+                            <li>
+                                <a href="../ybzq/xasczzgybjzxz.htm">西安市城镇职工医保就诊须知</a>
+                            </li>
+                            <li>
+                                <a href="../ybzq/sxszgybjzxz.htm">陕西省职工医保就诊须知</a>
+                            </li>
+                    </ol>
+        </li>
+        <li>
+            <a href="jgjrysb.htm">信息公开</a>
+                    <i></i>
+                    <ol>
+                            <li>
+                                <a href="jgjrysb.htm">机构及人员识别</a>
+                            </li>
+                            <li>
+                                <a href="sbjjsxk.htm">设备及技术许可</a>
+                            </li>
+                            <li>
+                                <a href="yjpt.htm">研究平台</a>
+                            </li>
+                            <li>
+                                <a href="jggs.htm">价格公示</a>
+                            </li>
+                            <li>
+                                <a href="zbcg.htm">招标采购</a>
+                            </li>
+                            <li>
+                                <a href="kpjj.htm">科普健教</a>
+                            </li>
+                    </ol>
+        </li>
+        <li>
+            <a href="../jxky.htm">教学科研</a>
+                    <i></i>
+                    <ol>
+                            <li>
+                                <a href="../jxky/sxzx.htm">实训中心</a>
+                            </li>
+                            <li>
+                                <a href="../jxky/jxk1.htm">教学科</a>
+                            </li>
+                            <li>
+                                <a href="../jxky/jxzlpjbgs.htm">教学质量评价办公室</a>
+                            </li>
+                            <li>
+                                <a href="../jxky/kyk.htm">科研科</a>
+                            </li>
+                            <li>
+                                <a href="../jxky/xsk.htm">学生科</a>
+                            </li>
+                            <li>
+                                <a href="../jxky/lczyrz.htm">临床专业认证</a>
+                            </li>
+                            <li>
+                                <a href="../jxky/lcsyzx.htm">临床试验中心</a>
+                            </li>
+                            <li>
+                                <a href="../jxky/zxsys.htm">中心实验室</a>
+                            </li>
+                    </ol>
+        </li>
+        <li>
+            <a href="../hlyd.htm">护理园地</a>
+                    <i></i>
+                    <ol>
+                            <li>
+                                <a href="../hlyd/ggdt.htm">公告动态</a>
+                            </li>
+                            <li>
+                                <a href="../hlyd/tsfc.htm">天使风采</a>
+                            </li>
+                            <li>
+                                <a href="../hlyd/hlgk.htm">护理概况</a>
+                            </li>
+                            <li>
+                                <a href="../hlyd/hlgl.htm">护理管理</a>
+                            </li>
+                            <li>
+                                <a href="../hlyd/zkgl.htm">专科管理</a>
+                            </li>
+                            <li>
+                                <a href="../hlyd/hljx.htm">护理教学</a>
+                            </li>
+                            <li>
+                                <a href="../hlyd/jxpx.htm">进修培训</a>
+                            </li>
+                            <li>
+                                <a href="../hlyd/hlwh.htm">护理文化</a>
+                            </li>
+                    </ol>
+        </li>
+        <li>
+            <a href="../xfts11.htm">行风投诉</a>
+        </li>
+        <li>
+            <a href="../yyxc.htm">医院宣传</a>
+                    <i></i>
+                    <ol>
+                            <li>
+                                <a href="../yyxc/yywh.htm">医院文化</a>
+                            </li>
+                            <li>
+                                <a href="../yyxc/mtey1.htm">媒体二院</a>
+                            </li>
+                            <li>
+                                <a href="../yyxc/spzs.htm">视频展示</a>
+                            </li>
+                            <li>
+                                <a href="../yyxc/dzyk.htm">电子院刊</a>
+                            </li>
+                            <li>
+                                <a href="../yyxc/zgzzllxx.htm">职工政治理论学习</a>
+                            </li>
+                    </ol>
+        </li>
+
+</ul>
+                </div>
+                <div class="logo">
+                    
+<a href="../index.htm" class="logo1">
+                        <img src="../images/index33129.png" alt="">
+                    </a>
+                </div>
+                <div class="right">
+                    <div class="r_top">
+                        <div class="r_top1">
+                                
+                            <a href="../sy.htm" title="公众版" onclick="_addDynClicks(&#34;wbimage&#34;, 2014026884, 1008485)" target="_blank" class="text" style="background-image: url(../images/24/03/25/1sd2lytyd3/index36.png);">
+                             公众版
+                            </a>
+
+
+                            <a href="../Staff/sy.htm" title="员工版" onclick="_addDynClicks(&#34;wbimage&#34;, 2014026884, 1008484)" target="_blank" class="text" style="background-image: url(../images/24/03/25/1sd2lytyd3/index35.png);">
+                             员工版
+                            </a>
+
+
+                            <a href="https://oa.xy2fy.com.cn/#/login" title="0A系统" onclick="_addDynClicks(&#34;wbimage&#34;, 2014026884, 1008483)" target="_blank" class="text" style="background-image: url(../images/24/03/25/1sd2lytyd3/index34.png);">
+                             0A系统
+                            </a>
+
+
+                            <div class="input">
+                                <script type="text/javascript">
+    function _nl_ys_check1() {
+
+        var keyword = document.getElementById('showkeycode1106715').value;
+        if (keyword == null || keyword == "") {
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if (window.toFF == 1) {
+            document.getElementById("lucenenewssearchkey1106715").value = Simplized(keyword);
+        } else {
+            document.getElementById("lucenenewssearchkey1106715").value = keyword;
+        }
+        var base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1106715").value = base64.encode(document.getElementById("lucenenewssearchkey1106715").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1106715"));
+        return true;
+    } 
+</script>
+<form action="../search.jsp?wbtreeid=1099" method="post" id="au5a" name="au5a" onsubmit="return _nl_ys_check1()" style="display: inline">
+    <input type="hidden" id="lucenenewssearchkey1106715" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype1106715" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope1106715" name="searchScope" value="0">
+    <input type="text" class="input1" name="showkeycode" id="showkeycode1106715">
+    <input type="submit" value="" align="absmiddle" class="icon">
+</form>
+
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="topheight"></div>
+        <!-- pc端菜单栏 -->
+        <div class="menuOutside">
+            <div class="menu">
+            <div class="item ">
+            <a href="../sy.htm" class="text">首页 </a>
+        </div>
+        <div class="item ">
+                    <div class="menu2">
+                    <div class="menu409">
+                            <a href="../yygk/yyjs.htm" class="menu2item">医院介绍</a>
+                            <a href="../yygk/zzjg.htm" class="menu2item">组织机构</a>
+                            <a href="../yygk/fzlc.htm" class="menu2item">发展历程</a>
+                            <a href="../yygk/yyld.htm" class="menu2item">医院领导</a>
+                            <a href="../yygk/rydt.htm" class="menu2item">荣誉殿堂</a>
+                            <a href="../yygk/yydsj.htm" class="menu2item">医院大事记</a>
+                    </div>
+                    </div>
+            <a href="../yygk.htm" class="text">医院概况 </a>
+        </div>
+        <div class="item ">
+                    <div class="menu2">
+                    <div class="menu409">
+                            <a href="../yyxw/yyxw.htm" class="menu2item">医院新闻</a>
+                            <a href="../yyxw/tzgg.htm" class="menu2item">通知公告</a>
+                    </div>
+                    </div>
+            <a href="../yyxw/yyxw.htm" class="text">医院新闻 </a>
+        </div>
+        <div class="item ">
+            <a href="../zjjs1.htm" class="text">专家教授 </a>
+        </div>
+        <div class="item ">
+                    <div class="menu2">
+                    <div class="menu409">
+                            <a href="../ksdh/lcks.htm" class="menu2item">临床科室</a>
+                            <a href="../ksdh/yjks.htm" class="menu2item">医技科室</a>
+                            <a href="../ksdh/xzks.htm" class="menu2item">行政科室</a>
+                            <a href="../ksdh/tsks.htm" class="menu2item">特色科室</a>
+                    </div>
+                    </div>
+            <a href="../ksdh.htm" class="text">科室导航 </a>
+        </div>
+        <div class="item ">
+                    <div class="menu2">
+                    <div class="menu409">
+                            <a href="../jyzn/mzzn.htm" class="menu2item">门诊指南</a>
+                            <a href="../jyzn/bmfw.htm" class="menu2item">便民服务</a>
+                            <a href="../jyzn/zyzn.htm" class="menu2item">住院指南</a>
+                            <a href="../jyzn/czsj.htm" class="menu2item">出诊时间</a>
+                            <a href="../jyzn/yktbl.htm" class="menu2item">一卡通办理</a>
+                            <a href="../jyzn/jtzn.htm" class="menu2item">交通指南</a>
+                            <a href="../jyzn/yygh.htm" class="menu2item">预约挂号</a>
+                            <a href="../jyzn/jggs.htm" class="menu2item">价格公示</a>
+                            <a href="../jyzn/jkjy.htm" class="menu2item">健康教育</a>
+                            <a href="../jyzn/fjzl.htm" class="menu2item">分级诊疗</a>
+                    </div>
+                    </div>
+            <a href="../jyzn.htm" class="text">就医指南 </a>
+        </div>
+        <div class="item ">
+                    <div class="menu2">
+                    <div class="menu409">
+                            <a href="../dqgz/dqjs.htm" class="menu2item">党群建设</a>
+                            <a href="../dqgz/bljs.htm" class="menu2item">堡垒建设</a>
+                            <a href="../dqgz/zthd.htm" class="menu2item">主题活动</a>
+                            <a href="../dqgz/jjjc.htm" class="menu2item">纪检监察</a>
+                            <a href="../dqgz/ghgz.htm" class="menu2item">工会工作</a>
+                            <a href="../dqgz/twgz.htm" class="menu2item">团委工作</a>
+                            <a href="../dqgz/ydyf.htm" class="menu2item">医德医风</a>
+                    </div>
+                    </div>
+            <a href="../dqgz.htm" class="text">党群工作 </a>
+        </div>
+        <div class="item ">
+                    <div class="menu2">
+                    <div class="menu409">
+                            <a href="../ybzq/ybhzjzz.htm" class="menu2item">医保患者就诊知</a>
+                            <a href="../ybzq/xascxjmybjzxz.htm" class="menu2item">西安市城乡居民医保就诊须知</a>
+                            <a href="../ybzq/xasczzgybjzxz.htm" class="menu2item">西安市城镇职工医保就诊须知</a>
+                            <a href="../ybzq/sxszgybjzxz.htm" class="menu2item">陕西省职工医保就诊须知</a>
+                    </div>
+                    </div>
+            <a href="../ybzq/ybhzjzz.htm" class="text">医保专区 </a>
+        </div>
+        <div class="item menuStyle">
+                    <div class="menu2">
+                    <div class="menu409">
+                            <a href="jgjrysb.htm" class="menu2item">机构及人员识别</a>
+                            <a href="sbjjsxk.htm" class="menu2item">设备及技术许可</a>
+                            <a href="yjpt.htm" class="menu2item">研究平台</a>
+                            <a href="jggs.htm" class="menu2item">价格公示</a>
+                            <a href="zbcg.htm" class="menu2item">招标采购</a>
+                            <a href="kpjj.htm" class="menu2item">科普健教</a>
+                    </div>
+                    </div>
+            <a href="jgjrysb.htm" class="text">信息公开 </a>
+        </div>
+        <div class="item ">
+                    <div class="menu2">
+                    <div class="menu409">
+                            <a href="../jxky/sxzx.htm" class="menu2item">实训中心</a>
+                            <a href="../jxky/jxk1.htm" class="menu2item">教学科</a>
+                            <a href="../jxky/jxzlpjbgs.htm" class="menu2item">教学质量评价办公室</a>
+                            <a href="../jxky/kyk.htm" class="menu2item">科研科</a>
+                            <a href="../jxky/xsk.htm" class="menu2item">学生科</a>
+                            <a href="../jxky/lczyrz.htm" class="menu2item">临床专业认证</a>
+                            <a href="../jxky/lcsyzx.htm" class="menu2item">临床试验中心</a>
+                            <a href="../jxky/zxsys.htm" class="menu2item">中心实验室</a>
+                    </div>
+                    </div>
+            <a href="../jxky.htm" class="text">教学科研 </a>
+        </div>
+        <div class="item ">
+                    <div class="menu2">
+                    <div class="menu409">
+                            <a href="../hlyd/ggdt.htm" class="menu2item">公告动态</a>
+                            <a href="../hlyd/tsfc.htm" class="menu2item">天使风采</a>
+                            <a href="../hlyd/hlgk.htm" class="menu2item">护理概况</a>
+                            <a href="../hlyd/hlgl.htm" class="menu2item">护理管理</a>
+                            <a href="../hlyd/zkgl.htm" class="menu2item">专科管理</a>
+                            <a href="../hlyd/hljx.htm" class="menu2item">护理教学</a>
+                            <a href="../hlyd/jxpx.htm" class="menu2item">进修培训</a>
+                            <a href="../hlyd/hlwh.htm" class="menu2item">护理文化</a>
+                    </div>
+                    </div>
+            <a href="../hlyd.htm" class="text">护理园地 </a>
+        </div>
+        <div class="item ">
+            <a href="../xfts11.htm" class="text">行风投诉 </a>
+        </div>
+        <div class="item ">
+                    <div class="menu2">
+                    <div class="menu409">
+                            <a href="../yyxc/yywh.htm" class="menu2item">医院文化</a>
+                            <a href="../yyxc/mtey1.htm" class="menu2item">媒体二院</a>
+                            <a href="../yyxc/spzs.htm" class="menu2item">视频展示</a>
+                            <a href="../yyxc/dzyk.htm" class="menu2item">电子院刊</a>
+                            <a href="../yyxc/zgzzllxx.htm" class="menu2item">职工政治理论学习</a>
+                    </div>
+                    </div>
+            <a href="../yyxc.htm" class="text">医院宣传 </a>
+        </div>
+    <div class="clear"></div>
+</div>
+        </div>
+        <div class="banner">
+            <div class="erjilmu">
+                <div class="erjilmubt">
+                    
+
+
+
+<h5>招标采购</h5>
+                    <div class="cont-navi">
+                        <ul>
+
+
+<li class="mn_l1 home"><a href="../index.htm"><span>引导页</span></a></li>
+
+<li class="mn_l1 "><a href="jgjrysb.htm"><span>信息公开</span></a></li>
+
+<li class="mn_l1 "><a href="zbcg.htm"><span>招标采购</span></a></li>
+
+</ul>
+                    </div>
+                </div>
+                <div class="erjilmulist"><a href="jgjrysb.htm" class="erjilmuitem ">机构及人员识别</a>
+                    
+<a href="sbjjsxk.htm" class="erjilmuitem ">设备及技术许可</a>
+                    
+<a href="yjpt.htm" class="erjilmuitem ">研究平台</a>
+                    
+<a href="jggs.htm" class="erjilmuitem ">价格公示</a>
+                    
+<a href="zbcg.htm" class="erjilmuitem style curr">招标采购</a>
+                    
+<a href="kpjj.htm" class="erjilmuitem ">科普健教</a>
+                    
+</div>
+            </div>
+            <div class="slider"><div class="item">
+                    <div class="image">
+                        <img src="../images/sideb-4.jpg" />
+                    </div>
+                </div></div>
+        </div>
+    </div>
+    <div class="ybzq">
+        <div class="box">
+
+<script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><div class="list81">
+                
+<a href="../info/1099/8919.htm" target="_blank" title="口腔科西侧医疗街路面改造项目  磋商公告" class="item" id="line_u11_0">
+                    <div class="block">
+                        <div class="date">2026-06-26</div>
+                        <div class="title">口腔科西侧医疗街路面改造项目  磋商公告</div>
+                    </div>
+                </a>
+                
+<a href="../info/1099/8902.htm" target="_blank" title="《神经系统疾病》智慧慕课建设项目 中标公告" class="item" id="line_u11_1">
+                    <div class="block">
+                        <div class="date">2026-06-22</div>
+                        <div class="title">《神经系统疾病》智慧慕课建设项目 中标公告</div>
+                    </div>
+                </a>
+                
+<a href="../info/1099/8901.htm" target="_blank" title="《临床麻醉学》智能体课程建设服务项目 中标公告" class="item" id="line_u11_2">
+                    <div class="block">
+                        <div class="date">2026-06-22</div>
+                        <div class="title">《临床麻醉学》智能体课程建设服务项目 中标公告</div>
+                    </div>
+                </a>
+                
+<a href="../info/1099/8855.htm" target="_blank" title="职工餐厅外包项目  遴选公告" class="item" id="line_u11_3">
+                    <div class="block">
+                        <div class="date">2026-06-16</div>
+                        <div class="title">职工餐厅外包项目  遴选公告</div>
+                    </div>
+                </a>
+                
+<a href="../info/1099/8843.htm" target="_blank" title="生物刺激反馈仪 磋商终止公告" class="item" id="line_u11_4">
+                    <div class="block">
+                        <div class="date">2026-06-15</div>
+                        <div class="title">生物刺激反馈仪 磋商终止公告</div>
+                    </div>
+                </a>
+                
+<a href="../info/1099/8842.htm" target="_blank" title="呼吸能力综合评估工作站项目 磋商公告" class="item" id="line_u11_5">
+                    <div class="block">
+                        <div class="date">2026-06-15</div>
+                        <div class="title">呼吸能力综合评估工作站项目 磋商公告</div>
+                    </div>
+                </a>
+                
+<a href="../info/1099/8805.htm" target="_blank" title="《神经系统疾病》智慧慕课建设项目  磋商公告" class="item" id="line_u11_6">
+                    <div class="block">
+                        <div class="date">2026-06-02</div>
+                        <div class="title">《神经系统疾病》智慧慕课建设项目  磋商公告</div>
+                    </div>
+                </a>
+                
+<a href="../info/1099/8804.htm" target="_blank" title="《临床麻醉学》智能体课程建设服务项目  磋商公告" class="item" id="line_u11_7">
+                    <div class="block">
+                        <div class="date">2026-06-02</div>
+                        <div class="title">《临床麻醉学》智能体课程建设服务项目  磋商公告</div>
+                    </div>
+                </a>
+                
+<a href="../info/1099/8775.htm" target="_blank" title="生物刺激反馈仪磋商公告" class="item" id="line_u11_8">
+                    <div class="block">
+                        <div class="date">2026-05-25</div>
+                        <div class="title">生物刺激反馈仪磋商公告</div>
+                    </div>
+                </a>
+                
+<a href="../info/1099/8756.htm" target="_blank" title="医院主院区中央空调主机组保养检修项目 中标公告" class="item" id="line_u11_9">
+                    <div class="block">
+                        <div class="date">2026-05-18</div>
+                        <div class="title">医院主院区中央空调主机组保养检修项目 中标公告</div>
+                    </div>
+                </a>
+                
+<a href="../info/1099/8755.htm" target="_blank" title="皮肤科门诊装修改造项目 中标公告" class="item" id="line_u11_10">
+                    <div class="block">
+                        <div class="date">2026-05-18</div>
+                        <div class="title">皮肤科门诊装修改造项目 中标公告</div>
+                    </div>
+                </a>
+                
+<a href="../info/1099/8754.htm" target="_blank" title="2026年充电宝采购项目（二次） 中标公告" class="item" id="line_u11_11">
+                    <div class="block">
+                        <div class="date">2026-05-18</div>
+                        <div class="title">2026年充电宝采购项目（二次） 中标公告</div>
+                    </div>
+                </a>
+                
+<div class="clear"></div>
+            </div>
+            <link rel="stylesheet" Content-type="text/css" href="/system/resource/css/pagedown/sys.css"><div class="pb_sys_common pb_sys_normal pb_sys_style1" style="margin-top:10px;text-align:center;"><span class="p_pages"><span class="p_first_d p_fun_d">首页</span><span class="p_prev_d p_fun_d">上页</span><span class="p_no_d">1</span><span class="p_no"><a href="zbcg/119.htm">2</a></span><span class="p_no"><a href="zbcg/118.htm">3</a></span><span class="p_no"><a href="zbcg/117.htm">4</a></span><span class="p_no"><a href="zbcg/116.htm">5</a></span><span class="p_dot">...</span><span class="p_no"><a href="zbcg/1.htm">120</a></span><span class="p_next p_fun"><a href="zbcg/119.htm">下页</a></span><span class="p_last p_fun"><a href="zbcg/1.htm">尾页</a></span></span></div><script>_showDynClickBatch(['dynclicks_u11_8919','dynclicks_u11_8902','dynclicks_u11_8901','dynclicks_u11_8855','dynclicks_u11_8843','dynclicks_u11_8842','dynclicks_u11_8805','dynclicks_u11_8804','dynclicks_u11_8775','dynclicks_u11_8756','dynclicks_u11_8755','dynclicks_u11_8754'],[8919,8902,8901,8855,8843,8842,8805,8804,8775,8756,8755,8754],"wbnews", 2014026884)</script></div>
+    </div>
+    <!-- 尾 -->
+    <div class="footer409">
+        <div class="item1">
+            <div class="block">
+                <div class="left">
+                    <div class="logo1">    
+
+                        <img src="../images/index129.png" alt="">
+                    
+
+</div>
+                    <div class="text"><script language="javascript" src="/system/resource/js/news/mp4video.js"></script>
+<p class="n1 fisrt"> 咨询电话：029 - 83550817（班内 8:00-12:00 14:00-18:00）15399079450<em>（班后及节假日）</em> </p> 
+<p class="n2"> 体检预约：83553610 &nbsp;住院患者免费车接电话：83533666 </p> 
+<p class="n3"> 地址：西安市东郊纺织城纺东街167号 </p></div>
+                </div>
+                <div class="right">    <div class="item">
+                        <img src="../images/24/04/09/1qavld02n7/zzz11.png" alt="">
+                        <div class="sm">微信订阅号</div>
+                    </div>
+                    
+<div class="item">
+                        <img src="../images/24/04/09/1qavld02n7/zzz12.png" alt="">
+                        <div class="sm">服务号</div>
+                    </div>
+                    
+<div class="item">
+                        <img src="../images/24/04/09/1qavld02n7/zzz13.png" alt="">
+                        <div class="sm">抖音账号</div>
+                    </div>
+                    
+</div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="item2"><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>CopyRight © 西安医学院第二附属医院 版权所有　<a href="http://beian.miit.gov.cn/" target="_blank" style="color: rgb(164, 186, 229); display: inline;">陕ICP备08003370号</a></p></div>
+    </div>
+</body>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+<script type="text/javascript" src="../js/slick.js"></script>
+
+
+</html>

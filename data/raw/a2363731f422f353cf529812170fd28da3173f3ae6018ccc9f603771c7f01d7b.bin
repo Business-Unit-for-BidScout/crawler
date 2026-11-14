@@ -1,0 +1,374 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+        <title>医院公告-职工版-西安儿童医院</title><META Name="keywords" Content="职工版-西安儿童医院,医院公告" />
+
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/bdtxk.js"></script>
+        <script src="../js/slide.js"></script>
+    <!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230697547545352574003090000 -->
+<link rel="stylesheet" type="text/css" href="../list.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc|pad"></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1008,'/list.jsp',-1,1593201900)</script>
+</head>
+    <body>
+        <!-- top开始 -->
+        <div class="p-top">
+            <div class="wrap">
+                <div class="fr">
+                    <ul>
+                        <li><a href="http://www.xachyy.com/sy.htm"><img src="../images/p-top01.png"></a></li>
+                        <li><a href=""><img src="../images/p-top02.png"></a></li>
+                    </ul>
+                    <div class="en">
+                        <h2 class="">English</h2>
+                        <script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script><div class="box">
+
+  <h5 class="on"><a href="http://www.xachyy.com/yrh/ENGLISH/Home_page.htm" onclick="_addDynClicks(&#34;wburl&#34;, 1593201900, 61826)">English</a></h5>
+
+
+
+  <h5><a href="http://www.xachyy.com/yrh/rb_/syrw.htm" onclick="_addDynClicks(&#34;wburl&#34;, 1593201900, 61827)">日本語</a></h5>
+
+
+
+  <h5><a href="http://www.xachyy.com/yrh/hg/hsy.htm" onclick="_addDynClicks(&#34;wburl&#34;, 1593201900, 61828)">韩国语</a></h5>
+
+
+</div>
+                    </div>
+                  <script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode253351').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey253351").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey253351").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey253351").value = base64.encode(document.getElementById("lucenenewssearchkey253351").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode253351"));
+        return true;
+    } 
+</script>
+<form action="../ssjgy.jsp?wbtreeid=1008" method="post" id="au1a" name="au1a" onsubmit="return _nl_ys_check()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkey253351" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype253351" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope253351" name="searchScope" value="0">
+ 
+ 
+   <div class="search">
+                        <input name="showkeycode" id="showkeycode253351" class="ss" type="text">
+                        <input class="btn" type="submit" value="">
+                    </div>
+ 
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!-- top结束 -->
+        <!-- head开始 -->
+        <div class="p-head wrap">
+            <div class="p-logo fl">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="../index.htm" title="儿童医院-职工版"><img src="../images/p-logo1.png"></a></a></div>
+            <!-- nav -->
+            <div class="nav fr">
+<ul>
+<li><a href="../index.htm">首页</a>
+</li>
+<li><a href="../yygk.htm">医院概况</a>
+<dl>
+ <dd><a href="../yygk/yyjj.htm">医院简介</a></dd>
+ <dd><a href="../yygk/ldtd.htm">领导团队</a></dd>
+ <dd><a href="../yygk/zzjg.htm">组织架构</a></dd>
+ <dd><a href="../yygk/dsj.htm">大事记</a></dd>
+ <dd><a href="../yygk/yywh.htm">医院文化</a></dd>
+ <dd><a href="../yygk/yyry.htm">医院荣誉</a></dd>
+</dl>
+</li>
+<li class="on"><a href="../xwzx.htm">新闻中心</a>
+<dl>
+ <dd><a href="xwdt.htm">新闻动态</a></dd>
+ <dd><a href="yygg.htm">医院公告</a></dd>
+ <dd><a href="mtgz.htm">媒体关注</a></dd>
+</dl>
+</li>
+<li><a href="../dqgz.htm">党群工作</a>
+<dl>
+ <dd><a href="../dqgz/jcdj.htm">基层党建</a></dd>
+ <dd><a href="../dqgz/tzgz.htm">统战工作</a></dd>
+ <dd><a href="../dqgz/jjjc.htm">纪检监察</a></dd>
+ <dd><a href="../dqgz/zgzj.htm">职工之家</a></dd>
+ <dd><a href="../dqgz/tyqn.htm">团员青年</a></dd>
+</dl>
+</li>
+<li><a href="../yxjy.htm">医学教研</a>
+<dl>
+ <dd><a href="../yxjy/kyjy.htm">科研教育</a></dd>
+ <dd><a href="../yxjy/hlyd.htm">护理园地</a></dd>
+ <dd><a href="../yxjy/jkxj.htm">健康宣教</a></dd>
+</dl>
+</li>
+<li><a href="../ywgk.htm">院务公开</a>
+<dl>
+ <dd><a href="../ywgk/xfjs.htm">行风建设</a></dd>
+ <dd><a href="../ywgk/rsxx.htm">人事信息</a></dd>
+ <dd><a href="../ywgk/zbcgxx.htm">招标采购信息</a></dd>
+ <dd><a href="../ywgk/xxgkml.htm">信息公开目录</a></dd>
+</dl>
+</li>
+</ul>
+</div>
+            <div class="clear"></div>
+        </div>
+        <!-- head结束 -->
+        <!-- list-banner -->
+        <div class="l-list-banner">
+            <div class="pic"><img src="../images/s-list01.png" /></div>
+        </div>
+        <!-- list-banner -->
+        <div class="s-list-bg">
+            <div class="s-list">
+            <div class="s-list-nav fl">
+                <H5>
+
+
+
+医院公告</H5>
+                <div class="s-list-nav01">
+                <ul>
+
+
+ <li><i></i><a href="xwdt.htm">新闻动态</a></li>
+
+
+
+ <li class="on"><i></i><a href="yygg.htm">医院公告</a></li>
+
+
+
+ <li><i></i><a href="mtgz.htm">媒体关注</a></li>
+
+  </ul>
+                </div>
+            </div>
+            <div class="s-list-nr fr">
+                <div class="s-position"><p>您当前所在位置：
+                        <a href="../index.htm">首页</a>
+                >>
+                <a href="../xwzx.htm">新闻中心</a>
+                >>
+                <a href="yygg.htm">医院公告</a>
+</p></div>
+                
+
+<script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><ul>
+    
+  <li>
+                        <a href="../info/1008/7243.htm"><p>西安市儿童医院工作人员招聘公告</p><i>2026-07-09</i></a>
+                    </li>
+
+
+  <li>
+                        <a href="../info/1008/7152.htm"><p>西安市儿童医院护理人员招聘公告</p><i>2026-05-22</i></a>
+                    </li>
+
+
+  <li>
+                        <a href="../info/1008/6945.htm"><p>药品公示</p><i>2026-03-26</i></a>
+                    </li>
+
+
+  <li>
+                        <a href="../info/1008/6921.htm"><p>药品公示</p><i>2026-03-19</i></a>
+                    </li>
+
+
+  <li>
+                        <a href="../info/1008/6791.htm"><p>药品公示</p><i>2026-02-14</i></a>
+                    </li>
+
+
+  <li>
+                        <a href="../info/1008/6731.htm"><p>药品公示</p><i>2026-01-26</i></a>
+                    </li>
+
+
+  <li>
+                        <a href="../info/1008/6665.htm"><p>药品公示</p><i>2025-11-28</i></a>
+                    </li>
+
+
+  <li>
+                        <a href="../info/1008/6605.htm"><p>药品公示</p><i>2025-09-30</i></a>
+                    </li>
+
+
+  <li>
+                        <a href="../info/1008/6604.htm"><p>药品公示</p><i>2025-09-30</i></a>
+                    </li>
+
+
+  <li>
+                        <a href="../info/1008/6568.htm"><p>药品公示</p><i>2025-08-29</i></a>
+                    </li>
+
+
+  <li>
+                        <a href="../info/1008/6316.htm"><p>西安市儿童医院（西门院区）关于2025年病媒生物防制及监测服务项目工程...</p><i>2025-06-19</i></a>
+                    </li>
+
+
+  <li>
+                        <a href="../info/1008/5722.htm"><p>药品公示</p><i>2025-01-26</i></a>
+                    </li>
+
+
+  <li>
+                        <a href="../info/1008/5721.htm"><p>药品公示</p><i>2025-01-26</i></a>
+                    </li>
+
+
+  <li>
+                        <a href="../info/1008/5711.htm"><p>关于开展医疗就诊卡余额清退的通知</p><i>2025-01-23</i></a>
+                    </li>
+
+
+  <li>
+                        <a href="../info/1008/5671.htm"><p>药品公示</p><i>2025-01-03</i></a>
+                    </li>
+
+    </UL>
+
+<link rel="stylesheet" Content-type="text/css" href="/system/resource/css/pagedown/sys.css"><div class="pb_sys_common pb_sys_normal pb_sys_style4" style="margin-top:10px;text-align:center;"><span class="p_pages"><span class="p_first_d p_fun_d">首页</span><span class="p_prev_d p_fun_d">上页</span><span class="p_no_d">1</span><span class="p_no"><a href="yygg/8.htm">2</a></span><span class="p_no"><a href="yygg/7.htm">3</a></span><span class="p_no"><a href="yygg/6.htm">4</a></span><span class="p_no"><a href="yygg/5.htm">5</a></span><span class="p_dot">...</span><span class="p_no"><a href="yygg/1.htm">9</a></span><span class="p_next p_fun"><a href="yygg/8.htm">下页</a></span><span class="p_last p_fun"><a href="yygg/1.htm">尾页</a></span></span></div><script>_showDynClickBatch(['dynclicks_u8_7243','dynclicks_u8_7152','dynclicks_u8_6945','dynclicks_u8_6921','dynclicks_u8_6791','dynclicks_u8_6731','dynclicks_u8_6665','dynclicks_u8_6605','dynclicks_u8_6604','dynclicks_u8_6568','dynclicks_u8_6316','dynclicks_u8_5722','dynclicks_u8_5721','dynclicks_u8_5711','dynclicks_u8_5671'],[7243,7152,6945,6921,6791,6731,6665,6605,6604,6568,6316,5722,5721,5711,5671],"wbnews", 1593201900)</script>
+            </div>
+            <div class="clear"></div>
+            </div>
+        </div>
+
+    
+
+
+        <!-- footer -->
+        <!-- links -->
+        <div class="links">
+            <div class="wrap">
+                <h5>友情链接 <i>/links</i></h5>
+                <div class="txtMarquee-left links-nr">
+                    <div class="hd">
+                        <a class="next"></a>
+                        <a class="prev"></a>
+                    </div>
+                    <div class="bd">
+                        <ul class="infoList">
+
+
+<li><a href="#" title="中华人民共和国国家卫生和计划生育委员会" onclick="_addDynClicks(&#34;wburl&#34;, 1593201900, 61829)">中华人民共和国国家卫生和计划生育委员会</a></li>
+
+
+
+
+<li><a href="#" title="陕西省卫生和计划生育委员会" onclick="_addDynClicks(&#34;wburl&#34;, 1593201900, 61830)">陕西省卫生和计划生育委员会</a></li>
+
+
+
+
+<li><a href="#" title="西安市卫生和计划生育委员会" onclick="_addDynClicks(&#34;wburl&#34;, 1593201900, 61831)">西安市卫生和计划生育委员会</a></li>
+
+
+
+
+<li><a href="#" title="西安医学护理学会" onclick="_addDynClicks(&#34;wburl&#34;, 1593201900, 61832)">西安医学护理学会</a></li>
+
+
+
+
+<li><a href="#" title="中华医学会" onclick="_addDynClicks(&#34;wburl&#34;, 1593201900, 61833)">中华医学会</a></li>
+
+
+</UL>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<div class="wrap">
+                <div class="pic"><img src="../images/p-part5-06.png"></div>
+<p>Copyright © 2006 -2014 Xi&#39;an Children&#39;s Hospital All Rights Reserved</p><p>版权所有：西安市儿童医院 咨询电话：029-87311818</p><p>陕ICP备05003755号</p>  
+
+</div>
+        </div>
+
+        <!-- fixed -->
+        
+        </div>
+    </body>
+    <!-- 语言下拉 -->
+    <script>
+        $(".p-top .fr .en .box").hide()
+        $(".p-top .fr .en").click(function() {
+            $(".p-top .fr .en .box").slideToggle();
+        });
+    </script>
+    <!-- banner -->
+    <script type="text/javascript">
+        jQuery(".p-banner").slide({
+            mainCell: ".bd ul",
+            effect: "fold",
+            autoPlay: true
+        });
+    </script>
+    <script type="text/javascript">
+    jQuery(".l-part3-nr").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:3,trigger:"click"});
+    </script>
+    <script type="text/javascript">
+    jQuery(".l-part4-nr").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:2,trigger:"click"});
+    </script>
+    
+    <script type="text/javascript">
+        jQuery(".links-nr").slide({
+            mainCell: ".bd ul",
+            autoPlay: true,
+            effect: "leftMarquee",
+            interTime: 50
+        });
+    </script>
+    <script>
+        $(function() {
+            var sc = $(document),
+                win = $(window);
+
+            win.scroll(function() {
+                if (sc.scrollTop() > 200) {
+                    $('.backtop').fadeIn();
+                } else {
+                    $('.backtop').fadeOut();
+                }
+            })
+
+            $('.backtop').click(function() {
+                $("html,body").animate({
+                    "scrollTop": 0
+                }, 500);
+            })
+
+        })
+    </script>
+    </body>
+</html>

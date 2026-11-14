@@ -1,0 +1,97 @@
+全国公共资源交易平台
+政府网站工作年度报表
+服务号
+首页
+机构职能
+交易公开
+工程建设
+政府采购
+土地使用权
+矿业权
+国有产权
+碳排放权
+排污权
+药品采购
+二类疫苗
+林权
+其他
+交易诚信
+违法违规
+奖励信息
+数据服务
+交易统计
+平台导航
+政策法规
+政策法规文件
+政策法规解读
+服务中心
+培训交流
+微信订阅
+意见建议
+调查征集
+关于我们
+首页
+>
+交易公开
+交易查询
+发布时间：
+{{ item.time }}
+-
+一年前数据
+数据来源：
+{{ item.source }}
+交易来源：
+省份：
+不限
+{{ province.name }}
+市：
+不限
+{{ city.name }}
+来源平台：
+不限
+{{ platform.name }}
+交易来源：
+来源平台：
+不限
+{{ platform.name }}
+业务类型：
+{{ item.type }}
+信息类型：
+{{ info.name }}
+行业：
+{{ item.trade }}
+{{ showMoreTrade? '收起∧' : '更多∨' }}
+搜索
+{{ advancedCollapsed ? '高级选项' : '收起∧' }}
+注：数据源于有关部门和各地方公共资源交易平台。
+数据正在搜索中...
+所选条件下暂无信息发布，请重新选择查询条件。
+{{ item.publishTime || '' }}
+省份：
+{{ item.provinceText || '' }}
+来源平台：
+{{ cutString(item.transactionSourcesPlatformText) || '' }}
+业务类型：
+{{ item.businessTypeText || '' }}
+信息类型：
+{{ item.informationTypeText || '' }}
+行业：
+{{ containsChinese(item.industryTypeText) ? item.industryTypeText : '' }}
+上一页
+1
+...
+{{ page }}
+...
+下一页
+网站地图
+|
+网站声明
+|
+添加收藏
+|
+联系我们
+主办：国家信息中心    指导单位： 国家发展和改革委员会
+网站标识码：bm04000008
+京ICP备05052393号-9
+京公网安备11010202007733号
+地址：北京西城区三里河路58号    邮政编码：100045

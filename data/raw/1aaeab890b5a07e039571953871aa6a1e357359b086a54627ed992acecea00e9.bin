@@ -1,0 +1,191 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<meta http-equiv="Expires" CONTENT="0">
+<meta http-equiv="Cache-Control" CONTENT="no-cache">
+<meta http-equiv="Pragma" CONTENT="no-cache">
+<title>西藏民族大学附属医院充电桩合作运营公告---西藏民族大学附属医院</title>
+<link href="images/style.css" rel="stylesheet" type="text/css" />
+<link href="images/index.css" rel="stylesheet" type="text/css" />
+<link href="images/others.css" rel="stylesheet" type="text/css" />
+<link href="images/menu.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="common/scripts/inc.js"></script>
+<script type="text/javascript" src="common/scripts/color/color.js"></script>
+<script type="text/javascript">
+function doZoom(size) {
+	getElementById("content").style.fontSize = size;
+	writeCookie("fontSize", size, 240);
+}
+</script>
+</head>
+
+<body>
+<div id="container">
+  
+
+
+<script type="text/javascript" language="JavaScript" >
+<!--		
+		function searchsubmit(){
+		if(document.form1.searchkey.value==''){
+			alert("请输入搜索关键字");
+			return false;
+		}
+		 document.form1.submit();
+		}
+-->
+</script>
+<script language="javascript" type="text/javascript" src="images/nav.js"></script>
+<div id="top">
+		<div id="logo"></div>
+		<div id="top_right">
+			<div id="tp"></div>
+			<div id="search">	   
+			<form id="form1" name="form1" method="post" action="search">
+				<table width="400" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="right"><img src="images/jyw.jpg" width="157" height="27" /></td>
+                    <td><input type="text" id="searchkey" name="searchkey" style="width:170px; height:18px; border:1px solid #0099FF"/>
+                      <a href="#">
+                      <input name="dept_id" id="dept_id" type="hidden" value="8" />
+                      </a> </td>
+                    <td><a href="#"><img src="images/search_1.jpg" border="0" onclick="searchsubmit()" /></a></td>
+                  </tr>
+                </table>
+				　
+			  </form></div>
+		</div>		
+	</div> 
+	<div id="menu">
+		<div class="hspace1"></div>
+		<ul id="nav" class="menubar">
+			<li><a href="index">医院首页</a></li>
+			<li><a href="contentlist?dept_id=8&column_id=173&column_type=1&per=1&url=list_yygk2">医院概况</a>
+			<li><a href="contentlist?dept_id=8&column_id=1411&column_type=1&per=10&url=list4">党史教育</a>
+				<ul  style='width:360px!important;'>
+				<li><a href="contentlist?dept_id=8&column_id=173&column_type=1&per=1&url=list_yygk2">医院简介</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=765&column_type=1&per=1&url=list_yygk2">现任领导</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=177&column_type=1&per=10&url=list_yygk">医院荣誉</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=180&column_type=2&per=9&url=list_yygk3">高新设备</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=178&column_type=2&per=9&url=list_yygk3">医院环境</a></li>
+				</ul>
+			</li>
+			<li><a href="contentlist?dept_id=8&column_id=198&column_type=1&per=10&url=list_ybhl">医保合疗</a>
+			   <ul style='width:360px!important;'>
+				<li><a href="contentlist?dept_id=8&column_id=198&column_type=1&per=10&url=list_ybhl">医保政策</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=199&column_type=1&per=10&url=list_ybhl">农合政策</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=200&column_type=1&per=10&url=list_ybhl">工伤保险</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=202&column_type=1&per=10&url=list_ybhl">生育保险</a></li>
+				</ul>
+			</li>
+			<li><a href="contentlist?dept_id=8&column_id=194&column_type=1&per=1&url=list_jyzn2">就医指南</a>
+			    <ul style='width:360px!important;'>
+				<li><a href="contentlist?dept_id=8&column_id=194&column_type=1&per=1&url=list_jyzn2">医院位置</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=193&column_type=1&per=1&url=list_jyzn2">体检中心</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=191&column_type=1&per=1&url=list_jyzn2">医保就诊流程</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=192&column_type=1&per=1&url=list_jyzn2">急诊就诊流程</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=196&column_type=1&per=1&url=list_jyzn2">门诊就诊流程</a></li>
+				</ul>
+			</li>
+			<li><a href="contentlist?dept_id=8&column_id=190&column_type=1&per=1&url=list_kszj2">科室与专家</a>
+				<ul style='width:360px!important;'>				
+				<li><a href="contentlist?dept_id=8&column_id=190&column_type=1&per=1&url=list_kszj2">门诊时间</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=171&column_type=1&per=12&url=list_kszj3">专家介绍</a></li>
+				<li><a href="lcks">临床科室</a></li>
+				<li><a href="yjks">医技科室</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=182&column_type=1&per=10&url=list_kszj">科室动态</a></li>
+				</ul>
+			</li>
+			<li><a href="contentlist?dept_id=8&column_id=849&column_type=1&per=10&url=list_hltd">护理天地</a>
+				<ul style='width:360px!important;'>				
+				<li><a href="contentlist?dept_id=8&column_id=849&column_type=1&per=10&url=list_hltd">护理教育</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=854&column_type=1&per=10&url=list_hltd">天使风采</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=853&column_type=1&per=10&url=list_hltd">护理动态</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=204&column_type=1&per=10&url=list_hltd">健康知识</a></li>
+				</ul>
+			</li>
+			<li><a href="contentlist?dept_id=8&column_id=169&column_type=1&per=10&url=list_jxky">教学科研</a>
+				<ul>				
+				<li><a href="contentlist?dept_id=8&column_id=169&column_type=1&per=10&url=list_jxky">科研动态</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=848&column_type=1&per=1&url=list_jxky2">教学团队</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=197&column_type=1&per=10&url=list_jxky">科研成果</a></li>
+				<li><a href="contentlist?dept_id=8&column_id=1119&column_type=1&per=10&url=list_jxky">诊断学精品课程</a>
+					<ul>				
+						<li><a href="contentlist?dept_id=8&column_id=1120&column_type=1&per=10&url=list_jxky">诊断学教学大纲 </a></li>
+						<li><a href="contentlist?dept_id=8&column_id=1121&column_type=1&per=1&url=list_jxky2">诊断学教案</a></li>
+						<li><a href="contentlist?dept_id=8&column_id=1122&column_type=1&per=10&url=list_jxky">诊断学课程</a></li>
+						<li><a href="contentlist?dept_id=8&column_id=1123&column_type=1&per=10&url=list_jxky">诊断学题库 </a></li>
+						<li><a href="contentlist?dept_id=8&column_id=1123&column_type=1&per=10&url=list_jxky">诊断学视频 </a></li>
+					</ul>
+				</li>
+				</ul>
+			</li>
+			<li><a href="http://www.xzmu.edu.cn">学校首页</a></li>
+	  </ul>
+</div>
+  <div id="wz"><span class="wzword">您的位置：首页 >> 通知公告</span></div>
+	<div id="main">	
+	
+	   <div id="all_content"> 
+
+	     <div class="MainNewsTitle">
+	     <h1>西藏民族大学附属医院充电桩合作运营公告</h1>
+	     </div>
+				    <div class="MainNewsUpdate">
+				      发布时间：2022-11-24
+				      
+				      信息来源：附属医院　　浏览次数：38440 </div>
+				    <div class="MainNewsAction" style="border-bottom: 1px solid #ccc;">
+				      <script type="text/javascript">writeColor("common/scripts/color/");</script>
+				      【<a href="javascript:doZoom('16px');">大</a> <a href="javascript:doZoom('14px');">中</a> <a href="javascript:doZoom('12px');">小</a>】【<a href="javascript:printWindow();">打印本页</a>】【<a href="javascript:closeWindow();">关闭窗口</a>】</div>
+				    <div class="MainNewsAction">
+				      
+         </div>
+				    <div class="MainNewsContent" id="content" style="table-layout:fixed;">&nbsp;<b><span style="font-family: 宋体; font-size: 15pt;">一、基本情况</span></b>
+<p class="MsoNormal" style="text-indent:30.0000pt;mso-char-indent-count:2.0000;"><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">西藏民族大学附属医院综合楼现已经启用，为</span><span style="font-family: 宋体; color: rgb(51, 51, 51); font-size: 16pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><font face="宋体">给医院职工、患者提供一个良好的保障服务，经医院研究决定</font><font face="宋体">采用合作方式建设我院充电桩项目。</font></span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal"><b><span style="font-family: 宋体; font-size: 15pt;">二、项目概况及合作内容</span></b><b><span style="font-family: 宋体; font-size: 15pt;"><o:p></o:p></span></b></p>
+<p class="MsoNormal" style="text-indent:30.0000pt;mso-char-indent-count:2.0000;"><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">1、项目概况：西藏民族大学附属医院充电桩项目位于咸阳市渭城区文汇东路6号西藏民族大学附属医院综合楼负一层，共9个停车位。</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent:30.0000pt;mso-char-indent-count:2.0000;"><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">2、合作内容：医院负责提供场地和电源，合作企业负责提供、安装充电桩及日常维护运营。</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent:30.0000pt;mso-char-indent-count:2.0000;"><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">3</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><font face="宋体">、充电桩安装要求：</font><font face="宋体">9个充电车位，以3</font></span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">0</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><font face="宋体">千瓦以上充电桩为主，在磋商谈判时确定，签订协议后在</font><font face="宋体">1月内充电桩安装完毕，尽快为我院员工及患者提供正常服务。</font></span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent:21.0000pt;mso-char-indent-count:2.0000;"><span style="mso-spacerun:'yes';font-family:Calibri;mso-fareast-font-family:宋体;&#10;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">4</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><font face="宋体">、充电收费和利润分成：我院用电费用约</font><font face="宋体">0</font></span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">.58</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><font face="宋体">元</font><font face="宋体">/度，充电费按市场价格收取，磋商谈判时确定利润分配方案。</font></span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent:30.0000pt;mso-char-indent-count:2.0000;"><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">5、合作期限：</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">5</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><font face="宋体">年</font> </span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal"><b><span style="font-family: 宋体; font-size: 15pt;">三、合作方资格要求</span></b><b><span style="font-family: 宋体; font-size: 15pt;"><o:p></o:p></span></b></p>
+<p class="MsoNormal" style="text-indent:30.0000pt;mso-char-indent-count:2.0000;"><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">1、具备有效的企业营业执照。</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent:30.0000pt;mso-char-indent-count:2.0000;"><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">2、法定代表人直接参加磋商，须出具法定代表人身份证，非法定代表人参加磋商，须出具法定代表人授权书及被授权人身份证；</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal"><b><span style="font-family: 宋体; font-size: 15pt;">四、竞争性磋商响应文件递交方式：</span></b><b><span style="font-family: 宋体; font-size: 15pt;"><o:p></o:p></span></b></p>
+<p class="MsoNormal" style="text-indent:30.0000pt;mso-char-indent-count:2.0000;"><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><font face="宋体">1、</font><font face="宋体">磋商响应</font><font face="宋体">文件递交截止时间：已报名的供应商请于</font><font face="宋体">2022年1</font></span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">2</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">月</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">1</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><font face="宋体">日前将磋商响应文件送至西藏民族附属医院门诊楼</font><font face="宋体">3楼后勤办公室（民院十字）；如因疫情等因素变化使项目变动的，另行通知。</font></span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent:30.0000pt;mso-char-indent-count:2.0000;"><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">2、联系电话：</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">13891474455</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">&nbsp;<font face="宋体">联系人：梁贵年</font></span><span style="mso-spacerun:'yes';font-family:Calibri;mso-fareast-font-family:宋体;&#10;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent:30.0000pt;mso-char-indent-count:2.0000;"><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">3、磋商时间： 2022 年</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">12</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">&nbsp;<font face="宋体">月</font></span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">2</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><font face="宋体">日上午</font><font face="宋体">10:00</font></span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent:30.0000pt;mso-char-indent-count:2.0000;"><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">4、磋商地点：西藏民族大学附属医院综合楼十七楼017室。</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<font face="宋体">西藏民族大学附属医院</font></span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<font face="宋体">2022年</font></span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">11</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">月</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;">23</span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><font face="宋体">日</font></span><span style="mso-spacerun:'yes';font-family:宋体;font-size:15.0000pt;&#10;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p></div>
+				    <div class="MainNewsAction">
+				      <script type="text/javascript">writeColor("common/scripts/color/");</script>
+				      【<a href="javascript:doZoom('16px');">大</a> <a href="javascript:doZoom('14px');">中</a> <a href="javascript:doZoom('12px');">小</a>】【<a href="javascript:printWindow();">打印本页</a>】【<a href="javascript:closeWindow();">关闭窗口</a>】</div>
+				    
+			
+	    <div class="MainNewsCopyRight"> <span>西藏民族大学附属医院网版权与免责声明：</span> 1、西藏民族大学附属医院网所发布信息由原创信息、转载信息和网民自主发布信息构成；<br />
+	      2、凡注明信息来源为西藏民族大学附属医院网的信息为本站原创信息，其版权为西藏民族大学附属医院网所有； <br />
+	      3、凡注明信息来源为其他媒体的信息为本站转载信息，西藏民族大学附属医院网不对其观点的正确性和内容的真实性负责 。 </div>	
+  
+  </div>
+   
+<div id="foot">
+  <div id="fword">
+    <div align="center"><a href="#" onclick="this.style.behavior='url(#default#homepage)'; 
+this.setHomePage('http://www.xzmy.edu.cn/fsyy/');">设为首页</a> | 网站地图 | 联系我们 | <a href="javascript:window.external.AddFavorite('http://www.xzmy.edu.cn/fsyy/', '西藏民族大学附属医院')">收藏本站</a>　　　　　　　　　　　　网站设计与开发：<a href="http://www.xzmy.edu.cn/nic/" target="_blank">网络信息技术中心</a> <br />
+      版权所有@2010-2015：西藏民族大学附属医院 　地址：陕西省咸阳市文汇东路6号　 邮编：712082　 电话：029—33755453、33755452、33755456 <br />
+      <a href="http://12377.xianyang.gov.cn/" target="_blank"><img src="images/wljb_bai.png" alt="中国互联网举报中心" width="100" height="50" border="0" longdesc="http://12377.xianyang.gov.cn/" /></a>  </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
