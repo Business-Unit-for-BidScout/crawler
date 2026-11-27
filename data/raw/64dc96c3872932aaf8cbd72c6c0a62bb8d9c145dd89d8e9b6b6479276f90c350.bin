@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "">
+<HTML><HEAD><META content="text/html; charset=UTF-8" http-equiv="Content-Type"><META content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"><TITLE>《招标投标领域信用管理暂行办法》 2026年第44号令-全国公共资源交易平台</TITLE><LINK href="information/css/main.css" rel="stylesheet" type="text/css"><SCRIPT src="information/js/jquery-1.6.4.min.js" type="text/javascript"></SCRIPT><SCRIPT src="information/js/cms_detail.js" type="text/javascript"></SCRIPT></HEAD><BODY><div class="header">
+  <div class="header_top">
+    <p class="p_fliat">
+      <a href="/SIC/web/govreport.po" target="_blank">政府网站工作年度报表</a>
+    </p>
+    <div id="addNewSearch">
+      <div class="p_last" style="margin-right:0px;"><a href="/serve/wechat/wechat.html" target="_blank"><img
+              src="/assets/images/weixin.png" id="weixin"></a></div>
+    </div>
+    <div id="ewm">
+      <div class="arrows"><img src="/assets/images/ewm.png"></div>
+      <div class="div">
+        <div class="div_on"><img src="/assets/images/wechatserve.jpg" width="100" height="100">
+          <p>服务号</p>
+        </div>
+        <!--     <div class="div_tw"><img src="/assets/images/wechatdy.jpg" width="100" height="100"><p>订阅号</p></div> -->
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+    // 等待 DOM 加载完成
+    document.addEventListener('DOMContentLoaded', function() {
+        var weixin = document.getElementById('weixin');
+        var ewm = document.getElementById('ewm');
+        var timeoutId = null;
+        
+        if (weixin && ewm) {
+            // 鼠标移入微信图标
+            weixin.addEventListener('mouseenter', function() {
+                // 清除之前的定时器
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                    timeoutId = null;
+                }
+                // 显示二维码（使用 slideDown 效果）
+                slideDown(ewm);
+            });
+            
+            // 鼠标移出微信图标
+            weixin.addEventListener('mouseleave', function() {
+                // 延迟隐藏，给用户时间移动到二维码区域
+                timeoutId = setTimeout(function() {
+                    slideUp(ewm);
+                }, 100);
+            });
+            
+            // 鼠标移入二维码区域
+            ewm.addEventListener('mouseenter', function() {
+                // 清除隐藏定时器，保持显示
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                    timeoutId = null;
+                }
+            });
+            
+            // 鼠标移出二维码区域
+            ewm.addEventListener('mouseleave', function() {
+                slideUp(ewm);
+            });
+        }
+    });
+    
+    // 模拟 jQuery 的 slideDown 效果
+    function slideDown(element) {
+        element.style.overflow = 'hidden';
+        element.style.display = 'block';
+        element.style.height = '0';
+        element.style.opacity = '0';
+        
+        var targetHeight = element.scrollHeight;
+        var duration = 200; // 动画持续时间（毫秒）
+        var startTime = null;
+        
+        function animate(currentTime) {
+            if (!startTime) startTime = currentTime;
+            var progress = currentTime - startTime;
+            var percent = Math.min(progress / duration, 1);
+            
+            // 缓动函数（ease-out）
+            var easePercent = 1 - Math.pow(1 - percent, 3);
+            
+            element.style.height = (targetHeight * easePercent) + 'px';
+            element.style.opacity = easePercent;
+            
+            if (percent < 1) {
+                requestAnimationFrame(animate);
+            } else {
+                element.style.height = 'auto';
+                element.style.opacity = '1';
+            }
+        }
+        
+        requestAnimationFrame(animate);
+    }
+    
+    // 模拟 jQuery 的 slideUp 效果
+    function slideUp(element) {
+        element.style.overflow = 'hidden';
+        var startHeight = element.offsetHeight;
+        element.style.height = startHeight + 'px';
+        
+        var duration = 200; // 动画持续时间（毫秒）
+        var startTime = null;
+        
+        function animate(currentTime) {
+            if (!startTime) startTime = currentTime;
+            var progress = currentTime - startTime;
+            var percent = Math.min(progress / duration, 1);
+            
+            // 缓动函数（ease-in）
+            var easePercent = Math.pow(percent, 3);
+            
+            element.style.height = (startHeight * (1 - easePercent)) + 'px';
+            element.style.opacity = 1 - easePercent;
+            
+            if (percent < 1) {
+                requestAnimationFrame(animate);
+            } else {
+                element.style.display = 'none';
+                element.style.height = '';
+                element.style.opacity = '';
+                element.style.overflow = '';
+            }
+        }
+        
+        requestAnimationFrame(animate);
+    }
+</script>
+<div class="banner">
+</div>
+<div class="nav_bj">
+  <div class="nav">
+    <ul class="nav_ul">
+      <li class="nav_stair nav_first"><a href="/">首页</a></li>
+      <li class="nav_stair"><a href="/SIC/web/govfunc.po">机构职能</a></li>
+      <li class="nav_stair"><a href="/deal/dealList.html">交易公开</a>
+        <ul class="nav_second nav_special">
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=01">工程建设</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=02">政府采购</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=03">土地使用权</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=04">矿业权</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=05">国有产权</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=21">碳排放权</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=22">排污权</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=23">药品采购</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=24">二类疫苗</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=25">林权</a></li>
+          <li><a href="/deal/dealList.html?HEADER_DEAL_TYPE=90">其他</a></li>
+        </ul>
+      </li>
+      <li class="nav_stair"><a href="/deal/creditList.html">交易诚信</a>
+        <ul class="nav_second">
+          <li><a href="/deal/creditList.html?SHOWTYPE=1">违法违规</a></li>
+          <li><a href="/deal/creditList.html?SHOWTYPE=2">奖励信息</a></li>
+        </ul>
+      </li>
+      <li class="nav_stair"><a href="https://data.ggzy.gov.cn/">数据服务</a></li>
+      <li class="nav_stair"><a href="/dealCollect/dealCollect.html">交易统计</a></li>
+      <li class="nav_stair"><a href="/SIC/web/platform.po">平台导航</a></li>
+      <li class="nav_stair"><a href="/SIC/web/policyFileList.po">政策法规</a>
+        <ul class="nav_second">
+          <li><a href="/SIC/web/policyFileList.po">政策法规文件</a></li>
+          <li><a href="/SIC/web/policyReadList.po">政策法规解读</a></li>
+        </ul>
+      </li>
+      <!-- <li class="nav_stair"><a href="http://data.ggzy.gov.cn/portal_legal/cxcg/index.html" target="_blank">培训交流</a></li>-->
+      <!--     <li class="nav_stair"><a href="https://59.252.80.14/reTurnUrl" target="_blank">统一认证</a></li>-->
+      <li class="nav_stair"><a href="/serve/service.html">服务中心</a>
+        <ul class="nav_second">
+          <li><a href="http://data.ggzy.gov.cn/portal_legal/cxcg/index.html" target="_blank">培训交流</a></li>
+          <li><a href="/serve/wechat/wechat.html">微信订阅</a></li>
+          <li><a href="/SIC/web/opinion.po">意见建议</a></li>
+          <li><a href="/SIC/web/collectList.po">调查征集</a></li>
+          <li><a href="/serve/regards/regards.html">关于我们</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<DIV class="location"><A href="/">首页</A>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<A href="policyFileList.po;jsessionid=5PtlMgSrzSeZWDWQHe7uHCwq" id="aLocation" target="_blank">政策法规文件</A></DIV><DIV class="ultimately"><H4 id="txtCaption">《招标投标领域信用管理暂行办法》 2026年第44号令</H4><P class="p_zy">发布时间：<SPAN id="txtPublishTime">2026-07-17</SPAN><DIV class="cmsdiv"><DIV class="article_con article_con_notitle" id="divContent"><p style="text-align: center;"><strong><span style="text-wrap-mode: nowrap; font-size: 20px;">中华人民共和国国家发展和改革委员会</span></strong></p><p style="text-align: center;"><strong><span style="text-wrap-mode: nowrap; font-size: 20px;">中华人民共和国工业和信息化部</span></strong></p><p style="text-align: center;"><strong><span style="text-wrap-mode: nowrap; font-size: 20px;">中华人民共和国住房和城乡建设部</span></strong></p><p style="text-align: center;"><strong><span style="text-wrap-mode: nowrap; font-size: 20px;">中华人民共和国交通运输部</span></strong></p><p style="text-align: center;"><strong><span style="text-wrap-mode: nowrap; font-size: 20px;">中华人民共和国水利部</span></strong></p><p style="text-align: center;"><strong><span style="text-wrap-mode: nowrap; font-size: 20px;">中华人民共和国农业农村部</span></strong></p><p style="text-align: center;"><strong><span style="text-wrap-mode: nowrap; font-size: 20px;">中华人民共和国商务部</span></strong></p><p style="text-align: center;"><strong><span style="text-wrap-mode: nowrap; font-size: 20px;">国家广播电视总局</span></strong></p><p style="text-align: center;"><strong><span style="text-wrap-mode: nowrap; font-size: 20px;">令</span></strong></p><p><strong><span style="text-wrap-mode: nowrap;"><br/></span></strong></p><p><strong><span style="text-wrap-mode: nowrap;"><br/></span></strong></p><p style="text-align: center;"><span style="font-size: 18px;"><strong><span style="text-wrap-mode: nowrap;">第44号</span></strong></span></p><p><span style="text-wrap-mode: nowrap; font-size: 18px;"><br/></span></p><p><span style="text-wrap-mode: nowrap; font-size: 18px;">　　《招标投标领域信用管理暂行办法》已经2026年6月12日第32次国家发展改革委委务会议审议通过和工业和信息化部、住房城乡建设部、</span></p><p><span style="text-wrap-mode: nowrap; font-size: 18px;">交通运输部、水利部、农业农村部、商务部、广电总局审签，现予公布，自2027年1月1日起施行。</span></p><p><span style="text-wrap-mode: nowrap; font-size: 18px;"><br/></span></p><p style="text-align: center;"><span style="text-wrap-mode: nowrap; font-size: 18px;">国家发展和改革委员会主任：郑栅洁</span></p><p style="text-align: center;"><span style="text-wrap-mode: nowrap; font-size: 18px;">工业和信息化部部长：李乐成</span></p><p style="text-align: center;"><span style="text-wrap-mode: nowrap; font-size: 18px;">住房和城乡建设部部长：倪虹</span></p><p style="text-align: center;"><span style="text-wrap-mode: nowrap; font-size: 18px;">交通运输部部长：刘伟</span></p><p style="text-align: center;"><span style="text-wrap-mode: nowrap; font-size: 18px;">水利部部长：李国英</span></p><p style="text-align: center;"><span style="text-wrap-mode: nowrap; font-size: 18px;">农业农村部部长：张柱</span></p><p style="text-align: center;"><span style="text-wrap-mode: nowrap; font-size: 18px;">商务部部长：王文涛</span></p><p style="text-align: center;"><span style="text-wrap-mode: nowrap; font-size: 18px;">国家广播电视总局局长：曹淑敏</span></p><p style="text-align: center;"><span style="text-wrap-mode: nowrap; font-size: 18px;">2026年7月3日</span></p><p><br/></p></DIV><DIV class="attachment" id="divAttachment" style="margin: 40px auto 0px; padding: 0px; box-sizing: border-box;"><DIV class="attachment_l" style="margin: 0px auto;padding: 0px 20px;box-sizing: border-box;">附件：</DIV><DIV class="attachment_r"><P><A href="/simg/imageSIC/Article_Attachment/2026-07-20/2607200001.pdf" style="margin: 0px auto;padding: 0px 15px 0px 30px;box-sizing: border-box;">《招标投标领域信用管理暂行办法》.pdf</A><A href="/simg/imageSIC/Article_Attachment/2026-07-20/2607200002.ofd" style="margin: 0px auto;padding: 0px 15px 0px 30px;box-sizing: border-box;">《招标投标领域信用管理暂行办法》.ofd</A></DIV><BR></DIV></DIV><SCRIPT src="information/js/qrcode.js" type="text/javascript"></SCRIPT> <SCRIPT src="information/js/share.js" type="text/javascript"></SCRIPT></DIV><div class="foot">
+  <ul>
+    <li><a href="/home/webmap.html" target="_blank">网站地图</a><span>|</span></li>
+    <li><a href="/home/webStated.html" target="_blank">网站声明</a><span>|</span></li>
+    <li><a href="javascript:;" onclick="addFavorite();">添加收藏</a><span>|</span></li>
+    <li><a href="/home/contact.html" target="_blank">联系我们</a></li>
+  </ul>
+</div>
+<div class="footer">
+  <div class="footer_page" style="width:990px;">
+    <div style="float:left;margin-top:5px !important;">
+      <img onclick="linkto_jiucuo('bm04000008')" style="margin:0;border:0;cursor: pointer;"
+           src="/assets/images/jiucuo.png">
+    </div>
+    <div style="float:left;width:85px;height:85px;margin-top:-5px !important;">
+      <a href="https://bszs.conac.cn/sitename?method=show&id=59FE0779EB534910E053022E1AAC7D54" target="_blank">
+        <img id="imgConac" vspace="0" hspace="0" border="0" src="/assets/images/imgConac.png"
+             data-bd-imgshare-binded="1">
+      </a>
+    </div>
+    <div style="float:left;margin-left:20px;">
+      <p>主办：国家信息中心&nbsp;&nbsp;&nbsp;&nbsp;指导单位： 国家发展和改革委员会 </p>
+      <p>网站标识码：bm04000008&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" target="_blank"
+                                             style="color:#000">京ICP备05052393号-9</a>&nbsp;&nbsp;
+        <!--<img src="/assets/images/guobiao.png" width="14" height="14">-->
+        京公网安备11010202007733号 </p>
+      <p>地址：北京西城区三里河路58号&nbsp;&nbsp;&nbsp;&nbsp;邮政编码：100045</p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+    function linkto_jiucuo(site_code) {
+        //获取该站点需要纠错页面的url地址
+        var url = "";
+        if (parent !== window) {
+            try {
+                url = window.top.location.href;
+            } catch (e) {
+                url = window.top.document.referrer;
+            }
+        }
+        if (url.length == 0)
+            url = document.location.href;
+        //跳转至纠错系统填写页面
+        window.open("http://121.43.68.40/exposure/jiucuo.html?site_code=" + site_code + "&url=" + encodeURIComponent(url));
+    }
+
+    function addFavorite() {
+        var url = window.location;
+        var title = document.title;
+        var ua = navigator.userAgent.toLowerCase();
+        if (ua.indexOf("360se") > -1) {
+            alert("由于360浏览器功能限制，请按 Ctrl+D 手动收藏！");
+        } else if (ua.indexOf("msie 8") > -1) {
+            window.external.AddToFavoritesBar(url, title); //IE8
+        } else if (document.all) {
+            try {
+                window.external.addFavorite(url, title);
+            } catch (e) {
+                alert("您的浏览器不支持,请按 Ctrl+D 手动收藏!");
+            }
+        } else if (window.sidebar) {
+            window.sidebar.addPanel(title, url, "");
+        } else {
+            alert("您的浏览器不支持,请按 Ctrl+D 手动收藏!");
+        }
+    }
+</script></BODY></HTML>

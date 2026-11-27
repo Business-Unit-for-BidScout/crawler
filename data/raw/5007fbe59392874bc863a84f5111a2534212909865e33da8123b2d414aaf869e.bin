@@ -1,0 +1,666 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>通知公告-陕西省人民医院</title><META Name="keywords" Content="陕西省人民医院,通知公告" />
+
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/public.css">
+    <link rel="stylesheet" href="style/ny.css">
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/public.js"></script>
+
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232306975465753525742000100054e5d -->
+<link rel="stylesheet" type="text/css" href="list_zy.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(2632,'/list_zy.jsp',-1,2107799714)</script>
+</head>
+
+<body ontouchstart>
+
+
+    <!-- head -->
+    <div class="head pc">
+        <div class="h-top">
+            <div class="logo">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.htm">
+<img src="images/logo.png" alt="">
+</a></div>
+            <div class="h-r">
+                <div class="h-lk"><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script>    <a href="http://sxsrmyy.superlib.libsou.com/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2107799714, 4346)">院内图书馆</a>
+    <span></span>
+    <a href="https://vr.3d66.com/vr/index_detail_6340573.html" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2107799714, 4347)">院史馆</a>
+    <span></span>
+    <a href="linss_lyb.jsp?urltype=tree.TreeTempUrl&amp;wbtreeid=2828" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2107799714, 4354)">院长信箱</a>
+    <span></span>
+    <a href="hdjl/tsjy.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2107799714, 4355)">投诉建议</a>
+    
+</div>
+                <div class="nav"><ul>
+
+                        <li>
+            <a href="index.htm" title="首页">首页</a>
+                        </li>
+
+
+
+                        <li>
+                <a title="医院概况">医院概况</a>
+                                    <div>
+                                        <ul>
+                                        <li>
+                                            <a href="yygk/yyjs.htm" title="医院介绍">医院介绍</a>
+                                        </li>
+                                        <li>
+                                            <a href="yygk/ldjs.htm" title="领导介绍">领导介绍</a>
+                                        </li>
+                                        <li>
+                                            <a href="yygk/zzjg.htm" title="组织架构">组织架构</a>
+                                        </li>
+                                        </ul>
+                                    </div>
+                        </li>
+
+                        <li>
+                <a title="党的建设">党的建设</a>
+                                    <div>
+                                        <ul>
+                                        <li>
+                                            <a href="ddjs/ztjy.htm" title="主题教育">主题教育</a>
+                                        </li>
+                                        <li>
+                                            <a href="ddjs/llxx.htm" title="理论学习">理论学习</a>
+                                        </li>
+                                        <li>
+                                            <a href="ddjs/zzjs.htm" title="组织建设">组织建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="ddjs/lzjs.htm" title="廉政建设">廉政建设</a>
+                                        </li>
+                                        </ul>
+                                    </div>
+                        </li>
+
+                        <li>
+                <a title="诊疗服务">诊疗服务</a>
+                                    <div>
+                                        <ul>
+                                        <li>
+                                            <a href="zlfw1/ksjs.htm" title="科室介绍">科室介绍</a>
+                                        </li>
+                                        <li>
+                                            <a href="zjjs1/xsgwyzftsjtzj.htm" title="专家介绍">专家介绍</a>
+                                        </li>
+                                        <li>
+                                            <a href="zlfw1/zdzk.htm" title="重点专科">重点专科</a>
+                                        </li>
+                                        <li>
+                                            <a href="zlfw1/zbzx.htm" title="专病中心">专病中心</a>
+                                        </li>
+                                        <li>
+                                            <a href="zlfw1/tsyl1/dxkzl_MDT_.htm" title="特色医疗">特色医疗</a>
+                                        </li>
+                                        </ul>
+                                    </div>
+                        </li>
+
+                        <li>
+                <a title="医院新闻">医院新闻</a>
+                                    <div>
+                                        <ul>
+                                        <li>
+                                            <a href="yyxw/zhxw.htm" title="综合新闻">综合新闻</a>
+                                        </li>
+                                        <li>
+                                            <a href="yyxw/ksdt.htm" title="科室动态">科室动态</a>
+                                        </li>
+                                        <li>
+                                            <a href="yyxw/yljs.htm" title="医疗技术">医疗技术</a>
+                                        </li>
+                                        <li>
+                                            <a href="yyxw/kjcx.htm" title="科教创新">科教创新</a>
+                                        </li>
+                                        <li>
+                                            <a href="yyxw/jkkp.htm" title="健康科普">健康科普</a>
+                                        </li>
+                                        <li>
+                                            <a href="yyxw/rmtzx.htm" title="融媒体中心">融媒体中心</a>
+                                        </li>
+                                        </ul>
+                                    </div>
+                        </li>
+
+                        <li>
+                <a title="医疗工作">医疗工作</a>
+                                    <div>
+                                        <ul>
+                                        <li>
+                                            <a href="ylgz1/ywgl.htm" title="医务管理">医务管理</a>
+                                        </li>
+                                        <li>
+                                            <a href="ylgz1/hlgl.htm" title="护理管理">护理管理</a>
+                                        </li>
+                                        </ul>
+                                    </div>
+                        </li>
+
+                        <li>
+                <a title="科教创新">科教创新</a>
+                                    <div>
+                                        <ul>
+                                        <li>
+                                            <a href="kjcx/jxgz.htm" title="教学工作">教学工作</a>
+                                        </li>
+                                        <li>
+                                            <a href="kjcx/kygz.htm" title="科研工作">科研工作</a>
+                                        </li>
+                                        </ul>
+                                    </div>
+                        </li>
+
+                        <li>
+                <a title="医院文化">医院文化</a>
+                                    <div>
+                                        <ul>
+                                        <li>
+                                            <a href="yywh/yhyx.htm" title="院歌院训">院歌院训</a>
+                                        </li>
+                                        <li>
+                                            <a href="yywh/yyfc.htm" title="医院风采">医院风采</a>
+                                        </li>
+                                        <li>
+                                            <a href="yywh/rwsy.htm" title="人文省医">人文省医</a>
+                                        </li>
+                                        </ul>
+                                    </div>
+                        </li>
+
+                        <li>
+                <a title="通知公告">通知公告</a>
+                                    <div>
+                                        <ul>
+                                        <li>
+                                            <a href="tzgg/rsgz/rsdt.htm" title="人事工作">人事工作</a>
+                                        </li>
+                                        <li>
+                                            <a href="tzgg/ccgz/cggg.htm" title="采招工作">采招工作</a>
+                                        </li>
+                                        <li>
+                                            <a href="tzgg/ywgk.htm" title="院务公开">院务公开</a>
+                                        </li>
+                                        <li>
+                                            <a href="tzgg/gsgg.htm" title="公示公告">公示公告</a>
+                                        </li>
+                                        </ul>
+                                    </div>
+                        </li>
+
+
+
+</ul></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 移动端导航 -->
+    <div class="m-index">
+        <section class="m_header_box">
+            <header id="m_header">
+                <div id="logo">
+                    
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.htm">
+<img src="images/logo.png" alt="">
+</a>
+                </div>
+
+                <div id="nav_btn_box" class="on">
+                    <aside id="nav_btn">
+                        <div class="point" name="1" id="mbtn"> <span class="navbtn"></span> </div>
+                    </aside>
+                </div>
+            </header>
+        </section>
+        <nav id="m_nav">
+            <div class="wap_search"><script type="text/javascript">
+    function _nl_ys_check1(){
+        
+        var keyword = document.getElementById('showkeycode1107811').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey1107811").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey1107811").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1107811").value = base64.encode(document.getElementById("lucenenewssearchkey1107811").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1107811"));
+        return true;
+    } 
+</script>
+<form action="ssjgy.jsp?wbtreeid=2632" method="post" id="au4a" name="au4a" onsubmit="return _nl_ys_check1()" class="header-search">
+ <input type="hidden" id="lucenenewssearchkey1107811" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype1107811" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope1107811" name="searchScope" value="0">
+                    <input type="text" class="input" placeholder="请输入搜索关键词" name="showkeycode" id="showkeycode1107811" autocomplete="off">
+                    <button type="submit" class="btn_blue" value=""></button>
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+</div>
+
+            <ul class="list_box_nav_mobile">
+                <li>
+                    <div class="con">
+                        <a class="a" href="index.htm" title="首页">首页</a>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="con">
+                        <a class="a" href="yygk.htm" title="医院概况">医院概况</a>
+                        <i></i>
+                    </div>
+                        <div class="list">
+                            <a href="yygk/yyjs.htm" title="医院介绍">医院介绍</a>
+                            <a href="yygk/ldjs.htm" title="领导介绍">领导介绍</a>
+                            <a href="yygk/zzjg.htm" title="组织架构">组织架构</a>
+                        </div>
+                </li>
+                <li>
+                    <div class="con">
+                        <a class="a" href="ddjs.htm" title="党的建设">党的建设</a>
+                        <i></i>
+                    </div>
+                        <div class="list">
+                            <a href="ddjs/ztjy.htm" title="主题教育">主题教育</a>
+                            <a href="ddjs/llxx.htm" title="理论学习">理论学习</a>
+                            <a href="ddjs/zzjs.htm" title="组织建设">组织建设</a>
+                            <a href="ddjs/lzjs.htm" title="廉政建设">廉政建设</a>
+                        </div>
+                </li>
+                <li>
+                    <div class="con">
+                        <a class="a" href="zlfw1/ksjs.htm" title="诊疗服务">诊疗服务</a>
+                        <i></i>
+                    </div>
+                        <div class="list">
+                            <a href="zlfw1/ksjs.htm" title="科室介绍">科室介绍</a>
+                            <a href="zjjs1/xsgwyzftsjtzj.htm" title="专家介绍">专家介绍</a>
+                            <a href="zlfw1/zdzk.htm" title="重点专科">重点专科</a>
+                            <a href="zlfw1/zbzx.htm" title="专病中心">专病中心</a>
+                            <a href="zlfw1/tsyl1/dxkzl_MDT_.htm" title="特色医疗">特色医疗</a>
+                        </div>
+                </li>
+                <li>
+                    <div class="con">
+                        <a class="a" href="yyxw.htm" title="医院新闻">医院新闻</a>
+                        <i></i>
+                    </div>
+                        <div class="list">
+                            <a href="yyxw/zhxw.htm" title="综合新闻">综合新闻</a>
+                            <a href="yyxw/ksdt.htm" title="科室动态">科室动态</a>
+                            <a href="yyxw/yljs.htm" title="医疗技术">医疗技术</a>
+                            <a href="yyxw/kjcx.htm" title="科教创新">科教创新</a>
+                            <a href="yyxw/jkkp.htm" title="健康科普">健康科普</a>
+                            <a href="yyxw/rmtzx.htm" title="融媒体中心">融媒体中心</a>
+                        </div>
+                </li>
+                <li>
+                    <div class="con">
+                        <a class="a" href="ylgz1/ywgl.htm" title="医疗工作">医疗工作</a>
+                        <i></i>
+                    </div>
+                        <div class="list">
+                            <a href="ylgz1/ywgl.htm" title="医务管理">医务管理</a>
+                            <a href="ylgz1/hlgl.htm" title="护理管理">护理管理</a>
+                        </div>
+                </li>
+                <li>
+                    <div class="con">
+                        <a class="a" href="kjcx.htm" title="科教创新">科教创新</a>
+                        <i></i>
+                    </div>
+                        <div class="list">
+                            <a href="kjcx/jxgz.htm" title="教学工作">教学工作</a>
+                            <a href="kjcx/kygz.htm" title="科研工作">科研工作</a>
+                        </div>
+                </li>
+                <li>
+                    <div class="con">
+                        <a class="a" href="yywh.htm" title="医院文化">医院文化</a>
+                        <i></i>
+                    </div>
+                        <div class="list">
+                            <a href="yywh/yhyx.htm" title="院歌院训">院歌院训</a>
+                            <a href="yywh/yyfc.htm" title="医院风采">医院风采</a>
+                            <a href="yywh/rwsy.htm" title="人文省医">人文省医</a>
+                        </div>
+                </li>
+                <li class="on">
+                    <div class="con">
+                        <a class="a" href="tzgg.htm" title="通知公告">通知公告</a>
+                        <i></i>
+                    </div>
+                        <div class="list">
+                            <a href="tzgg/rsgz/rsdt.htm" title="人事工作">人事工作</a>
+                            <a href="tzgg/ccgz/cggg.htm" title="采招工作">采招工作</a>
+                            <a href="tzgg/ywgk.htm" title="院务公开">院务公开</a>
+                            <a href="tzgg/gsgg.htm" title="公示公告">公示公告</a>
+                        </div>
+                </li>
+</ul>
+
+            <div class="list_box0 flex">
+<div class="li">
+    <a href="http://sxsrmyy.superlib.libsou.com/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2107799714, 4346)">院内图书馆</a>
+</div>
+<div class="li">
+    <a href="https://vr.3d66.com/vr/index_detail_6340573.html" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2107799714, 4347)">院史馆</a>
+</div>
+<div class="li">
+    <a href="linss_lyb.jsp?urltype=tree.TreeTempUrl&amp;wbtreeid=2828" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2107799714, 4354)">院长信箱</a>
+</div>
+<div class="li">
+    <a href="hdjl/tsjy.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2107799714, 4355)">投诉建议</a>
+</div>
+</div>
+
+            <div class="close">×</div>
+        </nav>
+    </div>
+    <!-- banner -->
+    <div class="ny-banner">
+        <img src="images/ny-banner.jpg" />
+        <div class="ny-lm">
+            <h3>
+
+
+
+通知公告</h3>
+            <div class="ny-wz"><img src="images/ny-wz.png" alt="">
+                <a>当前您的位置：</a>
+                <a href="index.htm">首页</a>
+                <span>></span>
+                <a href="tzgg.htm">通知公告</a>
+</div>
+        </div>
+    </div>
+
+
+    <!-- 内页二级移动端导航 -->
+    <div class="ny-wapnav">        <h2>通知公告<span></span></h2>
+        <ul>
+                <li><a href="tzgg/rsgz/rsdt.htm" title="人事工作">人事工作</a>
+                    <span></span>
+                    <div class="ny-wapej">
+                            <a href="tzgg/rsgz/rsdt.htm" title="人事动态">人事动态</a>
+                            <a href="tzgg/rsgz/ryzp.htm" title="人员招聘">人员招聘</a>
+                            <a href="tzgg/rsgz/xzzq.htm" title="下载专区">下载专区</a>
+                            <a href="http://113.141.72.73:8898/zp.html#/" target="_blank" title="在线应聘">在线应聘</a>
+                    </div>
+                </li>
+                <li><a href="tzgg/ccgz/cggg.htm" title="采招工作">采招工作</a>
+                    <span></span>
+                    <div class="ny-wapej">
+                            <a href="tzgg/ccgz/cggg.htm" title="采购公告">采购公告</a>
+                            <a href="tzgg/ccgz/jggg.htm" title="结果公告">结果公告</a>
+                    </div>
+                </li>
+                <li><a href="tzgg/ywgk.htm" title="院务公开">院务公开</a>
+                </li>
+                <li><a href="tzgg/gsgg.htm" title="公示公告">公示公告</a>
+                </li>
+        </ul>
+</div>
+
+    <!-- nymain -->
+    <div class="nymain ">
+        <div class="w14">
+            <div class="ny-flex">
+                <div class="channl-menu leftNav ">        <h2><b>通知公告</b><span></span></h2>
+                    <ul>
+            
+                        <li>
+                            <a href="tzgg/rsgz/rsdt.htm" title="人事工作">人事工作</a>
+                        </li>
+            
+            
+                        <li>
+                            <a href="tzgg/ccgz/cggg.htm" title="采招工作">采招工作</a>
+                        </li>
+            
+            
+                        <li>
+                            <a href="tzgg/ywgk.htm" title="院务公开">院务公开</a>
+                        </li>
+            
+            
+                        <li>
+                            <a href="tzgg/gsgg.htm" title="公示公告">公示公告</a>
+                        </li>
+            
+                    </ul>
+</div>
+                <div class="ny-right">
+                    <!-- 图文列表 -->
+                    <div class="pt-lt" id="zc-lt">
+
+<script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><UL>
+         <li>
+                               <a href="info/1072/50766.htm" target="_blank" title="陕西省人民医院“院领导接待日”公告">
+                                    <div class="pt-date">
+                                        <b>01/09</b>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="pt-tx">
+                                        <h3>陕西省人民医院“院领导接待日”公告</h3>
+                                        <p>患者朋友、医院职工：为进一步提升患者服务，改善就医体验，我院推行院领导接待日制度，每两周安排一名...
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+     <li>
+                               <a href="info/1072/70243.htm" target="_blank" title="陕西省人民医院2026年度住院医师规范化培训招收简章">
+                                    <div class="pt-date">
+                                        <b>06/18</b>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="pt-tx">
+                                        <h3>陕西省人民医院2026年度住院医师规范化培训招收简章</h3>
+                                        <p>    一、医院简介陕西省人民医院始建于1931年，是省政府直属的集医疗、急救、教学、科研、康复于一体的...
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+     <li>
+                               <a href="info/1072/70241.htm" target="_blank" title="陕西省人民医院关于2026年住院医师规范化培训招录考核安排的通知">
+                                    <div class="pt-date">
+                                        <b>06/18</b>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="pt-tx">
+                                        <h3>陕西省人民医院关于2026年住院医师规范化培训招录考核安排的通知</h3>
+                                        <p>根据陕西省卫生健康委员会下发的《关于做好陕西省2026年度住院医师规范化培训和助理全科医生培训招收工...
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+     <li>
+                               <a href="info/1072/70190.htm" target="_blank" title="关于公布我院2026年度省级继续医学教育获批项目的通知">
+                                    <div class="pt-date">
+                                        <b>06/12</b>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="pt-tx">
+                                        <h3>关于公布我院2026年度省级继续医学教育获批项目的通知</h3>
+                                        <p>各处室、各科室：        我院2026年省级继续医学教育项目共获批70项，请项目负责人认真落实陕西省卫生...
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+     <li>
+                               <a href="info/1072/70120.htm" target="_blank" title="关于二次组织医护人员报名参加第13批援马拉维中国医疗队员的通知">
+                                    <div class="pt-date">
+                                        <b>06/09</b>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="pt-tx">
+                                        <h3>关于二次组织医护人员报名参加第13批援马拉维中国医疗队员的通知</h3>
+                                        <p>各科室:援外医疗是践行国际医疗合作、展现大国医者担当的重要举措，为扎实推进援外医疗工作、圆满完成援...
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+     <li>
+                               <a href="info/1072/70166.htm" target="_blank" title="陕西省人民医院2026年清洁生产审核信息公示">
+                                    <div class="pt-date">
+                                        <b>06/08</b>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="pt-tx">
+                                        <h3>陕西省人民医院2026年清洁生产审核信息公示</h3>
+                                        <p>根据陕西省生态环境厅《关于公布2026年开展强制性清洁生产审核企业名单的通知》（陕环科财〔2026〕31号...
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+     <li>
+                               <a href="info/1072/70121.htm" target="_blank" title="陕西省人民医院职务科技成果转化方案公示">
+                                    <div class="pt-date">
+                                        <b>06/01</b>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="pt-tx">
+                                        <h3>陕西省人民医院职务科技成果转化方案公示</h3>
+                                        <p>根据《陕西省全面深化科技成果转化“三项改革”若干措施》、《陕西省人民医院科技成果转化管理办法（202...
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+     <li>
+                               <a href="info/1072/70122.htm" target="_blank" title="陕西省人民医院全院电热开水器采购项目竞争性磋商结果公告">
+                                    <div class="pt-date">
+                                        <b>06/01</b>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="pt-tx">
+                                        <h3>陕西省人民医院全院电热开水器采购项目竞争性磋商结果公告</h3>
+                                        <p>陕西省人民医院全院电热开水器采购项目已于2026年5月19日进行竞争性磋商，现磋商工作已经结束，根据磋商...
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+     <li>
+                               <a href="info/1072/70123.htm" target="_blank" title="陕西省人民医院棉门帘、塑料磁吸门帘、防蝇门帘采购项目竞争性磋商结果公告">
+                                    <div class="pt-date">
+                                        <b>06/01</b>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="pt-tx">
+                                        <h3>陕西省人民医院棉门帘、塑料磁吸门帘、防蝇门帘采购项目竞争性磋商结果公告</h3>
+                                        <p>陕西省人民医院棉门帘、塑料磁吸门帘、防蝇门帘采购项目已于2026年5月19日进行竞争性磋商，现磋商工作已...
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+     <li>
+                               <a href="info/1072/70124.htm" target="_blank" title="陕西省人民医院全院调配搬运服务采购项目竞争性谈判公告 ">
+                                    <div class="pt-date">
+                                        <b>06/01</b>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="pt-tx">
+                                        <h3>陕西省人民医院全院调配搬运服务采购项目竞争性谈判公告 </h3>
+                                        <p>陕西省人民医院拟采购全院调配搬运服务，欢迎符合资格条件的、有能力提供本项目所需服务的供应商参加此...
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+    </UL>
+    <div class="pagination">
+    <link rel="stylesheet" Content-type="text/css" href="/system/resource/css/pagedown/sys.css"><div class="pb_sys_common pb_sys_normal pb_sys_style1" style="margin-top:10px;text-align:center;"><span class="p_t">共1356条</span> <span class="p_pages"><span class="p_first_d p_fun_d">首页</span><span class="p_prev_d p_fun_d">上页</span><span class="p_no_d">1</span><span class="p_no"><a href="tzgg/135.htm">2</a></span><span class="p_no"><a href="tzgg/134.htm">3</a></span><span class="p_no"><a href="tzgg/133.htm">4</a></span><span class="p_no"><a href="tzgg/132.htm">5</a></span><span class="p_dot">...</span><span class="p_no"><a href="tzgg/1.htm">136</a></span><span class="p_next p_fun"><a href="tzgg/135.htm">下页</a></span><span class="p_last p_fun"><a href="tzgg/1.htm">尾页</a></span></span></div>
+     </div>
+<script>_showDynClickBatch(['dynclicks_u12_50766','dynclicks_u12_70243','dynclicks_u12_70241','dynclicks_u12_70190','dynclicks_u12_70120','dynclicks_u12_70166','dynclicks_u12_70121','dynclicks_u12_70122','dynclicks_u12_70123','dynclicks_u12_70124'],[50766,70243,70241,70190,70120,70166,70121,70122,70123,70124],"wbnews", 2107799714)</script></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- foot -->
+     <div class="foot">
+        <div class="w14">
+            <div class="f-top">
+                <div class="f-l">
+                    <div class="f-lg">    <img src="images/logo.png" alt="">
+</div>
+                    <div class="f-lk"></div>
+                </div>
+                <div class="foot-add">
+<script language="javascript" src="/system/resource/js/news/mp4video.js"></script>
+<div class="foot-addtxt"> 
+ <h3> 主院区 </h3> 
+ <p> 地 址：西安市友谊西路256号 </p> 
+ <p> 邮 编：710068 </p> 
+ <p> 电 话：029-85251331 </p> 
+ <p> 传 真： 029-85236987 </p> 
+</div> 
+<div class="foot-addtxt"> 
+ <h3> 西咸院区 </h3> 
+ <p> 地 址：西咸新区秦汉新城泾渭大道南段5000号 </p> 
+ <p> 邮 编：712038 </p> 
+ <p> 电 话：029-968120 </p> 
+ <p> 传 真： 029-85236987 </p> 
+</div>
+</div>
+<div class="f-r"><ul class="fmeida">
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class=""><img src="images/fmedia-icon1.png" alt=""></div>
+                                                <div class="foot-ewm">    <div><img src="images/ewm1.png" alt="微信公众号"><span>微信公众号</span></div>
+<div><img src="images/ewm2.png" alt="微信订阅号"><span>微信订阅号</span></div>
+</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class=""><img src="images/fmedia-icon2.png" alt=""></div>
+                                                <div class="foot-ewm">    <div><img src="images/sphewm.jpg" alt="视频号"><span>视频号</span></div>
+</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class=""><img src="images/fmedia-icon3.png" alt=""></div>
+                                                <div class="foot-ewm">    <div><img src="images/dyewm.jpg" alt="抖音号"><span>抖音号</span></div>
+</div>
+                                            </a>
+                                        </li>
+
+                                    </ul></div>
+            </div>
+            <div class="f-bq"><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p><a><img src="./images/bq.png" alt="" />Copyright©2007 www.spph-sx.com All Rights Reserved
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;陕西省人民医院版权所有</a><a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank">备案/许可证号：陕公网安备 61010302000727号</a></p></div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+
+
+</html>
